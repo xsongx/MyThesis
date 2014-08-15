@@ -1,0 +1,265 @@
+\chapter{Twitter中信息传播者的发现}
+\label{Retweeter}
+
+\section{引言}
+Twitter的快速发展使得信息的交流变得越来越方便和快捷。人们每天在Twitter上不仅接受资讯，同时也发表自己的观点。在Twitter中一个很重要的机制就是转发（retweeting）：重复发送其他用户发布的tweet。这种机制是Twitter中最常用的信息传播手段，当一个tweet被某人转发时，该用户的所有粉丝都将看到此信息，同时这种转发行为也反映了转发者对tweet原作者所持观点的一种肯定的态度。
+
+现有对转发的研究主要集中在给定一条tweet，预测未来是否会被转发上\upcite{hong2011predicting,petrovic2011rt,artzi2012predicting}；另外一部分研究则把重点放在研究转发的行为模式上\upcite{boyd2010tweet,nagarajan2010qualitative,yang2010understanding}。但是以上的研究都忽略了一个重要的问题：到底“谁”会转发给定的tweet。我们将这个“谁”称为信息传播者。上一章，我们讨论了Twitter中传播观点发现的问题，这是从Twitter传播分析的tweet角度进行考虑，本章中我们将从传播的受众角度对Twitter进行传播分析的研究，即如何在Twitter中找到信息传播者。
+
+由于用户参与Twitter的低门槛特点，因此许多人在Twitter上发布低质量甚至虚假的信息，其中对社会危害最大的就是谣言。这种信息加上转发机制，可以在Twitter上迅速传播，造成大众的恐慌，危害极大。目前在Twitter上减低谣言的危害，除了自动识别谣言信息以外，我们认为对谣言传播路径的监督与控制也是有效的手段之一。如果当一条tweet确定为一条谣言以后，我们通过信息传播者分析，能够预测哪些用户会传播这些谣言，对于维护社会和谐稳定是具有积极的意义。另外，研究信息传播者可以帮助商业或娱乐公司减少广告成本，因为这个研究可以找到性价比高的用户发布相关用户感兴趣的信息，并且迅速传播，扩大商业公司或娱乐公司所推广商品的影响力。
+
+研究在Twitter中如何找到信息传播者十分有意义，它能够帮助我们加深理解信息是如何在这个社交媒体中传播的。这些影响信息传播的因素可能与消息的本身，消息的作者，以及消息的接受者有关。三种因素之间相互影响，决定信息的传播。我们将Twitter中找到信息传播者的问题看做一个排序问题，即给定一个tweet，在作者的粉丝中发现“谁”将转发该消息。我们利用机器学习的方法，为用户设计一系列特征构建排序学习模型。这些特征包括了用户历史的转发信息，用户自身的社交媒体特征，用户使用Twitter的活跃时间，以及用户的个人兴趣。
+
+我们构造了自己的实验数据来验证Twitter信息传播者发现方法的有效性，实验结果表明我们的方法显著优于随机排序的方法和基于用户以往转发原作者tweet数量的排序方法。另外，我们发现用户历史的转发信息、用户的兴趣、以及用户的活跃时间是决定转发者的重要因素。
+
+本章的主要工作如下：
+\begin{enumerate}
+\item 我们定义了Twitter中信息传播者发现的新任务，帮助理解信息在Twitter中是如何传播的。
+\item 我们设计了基于用户转发历史信息、用户属性、用户活跃时间和用户兴趣的Twitter信息传播者发现排序方法，并在真实的数据集上验证了方法的有效性。
+\item 实验结果验证了我们的方法对于信息传播者发现是有效的，并且系统显著优于随机系统和基于用户历史转发记录的排序系统。
+\item 另外，我们还发现用户历史转发信息，兴趣和活跃时间是决定信息传播者的重要因素。
+\end{enumerate}
+
+\section{相关工作}
+由于Twitter的流行性，数据的公开性，以及独特的转发属性使得Twitter的研究变得异常活跃。我们将相关工作分成两个部分：tweet转发预测和Twitter转发行为分析。具体参见~\ref{rel_retweet}和\ref{rel3}。但是要强调的是不同于tweet的转发预测，本章我们的工作集中在预测给定的tweet到底“谁”会转发，而Twitter转发行为的分析可以帮助提高发现信息传播者的效果。这里需要强调的是，据我们所知目前Twitter的研究中还没有对信息传播者发现的相关研究，因此我们自己构造了基准系统进行对比实验。
+
+\section{基于排序学习的Twitter信息传播者发现框架 }
+给定一个tweet~$t$ ，它的作者为user~$u$ ，user~$u$的粉丝集合为$Followers(u)$，我们的目的就是学习一个排序模型来评估每个粉丝$f_i$ $(f_i\in Follower(u))$未来转发$t$的可能性。不失一般性，我们将这个问题当做排序问题，而没有看成分类问题。另外，由于粉丝集合$Followers(u)$中可能存在任意多个转发者，因此我们从$Followers(u)$中选取top-k个评估分数最高的粉丝作为信息传播者。
+
+ \subsection{Twitter信息传播者发现排序学习框架}
+为了生成一个排序函数$F$能够根据粉丝是否转发tweet对其进行排序，我们将设计一些特征，并将其引入到基于排序学习的模型中。正如前几章介绍的，排序学习是一种整合特征以数据驱动的机器学习模型。这里在训练数据中，每个粉丝$f_i$都被标注是否转发$t$，一系列与Twitter信息传播者相关的特征都从$u$与$f_i$的关系和各自的属性中抽取，并且特征的有效性，可以通过特定的特征组合，在测试数据的排序表现中体现出来。
+ 
+ \subsection{Twitter信息传播者相关特征}
+ 一个tweet能否被转发，是tweet本身、tweet的作者、作者的粉丝相互作用的结果。因此在Twitter信息传播者发现任务中，我们需要考虑三者的属性以及相互的关系。我们首先考虑tweet的作者与作者的粉丝以往历史的转发信息，以此捕获粉丝在转发tweet上是否具有偏向性。其次，粉丝本身的特征也会影响其转发行为，比如，直觉上对于同一个tweet转发的概率，非名人就比名人的转发概率高，因为名人更加注重声誉，对信息质量要求更高。再次，时间因素也是需要考虑的，如果转发者与信息发布者具有相同的使用Twitter时间，那么信息在两人之间传播的可能性就比较大。最后，tweet的内容会影响人的转发行为，感兴趣的信息比不感兴趣的信息对人的转发行为影响更大。因此，为了在Twitter中找到信息传播者，我们设计了转发历史特征，用户特征，用户活跃时间特征，用户兴趣特征：
+ 
+  \begin{enumerate}
+\item{\textbf{转发历史特征（Retweet History Feature-RH ）}}：主要涉及用户以前转发tweet的信息，同时也包括自身tweet被转发的情况。
+\item{\textbf{用户特征（Follower Status Feature-FS）}}：主要涉及用户的社交媒体属性。
+\item{\textbf{用户活跃时间特征（Follower Active Time Feature-FAT）}}：主要涉及用户发布tweet的活跃时间。
+\item{\textbf{用户兴趣特征（Follower Interests Feature-FI）}}：主要通过tweet的内容发现用户的兴趣爱好。
+\end{enumerate}
+接下来，我们将具体介绍有关的特征。
+
+\section{转发历史特征}
+直觉上，如果粉丝$f_i$以前经常转发或提及user~$u$的tweet，那么粉丝$f_i$很有可能再次转发user~$u$的tweet。因此我们设计了两个特征来获取转发信息：
+  \begin{enumerate}
+\item{\textbf{用户转发数目（Num\_fRu）}}：以往历史记录中，粉丝$f_i$转发user~$u$的tweet数目。
+\item{\textbf{用户提及数目（Num\_fMu）}}：以往历史记录中，粉丝$f_i$提及user~$u$的tweet数目。
+\end{enumerate}
+
+用户的交流是相互的，如果一方经常转发或提及对方，那么对方也很有可能转发或提及对方，因此我们设计了另外两个特征：
+  \begin{enumerate}
+\item{\textbf{用户被转发数目（Num\_uRf）}}：以往历史记录中，粉丝$f_i$的tweet中被user~$u$转发的tweet数目。
+\item{\textbf{用户被提及数目（Num\_uMf）}}：以往历史记录中，粉丝$f_i$的tweet中被user~$u$提及的tweet数目。
+\end{enumerate}
+
+最后，我们发现有些用户（例如，垃圾用户）只转发其他人的信息，不撰写原始的tweet，我们设计了两个特征来对这些情况进行建模：
+  \begin{enumerate}
+\item{\textbf{用户转发比例（Ratio\_retweet）}}：以往历史记录中，粉丝$f_i$的tweet中转发tweet的比例。
+\item{\textbf{用户提及比例（Ratio\_mention）}}：以往历史记录中，粉丝$f_i$的tweet中提及tweet的比例。
+\end{enumerate}
+
+\section{用户特征}
+信息的传播一般是从社会地位高的用户（例如，名人）流向地位低的用户，这主要跟用户的社会属性相关\upcite{cha2009measurement}。
+
+我们随机抽取了10万条转发tweet进行了详细的研究分析，发现只有 38.8\%的转发是从发布tweet较少的用户到发布tweet较多的用户；仅仅23.8\%的转发是从粉丝较少的用户到粉丝较多的用户；
+0.04\%的转发是从非官方验证的用户到官方验证的用户。这些统计结果充分说明了在Twitter中不同社会地位的用户存在不同的转发行为。
+
+因此，我们设计了一些特征来对用户的社会属性进行描述：
+\begin{enumerate}
+\item{\textbf{发布tweet数目（Posts）}}：用户发布tweet的数目。
+\item{\textbf{粉丝数目（Followers）}}：用户的粉丝数目。
+\item{\textbf{朋友数目（Friends）}}：用户的朋友数目。
+\item{\textbf{分组数目（Listed）}}：用户被分组的数目。
+\item{\textbf{验证用户（Verified）}}：用户是否被官方验证。
+\end{enumerate}
+
+\section{用户活跃时间特征}
+Twitter用户一般不太可能在很晚的时间与其他人进行交流，而且如果一条tweet在很晚发布，那么该tweet作者的粉丝很可能第二天忽视了这条消息，因为它很有可能淹没在大量的新消息中，而大部分Twitter用户浏览tweet的模式是从最新的信息开始。
+
+我们随机抽取了1万条回复tweet，并对其发布时间进行了分析，发现只有 12.4\%回复tweet发生在00:00 到06:00之间，这说明用户的活跃时间有一定的规律。
+
+因此，为了捕获这些用户交流的时间信息，我们设计了两个特征：
+\begin{enumerate}
+\item{\textbf{时区时间（Timezone）}}：粉丝$f_i$是否与user~$u$在同一个时区。
+\item{\textbf{用户活跃时间（PostTimeConsis）}}：以往历史记录中，粉丝$f_i$发布tweet不同时间的数目比例与tweet~$t$发布时间的关系，选取比例值为特征值。
+\end{enumerate}
+我们用以上两个特征来反映用户与粉丝在Twitter上活跃时间的一致性。
+
+\section{用户兴趣特征}
+当一个粉丝转发一条tweet时，通常意味着粉丝与tweet作者存在一些共性，例如，他们有共同的兴趣（ ``we both love cats''），这是一种不太明显的关系，不像Twitter中的朋友或粉丝关系。
+
+这种潜在的共性可能可以帮助发现信息传播者，我们利用相似性模型（Similarity Model）来计算tweet~$t$与粉丝$f_i$之前发布tweet的兴趣相似程度。我们将tweet~$t$和粉丝$f_i$之前发布的tweet
+都表示成词向量，然后用$tf$-$idf$表示词的权重，用余弦夹角计算两者的相似性，我们将这个特征称为“\textbf{相似兴趣（SimInterest）}”。
+
+在计算这个特征的时候，对于每一对 tweet $t$和粉丝$f_i$以往发布的tweet，我们首先过滤到在6百万tweet中词频最高的100个词和词频小于5的词来表示词向量，具体的余弦夹角的计算利用了向量空间模型（Vector Space Model）\upcite{salton1975vector}。
+
+\section{Twitter信息传播者发现实验}
+
+\subsection{Twitter信息传播者发现实验数据}
+到目前为止还没有关于在Twitter中发现信息传播者的数据，因此我们自己构造了相关数据\footnote{下载地址：\url{https://sourceforge.net/projects/retweeter/}}}。
+
+我们从Twitter Streaming API中随机选取了500条tweet，每个tweet至少被其作者的粉丝转发过一次。这些数据时间分布在2012年9月14日到2012年10月1日之间。Kwak等人发现一半以上的转发行为发生在原始tweet发布一个小时以内，75\%发生在一天以内\upcite{kwak2010twitter}，因此我们在一天以后重新抓取了500个tweet，检测最后到底有哪些粉丝转发了对应的tweet。另外，由于Twitter API的限制和有些受欢迎的用户粉丝很多，我们不太可能全部抓取所有的粉丝，所以对每一个tweet，我们只研究了tweet作者最新的100个粉丝，并获取了每个粉丝最新的200个tweet。
+
+像前面介绍的，我们对每个粉丝进行了标注，转发者标注为1，非转发者为0。这里要强调的是，有些用户由于隐私问题未使其数据公开，更重要的是我们未对每个tweet抓取所有的粉丝，造成有些tweet并没有转发者，这就使得最后的评测结果数值偏低。
+
+表~\ref{Data_sigir_stat}给出了数据的一些基本情况：
+
+ \begin{table}[htp]
+\centering
+\caption{Twitte信息传播者发现实验数据统计信息}
+\label{Data_sigir_stat}
+ \begin{tabular}{|l r|}
+ \hline
+被转发tweet总数目& 500 \\
+平均每个tweet粉丝数目& 81.15 \\
+转发者总数目 & 257 \\
+非转发者总数目 & 40317 \\
+ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Twitter信息传播者发现实验设置}
+我们使用SVM Rank来实现排序学习算法并构造排序模型\footnote{下载地址：\url{http://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html}}。排序学习依然使用线性核函数，所有的模型参数都调到最优。为了避免数据的过拟合，我们使用了10次交叉验证。评测指标继续使用平均准确率（Mean Average Precision-MAP）。
+
+\subsection{Twitter信息传播者发现基准系统（Baseline）}
+Twitter信息传播者发现是一个新的工作，目前还没有其他方法能够进行直接的比较。因此，我们自己选择了两个基准系统：
+
+\begin{enumerate}
+\item{\textbf{Random}}：对所有粉丝随机排序。
+\item{\textbf{RPT}}：如果一个粉丝在历史上经常转发某用户的tweet，那么在未来他很有可能继续转发，因此我们根据粉丝历史数据中（每个粉丝200个最新的tweet）转发用户tweet的数目进行排序。
+\end{enumerate}
+
+\textbf{Random}系统是一个“弱”的基准系统，与它的比较能够反映哪些因素能够帮助Twitter中信息传播者发现。\textbf{RPT}系统是一个“强”的基准系统，与它的比较能够说明我们最好的Twitter信息传播者发现方法的能力。
+
+\subsection{Twitter信息传播者发现实验结果及分析}
+
+我们利用不同特征集合：转发历史特征、用户特征、用户活跃时间特征、用户兴趣特征，分别构造了排序系统RH，FS，FAT和FI。 表~\ref{Features_Retweeter} 简要概述了Twitter信息传播者发现的相关特征。
+
+\begin{table}
+\centering
+\caption{Twitter信息传播者发现特征概况}
+ \label{Features_Retweeter}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}| l l p{1.7in}|} 
+ \hline 
+\textbf{转发历史特征（RH）} & \textbf{取值范围} & \textbf{Description} \\
+ \hline
+  用户转发数目（Num\_fRu）& $N=\{0,1,2,...\}$ & 粉丝转发作者tweet的数目 \\
+  用户提及数目（Num\_fMu）& $N=\{0,1,2,...\}$ & 粉丝提及作者tweet的数目 \\
+  用户被转发数目（Num\_uRf）& $N=\{0,1,2,...\}$ & 作者转发粉丝tweet的数目 \\
+  用户被提及数目（Num\_uMf）& $N=\{0,1,2,...\}$ & 作者提及粉丝tweet的数目 \\
+  用户转发比例（Ratio\_retweet）& $[0,1]$ & 粉丝的tweet中转发tweet的比例 \\
+  用户提及比例（Ratio\_mention）& $[0,1]$ & 粉丝的tweet中提及tweet的比例 \\
+  \hline
+ \hline
+\textbf{用户特征（FS）} & \textbf{取值范围} & \textbf{Description} \\
+ \hline
+ 发布tweet数目（Posts）  & $N^+=\{1,2,3,...\}$ & 作者以往发布tweet的数目 \\  
+ 粉丝数目（Followers） &$N=\{0,1,2,...\}$& 作者的粉丝数目 \\
+ 朋友数目（Friends）  & $N=\{0,1,2,...\}$ & 作者的朋友数目 \\
+ 分组数目（Listed）  &$N=\{0,1,2,...\}$& 作者的分组数目  \\
+ 验证用户（Verified）& $0$ or $1$ &  作者是否被官方验证\\
+ \hline
+ \hline
+\textbf{用户活跃时间特征（FAT）} & \textbf{取值范围} & \textbf{Description} \\
+ \hline
+ 时区时间（Timezone）& $0$ or $1$ &  粉丝是否与作者在同一个时区\\
+ 用户户活跃时间（PostTimeConsis）& $[0,1]$ & 粉丝发布tweet不同时间的数目比例 \\
+\hline
+ \hline
+ \textbf{用户兴趣特征（FI）} & \textbf{取值范围} & \textbf{Description} \\
+  相似兴趣（SimInterest）& $(-1,1)$ & tweet与粉丝以往发布tweet的相似度 \\
+\hline
+ \end{tabular*}
+\end{table}
+
+表~\ref{Retweeter_group}给出了不同系统发现信息传播者的结果。我们可以看到基于用户兴趣特征的FI排序系统效果最好，而基于转发历史特征的RH系统和基于用户特征的FS其次，基于用户活跃时间特征的FAT系统没有明显效果。这说明粉丝的兴趣爱好，粉丝的转发历史，以及粉丝的社会地位可以帮助我们发现Twitter中的信息传播者。
+
+我们将所有特征整合到一个排序系统中，称为All。这个系统达到最高的MAP值，高出Random~301.4\%，高出PRT~25.6\%。
+
+\begin{table}[!htbp]
+ \centering
+  \caption{基于不同特征组的Twitter信息传播者发现系统实验结果}
+ \label{Retweeter_group}
+ \begin{tabular}{|l l|}
+ \hline
+ & MAP \\
+ \hline
+Random & 2.17\\
+PRT &6.93\\
+ \hline
+RH & 6.27$^\ast$\\
+FS &3.66$^\ast$\\
+FAT & 2.91\\
+FI & 8.12$^\ast$\\
+All&8.71$^\ast$$^\dagger$\\
+ \hline
+ \end{tabular}
+   \begin{tablenotes}
+        \footnotesize
+\item $^\ast$ 和$^\dagger$分别表示排序结果显著高于Random信息传播者发现系统和PRT信息传播者发现系统（p $<$ 0.05）。
+\end{tablenotes}
+\end{table}
+
+接着我们分析了具体的特征对于信息传播者发现的影响。我们根据不同的特征进行单独的数据训练与测试。表~\ref{Retweeter_alone}给出了各个特征的排序表现，这里PRT的MAP值与Num\_fRu的MAP值不同的原因是因为前者根据数值直接排序，后者作为特征基于排序学习算法进行排序。
+
+我们可以看到转发历史特征集合中的各个特征都能显著提高检索信息传播者的效果，另外，我们还发现用户活跃时间（PostTimeConsis）对于发现信息传播者也是有效的，最后利用特征相似兴趣（SimInterest）取得的最好的排序结果充分说明粉丝转发tweet是根据自己的兴趣与tweet的内容是否匹配来进行的。
+
+\begin{table}[!htbp]
+ \centering
+  \caption{基于不同特征的Twitter信息传播者检索系统实验结果}
+ \label{Retweeter_alone}
+ \begin{tabular}{|l l|}
+ \hline
+ & MAP \\
+ \hline
+Random & 2.17\\
+PRT &6.93\\
+ \hline
+Num\_fRu &6.83$^\ast$\\
+Num\_fMu &7.08$^\ast$\\
+Num\_uRf&6.20$^\ast$\\
+Num\_uMf&7.62$^\ast$\\
+Retweet\_Ratio&4.45$^\ast$\\
+Mention\_Ratio&3.05$^\ast$\\
+ \hline
+Posts&3.79$^\ast$\\
+Followers&2.37\\
+Friends&2.03\\
+Listed&2.17\\
+Verified&2.34\\
+ \hline
+Timezone&2.37\\
+PostTimeConsis&2.86$^\ast$\\
+ \hline
+SimInterest& 8.12$^\ast$\\
+ \hline
+ \end{tabular}
+   \begin{tablenotes}
+        \footnotesize
+\item $^\ast$ 和$^\dagger$分别表示排序结果显著高于Random信息传播者检索和PRT信息传播者检索（p $<$ 0.05）。
+\end{tablenotes}
+\end{table}
+
+这里是我们数据中的一个例子，反映粉丝转发的历史对于检索信息传播者的有效性：
+\begin{description}
+\item{} \emph{We are having a bake sale today in the Student Union from 11-2! Come buy a midday snack from the Pretty 
+Poodles!}
+\end{description}
+有个该tweet作者的粉丝在这条信息发布之前已经转发此作者的信息30多次，而且该粉丝继续转发了这条tweet。我们的检索模型RH成功地将该粉丝排在了第一位。
+
+这是另一个验证粉丝兴趣对于检索信息传播者有效的例子：
+\begin{description}
+\item{} \emph{Excited to announce our debut London show. Full details here - \url{http://t.co/P60Wc3Lj}}
+\end{description}
+有一个该作者的粉丝转发了这个tweet，并且该粉丝在以前的tweet中经常发布一些与音乐和演唱会有关的信息。我们的FI检索系统也成功地将其找到。
+
+\section{小结}
+在Twitter中寻找信息传播者可以帮助我们更有效地向其他用户传送信息，我们对于信息传播者检索的工作能够帮助其他研究者更好地了解社交媒体中信息是如何传播的。本章中我们发现粉丝转发的历史记录，粉丝的社会地位，粉丝个人的兴趣爱好对于信息传播者检索是有效的。
+
+未来我们将设计更多的特征帮助发现信息传播者。例如，是否亲密的朋友会经常转发用户的tweet，地理位置信息是否有所帮助等等。
+
+
+
+
+

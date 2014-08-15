@@ -1,0 +1,66 @@
+\begin{cabstract}
+现在的互联网上社交媒体随处可见，这给信息检索和传播分析工作带来了机遇与挑战。本文主要围绕在社交媒体中如何找到重要的信息以及信息是如何传播的展开。我们将Twitter作为研究对象，因为它是目前最著名的社交媒体之一，并且数据是公开的。这样从隐私的角度考虑，获取研究数据变得容易且能很好的为研究任务（如信息检索）服务。
+
+信息检索的主要任务是在文档集合中，找到与给定话题相关的客观文本或主观文本。Twitter是一个丰富的包含各种话题及其评论信息的资源库，本文将探讨如何在Twitter中找到相关的信息。但是tweet的短小化和非正式的文本特点，使得Twitter中的检索不同于以往的检索任务（如，网页检索）。本文将通过研究tweet文本特点和特有的Twitter社交媒体属性帮助Twitter检索。另外，Twitter中信息的传播是一种普遍现象且与消息的质量相关（帮助Twitter中检索高质量的信息）。因此，我们从tweet本身和用户的角度，研究哪些因素影响了tweet的转发和人的转发行为。
+
+我们的工作主要有四个部分：（1）利用结构化信息的Twitter检索；（2）Twitter观点检索； （3）Twitter中传播观点的发现；（4）Twitter中信息传播者的发现。四个工作具体如下：
+
+\textbf{利用结构化信息的Twitter检索：} \emph{Twitter检索是在Twitter中找到与给定话题相关的tweet的任务}。绝大部分的Twitter检索系统在构造检索模型时一般都认为tweet是一个平面文本，但用户在编辑tweet时的一些习惯使得tweet文本呈现结构化的特点。这种结构化是通过一些不同的文本积木块组合而成，积木类型具体包括平面文本、主题词、链接、提及等。每一种积木都有自己独特的本质，一系列积木的排序组合又反映了一定的话语转换。以往的研究发现，通过开发文本的结构信息能够帮助结构化文本的检索（例如，网页检索）。本工作通过积木结构开发tweet的结构化信息，以此帮助Twitter检索。我们利用积木及其排列组合开发了一系列特征，并将其应用到排序学习的框架中。我们发现利用结构化tweet的方法进行检索能够达到目前最好的Twitter检索方法效果，将结构化tweet的方法和其他社交媒体特征一起使用能够进一步提高Twitter的检索效果。
+
+\textbf{Twitter观点检索：} \emph{观点检索是在数据中找到对指定话题表达正面或反面观点的tweet的任务}。人们几乎在Twitter中表达了任何话题的观点，使其成为一个丰富的观点资源库。但是Twitter中也存在大量的垃圾信息和各种不同类型的文本，使得Twitter中的观点检索充满挑战。我们提出了如何利用tweet的社交媒体信息和文本结构化信息的方法帮助Twitter的观点检索。特别的，基于排序学习，我们发现tweet的用户信息（如用户包含朋友的数目）、tweet文本本身的结构信息和观点化程度影响着tweet的排序结果。实验结果表明社交媒体信息能够帮助Twitter的观点检索。基于无监督学习评价tweet观点化程度，并以此开发特征形成的检索方法能够到达手工标注tweet的有监督方法的检索效果，且这种方法能够帮助观点检索中话题依赖问题的解决。最后，我们在重新标注的TREC Tweets2011数据集上进一步验证了我们Twitter观点检索方法的有效性。
+
+\textbf{Twitter中传播观点的发现：} Twitter已经变成人们收集观点做出决策的重要资源，但是数量众多且差异巨大的观点严重影响了人们使用这些资源的效果。本文我们考虑了\emph{如何在Twitter中找到传播观点的任务---tweet不仅表达了对某些话题的观点，且这个tweet在未来会被转发}。利用排序学习模型，我们开发了一系列特征，具体包括tweet的传播度特征、观点化特征和文本质量特征。实验结果证明了我们开发的特征对于Twitter中传播观点的发现是有效的，并且将所有特征整合的方法在发现效果上能够显著优于BM25方法和Twitter观点检索方法。最后，我们发现我们的方法在预测观点传播上可以达到人预测的水平。
+
+\textbf{Twitter中信息传播者的发现：} Twitter和其它社交网络中一个重要的交流机制就是消息传播---人们分享其他人创建的消息。虽然目前有许多工作研究了Twitter中的tweet是如何传播的（转发），但是一个未解决的问题是到底\textbf{谁}会转发给定的tweet。这里我们考虑了\emph{在Twitter中给定一条tweet，发现作者的粉丝中谁会转发}。利用排序学习模型的框架，我们设计了一些特征，包括用户历史的转发信息，用户自身的社交媒体特征，用户使用 Twitter的活跃时间，以及用户的个人兴趣 。我们发现经常转发和提及作者的粉丝和与作者有相同兴趣爱好的人最有可能成为信息传播者。
+
+通过以上四个问题的研究，我们发现tweet的文本信息和Twitter的社交媒体特征能够帮助Twitter信息检索和传播分析。
+
+\end{cabstract}
+\ckeywords{Twitter; 信息检索; 观点检索; 传播观点; 信息传播者}
+
+\begin{eabstract}
+Social Media is now ubiquitous on the internet, generating both new possibilities and new challenges in information retrieval and propagation analysis. This thesis focus on finding important information and propagated information analysis in Social Media. We take Twitter as our research subject, since it is one of the most Social Media and  public by default, which makes the data less problematic from a privacy standpoint, far easier to obtain
+and more amenable to target applications (such as information retrieval). 
+
+The main tasks in information retrieval are finding related objective or subjective documents about some topics in collection. Twitter is rich resource which contains information about various topics and opinions. Here we investigate how to find these information in Twitter. However, Twitter retrieval is different from traditional retrieval tasks (e.g, web search), since the text of tweet is short and informal. In this study we exploit textual features of tweet and the social media features to improve Twitter retrieval. Additionally, information dissemination is a prevalent phenomenon in Twitter and is related to the quality of message (which can help finding high quality information in Twitter). Therefore, from the point of view of tweets and users, we study the factors which affect tweet retweeting and users' retweeting behavior.
+ 
+Our work can be divided into four parts: (1) improving Twitter retrieval by exploiting structural information, (2) opinion retrieval in Twitter, (3) finding propagated opinion in Twitter, (4) finding retweeters in Twitter. We introduce the four work in detail as follows:
+
+\textbf{Improving Twitter retrieval by Exploiting structural information}. \emph{Twitter retrieval deals with finding related tweets about some topics in Twitter.} Most Twitter search systems generally treat a tweet as a plain text when modeling relevance. However, a series of conventions allows users to tweet in structural ways using combination of different blocks of texts. These blocks include plain texts, hashtags, links, mentions, etc. Each block encodes a variety of communicative intent and sequence of these blocks captures changing discourse. Previous work shows that exploiting the structural information can improve the structured document (e.g., web pages) retrieval. In this study we utilize the structure of tweets, induced by these blocks, for Twitter retrieval. A set of features, derived from the blocks of text and their combinations, is used into a learning-to-rank scenario. We show that structuring tweets can achieve state-of-the-art performance. Our approach does not rely upon social media features, but when we do add this additional information, performance improves significantly. 
+
+\textbf{Opinion retrieval in Twitter}. \emph{Opinion retrieval deals with finding relevant documents that
+express either a negative or positive opinion about some topics}.  
+Social Networks such as Twitter, where people routinely post
+opinions about almost any topic, are rich environments for opinions. 
+However, spam and wildly varying documents makes opinion retrieval
+within Twitter challenging. Here we demonstrate how we can exploit 
+social  and structural textual information of tweets and 
+improve Twitter-based opinion retrieval.  In particular, within 
+ a learning-to-rank
+technique, we explore the question of whether aspects of an author
+(such as the number of friends they have), information derived from
+the body of tweets and opinionatedness ratings of tweets can improve performance.
+ Experimental results show that social features can improve retrieval
+ performance.  Retrieval using a novel unsupervised opinionatedness
+feature achieves comparable
+performance with a supervised method using manually tagged
+Tweets. Topic-related specific structured Tweet
+sets are shown to help with query-dependent opinion retrieval. Finally, we
+further verify the  effectiveness of our approach for opinion retrieval in re-tagged TREC Tweets2011 corpus.
+
+\textbf{Finding Propagated opinions in Twitter}. Twitter has become an important source for people to collect opinions to make decisions. However the amount and the variety of opinions constitute the major challenge to using them effectively. Here we consider the problem of \emph{finding propagated opinions -- tweets that express an opinion about some topics, but will be retweeted}. Within a learning-to-rank framework, we explore a wide spectrum of features, such as retweetability, opinionatedness and textual quality of a tweet. The experimental results show the effectiveness of our features for this task. Moreover the best ranking model with all features can outperform a BM25 baseline and state-of-the-art for Twitter opinion retrieval approach. Finally, we show that our approach equals human performance on this task.
+
+\textbf{Finding retweeters in Twitter}. An important aspect of communication in Twitter (and other Social Networks) is
+message propagation -- people creating posts for others to share.
+Although there has been work on modelling how tweets
+in Twitter are propagated (retweeted), an
+untackled problem has been \textbf{who} will retweet a message. Here 
+we consider the task of \emph{finding who will retweet a message posted on Twitter}. Within a learning-to-rank framework, we explore 
+a wide range of features, such as retweet history, followers status, followers active time and followers interests. We find that 
+followers who retweeted or mentioned the author's tweets frequently before and have common interests are more likely to be 
+retweeters.
+
+Based on the study of four work above, we find the textual information of tweet and social media features in Twitter can help Twitter retrieval and propagation analysis.
+\end{eabstract}
+\ekeywords{Twitter; Information Retrieval; Opinion Retrieval; Propagated Opinion; Retweeter}
+

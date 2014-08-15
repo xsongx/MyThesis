@@ -1,0 +1,32 @@
+\chapter{总结与展望}
+\label{con}
+社交媒体是一个新兴领域，本文主要围绕Twitter中文本特点和社交媒体特征展开研究。通过Twitter中的信息检索和传播分析任务，我们发现Twitter中的文本结构化信息和tweet的社交媒体信息可以帮助这些问题的解决。
+
+Twitter中的检索研究能够从Twitter的海量数据中快速找到有意义的信息，对于Twitter中的其他研究具有重要的意义。以往的信息检索研究主要是对图书馆文档或网页进行处理，我们针对Twitter数据，具体涉及了Twitter中的传统信息检索问题研究和Twitter中观点检索研究，以此解决如何在Twitter中找到主客观tweet的问题。
+
+Twitter中的传播分析问题，我们主要从tweet本身的传播和传播的受众角度进行分析，提出了Twitter中传播观点发现与传播者发现的问题。通过任务的定义与方法的研究，最后通过实验验证，找到了一些tweet文本特征和社交媒体特征与Twitter中信息传播的内在联系。
+
+\section{工作总结}
+
+本文的主要工作可以从以下四个方面来总结：
+
+首先，针对现有Twitter信息检索工作忽视tweet文本结构信息对tweet排序重要性的问题，我们对tweet文本进行了结构化研究，以此帮助Twitter中的信息检索。这个工作的动机是基于普通文本和网页结构信息能够帮助传统信息检索的已有研究结论。虽然tweet文本短小，但是也存在结构化属性的特点。我们定义了tweet文本中的几个结构化模块，称之为Twitter积木。然后构造自动标注器，对tweet文本进行积木的标注。任何一个tweet文本都是由若干积木块排列组合而成，而tweet文本特定的积木组合又对应了文本特殊的属性。我们通过这种积木结构开发特征，然后结合tweet的社交媒体特征，将其应用到基于排序学习的Twitter信息检索任务中。实验结果发现我们的tweet文本结构化信息能够帮助Twitter信息检索。
+
+其次，针对目前政府、企业、个人都通过Twitter来收集大量的观点帮助决策，但是并未对观点收集的基础工作观点检索展开系统研究，我们第一次提出了Twitter中观点检索的新问题。我们发布了Twitter观点检索的新语料，该语料已经作为ICWSM会议的常用语料供后续研究者研究使用\footnote{\url{http://www.icwsm.org/2013/datasets/datasets/}}。另外，我们根据Twitter中观点检索与博客观点检索的不同点，利用社交媒体特征与 tweet 观点化特征，提出了Twitter观点检索的方法，该方法在实验结果上显著优于优化的 BM25 基准系统和基于向量空间模型的基准系统。再者，我们还提出了一种基于社交媒体特征与 tweet 文本结构化信息收集近似主观化tweet和近似客观化tweet构造主观化词典的方法，该方法能够有效构造适合Twitter的情感词典并以此评价tweet的观点化程度。最后我们重新标注了TREC Tweets2011数据，证明了我们的Twitter观点检索方法在TREC数据上依然有效。
+
+再次，针对Twitter观点检索中时常包含大量的低质量观点，而以往的研究认为转发的tweet通常是高质量文本，我们提出了Twitter中传播观点发现的新任务。我们根据新任务的特点开发了一系列特征以此提高传播观点发现的效果，这些特征包括了tweet的传播度特征、tweet的观点化特征、tweet的文本质量特征。我们在真实的数据集上进行了测试，结果验证了我们设计的特征对于传播观点发现是有效的，并且我们的方法显著优于BM25方法和我们的观点检索方法。另外，令我们鼓舞的是我们的方法能够在Twitter中预测观点是否会被转发到达人预测的水平。
+
+最后，针对以往tweet转发预测研究中忽视“谁”转发的问题的重要性，我们研究了在Twitter中发现信息传播者的问题。我们定义了Twitter中信息传播者发现的新任务，以此帮助理解Twitter中信息是如何传播的。我们同样开发了一系列特征，并将其应用到排序学习的机器学习框架中，具体的特征包括用户历史的转发信息，用户自身的社交媒体特征，用户使用 Twitter 的活跃时间，以及用户的个人兴趣。由于以往没有相同的工作，因此我们自己构造了数据，并发布了数据供以后的研究者继续使用。实验结果证明了我们方法对于Twitter中信息传播者发现是有效的，方法优于随机系统和基于用户历史转发记录的排序系统。最终我们发现用户历史转发信息，兴趣和活跃时间是决定信息传播者的重要因素。
+
+\section{工作展望}
+展望未来，社交媒体中的信息检索和传播分析研究及其相关方向还有很多工作需要完成。这里总结以下亟待探索的研究方向和路线：
+  \begin{enumerate}
+  \item 以Twitter为代表的社交媒体一个重要特点就是消息的实时性，许多研究工作都围绕在Twitter中发现实时信息展开，包括新事件发现\upcite{petrovic2010streaming,becker2011beyond,weng2011event,naaman2011hip,benson2011event,petrovic2012using,kanhabua2013understanding}、实时灾害报道（如地震、疾病、火灾等）\upcite{sakaki2010earthquake,paul2011you,aramaki2011twitter,abel2012twitcident,yin2012esa}，另外，TREC的Twitter检索\upcite{efron2011estimation,metzler2012structured,zhang2012query,soboroff2012evaluating,choi2012temporal,amati2012survival,miyanishi2013combining}也将实时性作为一个重要指标。本文的研究中，我们并未对话题检索和观点检索深入讨论实时性对检索效果的影响。这个问题的关键是找到与话题相关的时间点，如何找到这个相关时间点是我们未来研究的一个重点。
+  
+ \item 本文的社交媒体研究仅仅以Twitter为代表展开，实际上流行的社交媒体还有很多，如Facebook\footnote{\url{https://www.facebook.com/}}、YouTube\footnote{\url{https://www.youtube.com/}}、 Flickr\footnote{\url{https://www.flickr.com/}}等等。这些社交媒体肯定有自己独特的特点，在其数据上进行检索任务和传播分析需要研究其特殊性；另外，未来一个可能的需求就是多种社交媒体综合检索和跨媒体的信息传播，这就需要研究者在充分理解各种社交媒体的特点和人们对各种社交媒体不同的需求上，提出方法解决问题。
+ 
+ \item 目前跨媒体之间的研究是一个新的研究方向，主要是基于不同媒体之间的差异，利用各自的优点，解决其他媒体存在的问题。例如，有的研究利用维基百科的知识，帮助扩展tweet文本的语义，以此克服tweet文本短小，信息缺失的缺点\upcite{meij2012adding,cassidy2012analysis}；有些研究利用维基百科的访问信息帮助Twitter中的事件发现\upcite{osborne2012bieber}；还有些研究各种媒体之间的联系以此帮助其他任务的解决\upcite{dong2010time,phelan2011using,tsagkias2011linking,becker2012identifying,petrovic2013can,chang2013improving}等等。未来我们将利用其他社交媒体的优点，帮助Twitter中已有的信息检索和传播分析任务进一步提高效果。  
+  \end{enumerate}
+  
+  总之，社交媒体的研究还有许多问题等待着去解决，我们将继续深入研究相关问题。
+
