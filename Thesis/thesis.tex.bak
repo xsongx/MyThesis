@@ -48,15 +48,15 @@
 \usepackage{threeparttable}
 
 \classification{TP391.1}
-\serialno{09069033}
+\serialno{10069068}
 \confidentiality{公开}
 \UDC{}
-\title{社交媒体中的信息检索与传播分析}
-\displaytitle{社交媒体中的信息检索与传播分析}
-\author{罗准辰}
+\title{社交媒体中的主观性信息挖掘与分析}
+\displaytitle{社交媒体中的主观性信息挖掘与分析}
+\author{谢松县}
 \zhdate{\zhtoday}
-\entitle{Information Retrieval and Propagation Analysis in Social Media}
-\enauthor{Luo Zhunchen}
+\entitle{Opinion Mining and Analysis in Social Media}
+\enauthor{Xie Songxian}
 \endate{\entoday}
 \subject{计算机科学与技术}
 \ensubject{Computer Science and Technology}
