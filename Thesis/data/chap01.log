@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  23 SEP 2014 22:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  24 SEP 2014 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **chap01.tex
 (./chap01.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 12 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
             {绪论}
@@ -487,7 +487,7 @@ Missing character: There is no 上 in font nullfont!
 Missing character: There is no 升 in font nullfont!
 ! Undefined control sequence.
 l.7 ...并且这个比例还在不断上升\upcite
-                                                  {CDBLP:62365}。
+                                                  {CDBLP:62365}。根据中�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -506,14 +506,150 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+Missing character: There is no 根 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 国 in font nullfont!
+Missing character: There is no 互 in font nullfont!
+Missing character: There is no 联 in font nullfont!
+Missing character: There is no 网 in font nullfont!
+Missing character: There is no 络 in font nullfont!
+Missing character: There is no 信 in font nullfont!
+Missing character: There is no 息 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 权 in font nullfont!
+Missing character: There is no 威 in font nullfont!
+Missing character: There is no 报 in font nullfont!
+Missing character: There is no 告 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 至 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 年 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 月 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 我 in font nullfont!
+Missing character: There is no 国 in font nullfont!
+Missing character: There is no 网 in font nullfont!
+Missing character: There is no 民 in font nullfont!
+Missing character: There is no 规 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 达 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 亿 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 互 in font nullfont!
+Missing character: There is no 联 in font nullfont!
+Missing character: There is no 网 in font nullfont!
+Missing character: There is no 普 in font nullfont!
+Missing character: There is no 及 in font nullfont!
+Missing character: There is no 率 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no % in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 6--8
-[]
- []
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \url 
+                {http://www.cnnic.cn/hlwfzyj/hlwfzzx/qwfb/201408/t20140825_4...
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 6--8
-[]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...zzx/qwfb/201408/t20140825_47878.htm}
+                                                  
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\@footnotetext ...rut \strutbox }\color@endgroup }
+                                                  
+l.7 ...j/hlwfzzx/qwfb/201408/t20140825_47878.htm}}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 。 in font cmr10!
+
+Overfull \hbox (320.97305pt too wide) in paragraph at lines 7--8
+[][]\OT1/cmr/m/n/10 http://www.cnnic.cn/hlwfzyj/hlwfzzx/qwfb/201408/t20140825$[
+]7878\OML/cmm/m/it/10 :htm|$ 
  []
 
 
@@ -529,61 +665,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \begin{figure}[
-                    htp]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.12 \includegraphics
-                     [height=130pt]{socialmedia.png}
+                     [height=200pt]{socialmedia.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
 
 ! LaTeX Error: \caption outside float.
 
@@ -596,18 +686,18 @@ l.13 \caption
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 形 in font nullfont!
-Missing character: There is no 形 in font nullfont!
-Missing character: There is no 色 in font nullfont!
-Missing character: There is no 色 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 英 in font nullfont!
-Missing character: There is no 文 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
+Missing character: There is no 形 in font cmr10!
+Missing character: There is no 形 in font cmr10!
+Missing character: There is no 色 in font cmr10!
+Missing character: There is no 色 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 中 in font cmr10!
+Missing character: There is no 英 in font cmr10!
+Missing character: There is no 文 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -622,386 +712,351 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--16
-[]
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 10--16
+[]\OT1/cmr/m/n/10 [htp]
  []
 
 
-! LaTeX Error: Missing \begin{document}.
+Overfull \hbox (133.9448pt too wide) in paragraph at lines 10--16
+\OT1/cmr/m/n/10 [height=200pt]socialmedia.png
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 社
-        交媒体的迅速普及与壮大，使得它在政治、经济、�...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 迅 in font nullfont!
-Missing character: There is no 速 in font nullfont!
-Missing character: There is no 普 in font nullfont!
-Missing character: There is no 及 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 壮 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 使 in font nullfont!
-Missing character: There is no 得 in font nullfont!
-Missing character: There is no 它 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 政 in font nullfont!
-Missing character: There is no 治 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 经 in font nullfont!
-Missing character: There is no 济 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 教 in font nullfont!
-Missing character: There is no 育 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 会 in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 多 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 面 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 挥 in font nullfont!
-Missing character: There is no 着 in font nullfont!
-Missing character: There is no 越 in font nullfont!
-Missing character: There is no 来 in font nullfont!
-Missing character: There is no 越 in font nullfont!
-Missing character: There is no 重 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 作 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 年 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 美 in font nullfont!
-Missing character: There is no 国 in font nullfont!
-Missing character: There is no 总 in font nullfont!
-Missing character: There is no 统 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 选 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 奥 in font nullfont!
-Missing character: There is no 巴 in font nullfont!
-Missing character: There is no 马 in font nullfont!
-Missing character: There is no 团 in font nullfont!
-Missing character: There is no 队 in font nullfont!
-Missing character: There is no 利 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 布 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 量 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 竞 in font nullfont!
-Missing character: There is no 选 in font nullfont!
-Missing character: There is no 政 in font nullfont!
-Missing character: There is no 策 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 关 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 信 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no 向 in font nullfont!
-Missing character: There is no 选 in font nullfont!
-Missing character: There is no 民 in font nullfont!
-Missing character: There is no 阐 in font nullfont!
-Missing character: There is no 述 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 激 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 了 in font nullfont!
-Missing character: There is no 青 in font nullfont!
-Missing character: There is no 年 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 小 in font nullfont!
-Missing character: There is no 额 in font nullfont!
-Missing character: There is no 捐 in font nullfont!
-Missing character: There is no 款 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 投 in font nullfont!
-Missing character: There is no 票 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 终 in font nullfont!
-Missing character: There is no 赢 in font nullfont!
-Missing character: There is no 得 in font nullfont!
-Missing character: There is no 美 in font nullfont!
-Missing character: There is no 国 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 选 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 成 in font nullfont!
-Missing character: There is no 为 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 受 in font nullfont!
-Missing character: There is no 益 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 经 in font nullfont!
-Missing character: There is no 济 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 面 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 由 in font nullfont!
-Missing character: There is no 于 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 户 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 其 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 布 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 量 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 个 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 信 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 使 in font nullfont!
-Missing character: There is no 得 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 所 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 公 in font nullfont!
-Missing character: There is no 司 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 够 in font nullfont!
-Missing character: There is no 借 in font nullfont!
-Missing character: There is no 助 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 工 in font nullfont!
-Missing character: There is no 智 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 法 in font nullfont!
-Missing character: There is no 对 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 户 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 布 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 内 in font nullfont!
-Missing character: There is no 容 in font nullfont!
-Missing character: There is no 进 in font nullfont!
-Missing character: There is no 行 in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 析 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 找 in font nullfont!
-Missing character: There is no 到 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 户 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 兴 in font nullfont!
-Missing character: There is no 趣 in font nullfont!
-Missing character: There is no 爱 in font nullfont!
-Missing character: There is no 好 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 此 in font nullfont!
-Missing character: There is no 进 in font nullfont!
-Missing character: There is no 行 in font nullfont!
-Missing character: There is no 广 in font nullfont!
-Missing character: There is no 告 in font nullfont!
-Missing character: There is no 投 in font nullfont!
-Missing character: There is no 送 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 教 in font nullfont!
-Missing character: There is no 育 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 面 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 许 in font nullfont!
-Missing character: There is no 多 in font nullfont!
-Missing character: There is no 科 in font nullfont!
-Missing character: There is no 研 in font nullfont!
-Missing character: There is no 工 in font nullfont!
-Missing character: There is no 作 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 其 in font nullfont!
-Missing character: There is no 个 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 账 in font nullfont!
-Missing character: There is no 户 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 布 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 其 in font nullfont!
-Missing character: There is no 科 in font nullfont!
-Missing character: There is no 研 in font nullfont!
-Missing character: There is no 课 in font nullfont!
-Missing character: There is no 题 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 关 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 新 in font nullfont!
-Missing character: There is no 研 in font nullfont!
-Missing character: There is no 究 in font nullfont!
-Missing character: There is no 进 in font nullfont!
-Missing character: There is no 展 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 关 in font nullfont!
-Missing character: There is no 资 in font nullfont!
-Missing character: There is no 料 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 帮 in font nullfont!
-Missing character: There is no 助 in font nullfont!
-Missing character: There is no 其 in font nullfont!
-Missing character: There is no 他 in font nullfont!
-Missing character: There is no 从 in font nullfont!
-Missing character: There is no 事 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 同 in font nullfont!
-Missing character: There is no 研 in font nullfont!
-Missing character: There is no 究 in font nullfont!
-Missing character: There is no 或 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 近 in font nullfont!
-Missing character: There is no 研 in font nullfont!
-Missing character: There is no 究 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 员 in font nullfont!
-Missing character: There is no 迅 in font nullfont!
-Missing character: There is no 速 in font nullfont!
-Missing character: There is no 把 in font nullfont!
-Missing character: There is no 握 in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 新 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 研 in font nullfont!
-Missing character: There is no 究 in font nullfont!
-Missing character: There is no 动 in font nullfont!
-Missing character: There is no 态 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 另 in font nullfont!
-Missing character: There is no 外 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 由 in font nullfont!
-Missing character: There is no 于 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 巨 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 影 in font nullfont!
-Missing character: There is no 响 in font nullfont!
-Missing character: There is no 力 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 使 in font nullfont!
-Missing character: There is no 得 in font nullfont!
-Missing character: There is no 许 in font nullfont!
-Missing character: There is no 多 in font nullfont!
-Missing character: There is no 公 in font nullfont!
-Missing character: There is no 益 in font nullfont!
-Missing character: There is no 活 in font nullfont!
-Missing character: There is no 动 in font nullfont!
-Missing character: There is no 借 in font nullfont!
-Missing character: There is no 助 in font nullfont!
-Missing character: There is no 这 in font nullfont!
-Missing character: There is no 个 in font nullfont!
-Missing character: There is no 平 in font nullfont!
-Missing character: There is no 台 in font nullfont!
-Missing character: There is no 展 in font nullfont!
-Missing character: There is no 开 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 年 in font nullfont!
-Missing character: There is no 初 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no “ in font nullfont!
-Missing character: There is no 随 in font nullfont!
-Missing character: There is no 手 in font nullfont!
-Missing character: There is no 拍 in font nullfont!
-Missing character: There is no 照 in font nullfont!
-Missing character: There is no 解 in font nullfont!
-Missing character: There is no 救 in font nullfont!
-Missing character: There is no 乞 in font nullfont!
-Missing character: There is no 讨 in font nullfont!
-Missing character: There is no 儿 in font nullfont!
-Missing character: There is no 童 in font nullfont!
-Missing character: There is no ” in font nullfont!
-Missing character: There is no 运 in font nullfont!
-Missing character: There is no 动 in font nullfont!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 迅 in font cmr10!
+Missing character: There is no 速 in font cmr10!
+Missing character: There is no 普 in font cmr10!
+Missing character: There is no 及 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 壮 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 使 in font cmr10!
+Missing character: There is no 得 in font cmr10!
+Missing character: There is no 它 in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 政 in font cmr10!
+Missing character: There is no 治 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 经 in font cmr10!
+Missing character: There is no 济 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 教 in font cmr10!
+Missing character: There is no 育 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 会 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 多 in font cmr10!
+Missing character: There is no 方 in font cmr10!
+Missing character: There is no 面 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 挥 in font cmr10!
+Missing character: There is no 着 in font cmr10!
+Missing character: There is no 越 in font cmr10!
+Missing character: There is no 来 in font cmr10!
+Missing character: There is no 越 in font cmr10!
+Missing character: There is no 重 in font cmr10!
+Missing character: There is no 要 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 作 in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 年 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 美 in font cmr10!
+Missing character: There is no 国 in font cmr10!
+Missing character: There is no 总 in font cmr10!
+Missing character: There is no 统 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 选 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 奥 in font cmr10!
+Missing character: There is no 巴 in font cmr10!
+Missing character: There is no 马 in font cmr10!
+Missing character: There is no 团 in font cmr10!
+Missing character: There is no 队 in font cmr10!
+Missing character: There is no 利 in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 布 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 量 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 竞 in font cmr10!
+Missing character: There is no 选 in font cmr10!
+Missing character: There is no 政 in font cmr10!
+Missing character: There is no 策 in font cmr10!
+Missing character: There is no 相 in font cmr10!
+Missing character: There is no 关 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 信 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no 向 in font cmr10!
+Missing character: There is no 选 in font cmr10!
+Missing character: There is no 民 in font cmr10!
+Missing character: There is no 阐 in font cmr10!
+Missing character: There is no 述 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 激 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 了 in font cmr10!
+Missing character: There is no 青 in font cmr10!
+Missing character: There is no 年 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 小 in font cmr10!
+Missing character: There is no 额 in font cmr10!
+Missing character: There is no 捐 in font cmr10!
+Missing character: There is no 款 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 投 in font cmr10!
+Missing character: There is no 票 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 最 in font cmr10!
+Missing character: There is no 终 in font cmr10!
+Missing character: There is no 赢 in font cmr10!
+Missing character: There is no 得 in font cmr10!
+Missing character: There is no 美 in font cmr10!
+Missing character: There is no 国 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 选 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 成 in font cmr10!
+Missing character: There is no 为 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 最 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 受 in font cmr10!
+Missing character: There is no 益 in font cmr10!
+Missing character: There is no 者 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 经 in font cmr10!
+Missing character: There is no 济 in font cmr10!
+Missing character: There is no 方 in font cmr10!
+Missing character: There is no 面 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 由 in font cmr10!
+Missing character: There is no 于 in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no 户 in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 其 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 中 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 布 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 量 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 个 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 信 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 使 in font cmr10!
+Missing character: There is no 得 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 所 in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 公 in font cmr10!
+Missing character: There is no 司 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 够 in font cmr10!
+Missing character: There is no 借 in font cmr10!
+Missing character: There is no 助 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 工 in font cmr10!
+Missing character: There is no 智 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 方 in font cmr10!
+Missing character: There is no 法 in font cmr10!
+Missing character: There is no 对 in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no 户 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 布 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 内 in font cmr10!
+Missing character: There is no 容 in font cmr10!
+Missing character: There is no 进 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 分 in font cmr10!
+Missing character: There is no 析 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 找 in font cmr10!
+Missing character: There is no 到 in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no 户 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 兴 in font cmr10!
+Missing character: There is no 趣 in font cmr10!
+Missing character: There is no 爱 in font cmr10!
+Missing character: There is no 好 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 以 in font cmr10!
+Missing character: There is no 此 in font cmr10!
+Missing character: There is no 进 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 广 in font cmr10!
+Missing character: There is no 告 in font cmr10!
+Missing character: There is no 投 in font cmr10!
+Missing character: There is no 送 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 教 in font cmr10!
+Missing character: There is no 育 in font cmr10!
+Missing character: There is no 方 in font cmr10!
+Missing character: There is no 面 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 许 in font cmr10!
+Missing character: There is no 多 in font cmr10!
+Missing character: There is no 科 in font cmr10!
+Missing character: There is no 研 in font cmr10!
+Missing character: There is no 工 in font cmr10!
+Missing character: There is no 作 in font cmr10!
+Missing character: There is no 者 in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 其 in font cmr10!
+Missing character: There is no 个 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 账 in font cmr10!
+Missing character: There is no 户 in font cmr10!
+Missing character: There is no 中 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 布 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 其 in font cmr10!
+Missing character: There is no 科 in font cmr10!
+Missing character: There is no 研 in font cmr10!
+Missing character: There is no 课 in font cmr10!
+Missing character: There is no 题 in font cmr10!
+Missing character: There is no 相 in font cmr10!
+Missing character: There is no 关 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 最 in font cmr10!
+Missing character: There is no 新 in font cmr10!
+Missing character: There is no 研 in font cmr10!
+Missing character: There is no 究 in font cmr10!
+Missing character: There is no 进 in font cmr10!
+Missing character: There is no 展 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 相 in font cmr10!
+Missing character: There is no 关 in font cmr10!
+Missing character: There is no 资 in font cmr10!
+Missing character: There is no 料 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 帮 in font cmr10!
+Missing character: There is no 助 in font cmr10!
+Missing character: There is no 其 in font cmr10!
+Missing character: There is no 他 in font cmr10!
+Missing character: There is no 从 in font cmr10!
+Missing character: There is no 事 in font cmr10!
+Missing character: There is no 相 in font cmr10!
+Missing character: There is no 同 in font cmr10!
+Missing character: There is no 研 in font cmr10!
+Missing character: There is no 究 in font cmr10!
+Missing character: There is no 或 in font cmr10!
+Missing character: There is no 相 in font cmr10!
+Missing character: There is no 近 in font cmr10!
+Missing character: There is no 研 in font cmr10!
+Missing character: There is no 究 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 员 in font cmr10!
+Missing character: There is no 迅 in font cmr10!
+Missing character: There is no 速 in font cmr10!
+Missing character: There is no 把 in font cmr10!
+Missing character: There is no 握 in font cmr10!
+Missing character: There is no 最 in font cmr10!
+Missing character: There is no 新 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 研 in font cmr10!
+Missing character: There is no 究 in font cmr10!
+Missing character: There is no 动 in font cmr10!
+Missing character: There is no 态 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 另 in font cmr10!
+Missing character: There is no 外 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 由 in font cmr10!
+Missing character: There is no 于 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 巨 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 影 in font cmr10!
+Missing character: There is no 响 in font cmr10!
+Missing character: There is no 力 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 使 in font cmr10!
+Missing character: There is no 得 in font cmr10!
+Missing character: There is no 许 in font cmr10!
+Missing character: There is no 多 in font cmr10!
+Missing character: There is no 公 in font cmr10!
+Missing character: There is no 益 in font cmr10!
+Missing character: There is no 活 in font cmr10!
+Missing character: There is no 动 in font cmr10!
+Missing character: There is no 借 in font cmr10!
+Missing character: There is no 助 in font cmr10!
+Missing character: There is no 这 in font cmr10!
+Missing character: There is no 个 in font cmr10!
+Missing character: There is no 平 in font cmr10!
+Missing character: There is no 台 in font cmr10!
+Missing character: There is no 展 in font cmr10!
+Missing character: There is no 开 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 年 in font cmr10!
+Missing character: There is no 初 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no 随 in font cmr10!
+Missing character: There is no 手 in font cmr10!
+Missing character: There is no 拍 in font cmr10!
+Missing character: There is no 照 in font cmr10!
+Missing character: There is no 解 in font cmr10!
+Missing character: There is no 救 in font cmr10!
+Missing character: There is no 乞 in font cmr10!
+Missing character: There is no 讨 in font cmr10!
+Missing character: There is no 儿 in font cmr10!
+Missing character: There is no 童 in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no 运 in font cmr10!
+Missing character: There is no 动 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1040,52 +1095,52 @@ Overfull \hbox (120.02806pt too wide) in paragraph at lines 17--17
 [][]\OT1/cmr/m/n/10 http://weibo.com/jiejiuqier| 
  []
 
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 解 in font nullfont!
-Missing character: There is no 救 in font nullfont!
-Missing character: There is no 了 in font nullfont!
-Missing character: There is no 不 in font nullfont!
-Missing character: There is no 少 in font nullfont!
-Missing character: There is no 走 in font nullfont!
-Missing character: There is no 失 in font nullfont!
-Missing character: There is no 儿 in font nullfont!
-Missing character: There is no 童 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 同 in font nullfont!
-Missing character: There is no 时 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 也 in font nullfont!
-Missing character: There is no 作 in font nullfont!
-Missing character: There is no 为 in font nullfont!
-Missing character: There is no 公 in font nullfont!
-Missing character: There is no 共 in font nullfont!
-Missing character: There is no 平 in font nullfont!
-Missing character: There is no 台 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 帮 in font nullfont!
-Missing character: There is no 助 in font nullfont!
-Missing character: There is no 老 in font nullfont!
-Missing character: There is no 百 in font nullfont!
-Missing character: There is no 姓 in font nullfont!
-Missing character: There is no 对 in font nullfont!
-Missing character: There is no 政 in font nullfont!
-Missing character: There is no 府 in font nullfont!
-Missing character: There is no 进 in font nullfont!
-Missing character: There is no 行 in font nullfont!
-Missing character: There is no 舆 in font nullfont!
-Missing character: There is no 论 in font nullfont!
-Missing character: There is no 监 in font nullfont!
-Missing character: There is no 督 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no “ in font nullfont!
-Missing character: There is no 郭 in font nullfont!
-Missing character: There is no 美 in font nullfont!
-Missing character: There is no 美 in font nullfont!
-Missing character: There is no ” in font nullfont!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 解 in font cmr10!
+Missing character: There is no 救 in font cmr10!
+Missing character: There is no 了 in font cmr10!
+Missing character: There is no 不 in font cmr10!
+Missing character: There is no 少 in font cmr10!
+Missing character: There is no 走 in font cmr10!
+Missing character: There is no 失 in font cmr10!
+Missing character: There is no 儿 in font cmr10!
+Missing character: There is no 童 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 同 in font cmr10!
+Missing character: There is no 时 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 也 in font cmr10!
+Missing character: There is no 作 in font cmr10!
+Missing character: There is no 为 in font cmr10!
+Missing character: There is no 公 in font cmr10!
+Missing character: There is no 共 in font cmr10!
+Missing character: There is no 平 in font cmr10!
+Missing character: There is no 台 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 帮 in font cmr10!
+Missing character: There is no 助 in font cmr10!
+Missing character: There is no 老 in font cmr10!
+Missing character: There is no 百 in font cmr10!
+Missing character: There is no 姓 in font cmr10!
+Missing character: There is no 对 in font cmr10!
+Missing character: There is no 政 in font cmr10!
+Missing character: There is no 府 in font cmr10!
+Missing character: There is no 进 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 舆 in font cmr10!
+Missing character: There is no 论 in font cmr10!
+Missing character: There is no 监 in font cmr10!
+Missing character: There is no 督 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no 郭 in font cmr10!
+Missing character: There is no 美 in font cmr10!
+Missing character: There is no 美 in font cmr10!
+Missing character: There is no ” in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1125,11 +1180,11 @@ Overfull \hbox (444.05682pt too wide) in paragraph at lines 17--17
 %BA%8B%E4%BB%B6| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no “ in font nullfont!
-Missing character: There is no 表 in font nullfont!
-Missing character: There is no 叔 in font nullfont!
-Missing character: There is no ” in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no 表 in font cmr10!
+Missing character: There is no 叔 in font cmr10!
+Missing character: There is no ” in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1168,11 +1223,11 @@ Overfull \hbox (186.94495pt too wide) in paragraph at lines 17--17
 [][]\OT1/cmr/m/n/10 http://baike.baidu.com/view/2172140.htm| 
  []
 
-Missing character: There is no ， in font nullfont!
-Missing character: There is no “ in font nullfont!
-Missing character: There is no 房 in font nullfont!
-Missing character: There is no 姐 in font nullfont!
-Missing character: There is no ” in font nullfont!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no 房 in font cmr10!
+Missing character: There is no 姐 in font cmr10!
+Missing character: There is no ” in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1212,50 +1267,37 @@ Overfull \hbox (489.05696pt too wide) in paragraph at lines 17--17
 %85%90%E8%B4%A5%E6%A1%88| 
  []
 
-Missing character: There is no 事 in font nullfont!
-Missing character: There is no 件 in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 事 in font cmr10!
+Missing character: There is no 件 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
-Overfull \hbox (37.94452pt too wide) in paragraph at lines 17--18
-[][][][][] 
+Overfull \hbox (132.27814pt too wide) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/10 2008FacebookTwitter2011[][][][] 
  []
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 那
-        么什么是社交媒体，维基百科中给出了定义：\textbf{...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no 那 in font nullfont!
-Missing character: There is no 么 in font nullfont!
-Missing character: There is no 什 in font nullfont!
-Missing character: There is no 么 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 维 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 百 in font nullfont!
-Missing character: There is no 科 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 给 in font nullfont!
-Missing character: There is no 出 in font nullfont!
-Missing character: There is no 了 in font nullfont!
-Missing character: There is no 定 in font nullfont!
-Missing character: There is no 义 in font nullfont!
-Missing character: There is no ： in font nullfont!
+Missing character: There is no 那 in font cmr10!
+Missing character: There is no 么 in font cmr10!
+Missing character: There is no 什 in font cmr10!
+Missing character: There is no 么 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 维 in font cmr10!
+Missing character: There is no 基 in font cmr10!
+Missing character: There is no 百 in font cmr10!
+Missing character: There is no 科 in font cmr10!
+Missing character: There is no 中 in font cmr10!
+Missing character: There is no 给 in font cmr10!
+Missing character: There is no 出 in font cmr10!
+Missing character: There is no 了 in font cmr10!
+Missing character: There is no 定 in font cmr10!
+Missing character: There is no 义 in font cmr10!
+Missing character: There is no ： in font cmr10!
 Missing character: There is no 社 in font cmbx10!
 Missing character: There is no 交 in font cmbx10!
 Missing character: There is no 媒 in font cmbx10!
@@ -1314,159 +1356,121 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no a in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no q in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 从 in font nullfont!
-Missing character: There is no 定 in font nullfont!
-Missing character: There is no 义 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 我 in font nullfont!
-Missing character: There is no 们 in font nullfont!
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 看 in font nullfont!
-Missing character: There is no 出 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 互 in font nullfont!
-Missing character: There is no 联 in font nullfont!
-Missing character: There is no 网 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 思 in font nullfont!
-Missing character: There is no 想 in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 技 in font nullfont!
-Missing character: There is no 术 in font nullfont!
-Missing character: There is no 为 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 础 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 项 in font nullfont!
-Missing character: There is no 应 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 户 in font nullfont!
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 借 in font nullfont!
-Missing character: There is no 此 in font nullfont!
-Missing character: There is no 进 in font nullfont!
-Missing character: There is no 行 in font nullfont!
-Missing character: There is no 内 in font nullfont!
-Missing character: There is no 容 in font nullfont!
-Missing character: There is no 创 in font nullfont!
-Missing character: There is no 作 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 情 in font nullfont!
-Missing character: There is no 感 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 流 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 信 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 享 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 从 in font cmr10!
+Missing character: There is no 定 in font cmr10!
+Missing character: There is no 义 in font cmr10!
+Missing character: There is no 中 in font cmr10!
+Missing character: There is no 我 in font cmr10!
+Missing character: There is no 们 in font cmr10!
+Missing character: There is no 可 in font cmr10!
+Missing character: There is no 以 in font cmr10!
+Missing character: There is no 看 in font cmr10!
+Missing character: There is no 出 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 以 in font cmr10!
+Missing character: There is no 互 in font cmr10!
+Missing character: There is no 联 in font cmr10!
+Missing character: There is no 网 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 思 in font cmr10!
+Missing character: There is no 想 in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 技 in font cmr10!
+Missing character: There is no 术 in font cmr10!
+Missing character: There is no 为 in font cmr10!
+Missing character: There is no 基 in font cmr10!
+Missing character: There is no 础 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 一 in font cmr10!
+Missing character: There is no 项 in font cmr10!
+Missing character: There is no 应 in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 用 in font cmr10!
+Missing character: There is no 户 in font cmr10!
+Missing character: There is no 可 in font cmr10!
+Missing character: There is no 以 in font cmr10!
+Missing character: There is no 借 in font cmr10!
+Missing character: There is no 此 in font cmr10!
+Missing character: There is no 进 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 内 in font cmr10!
+Missing character: There is no 容 in font cmr10!
+Missing character: There is no 创 in font cmr10!
+Missing character: There is no 作 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 情 in font cmr10!
+Missing character: There is no 感 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 流 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 信 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no 分 in font cmr10!
+Missing character: There is no 享 in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
-[] 
+Overfull \hbox (78.72243pt too wide) in paragraph at lines 22--23
+[]\OT1/cmr/m/n/10 ahlqvist2008social 
  []
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 目
-        前，社交媒体的信息能够以多种不同的形式来呈现�...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no 目 in font nullfont!
-Missing character: There is no 前 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 信 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 够 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 多 in font nullfont!
-Missing character: There is no 种 in font nullfont!
-Missing character: There is no 不 in font nullfont!
-Missing character: There is no 同 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 形 in font nullfont!
-Missing character: There is no 式 in font nullfont!
-Missing character: There is no 来 in font nullfont!
-Missing character: There is no 呈 in font nullfont!
-Missing character: There is no 现 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 包 in font nullfont!
-Missing character: There is no 括 in font nullfont!
-Missing character: There is no 文 in font nullfont!
-Missing character: There is no 本 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 图 in font nullfont!
-Missing character: There is no 像 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 音 in font nullfont!
-Missing character: There is no 乐 in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 视 in font nullfont!
-Missing character: There is no 频 in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 国 in font nullfont!
-Missing character: There is no 外 in font nullfont!
-Missing character: There is no 流 in font nullfont!
-Missing character: There is no 行 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 包 in font nullfont!
-Missing character: There is no 括 in font nullfont!
-Missing character: There is no 了 in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no 目 in font cmr10!
+Missing character: There is no 前 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 信 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 够 in font cmr10!
+Missing character: There is no 以 in font cmr10!
+Missing character: There is no 多 in font cmr10!
+Missing character: There is no 种 in font cmr10!
+Missing character: There is no 不 in font cmr10!
+Missing character: There is no 同 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 形 in font cmr10!
+Missing character: There is no 式 in font cmr10!
+Missing character: There is no 来 in font cmr10!
+Missing character: There is no 呈 in font cmr10!
+Missing character: There is no 现 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 包 in font cmr10!
+Missing character: There is no 括 in font cmr10!
+Missing character: There is no 文 in font cmr10!
+Missing character: There is no 本 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 图 in font cmr10!
+Missing character: There is no 像 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 音 in font cmr10!
+Missing character: There is no 乐 in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 视 in font cmr10!
+Missing character: There is no 频 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 国 in font cmr10!
+Missing character: There is no 外 in font cmr10!
+Missing character: There is no 流 in font cmr10!
+Missing character: There is no 行 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 包 in font cmr10!
+Missing character: There is no 括 in font cmr10!
+Missing character: There is no 了 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1505,15 +1509,7 @@ Overfull \hbox (90.63908pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 https://twitter.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no k in font nullfont!
+Missing character: There is no 、 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1552,14 +1548,7 @@ Overfull \hbox (123.66696pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 https://www.facebook.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no Y in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no 、 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1598,14 +1587,7 @@ Overfull \hbox (116.66695pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.youtube.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no 、 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1644,14 +1626,7 @@ Overfull \hbox (113.08359pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.blogger.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no 、 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1690,16 +1665,7 @@ Overfull \hbox (103.08356pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.flickr.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no W in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no 、 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1738,14 +1704,7 @@ Overfull \hbox (119.19473pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.wikipedia.org/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no + in font nullfont!
+Missing character: There is no 、 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1784,18 +1743,18 @@ Overfull \hbox (109.00027pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 https://plus.google.com/| 
  []
 
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no ； in font nullfont!
-Missing character: There is no 国 in font nullfont!
-Missing character: There is no 内 in font nullfont!
-Missing character: There is no 则 in font nullfont!
-Missing character: There is no 包 in font nullfont!
-Missing character: There is no 括 in font nullfont!
-Missing character: There is no 了 in font nullfont!
-Missing character: There is no 新 in font nullfont!
-Missing character: There is no 浪 in font nullfont!
-Missing character: There is no 微 in font nullfont!
-Missing character: There is no 博 in font nullfont!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no ； in font cmr10!
+Missing character: There is no 国 in font cmr10!
+Missing character: There is no 内 in font cmr10!
+Missing character: There is no 则 in font cmr10!
+Missing character: There is no 包 in font cmr10!
+Missing character: There is no 括 in font cmr10!
+Missing character: There is no 了 in font cmr10!
+Missing character: There is no 新 in font cmr10!
+Missing character: There is no 浪 in font cmr10!
+Missing character: There is no 微 in font cmr10!
+Missing character: There is no 博 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1834,11 +1793,11 @@ Overfull \hbox (76.94463pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://weibo.com| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 腾 in font nullfont!
-Missing character: There is no 讯 in font nullfont!
-Missing character: There is no 微 in font nullfont!
-Missing character: There is no 博 in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 腾 in font cmr10!
+Missing character: There is no 讯 in font cmr10!
+Missing character: There is no 微 in font cmr10!
+Missing character: There is no 博 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1877,10 +1836,10 @@ Overfull \hbox (74.16685pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://t.qq.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 网 in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 网 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1919,10 +1878,10 @@ Overfull \hbox (109.22244pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.renren.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 开 in font nullfont!
-Missing character: There is no 心 in font nullfont!
-Missing character: There is no 网 in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 开 in font cmr10!
+Missing character: There is no 心 in font cmr10!
+Missing character: There is no 网 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -1961,9 +1920,9 @@ Overfull \hbox (122.50032pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.kaixin001.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 豆 in font nullfont!
-Missing character: There is no 瓣 in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 豆 in font cmr10!
+Missing character: There is no 瓣 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -2002,9 +1961,9 @@ Overfull \hbox (108.61137pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.douban.com| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 微 in font nullfont!
-Missing character: There is no 信 in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 微 in font cmr10!
+Missing character: There is no 信 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -2043,9 +2002,9 @@ Overfull \hbox (98.05579pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://weixin.qq.com/| 
  []
 
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 优 in font nullfont!
-Missing character: There is no 酷 in font nullfont!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 优 in font cmr10!
+Missing character: There is no 酷 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -2084,89 +2043,63 @@ Overfull \hbox (107.77805pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 http://www.youku.com/| 
  []
 
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
-Overfull \hbox (118.68098pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][] 
+Overfull \hbox (359.62605pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/10 Twitter[]Facebook[]Youtube[]Blogger[]Flicker[]Wikipedia[]Goog
+le+[][][][][][][][] 
  []
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 大
-        部分社交媒体平台都是通过人与人之间的关系形成�...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 部 in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 平 in font nullfont!
-Missing character: There is no 台 in font nullfont!
-Missing character: There is no 都 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 通 in font nullfont!
-Missing character: There is no 过 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 之 in font nullfont!
-Missing character: There is no 间 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 关 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 形 in font nullfont!
-Missing character: There is no 成 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 网 in font nullfont!
-Missing character: There is no 络 in font nullfont!
-Missing character: There is no 聚 in font nullfont!
-Missing character: There is no 合 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 起 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no 将 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 主 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 成 in font nullfont!
-Missing character: There is no 六 in font nullfont!
-Missing character: There is no 种 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 型 in font nullfont!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 部 in font cmr10!
+Missing character: There is no 分 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 平 in font cmr10!
+Missing character: There is no 台 in font cmr10!
+Missing character: There is no 都 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 通 in font cmr10!
+Missing character: There is no 过 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 之 in font cmr10!
+Missing character: There is no 间 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 关 in font cmr10!
+Missing character: There is no 系 in font cmr10!
+Missing character: There is no 形 in font cmr10!
+Missing character: There is no 成 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 网 in font cmr10!
+Missing character: There is no 络 in font cmr10!
+Missing character: There is no 聚 in font cmr10!
+Missing character: There is no 合 in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 一 in font cmr10!
+Missing character: There is no 起 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 将 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 主 in font cmr10!
+Missing character: There is no 要 in font cmr10!
+Missing character: There is no 分 in font cmr10!
+Missing character: There is no 成 in font cmr10!
+Missing character: There is no 六 in font cmr10!
+Missing character: There is no 种 in font cmr10!
+Missing character: There is no 类 in font cmr10!
+Missing character: There is no 型 in font cmr10!
 ! Undefined control sequence.
 l.26 ...��交媒体主要分成六种类型\upcite
                                                   {kaplan2010users}：
@@ -2176,25 +2109,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no k in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ： in font nullfont!
+Missing character: There is no ： in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--27
-[] 
+Overfull \hbox (140.13924pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/10 KaplanHaenleinkaplan2010users 
  []
 
 Missing character: There is no 协 in font cmbx10!
@@ -2205,25 +2123,16 @@ Missing character: There is no 项 in font cmbx10!
 Missing character: There is no 目 in font cmbx10!
 Missing character: There is no （ in font cmbx10!
 Missing character: There is no ） in font cmbx10!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 维 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 百 in font nullfont!
-Missing character: There is no 科 in font nullfont!
-Missing character: There is no （ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no ） in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 维 in font cmr10!
+Missing character: There is no 基 in font cmr10!
+Missing character: There is no 百 in font cmr10!
+Missing character: There is no 科 in font cmr10!
+Missing character: There is no （ in font cmr10!
+Missing character: There is no ） in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
 Overfull \hbox (67.50656pt too wide) in paragraph at lines 28--29
 \OT1/cmr/bx/n/10 Collaborative
@@ -2231,7 +2140,12 @@ Overfull \hbox (67.50656pt too wide) in paragraph at lines 28--29
 
 
 Overfull \hbox (41.89006pt too wide) in paragraph at lines 28--29
-\OT1/cmr/bx/n/10 Projects 
+\OT1/cmr/bx/n/10 Projects
+ []
+
+
+Overfull \hbox (41.66678pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 wikipedia 
  []
 
 Missing character: There is no 博 in font cmbx10!
@@ -2241,22 +2155,15 @@ Missing character: There is no 微 in font cmbx10!
 Missing character: There is no 博 in font cmbx10!
 Missing character: There is no （ in font cmbx10!
 Missing character: There is no ） in font cmbx10!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 新 in font nullfont!
-Missing character: There is no 浪 in font nullfont!
-Missing character: There is no 微 in font nullfont!
-Missing character: There is no 博 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 新 in font cmr10!
+Missing character: There is no 浪 in font cmr10!
+Missing character: There is no 微 in font cmr10!
+Missing character: There is no 博 in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
 Overfull \hbox (27.41095pt too wide) in paragraph at lines 29--30
 \OT1/cmr/bx/n/10 Blogs
@@ -2274,7 +2181,17 @@ Overfull \hbox (17.94435pt too wide) in paragraph at lines 29--30
 
 
 Overfull \hbox (41.21645pt too wide) in paragraph at lines 29--30
-\OT1/cmr/bx/n/10 croblogs 
+\OT1/cmr/bx/n/10 croblogs
+ []
+
+
+Overfull \hbox (24.44447pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 Twit-
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 ter 
  []
 
 Missing character: There is no 内 in font cmbx10!
@@ -2283,20 +2200,13 @@ Missing character: There is no 社 in font cmbx10!
 Missing character: There is no 区 in font cmbx10!
 Missing character: There is no （ in font cmbx10!
 Missing character: There is no ） in font cmbx10!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no Y in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 优 in font nullfont!
-Missing character: There is no 酷 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 优 in font cmr10!
+Missing character: There is no 酷 in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
 Overfull \hbox (24.27765pt too wide) in paragraph at lines 30--31
 \OT1/cmr/bx/n/10 Con-
@@ -2324,7 +2234,12 @@ Overfull \hbox (13.4166pt too wide) in paragraph at lines 30--31
 
 
 Overfull \hbox (17.47351pt too wide) in paragraph at lines 30--31
-\OT1/cmr/bx/n/10 ties 
+\OT1/cmr/bx/n/10 ties
+ []
+
+
+Overfull \hbox (36.94453pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 Youtube 
  []
 
 Missing character: There is no 社 in font cmbx10!
@@ -2335,22 +2250,14 @@ Missing character: There is no 网 in font cmbx10!
 Missing character: There is no 站 in font cmbx10!
 Missing character: There is no （ in font cmbx10!
 Missing character: There is no ） in font cmbx10!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 网 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 网 in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
 Overfull \hbox (15.97214pt too wide) in paragraph at lines 31--32
 \OT1/cmr/bx/n/10 So-
@@ -2378,7 +2285,17 @@ Overfull \hbox (15.33325pt too wide) in paragraph at lines 31--32
 
 
 Overfull \hbox (23.86237pt too wide) in paragraph at lines 31--32
-\OT1/cmr/bx/n/10 Sites 
+\OT1/cmr/bx/n/10 Sites
+ []
+
+
+Overfull \hbox (22.91669pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10 Face-
+ []
+
+
+Overfull \hbox (21.38898pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10 book 
  []
 
 Missing character: There is no 虚 in font cmbx10!
@@ -2390,29 +2307,14 @@ Missing character: There is no 世 in font cmbx10!
 Missing character: There is no 界 in font cmbx10!
 Missing character: There is no （ in font cmbx10!
 Missing character: There is no ） in font cmbx10!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 魔 in font nullfont!
-Missing character: There is no 兽 in font nullfont!
-Missing character: There is no 世 in font nullfont!
-Missing character: There is no 界 in font nullfont!
-Missing character: There is no （ in font nullfont!
-Missing character: There is no W in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no W in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 魔 in font cmr10!
+Missing character: There is no 兽 in font cmr10!
+Missing character: There is no 世 in font cmr10!
+Missing character: There is no 界 in font cmr10!
+Missing character: There is no （ in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -2451,8 +2353,8 @@ Overfull \hbox (129.77806pt too wide) in paragraph at lines 32--32
 [][]\OT1/cmr/m/n/10 http://us.battle.net/wow/en/| 
  []
 
-Missing character: There is no ） in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no ） in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
 Overfull \hbox (20.45824pt too wide) in paragraph at lines 32--33
 \OT1/cmr/bx/n/10 Vir-
@@ -2474,8 +2376,23 @@ Overfull \hbox (35.53592pt too wide) in paragraph at lines 32--33
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 32--33
-[] 
+Overfull \hbox (26.6945pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/10 World
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (21.69447pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/10 War-
+ []
+
+
+Overfull \hbox (28.77786pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/10 craft[] 
  []
 
 Missing character: There is no 虚 in font cmbx10!
@@ -2486,24 +2403,14 @@ Missing character: There is no 世 in font cmbx10!
 Missing character: There is no 界 in font cmbx10!
 Missing character: There is no （ in font cmbx10!
 Missing character: There is no ） in font cmbx10!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 生 in font nullfont!
-Missing character: There is no （ in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 第 in font cmr10!
+Missing character: There is no 二 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 生 in font cmr10!
+Missing character: There is no （ in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -2542,8 +2449,8 @@ Overfull \hbox (93.94466pt too wide) in paragraph at lines 33--33
 [][]\OT1/cmr/m/n/10 http://secondlife.com| 
  []
 
-Missing character: There is no ） in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no ） in font cmr10!
+Missing character: There is no 。 in font cmr10!
 
 Overfull \hbox (20.45824pt too wide) in paragraph at lines 33--34
 \OT1/cmr/bx/n/10 Vir-
@@ -2570,73 +2477,73 @@ Overfull \hbox (35.53592pt too wide) in paragraph at lines 33--34
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 33--34
-[] 
+Overfull \hbox (17.77779pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/10 Sec-
  []
 
-Missing character: There is no 但 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 随 in font nullfont!
-Missing character: There is no 着 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 展 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 不 in font nullfont!
-Missing character: There is no 同 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 型 in font nullfont!
-Missing character: There is no 之 in font nullfont!
-Missing character: There is no 间 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 界 in font nullfont!
-Missing character: There is no 限 in font nullfont!
-Missing character: There is no 已 in font nullfont!
-Missing character: There is no 经 in font nullfont!
-Missing character: There is no 越 in font nullfont!
-Missing character: There is no 来 in font nullfont!
-Missing character: There is no 越 in font nullfont!
-Missing character: There is no 模 in font nullfont!
-Missing character: There is no 糊 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 就 in font nullfont!
-Missing character: There is no 认 in font nullfont!
-Missing character: There is no 为 in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 种 in font nullfont!
-Missing character: There is no 博 in font nullfont!
-Missing character: There is no 客 in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 网 in font nullfont!
-Missing character: There is no 络 in font nullfont!
-Missing character: There is no 网 in font nullfont!
-Missing character: There is no 站 in font nullfont!
-Missing character: There is no 结 in font nullfont!
-Missing character: There is no 合 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/10 ond
+ []
+
+
+Overfull \hbox (25.00008pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/10 Life[] 
+ []
+
+Missing character: There is no 但 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 随 in font cmr10!
+Missing character: There is no 着 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 展 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 不 in font cmr10!
+Missing character: There is no 同 in font cmr10!
+Missing character: There is no 类 in font cmr10!
+Missing character: There is no 型 in font cmr10!
+Missing character: There is no 之 in font cmr10!
+Missing character: There is no 间 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 界 in font cmr10!
+Missing character: There is no 限 in font cmr10!
+Missing character: There is no 已 in font cmr10!
+Missing character: There is no 经 in font cmr10!
+Missing character: There is no 越 in font cmr10!
+Missing character: There is no 来 in font cmr10!
+Missing character: There is no 越 in font cmr10!
+Missing character: There is no 模 in font cmr10!
+Missing character: There is no 糊 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 就 in font cmr10!
+Missing character: There is no 认 in font cmr10!
+Missing character: There is no 为 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 一 in font cmr10!
+Missing character: There is no 种 in font cmr10!
+Missing character: There is no 博 in font cmr10!
+Missing character: There is no 客 in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 网 in font cmr10!
+Missing character: There is no 络 in font cmr10!
+Missing character: There is no 网 in font cmr10!
+Missing character: There is no 站 in font cmr10!
+Missing character: There is no 结 in font cmr10!
+Missing character: There is no 合 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
 ! Undefined control sequence.
 l.35 ...��网络网站结合的社交媒体\upcite
                                                   {shi2011content}。
@@ -2646,176 +2553,162 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 传 in font nullfont!
-Missing character: There is no 统 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 报 in font nullfont!
-Missing character: There is no 纸 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 电 in font nullfont!
-Missing character: There is no 视 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 电 in font nullfont!
-Missing character: There is no 影 in font nullfont!
-Missing character: There is no 等 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 需 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 量 in font nullfont!
-Missing character: There is no 资 in font nullfont!
-Missing character: There is no 源 in font nullfont!
-Missing character: There is no 来 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 布 in font nullfont!
-Missing character: There is no 信 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 因 in font nullfont!
-Missing character: There is no 此 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 文 in font nullfont!
-Missing character: There is no 章 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 表 in font nullfont!
-Missing character: There is no 之 in font nullfont!
-Missing character: There is no 前 in font nullfont!
-Missing character: There is no 需 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 经 in font nullfont!
-Missing character: There is no 过 in font nullfont!
-Missing character: There is no 多 in font nullfont!
-Missing character: There is no 次 in font nullfont!
-Missing character: There is no 修 in font nullfont!
-Missing character: There is no 改 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 而 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 发 in font nullfont!
-Missing character: There is no 布 in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 对 in font nullfont!
-Missing character: There is no 廉 in font nullfont!
-Missing character: There is no 价 in font nullfont!
-Missing character: There is no 和 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 便 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 任 in font nullfont!
-Missing character: There is no 何 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 都 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 够 in font nullfont!
-Missing character: There is no 参 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 其 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 但 in font nullfont!
-Missing character: There is no 社 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 传 in font nullfont!
-Missing character: There is no 统 in font nullfont!
-Missing character: There is no 媒 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 也 in font nullfont!
-Missing character: There is no 存 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 着 in font nullfont!
-Missing character: There is no 共 in font nullfont!
-Missing character: There is no 性 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 即 in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 息 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 传 in font nullfont!
-Missing character: There is no 播 in font nullfont!
-Missing character: There is no 到 in font nullfont!
-Missing character: There is no 或 in font nullfont!
-Missing character: There is no 多 in font nullfont!
-Missing character: There is no 或 in font nullfont!
-Missing character: There is no 少 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 听 in font nullfont!
-Missing character: There is no 众 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 例 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 不 in font nullfont!
-Missing character: There is no 论 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 博 in font nullfont!
-Missing character: There is no 客 in font nullfont!
-Missing character: There is no 还 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 电 in font nullfont!
-Missing character: There is no 视 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 他 in font nullfont!
-Missing character: There is no 们 in font nullfont!
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 没 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 听 in font nullfont!
-Missing character: There is no 众 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 但 in font nullfont!
-Missing character: There is no 也 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 拥 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 成 in font nullfont!
-Missing character: There is no 千 in font nullfont!
-Missing character: There is no 上 in font nullfont!
-Missing character: There is no 万 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 听 in font nullfont!
-Missing character: There is no 众 in font nullfont!
-Missing character: There is no 。 in font nullfont!
+Missing character: There is no 。 in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
-[] 
+Overfull \hbox (111.75023pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 ShiTwittershi2011content 
  []
 
-Missing character: There is no 根 in font nullfont!
-Missing character: There is no 据 in font nullfont!
-Missing character: There is no 维 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 百 in font nullfont!
-Missing character: There is no 科 in font nullfont!
+Missing character: There is no 传 in font cmr10!
+Missing character: There is no 统 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 报 in font cmr10!
+Missing character: There is no 纸 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 电 in font cmr10!
+Missing character: There is no 视 in font cmr10!
+Missing character: There is no 、 in font cmr10!
+Missing character: There is no 电 in font cmr10!
+Missing character: There is no 影 in font cmr10!
+Missing character: There is no 等 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 需 in font cmr10!
+Missing character: There is no 要 in font cmr10!
+Missing character: There is no 大 in font cmr10!
+Missing character: There is no 量 in font cmr10!
+Missing character: There is no 资 in font cmr10!
+Missing character: There is no 源 in font cmr10!
+Missing character: There is no 来 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 布 in font cmr10!
+Missing character: There is no 信 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 因 in font cmr10!
+Missing character: There is no 此 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 文 in font cmr10!
+Missing character: There is no 章 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 表 in font cmr10!
+Missing character: There is no 之 in font cmr10!
+Missing character: There is no 前 in font cmr10!
+Missing character: There is no 需 in font cmr10!
+Missing character: There is no 要 in font cmr10!
+Missing character: There is no 经 in font cmr10!
+Missing character: There is no 过 in font cmr10!
+Missing character: There is no 多 in font cmr10!
+Missing character: There is no 次 in font cmr10!
+Missing character: There is no 修 in font cmr10!
+Missing character: There is no 改 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 而 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 发 in font cmr10!
+Missing character: There is no 布 in font cmr10!
+Missing character: There is no 消 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no 相 in font cmr10!
+Missing character: There is no 对 in font cmr10!
+Missing character: There is no 廉 in font cmr10!
+Missing character: There is no 价 in font cmr10!
+Missing character: There is no 和 in font cmr10!
+Missing character: There is no 方 in font cmr10!
+Missing character: There is no 便 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 任 in font cmr10!
+Missing character: There is no 何 in font cmr10!
+Missing character: There is no 人 in font cmr10!
+Missing character: There is no 都 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 够 in font cmr10!
+Missing character: There is no 参 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 其 in font cmr10!
+Missing character: There is no 中 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 但 in font cmr10!
+Missing character: There is no 社 in font cmr10!
+Missing character: There is no 交 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 与 in font cmr10!
+Missing character: There is no 传 in font cmr10!
+Missing character: There is no 统 in font cmr10!
+Missing character: There is no 媒 in font cmr10!
+Missing character: There is no 体 in font cmr10!
+Missing character: There is no 也 in font cmr10!
+Missing character: There is no 存 in font cmr10!
+Missing character: There is no 在 in font cmr10!
+Missing character: There is no 着 in font cmr10!
+Missing character: There is no 共 in font cmr10!
+Missing character: There is no 性 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 即 in font cmr10!
+Missing character: There is no 消 in font cmr10!
+Missing character: There is no 息 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 传 in font cmr10!
+Missing character: There is no 播 in font cmr10!
+Missing character: There is no 到 in font cmr10!
+Missing character: There is no 或 in font cmr10!
+Missing character: There is no 多 in font cmr10!
+Missing character: There is no 或 in font cmr10!
+Missing character: There is no 少 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 听 in font cmr10!
+Missing character: There is no 众 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 例 in font cmr10!
+Missing character: There is no 如 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 不 in font cmr10!
+Missing character: There is no 论 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 博 in font cmr10!
+Missing character: There is no 客 in font cmr10!
+Missing character: There is no 还 in font cmr10!
+Missing character: There is no 是 in font cmr10!
+Missing character: There is no 电 in font cmr10!
+Missing character: There is no 视 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 他 in font cmr10!
+Missing character: There is no 们 in font cmr10!
+Missing character: There is no 可 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 没 in font cmr10!
+Missing character: There is no 有 in font cmr10!
+Missing character: There is no 听 in font cmr10!
+Missing character: There is no 众 in font cmr10!
+Missing character: There is no ， in font cmr10!
+Missing character: There is no 但 in font cmr10!
+Missing character: There is no 也 in font cmr10!
+Missing character: There is no 有 in font cmr10!
+Missing character: There is no 可 in font cmr10!
+Missing character: There is no 能 in font cmr10!
+Missing character: There is no 拥 in font cmr10!
+Missing character: There is no 有 in font cmr10!
+Missing character: There is no 成 in font cmr10!
+Missing character: There is no 千 in font cmr10!
+Missing character: There is no 上 in font cmr10!
+Missing character: There is no 万 in font cmr10!
+Missing character: There is no 的 in font cmr10!
+Missing character: There is no 听 in font cmr10!
+Missing character: There is no 众 in font cmr10!
+Missing character: There is no 。 in font cmr10!
+Missing character: There is no 根 in font cmr10!
+Missing character: There is no 据 in font cmr10!
+Missing character: There is no 维 in font cmr10!
+Missing character: There is no 基 in font cmr10!
+Missing character: There is no 百 in font cmr10!
+Missing character: There is no 科 in font cmr10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -3494,6 +3387,44 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.47   \end{enumerate}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.47   \end{enumerate}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.47   \end{enumerate}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 39--47
+[][] 
+ []
+
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
@@ -3502,8 +3433,18 @@ l.47   \end{enumerate}
 Things are pretty mixed up, but I think the worst is over.
 
 
-Overfull \hbox (28.47226pt too wide) in paragraph at lines 39--48
-[][] 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--48
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 6--48
+[]
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 6--48
+[] 
  []
 
 Missing character: There is no 由 in font nullfont!
@@ -4244,6 +4185,51 @@ Overfull \hbox (16.94452pt too wide) in paragraph at lines 53--55
 [][] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 有
+        许多用户发布的Twitter消息创造了历史。一个早期的�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+! Undefined control sequence.
+<write> \newlabel{Intro}{{}{\thepage 
+                                     }}
+l.56 有
+        许多用户发布的Twitter消息创造了历史。一个早期的�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{Intro}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{socialmedia}{{1}{\thepage 
+                                            }}
+l.56 有
+        许多用户发布的Twitter消息创造了历史。一个早期的�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{socialmedia}{{1}{}}
+]
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 许 in font nullfont!
 Missing character: There is no 多 in font nullfont!
@@ -4349,6 +4335,7 @@ Missing character: There is no 就 in font nullfont!
 Missing character: There is no 被 in font nullfont!
 Missing character: There is no 释 in font nullfont!
 Missing character: There is no 放 in font nullfont!
+
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
@@ -17813,11 +17800,11 @@ Missing character: There is no 。 in font cmr10!
 
  
 Here is how much of TeX's memory you used:
- 28 strings out of 493918
- 272 string characters out of 6150564
- 72748 words of memory out of 5000000
- 3450 multiletter control sequences out of 15000+600000
+ 29 strings out of 495484
+ 282 string characters out of 6183322
+ 63876 words of memory out of 5000000
+ 3341 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 24i,7n,19p,773b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 102 hyphenation exceptions out of 8191
+ 24i,7n,19p,772b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on chap01.pdf (1 page).
