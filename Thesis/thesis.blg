@@ -4,16 +4,13 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 16070 items from 5000.
+Reallocated field_info (elt_size=4) to 16205 items from 5000.
 Database file #1: ref/refs.bib
-Repeated entry---line 2202 of file ref/refs.bib
- : @inproceedings{amati2012survival
- :                                 ,
-I'm skipping whatever remains of this entry
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
 -- See the "userguide.pdf" manual for usage information.
 Warning--empty pages in CDBLP:62365
+Warning--there's neither address nor publisher in whitepaper2014
 Warning--empty pages in ahlqvist2008social
 Warning--there's neither address nor publisher in shi2011content
 Warning--The editor in agichtein2008finding is missing.
@@ -462,45 +459,45 @@ Warning--empty editor in petrovic2013can
 Warning--empty pages in petrovic2013can
 
 Done.
-You've used 246 entries,
+You've used 249 entries,
             4554 wiz_defined-function locations,
-            2140 strings with 51276 characters,
-and the built_in function-call counts, 160628 in all, are:
-= -- 17976
-> -- 2655
-< -- 199
-+ -- 1594
-- -- 803
-* -- 13345
-:= -- 18187
-add.period$ -- 971
-call.type$ -- 246
+            2156 strings with 51708 characters,
+and the built_in function-call counts, 162391 in all, are:
+= -- 18178
+> -- 2679
+< -- 201
++ -- 1608
+- -- 810
+* -- 13491
+:= -- 18378
+add.period$ -- 982
+call.type$ -- 249
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 671
-duplicate$ -- 10751
-empty$ -- 17021
-format.name$ -- 803
-if$ -- 38794
+cite$ -- 675
+duplicate$ -- 10875
+empty$ -- 17215
+format.name$ -- 810
+if$ -- 39226
 int.to.chr$ -- 0
-int.to.str$ -- 246
+int.to.str$ -- 249
 missing$ -- 12
-newline$ -- 1467
-num.names$ -- 258
-pop$ -- 1285
+newline$ -- 1484
+num.names$ -- 261
+pop$ -- 1296
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 4164
+skip$ -- 4210
 stack$ -- 0
-substring$ -- 19383
-swap$ -- 3130
-text.length$ -- 199
+substring$ -- 19597
+swap$ -- 3160
+text.length$ -- 201
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1981
-warning$ -- 425
-while$ -- 1645
-width$ -- 249
-write$ -- 2160
-(There were 12 error messages)
+type$ -- 2013
+warning$ -- 426
+while$ -- 1660
+width$ -- 252
+write$ -- 2185
+(There were 11 error messages)
