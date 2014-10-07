@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  25 SEP 2014 18:50
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  7 OCT 2014 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2011,79 +2011,79 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 
 
 
-] [2]
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+ [3]
 File: figures/socialmedia.png Graphic file (type QTm)
 
 <use  "figures/socialmedia.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][][][]$[][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] 
 [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] 
 [] [][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][][][]$[][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] 
 [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] 
 [] [][] [] [][] []
  []
 
-
-Underfull \vbox (badness 1067) has occurred while \output is active []
-
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][][]\EU1/AdobeSongStd(0)/m/n/10 来 源：| []$[][][][] [] [] [] [][][] [] [][][][]
 [][][][][][] [] [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][
 ] [] [][][] [] [][][][] []
  []
 
-[4]
-Underfull \vbox (badness 1796) has occurred while \output is active []
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+ [6]
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 [][][][]$[][][][] [] [] [] [][][][][][][][][][] [] [][][] [] [][][][] [] [][] [
 ] [][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 [][][][]$[][][][][] [] [] [] [][][][] [] [][][][][][][] [] [][][] [] [][][][] [
 ] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][]
  []
 
-[8]
+[8] [9]
 File: figures/Twitter.png Graphic file (type QTm)
- <use  "figures/Twitter.png" >
-Underfull \vbox (badness 7777) has occurred while \output is active []
-
- [9]
-[10] [11] [12] [13] [14] [15] [16]
+ <use  "figures/Twitter.png" > [10] [11] [12] [13] [14] [15] [16]
+[17]
 File: figures/Research_Framwork.png Graphic file (type QTm)
- <use  "figures/Research_Framwork.png" >
-[17] [18] [19] [20]
+ <use  "figures/Research_Framwork.png" > [18] [19] [20] [21]
 File: figures/Paper_Framwork.png Graphic file (type QTm)
- <use  "figures/Paper_Framwork.png" > [21])
-(./data/chap02.tex [22]
+
+<use  "figures/Paper_Framwork.png" > [22]) (./data/chap02.tex [23]
 File: figures/Twitter_Search.png Graphic file (type QTm)
- <use  "figures/Twitter_Search.png" >
+
+<use  "figures/Twitter_Search.png" >
 Overfull \hbox (6.81737pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
 File: figures/Twitter_SearchRes.png Graphic file (type QTm)
-<use  "figures/Twitter_SearchRes.png" > [23
+<use  "figures/Twitter_SearchRes.png" > [24
 
 
 ]
 File: figures/TBB_examples.png Graphic file (type QTm)
 
-<use  "figures/TBB_examples.png" > [24] [25]
+<use  "figures/TBB_examples.png" > [25] [26]
 Underfull \vbox (badness 4634) has occurred while \output is active []
 
- [26]
+ [27]
 Overfull \hbox (22.57909pt too wide) in paragraph at lines 82--83
 []\EU1/AdobeSongStd(0)/bx/n/12.045 链 接 积 木  |（\EU1/TimesNewRoman(0)/bx/n/12.045
  URL\EU1/AdobeSongStd(0)/bx/n/12.045 ）| \EU1/AdobeSongStd(1)/m/n/12.045 ：|  链 接
@@ -2093,125 +2093,125 @@ EU1/AdobeSongStd(1)/m/n/12.045 ”。|
  []
 
 File: figures/TBB_gold.png Graphic file (type QTm)
-<use  "figures/TBB_gold.png" > [27] [28] [29] [30] [31] [32]
+<use  "figures/TBB_gold.png" > [28] [29] [30] [31] [32] [33]
 File: figures/Framwork.png Graphic file (type QTm)
 
 <use  "figures/Framwork.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [34]
 File: figures/TBB_fea.png Graphic file (type QTm)
 
-<use  "figures/TBB_fea.png" > [34
+<use  "figures/TBB_fea.png" > [35
 
 
-] [35]
+] [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [37]
 Overfull \hbox (1.87186pt too wide) in paragraph at lines 300--335
  [] 
  []
 
-[37] [38]
+[38] [39]
 Underfull \vbox (badness 4927) has occurred while \output is active []
 
- [39])
-(./data/chap03.tex [40]
+ [40])
+(./data/chap03.tex [41]
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 [][][][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][]
 [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] []
  []
 
-[41
+[42
 
 
-] [42] [43] [44]
+] [43] [44] [45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-[46] [47] [48] [49] [50] [51]
+ [46]
+[47] [48] [49] [50] [51] [52]
 Underfull \vbox (badness 3930) has occurred while \output is active []
 
- [52]
+ [53]
 Underfull \hbox (badness 1515) in paragraph at lines 275--276
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 的
  作 者 以 往 发 布
  []
 
-[53]
+[54]
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
- [54]
-[55] [56] [57]
+ [55]
+[56] [57] [58]
 File: figures/Sub_classify.png Graphic file (type QTm)
- <use  "figures/Sub_classify.png" > [58]
+ <use  "figures/Sub_classify.png" > [59]
 Underfull \vbox (badness 1975) has occurred while \output is active []
 
- [59]
-[60]
+ [60]
+[61]
 Underfull \vbox (badness 3668) has occurred while \output is active []
 
- [61])
-(./data/chap04.tex [62]
+ [62])
+(./data/chap04.tex [63]
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][][][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][]
 [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] []
  []
 
-[63
+[64
 
 
-] [64] [65] [66] [67] [68] [69] [70] [71]
+] [65] [66] [67] [68] [69] [70] [71] [72]
 Overfull \hbox (1.77858pt too wide) in alignment at lines 175--212
 [] [] [] 
  []
 
-[72]
+[73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-[74]) (./data/chap05.tex [75] [76
+ [74]
+[75]) (./data/chap05.tex [76] [77
 
 
-] [77] [78] [79] [80] [81]
+] [78] [79] [80] [81] [82]
 Underfull \hbox (badness 1515) in paragraph at lines 171--172
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
  []
 
-[82] [83]) (./data/chap06.tex [84] [85
+[83] [84]) (./data/chap06.tex [85] [86
 
 
-] [86]) (./data/ack.tex [87]) [88
+] [87]) (./data/ack.tex [88]) [89
 
 ]
-(./thesis.bbl [89
+(./thesis.bbl [90
 
 
-] [90] [91] [92] [93] [94] [95] [96] [97]
+] [91] [92] [93] [94] [95] [96] [97] [98]
 Underfull \hbox (badness 10000) in paragraph at lines 737--741
 []\EU1/TimesNewRoman(0)/m/n/12.045 Voorhees E M. Natural language processing an
 d information re-
  []
 
-[98] [99] [100] [101]
+[99] [100] [101] [102]
 Underfull \hbox (badness 1052) in paragraph at lines 1090--1095
 []\EU1/TimesNewRoman(0)/m/n/12.045 Lee S-W, Lee J-T, Song Y-I, et al. High prec
 ision opinion retrieval using
  []
 
-[102] [103]
+[103] [104]
 Underfull \hbox (badness 2165) in paragraph at lines 1271--1276
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stieglitz S, Dang-Xuan L. Political Communic
 ation and Influence through
  []
 
-[104] [105] [106] [107] [108]) (./data/resume.tex [109] [110
+[105] [106] [107] [108] [109]) (./data/resume.tex [110] [111
 
-]) [111]
+]) [112]
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
@@ -2226,10 +2226,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
 Here is how much of TeX's memory you used:
  32194 strings out of 495484
  602061 string characters out of 6183322
- 665992 words of memory out of 5000000
+ 668993 words of memory out of 5000000
  34886 multiletter control sequences out of 15000+600000
  84226 words of font info for 305 fonts, out of 8000000 for 9000
  102 hyphenation exceptions out of 8191
  51i,17n,66p,10456b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (124 pages).
+Output written on thesis.pdf (125 pages).

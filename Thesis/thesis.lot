@@ -1,32 +1,32 @@
-\contentsline {table}{\numberline {2.1}{\ignorespaces Twitter积木结构比例分布\relax }}{29}{table.caption.16}
-\contentsline {table}{\numberline {2.2}{\ignorespaces 自动标注Twitter积木结构\relax }}{30}{table.caption.17}
-\contentsline {table}{\numberline {2.3}{\ignorespaces 不同Twitter积木结构的OOV值\relax }}{32}{table.caption.18}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Twitter信息检索查询词类别及其数目\relax }}{36}{table.caption.21}
-\contentsline {table}{\numberline {2.5}{\ignorespaces Twitter信息检索实验数据统计信息\relax }}{37}{table.caption.22}
-\contentsline {table}{\numberline {2.6}{\ignorespaces 基准系统特征（Baseline Features）和 社交媒体特征（Social Media Features）\relax }}{38}{table.caption.23}
-\contentsline {table}{\numberline {2.7}{\ignorespaces 基于排序学习的Twitter信息检索实验结果\relax }}{39}{table.caption.25}
-\contentsline {table}{\numberline {2.8}{\ignorespaces 基于链接积木（URL）的Twitter积木结构特征\relax }}{39}{table.caption.26}
-\contentsline {table}{\numberline {2.9}{\ignorespaces 基于链接积木（URL）的Twitter积木结构特征排序实验结果\relax }}{40}{table.caption.27}
-\contentsline {table}{\numberline {3.1}{\ignorespaces pearson's chi-square表\relax }}{49}{table.caption.29}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Twitter观点检索查询词及其相关tweet数目\relax }}{52}{table.caption.30}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Twitter观点检索特征概况\relax }}{54}{table.caption.31}
-\contentsline {table}{\numberline {3.4}{\ignorespaces 基于社交媒体特征的Twitter 观点检索系统实验结果（BM25）\relax }}{55}{table.caption.32}
-\contentsline {table}{\numberline {3.5}{\ignorespaces 基于社交媒体特征的Twitter 观点检索系统实验结果（VSM）\relax }}{55}{table.caption.33}
-\contentsline {table}{\numberline {3.6}{\ignorespaces 基于观点化特征的Twitter观点检索系统实验结果（BM25）\relax }}{57}{table.caption.34}
-\contentsline {table}{\numberline {3.7}{\ignorespaces 基于观点化特征的Twitter 观点检索系统实验结果（VSM）\relax }}{57}{table.caption.35}
-\contentsline {table}{\numberline {3.8}{\ignorespaces 基于话题相关观点化特征的Twitter 观点检索系统实验结果（BM25）\relax }}{57}{table.caption.36}
-\contentsline {table}{\numberline {3.9}{\ignorespaces 基于话题相关观点化特征的Twitter观点检索系统实验结果（VSM）\relax }}{58}{table.caption.37}
-\contentsline {table}{\numberline {3.10}{\ignorespaces 基于话题独立与话题相关观点化特征打分的高$\chi ^{2}(t)$分数的情感词\relax }}{59}{table.caption.38}
-\contentsline {table}{\numberline {3.11}{\ignorespaces 基于全部与最佳特征的Twitter 观点检索系统实验结果（BM25）\relax }}{60}{table.caption.40}
-\contentsline {table}{\numberline {3.12}{\ignorespaces 基于全部与最佳特征的Twitter 观点检索系统实验结果（VSM）\relax }}{60}{table.caption.41}
-\contentsline {table}{\numberline {3.13}{\ignorespaces 观点检索系统在TREC Tweets201数据上的实验结果\relax }}{62}{table.caption.42}
-\contentsline {table}{\numberline {4.1}{\ignorespaces TOR基准系统的相关特征\relax }}{72}{table.caption.44}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Twitter传播观点检索特征概况\relax }}{73}{table.caption.45}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Twitter传播观点检索系统实验结果（TOR）\relax }}{73}{table.caption.46}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Twitter传播观点检索系统实验结果（BM25）\relax }}{74}{table.caption.47}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Twitter传播观点检索系统实验结果（Retweetability）\relax }}{75}{table.caption.48}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Twitte信息传播者发现实验数据统计信息\relax }}{81}{table.caption.50}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Twitter信息传播者发现特征概况\relax }}{82}{table.caption.51}
-\contentsline {table}{\numberline {5.3}{\ignorespaces 基于不同特征组的Twitter信息传播者发现系统实验结果\relax }}{83}{table.caption.52}
-\contentsline {table}{\numberline {5.4}{\ignorespaces 基于不同特征的Twitter信息传播者检索系统实验结果\relax }}{84}{table.caption.53}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Twitter积木结构比例分布\relax }}{30}{table.caption.16}
+\contentsline {table}{\numberline {2.2}{\ignorespaces 自动标注Twitter积木结构\relax }}{31}{table.caption.17}
+\contentsline {table}{\numberline {2.3}{\ignorespaces 不同Twitter积木结构的OOV值\relax }}{33}{table.caption.18}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Twitter信息检索查询词类别及其数目\relax }}{37}{table.caption.21}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Twitter信息检索实验数据统计信息\relax }}{38}{table.caption.22}
+\contentsline {table}{\numberline {2.6}{\ignorespaces 基准系统特征（Baseline Features）和 社交媒体特征（Social Media Features）\relax }}{39}{table.caption.23}
+\contentsline {table}{\numberline {2.7}{\ignorespaces 基于排序学习的Twitter信息检索实验结果\relax }}{40}{table.caption.25}
+\contentsline {table}{\numberline {2.8}{\ignorespaces 基于链接积木（URL）的Twitter积木结构特征\relax }}{40}{table.caption.26}
+\contentsline {table}{\numberline {2.9}{\ignorespaces 基于链接积木（URL）的Twitter积木结构特征排序实验结果\relax }}{41}{table.caption.27}
+\contentsline {table}{\numberline {3.1}{\ignorespaces pearson's chi-square表\relax }}{50}{table.caption.29}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Twitter观点检索查询词及其相关tweet数目\relax }}{53}{table.caption.30}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Twitter观点检索特征概况\relax }}{55}{table.caption.31}
+\contentsline {table}{\numberline {3.4}{\ignorespaces 基于社交媒体特征的Twitter 观点检索系统实验结果（BM25）\relax }}{56}{table.caption.32}
+\contentsline {table}{\numberline {3.5}{\ignorespaces 基于社交媒体特征的Twitter 观点检索系统实验结果（VSM）\relax }}{56}{table.caption.33}
+\contentsline {table}{\numberline {3.6}{\ignorespaces 基于观点化特征的Twitter观点检索系统实验结果（BM25）\relax }}{58}{table.caption.34}
+\contentsline {table}{\numberline {3.7}{\ignorespaces 基于观点化特征的Twitter 观点检索系统实验结果（VSM）\relax }}{58}{table.caption.35}
+\contentsline {table}{\numberline {3.8}{\ignorespaces 基于话题相关观点化特征的Twitter 观点检索系统实验结果（BM25）\relax }}{58}{table.caption.36}
+\contentsline {table}{\numberline {3.9}{\ignorespaces 基于话题相关观点化特征的Twitter观点检索系统实验结果（VSM）\relax }}{59}{table.caption.37}
+\contentsline {table}{\numberline {3.10}{\ignorespaces 基于话题独立与话题相关观点化特征打分的高$\chi ^{2}(t)$分数的情感词\relax }}{60}{table.caption.38}
+\contentsline {table}{\numberline {3.11}{\ignorespaces 基于全部与最佳特征的Twitter 观点检索系统实验结果（BM25）\relax }}{61}{table.caption.40}
+\contentsline {table}{\numberline {3.12}{\ignorespaces 基于全部与最佳特征的Twitter 观点检索系统实验结果（VSM）\relax }}{61}{table.caption.41}
+\contentsline {table}{\numberline {3.13}{\ignorespaces 观点检索系统在TREC Tweets201数据上的实验结果\relax }}{63}{table.caption.42}
+\contentsline {table}{\numberline {4.1}{\ignorespaces TOR基准系统的相关特征\relax }}{73}{table.caption.44}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Twitter传播观点检索特征概况\relax }}{74}{table.caption.45}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Twitter传播观点检索系统实验结果（TOR）\relax }}{74}{table.caption.46}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Twitter传播观点检索系统实验结果（BM25）\relax }}{75}{table.caption.47}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Twitter传播观点检索系统实验结果（Retweetability）\relax }}{76}{table.caption.48}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Twitte信息传播者发现实验数据统计信息\relax }}{82}{table.caption.50}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Twitter信息传播者发现特征概况\relax }}{83}{table.caption.51}
+\contentsline {table}{\numberline {5.3}{\ignorespaces 基于不同特征组的Twitter信息传播者发现系统实验结果\relax }}{84}{table.caption.52}
+\contentsline {table}{\numberline {5.4}{\ignorespaces 基于不同特征的Twitter信息传播者检索系统实验结果\relax }}{85}{table.caption.53}
 \contentsfinish 
