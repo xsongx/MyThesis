@@ -1,5 +1,5 @@
 % This file was created with JabRef 2.10.
-% Encoding: UTF8
+% Encoding: UTF-8
 
 
 @InProceedings{boyd2010tweet,
@@ -9,6 +9,50 @@
   Year                     = {2010},
   Organization             = {IEEE},
   Pages                    = {1--10}
+}
+
+@InProceedings{vRehruvrek2010,
+  Title                    = {{Software Framework for Topic Modelling with Large Corpora}},
+  Author                   = {Radim {\v R}eh{\r u}{\v r}ek and Petr Sojka},
+  Booktitle                = {{Proceedings of the LREC 2010 Workshop on New
+ Challenges for NLP Frameworks}},
+  Year                     = {2010},
+
+  Address                  = {Valletta, Malta},
+  Month                    = May,
+  Note                     = {\url{http://is.muni.cz/publication/884893/en}},
+  Pages                    = {45--50},
+  Publisher                = {ELRA},
+
+  __markedentry            = {[xsongx:]},
+  Day                      = {22},
+  Language                 = {English},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InCollection{Abel2011,
+  Title                    = {Analyzing user modeling on twitter for personalized news recommendations},
+  Author                   = {Abel, Fabian and Gao, Qi and Houben, Geert-Jan and Tao, Ke},
+  Booktitle                = {UMAP},
+  Publisher                = {Springer},
+  Year                     = {2011},
+  Pages                    = {1--12},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InCollection{Abel2011a,
+  Title                    = {Analyzing user modeling on twitter for personalized news recommendations},
+  Author                   = {Abel, Fabian and Gao, Qi and Houben, Geert-Jan and Tao, Ke},
+  Booktitle                = {User Modeling, Adaption and Personalization},
+  Publisher                = {Springer},
+  Year                     = {2011},
+  Pages                    = {1--12},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{abel2012twitcident,
@@ -89,6 +133,19 @@
   Year                     = {2008},
   Organization             = {ACM},
   Pages                    = {183--194}
+}
+
+@InProceedings{Agrawal2003,
+  Title                    = {Mining newsgroups using networks arising from social behavior},
+  Author                   = {Agrawal, Rakesh and Rajagopalan, Sridhar and Srikant, Ramakrishnan and Xu, Yirong},
+  Booktitle                = {Proceedings of the 12th international conference on World Wide Web},
+  Year                     = {2003},
+  Organization             = {ACM},
+  Pages                    = {529--535},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @Article{ahlqvist2008social,
@@ -197,6 +254,19 @@
   Pages                    = {501--510}
 }
 
+@InProceedings{Barbosa2010,
+  Title                    = {Robust sentiment detection on twitter from biased and noisy data},
+  Author                   = {Barbosa, Luciano and Feng, Junlan},
+  Booktitle                = {Proceedings of the 23rd International Conference on Computational Linguistics: Posters},
+  Year                     = {2010},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {36--44},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{barbosa2010robust,
   Title                    = {Robust sentiment detection on twitter from biased and noisy data},
   Author                   = {Barbosa, Luciano and Feng, Junlan},
@@ -249,6 +319,32 @@
   Pages                    = {784--785}
 }
 
+@Article{Blei2003,
+  Title                    = {Latent dirichlet allocation},
+  Author                   = {Blei, David M and Ng, Andrew Y and Jordan, Michael I},
+  Journal                  = {the Journal of machine Learning research},
+  Year                     = {2003},
+  Pages                    = {993--1022},
+  Volume                   = {3},
+  Owner                    = {xsongx},
+  Publisher                = {JMLR. org},
+  Timestamp                = {2014.10.09}
+}
+
+@Article{Blei2003a,
+  Title                    = {Latent dirichlet allocation},
+  Author                   = {Blei, David M and Ng, Andrew Y and Jordan, Michael I},
+  Journal                  = {the Journal of machine Learning research},
+  Year                     = {2003},
+  Pages                    = {993--1022},
+  Volume                   = {3},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {JMLR. org},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{bollen2011modeling,
   Title                    = {Modeling public mood and emotion: Twitter sentiment and socio-economic phenomena.},
   Author                   = {Bollen, Johan and Mao, Huina and Pepe, Alberto},
@@ -276,6 +372,17 @@
   Publisher                = {ERIC}
 }
 
+@InProceedings{Boyd2010,
+  Title                    = {Tweet, tweet, retweet: Conversational aspects of retweeting on twitter},
+  Author                   = {Boyd, Danah and Golder, Scott and Lotan, Gilad},
+  Booktitle                = {System Sciences (HICSS), 2010 43rd Hawaii International Conference on},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {1--10},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{brody2011cooooooooooooooollllllllllllll,
   Title                    = {Cooooooooooooooollllllllllllll!!!!!!!!!!!!!!: using word lengthening to detect sentiment in microblogs},
   Author                   = {Brody, Samuel and Diakopoulos, Nicholas},
@@ -301,6 +408,19 @@
   Year                     = {2004},
   Organization             = {ACM},
   Pages                    = {456--463}
+}
+
+@InProceedings{CalaisGuerra2011,
+  Title                    = {From bias to opinion: a transfer-learning approach to real-time sentiment analysis},
+  Author                   = {Calais Guerra, Pedro Henrique and Veloso, Adriano and Meira Jr, Wagner and Almeida, Virg{\'\i}lio},
+  Booktitle                = {Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {150--158},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{callan1994passage,
@@ -364,6 +484,19 @@
   Pages                    = {721--730}
 }
 
+@Article{Cha2007,
+  Title                    = {Comprehensive survey on distance/similarity measures between probability density functions},
+  Author                   = {Cha, Sung-Hyuk},
+  Journal                  = {City},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {1},
+  Volume                   = {1},
+  Owner                    = {xsongx},
+  Publisher                = {Citeseer},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{chakrabarti2011event,
   Title                    = {Event Summarization Using Tweets.},
   Author                   = {Chakrabarti, Deepayan and Punera, Kunal},
@@ -410,6 +543,41 @@
   Pages                    = {159--167}
 }
 
+@InProceedings{Chen2010,
+  Title                    = {Short and tweet: experiments on recommending content from information streams},
+  Author                   = {Chen, Jilin and Nairn, Rowan and Nelson, Les and Bernstein, Michael and Chi, Ed},
+  Booktitle                = {Proc. of the SIGCHI Conference on Human Factors in Computing Systems},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {1185--1194},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Chen2010a,
+  Title                    = {Short and tweet: experiments on recommending content from information streams},
+  Author                   = {Chen, Jilin and Nairn, Rowan and Nelson, Les and Bernstein, Michael and Chi, Ed},
+  Booktitle                = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {1185--1194},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Cheng2014,
+  Title                    = {Can cascades be predicted?},
+  Author                   = {Cheng, Justin and Adamic, Lada and Dow, P Alex and Kleinberg, Jon Michael and Leskovec, Jure},
+  Booktitle                = {Proceedings of the 23rd international conference on World wide web},
+  Year                     = {2014},
+  Organization             = {International World Wide Web Conferences Steering Committee},
+  Pages                    = {925--936},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{choi2012temporal,
   Title                    = {Temporal models for microblogs},
   Author                   = {Choi, Jaeho and Croft, W Bruce},
@@ -442,6 +610,17 @@
   Year                     = {2008},
   Organization             = {ACM},
   Pages                    = {659--666}
+}
+
+@InProceedings{Comarela2012,
+  Title                    = {Understanding factors that affect response rates in twitter},
+  Author                   = {Comarela, Giovanni and Crovella, Mark and Almeida, Virgilio and Benevenuto, Fabricio},
+  Booktitle                = {Proc. of the 23rd ACM conference on Hypertext and social media},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {123--132},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{comarela2012understanding,
@@ -521,6 +700,19 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {2427--2430}
+}
+
+@InProceedings{Davidov2010,
+  Title                    = {Enhanced sentiment learning using twitter hashtags and smileys},
+  Author                   = {Davidov, Dmitry and Tsur, Oren and Rappoport, Ari},
+  Booktitle                = {Proceedings of the 23rd International Conference on Computational Linguistics: Posters},
+  Year                     = {2010},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {241--249},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{davidov2010enhanced,
@@ -618,6 +810,30 @@
   Publisher                = {ERIC}
 }
 
+@Article{Engbert2007,
+  Title                    = {Agency, subjective time, and other minds.},
+  Author                   = {Engbert, Kai and Wohlschl{\"a}ger, Andreas and Thomas, Richard and Haggard, Patrick},
+  Journal                  = {Journal of Experimental Psychology: Human Perception and Performance},
+  Year                     = {2007},
+  Number                   = {6},
+  Pages                    = {1261},
+  Volume                   = {33},
+  Owner                    = {xsongx},
+  Publisher                = {American Psychological Association},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Feng2013,
+  Title                    = {Retweet or not?: personalized tweet re-ranking},
+  Author                   = {Feng, Wei and Wang, Jianyong},
+  Booktitle                = {Proc. of the 6th WSDM},
+  Year                     = {2013},
+  Organization             = {ACM},
+  Pages                    = {577--586},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{feng2013retweet,
   Title                    = {Retweet or not?: personalized tweet re-ranking},
   Author                   = {Feng, Wei and Wang, Jianyong},
@@ -661,6 +877,16 @@
   Year                     = {2005},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {363--370}
+}
+
+@Book{Fisher1970,
+  Title                    = {Statistical methods for research workers},
+  Author                   = {Fisher, Sir Ronald Aylmer and Genetiker, Statistiker and Fisher, Ronald Aylmer and Genetician, Statistician and Britain, Great and Fisher, Ronald Aylmer and G{\'e}n{\'e}ticien, Statisticien},
+  Publisher                = {Oliver and Boyd Edinburgh},
+  Year                     = {1970},
+  Volume                   = {14},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @Article{foster2011news,
@@ -761,6 +987,19 @@
   Timestamp                = {2011-11-16T13:47:43.000+0100}
 }
 
+@Article{Goldenberg2001,
+  Title                    = {Talk of the network: A complex systems look at the underlying process of word-of-mouth},
+  Author                   = {Goldenberg, Jacob and Libai, Barak and Muller, Eitan},
+  Journal                  = {Marketing letters},
+  Year                     = {2001},
+  Number                   = {3},
+  Pages                    = {211--223},
+  Volume                   = {12},
+  Owner                    = {xsongx},
+  Publisher                = {Springer},
+  Timestamp                = {2014.10.09}
+}
+
 @Article{golder2006usage,
   Title                    = {Usage patterns of collaborative tagging systems},
   Author                   = {Golder, Scott A and Huberman, Bernardo A},
@@ -791,11 +1030,35 @@
   Pages                    = {20--29}
 }
 
+@Misc{Grinev2012,
+  Title                    = {Information Overload In Social Media Streams And The Approaches To Solve It},
+
+  Author                   = {Maria Grineva},
+  Year                     = {2012},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @Misc{Grineva_informationoverload,
   Title                    = {Information Overload In Social Media Streams And The Approaches To Solve It},
 
   Author                   = {Maria Grineva},
   Year                     = {2012}
+}
+
+@Article{Guille2013,
+  Title                    = {Information diffusion in online social networks: A survey},
+  Author                   = {Guille, Adrien and Hacid, Hakim and Favre, C{\'e}cile and Zighed, Djamel A},
+  Journal                  = {ACM SIGMOD Record},
+  Year                     = {2013},
+  Number                   = {1},
+  Pages                    = {17--28},
+  Volume                   = {42},
+  Owner                    = {xsongx},
+  Publisher                = {ACM},
+  Timestamp                = {2014.10.09}
 }
 
 @Article{guo2012exploiting,
@@ -851,6 +1114,17 @@
   Pages                    = {421--432}
 }
 
+@InProceedings{Hannon2010,
+  Title                    = {Recommending twitter users to follow using content and collaborative filtering approaches},
+  Author                   = {Hannon, John and Bennett, Mike and Smyth, Barry},
+  Booktitle                = {Proc. of the 4th ACM ReSys},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {199--206},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{harabagiu2011relevance,
   Title                    = {Relevance Modeling for Microblog Summarization.},
   Author                   = {Harabagiu, Sanda M and Hickl, Andrew},
@@ -893,6 +1167,17 @@
   Pages                    = {1--10}
 }
 
+@InProceedings{Hong2011,
+  Title                    = {Predicting popular messages in twitter},
+  Author                   = {Hong, Liangjie and Dan, Ovidiu and Davison, Brian D},
+  Booktitle                = {Proc. of the 20th WWW},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {57--58},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{hong2011predicting,
   Title                    = {Predicting popular messages in twitter},
   Author                   = {Hong, Liangjie and Dan, Ovidiu and Davison, Brian D},
@@ -902,6 +1187,17 @@
   Pages                    = {57--58}
 }
 
+@InProceedings{Hong2010,
+  Title                    = {Empirical study of topic modeling in twitter},
+  Author                   = {Hong, Liangjie and Davison, Brian D},
+  Booktitle                = {Proc. of the First Workshop on Social Media Analytics},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {80--88},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{hong2013co,
   Title                    = {Co-factorization machines: modeling user interests and predicting individual decisions in Twitter},
   Author                   = {Hong, Liangjie and Doumith, Aziz S and Davison, Brian D},
@@ -909,6 +1205,17 @@
   Year                     = {2013},
   Organization             = {ACM},
   Pages                    = {557--566}
+}
+
+@InProceedings{Hu2013,
+  Title                    = {Unsupervised sentiment analysis with emotional signals},
+  Author                   = {Hu, Xia and Tang, Jiliang and Gao, Huiji and Liu, Huan},
+  Booktitle                = {Proc. of the 22nd WWW},
+  Year                     = {2013},
+  Organization             = {International World Wide Web Conferences Steering Committee},
+  Pages                    = {607--618},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{hu2013unsupervised,
@@ -938,6 +1245,20 @@
   Pages                    = {947--956}
 }
 
+@Article{Hyman2000,
+  Title                    = {{Three Fallacies about Action}},
+  Author                   = {Hyman, John},
+  Journal                  = {Behavioral and Brain Sciences},
+  Year                     = {2000},
+  Pages                    = {665--666},
+  Volume                   = {23},
+  Abstract                 = {Three fallacies in the rationality debate obscure the possibility for reconciling the opposed camps. I focus on how these fallacies arise in the view that subjects interpret their task differently from the experimenters (owing to the influence of conversational expectations). The themes are: first, critical assessment must start from subjects' understanding; second, a modal fallacy; and third, fallacies of distribution.},
+  Doi                      = {10.1017/S0140525X00223431},
+  ISSN                     = {0140525X},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{jain2013topical,
   Title                    = {Topical organization of user comments and application to content recommendation},
   Author                   = {Jain, Vidit and Galbrun, Esther},
@@ -957,6 +1278,17 @@
   Volume                   = {60},
 
   Publisher                = {Wiley Online Library}
+}
+
+@InProceedings{Jenders2013,
+  Title                    = {Analyzing and predicting viral tweets},
+  Author                   = {Jenders, Maximilian and Kasneci, Gjergji and Naumann, Felix},
+  Booktitle                = {Proc. of the 22nd WWW},
+  Year                     = {2013},
+  Organization             = {International World Wide Web Conferences Steering Committee},
+  Pages                    = {657--664},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{jenders2013analyzing,
@@ -985,6 +1317,32 @@
   Year                     = {2009},
   Organization             = {ACM},
   Pages                    = {1827--1830}
+}
+
+@InProceedings{Jiang2011,
+  Title                    = {Target-dependent twitter sentiment classification},
+  Author                   = {Jiang, Long and Yu, Mo and Zhou, Ming and Liu, Xiaohua and Zhao, Tiejun},
+  Booktitle                = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies-Volume 1},
+  Year                     = {2011},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {151--160},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Jiang2011a,
+  Title                    = {Target-dependent twitter sentiment classification},
+  Author                   = {Jiang, Long and Yu, Mo and Zhou, Ming and Liu, Xiaohua and Zhao, Tiejun},
+  Booktitle                = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies-Volume 1},
+  Year                     = {2011},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {151--160},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{jiang2011target,
@@ -1020,6 +1378,19 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {1549--1552}
+}
+
+@InProceedings{Jo2011,
+  Title                    = {Aspect and sentiment unification model for online review analysis},
+  Author                   = {Jo, Yohan and Oh, Alice H},
+  Booktitle                = {Proceedings of the fourth ACM international conference on Web search and data mining},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {815--824},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InCollection{Joachims:1999:MLS:299094.299104,
@@ -1085,30 +1456,6 @@
   Publisher                = {Elsevier}
 }
 
-@Article{Kaplan2010a,
-  Title                    = {Users of the world, unite! The challenges and opportunities of Social Media},
-  Author                   = {Kaplan, Andreas M and Haenlein, Michael},
-  Journal                  = {Business horizons},
-  Year                     = {2010},
-  Number                   = {1},
-  Pages                    = {59--68},
-  Volume                   = {53},
-
-  Publisher                = {Elsevier}
-}
-
-@Article{Kaplan2010b,
-  Title                    = {Users of the world, unite! The challenges and opportunities of Social Media},
-  Author                   = {Kaplan, Andreas M and Haenlein, Michael},
-  Journal                  = {Business horizons},
-  Year                     = {2010},
-  Number                   = {1},
-  Pages                    = {59--68},
-  Volume                   = {53},
-
-  Publisher                = {Elsevier}
-}
-
 @Article{katz1987estimation,
   Title                    = {Estimation of probabilities from sparse data for the language model component of a speech recognizer},
   Author                   = {Katz, Slava},
@@ -1119,6 +1466,43 @@
   Volume                   = {35},
 
   Publisher                = {IEEE}
+}
+
+@InProceedings{Kawamae2010,
+  Title                    = {Author interest topic model},
+  Author                   = {Kawamae, Noriaki},
+  Booktitle                = {Proceedings of the 33rd international ACM SIGIR conference on Research and development in information retrieval},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {887--888},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Kawamae2010a,
+  Title                    = {Latent interest-topic model: finding the causal relationships behind dyadic data},
+  Author                   = {Kawamae, Noriaki},
+  Booktitle                = {Proceedings of the 19th ACM international conference on Information and knowledge management},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {649--658},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Kempe2003,
+  Title                    = {Maximizing the spread of influence through a social network},
+  Author                   = {Kempe, David and Kleinberg, Jon and Tardos, {\'E}va},
+  Booktitle                = {Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2003},
+  Organization             = {ACM},
+  Pages                    = {137--146},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{kim2006automatically,
@@ -1169,6 +1553,17 @@
   Year                     = {2013}
 }
 
+@InProceedings{Kwak2010,
+  Title                    = {What is Twitter, a social network or a news media?},
+  Author                   = {Kwak, Haewoon and Lee, Changhyun and Park, Hosung and Moon, Sue},
+  Booktitle                = {Proc. of the 19th WWW},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {591--600},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{kwak2010twitter,
   Title                    = {What is Twitter, a social network or a news media?},
   Author                   = {Kwak, Haewoon and Lee, Changhyun and Park, Hosung and Moon, Sue},
@@ -1200,6 +1595,22 @@
   Year                     = {2001},
   Organization             = {ACM},
   Pages                    = {120--127}
+}
+
+@InCollection{Lazarsfeld1954,
+  Title                    = {Friendship as a social process: A substantive and methodological analysis},
+  Author                   = {Lazarsfeld, Paul F. and Merton, Robert K.},
+  Booktitle                = {Freedom and control in modern society},
+  Publisher                = {Van Nostrand},
+  Year                     = {1954},
+
+  Address                  = {New York},
+  Editor                   = {Berger, Morroe and Abel, Theodore},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Shorttitle               = {Friendship as a social process},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{lee2010high,
@@ -1238,6 +1649,19 @@
   Pages                    = {721--730}
 }
 
+@InProceedings{Li2012,
+  Title                    = {Mining topic-level opinion influence in microblog},
+  Author                   = {Li, Daifeng and Shuai, Xin and Sun, Guozheng and Tang, Jie and Ding, Ying and Luo, Zhipeng},
+  Booktitle                = {Proceedings of the 21st ACM international conference on Information and knowledge management},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {1562--1566},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{li2011learning,
   Title                    = {Learning to identify review spam},
   Author                   = {Li, Fangtao and Huang, Minlie and Yang, Yi and Zhu, Xiaoyan},
@@ -1247,6 +1671,31 @@
   Pages                    = {2488--2493}
 }
 
+@InProceedings{Li2010,
+  Title                    = {Micro-blogging sentiment detection by collaborative online learning},
+  Author                   = {Li, Guangxia and Hoi, Steven CH and Chang, Kuiyu and Jain, Ramesh},
+  Booktitle                = {Data Mining (ICDM), 2010 IEEE 10th International Conference on},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {893--898},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Li2012a,
+  Title                    = {Towards social user profiling: unified and discriminative influence model for inferring home locations},
+  Author                   = {Rui Li and Shengjie Wang and Hongbo Deng and Rui Wang and Kevin Chen-Chuan Chang},
+  Booktitle                = {KDD},
+  Year                     = {2012},
+  Pages                    = {1023-1031},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{lim2010detecting,
   Title                    = {Detecting product review spammers using rating behaviors},
   Author                   = {Lim, Ee-Peng and Nguyen, Viet-An and Jindal, Nitin and Liu, Bing and Lauw, Hady Wirawan},
@@ -1254,6 +1703,60 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {939--948}
+}
+
+@InProceedings{Lin2009,
+  Title                    = {Joint sentiment/topic model for sentiment analysis},
+  Author                   = {Lin, Chenghua and He, Yulan},
+  Booktitle                = {Proceedings of the 18th ACM conference on Information and knowledge management},
+  Year                     = {2009},
+  Organization             = {ACM},
+  Pages                    = {375--384},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Lin2010,
+  Title                    = {A comparative study of Bayesian models for unsupervised sentiment detection},
+  Author                   = {Lin, Chenghua and He, Yulan and Everson, Richard},
+  Booktitle                = {Proceedings of the Fourteenth Conference on Computational Natural Language Learning},
+  Year                     = {2010},
+  Organization             = {Association for computational linguistics},
+  Pages                    = {144--152},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@Article{Liu2012,
+  Title                    = {Sentiment analysis and opinion mining},
+  Author                   = {Liu, Bing},
+  Journal                  = {Synthesis Lectures on Human Language Technologies},
+  Year                     = {2012},
+  Number                   = {1},
+  Pages                    = {1--167},
+  Volume                   = {5},
+  Owner                    = {xsongx},
+  Publisher                = {Morgan \& Claypool Publishers},
+  Timestamp                = {2014.10.09}
+}
+
+@Article{Liu2012a,
+  Title                    = {Sentiment analysis and opinion mining},
+  Author                   = {Liu, Bing},
+  Journal                  = {Synthesis Lectures on Human Language Technologies},
+  Year                     = {2012},
+  Number                   = {1},
+  Pages                    = {1--167},
+  Volume                   = {5},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {Morgan \& Claypool Publishers},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{liu2012broad,
@@ -1272,6 +1775,20 @@
   Year                     = {2011},
   Pages                    = {71--76},
   Volume                   = {11}
+}
+
+@Article{Liu2010,
+  Title                    = {Comment target extraction and sentiment classification},
+  Author                   = {Liu, Hongyu and Zhao, Yanyan and Qin, Bing and Liu, Ting},
+  Journal                  = {Journal of Chinese Information Processing},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {84--89},
+  Volume                   = {24},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{liu2007low,
@@ -1348,6 +1865,19 @@
   Pages                    = {443--452}
 }
 
+@InProceedings{Liu2009,
+  Title                    = {Topic-link lda: joint models of topic and author community},
+  Author                   = {Liu, Yan and Niculescu-Mizil, Alexandru and Gryc, Wojciech},
+  Booktitle                = {Proceedings of the 26th Annual International Conference on Machine Learning},
+  Year                     = {2009},
+  Organization             = {ACM},
+  Pages                    = {665--672},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{Lu:2010:ESC:1772690.1772761,
   Title                    = {Exploiting social context for review quality prediction},
   Author                   = {Lu, Yue and Tsaparas, Panayiotis and Ntoulas, Alexandros and Polanyi, Livia},
@@ -1364,6 +1894,19 @@
   Keywords                 = {graph regularization, review helpfulness, review quality, social network},
   Location                 = {Raleigh, North Carolina, USA},
   Numpages                 = {10}
+}
+
+@InProceedings{Lu2008,
+  Title                    = {Opinion integration through semi-supervised topic modeling},
+  Author                   = {Lu, Yue and Zhai, Chengxiang},
+  Booktitle                = {Proceedings of the 17th international conference on World Wide Web},
+  Year                     = {2008},
+  Organization             = {ACM},
+  Pages                    = {121--130},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{luo2012improving,
@@ -1384,6 +1927,27 @@
 
   ISBN                     = {978-1-4503-2034-4},
   Location                 = {Dublin, Ireland}
+}
+
+@InProceedings{Luo2013,
+  Title                    = {Who will retweet me?: finding retweeters in twitter},
+  Author                   = {Luo, Zhunchen and Osborne, Miles and Tang, Jintao and Wang, Ting},
+  Booktitle                = {Proc. of the 36th ACM SIGIR},
+  Year                     = {2013},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {869--872},
+  Publisher                = {ACM},
+  Series                   = {SIGIR '13},
+  Acmid                    = {2484158},
+  Doi                      = {10.1145/2484028.2484158},
+  ISBN                     = {978-1-4503-2034-4},
+  Keywords                 = {propagation analysis, retweeter, twitter},
+  Location                 = {Dublin, Ireland},
+  Numpages                 = {4},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09},
+  Url                      = {http://doi.acm.org/10.1145/2484028.2484158}
 }
 
 @InProceedings{luo2012opinion,
@@ -1421,6 +1985,26 @@
   Volume                   = {44}
 }
 
+@InProceedings{Macskassy2011,
+  Title                    = {Why do people retweet? anti-homophily wins the day!},
+  Author                   = {Macskassy, Sofus A and Michelson, Matthew},
+  Booktitle                = {ICWSM},
+  Year                     = {2011},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Macskassy2011a,
+  Title                    = {Why do people retweet? anti-homophily wins the day!},
+  Author                   = {Macskassy, Sofus A and Michelson, Matthew},
+  Booktitle                = {ICWSM},
+  Year                     = {2011},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{macskassy2011people,
   Title                    = {Why do people retweet? anti-homophily wins the day!},
   Author                   = {Macskassy, Sofus A and Michelson, Matthew},
@@ -1435,6 +2019,21 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {6--15}
+}
+
+@Article{Malouf2008,
+  Title                    = {Taking sides: User classification for informal online political discourse},
+  Author                   = {Malouf, Robert and Mullen, Tony},
+  Journal                  = {Internet Research},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {177--190},
+  Volume                   = {18},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {Emerald Group Publishing Limited},
+  Timestamp                = {2014.10.09}
 }
 
 @Book{Manning:2008:IIR:1394399,
@@ -1455,6 +2054,17 @@
   Year                     = {2012},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {603--612}
+}
+
+@InProceedings{Marlin2003,
+  Title                    = {Modeling User Rating Profiles For Collaborative Filtering.},
+  Author                   = {Marlin, Benjamin M},
+  Booktitle                = {NIPS},
+  Year                     = {2003},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @PhdThesis{marlow2005structural,
@@ -1482,6 +2092,43 @@
   Publisher                = {Springer},
   Year                     = {2011},
   Pages                    = {362--367}
+}
+
+@Article{McPherson2001,
+  Title                    = {Birds of a feather: Homophily in social networks},
+  Author                   = {McPherson, Miller and Smith-Lovin, Lynn and Cook, James M},
+  Journal                  = {Annual review of sociology},
+  Year                     = {2001},
+  Pages                    = {415--444},
+  Owner                    = {xsongx},
+  Publisher                = {JSTOR},
+  Timestamp                = {2014.10.09}
+}
+
+@Article{McPherson2001a,
+  Title                    = {Birds of a feather: Homophily in social networks},
+  Author                   = {McPherson, Miller and Smith-Lovin, Lynn and Cook, James M},
+  Journal                  = {Annual review of sociology},
+  Year                     = {2001},
+  Pages                    = {415--444},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {JSTOR},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Mei2007,
+  Title                    = {Topic sentiment mixture: modeling facets and opinions in weblogs},
+  Author                   = {Mei, Qiaozhu and Ling, Xu and Wondra, Matthew and Su, Hang and Zhai, ChengXiang},
+  Booktitle                = {Proceedings of the 16th international conference on World Wide Web},
+  Year                     = {2007},
+  Organization             = {ACM},
+  Pages                    = {171--180},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{meij2012adding,
@@ -1516,6 +2163,16 @@
   Year                     = {2012},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {646--655}
+}
+
+@Article{Mimno2007,
+  Title                    = {Expertise modeling for matching papers with reviewers},
+  Author                   = {Mimno, David and McCallum, Andrew},
+  Year                     = {2007},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{mishne2006multiple,
@@ -1560,6 +2217,19 @@
   Pages                    = {331--343}
 }
 
+@Article{Moore2008,
+  Title                    = {Awareness of action: Inference and prediction},
+  Author                   = {Moore, James and Haggard, Patrick},
+  Journal                  = {Consciousness and cognition},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {136--144},
+  Volume                   = {17},
+  Owner                    = {xsongx},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{morales2013synthetic,
   Title                    = {Synthetic review spamming and defense},
   Author                   = {Morales, Alex and Sun, Huan and Yan, Xifeng},
@@ -1567,6 +2237,21 @@
   Year                     = {2013},
   Organization             = {International World Wide Web Conferences Steering Committee},
   Pages                    = {155--156}
+}
+
+@Article{Mostafa2013,
+  Title                    = {More than words: Social networks’ text mining for consumer brand sentiments},
+  Author                   = {Mostafa, Mohamed M},
+  Journal                  = {Expert Systems with Applications},
+  Year                     = {2013},
+  Number                   = {10},
+  Pages                    = {4241--4251},
+  Volume                   = {40},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.10.09}
 }
 
 @Article{de2010using,
@@ -1636,6 +2321,17 @@
   Year                     = {2010}
 }
 
+@InProceedings{Naveed2011,
+  Title                    = {Searching microblogs: coping with sparsity and document quality},
+  Author                   = {Naveed, Nasir and Gottron, Thomas and Kunegis, J{\'e}r{\^o}me and Alhadi, Arifah Che},
+  Booktitle                = {Proc. of the 20th ACM CIKM},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {183--188},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{naveed2011searching,
   Title                    = {Searching microblogs: coping with sparsity and document quality},
   Author                   = {Naveed, Nasir and Gottron, Thomas and Kunegis, J{\'e}r{\^o}me and Alhadi, Arifah Che},
@@ -1666,6 +2362,19 @@
   Year                     = {2010},
   Pages                    = {122--129},
   Volume                   = {11}
+}
+
+@Article{OConnor2010,
+  Title                    = {From tweets to polls: Linking text sentiment to public opinion time series.},
+  Author                   = {O'Connor, Brendan and Balasubramanyan, Ramnath and Routledge, Bryan R and Smith, Noah A},
+  Journal                  = {ICWSM},
+  Year                     = {2010},
+  Pages                    = {122--129},
+  Volume                   = {11},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @Article{o2010tweetmotif,
@@ -1786,6 +2495,21 @@
   Publisher                = {Now Publishers Inc.}
 }
 
+@Article{Pang2008,
+  Title                    = {Opinion mining and sentiment analysis},
+  Author                   = {Pang, Bo and Lee, Lillian},
+  Journal                  = {Foundations and trends in information retrieval},
+  Year                     = {2008},
+  Number                   = {1-2},
+  Pages                    = {1--135},
+  Volume                   = {2},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {Now Publishers Inc.},
+  Timestamp                = {2014.10.09}
+}
+
 @Article{pang2008opinion,
   Title                    = {Opinion mining and sentiment analysis},
   Author                   = {Pang, Bo and Lee, Lillian},
@@ -1803,6 +2527,29 @@
   Author                   = {Paul, Michael J and Dredze, Mark},
   Booktitle                = {ICWSM},
   Year                     = {2011}
+}
+
+@Article{Pedregosa2011,
+  Title                    = {Scikit-learn: Machine Learning in {P}ython},
+  Author                   = {Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+ and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+ and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+ Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+  Journal                  = {Journal of Machine Learning Research},
+  Year                     = {2011},
+  Pages                    = {2825--2830},
+  Volume                   = {12},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Pennacchiotti2011,
+  Title                    = {A Machine Learning Approach to Twitter User Classification.},
+  Author                   = {Pennacchiotti, Marco and Popescu, Ana-Maria},
+  Booktitle                = {ICWSM},
+  Year                     = {2011},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{petrovic2012using,
@@ -1823,6 +2570,15 @@
   Pages                    = {181--189}
 }
 
+@InProceedings{Petrovic2011,
+  Title                    = {RT to Win! Predicting Message Propagation in Twitter.},
+  Author                   = {Petrovic, Sasa and Osborne, Miles and Lavrenko, Victor},
+  Booktitle                = {ICWSM},
+  Year                     = {2011},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{petrovic2011rt,
   Title                    = {RT to Win! Predicting Message Propagation in Twitter.},
   Author                   = {Petrovic, Sasa and Osborne, Miles and Lavrenko, Victor},
@@ -1835,6 +2591,15 @@
   Author                   = {Petrovic, Sa{\v{s}}a and Osborne, Miles and McCreadie, Richard and Macdonald, Craig and Ounis, Iadh and Shrimpton, Luke},
   Booktitle                = {Proceedings of the 7th International AAAI Conference on Weblogs and Social Media},
   Year                     = {2013}
+}
+
+@InProceedings{Pfitzner2012,
+  Title                    = {Emotional Divergence Influences Information Spreading in Twitter.},
+  Author                   = {Pfitzner, Ren{\'e} and Garas, Antonios and Schweitzer, Frank},
+  Booktitle                = {ICWSM},
+  Year                     = {2012},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{phelan2011using,
@@ -1892,6 +2657,28 @@
   Year                     = {2005},
   Organization             = {ACM},
   Pages                    = {239--248}
+}
+
+@InProceedings{Ramage2010,
+  Title                    = {Characterizing Microblogs with Topic Models},
+  Author                   = {Ramage, Daniel and Dumais, Susan and Liebling, Dan},
+  Booktitle                = {ICWSM},
+  Year                     = {2010},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Ramage2009,
+  Title                    = {Labeled LDA: A supervised topic model for credit attribution in multi-labeled corpora},
+  Author                   = {Ramage, Daniel and Hall, David and Nallapati, Ramesh and Manning, Christopher D},
+  Booktitle                = {Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing: Volume 1-Volume 1},
+  Year                     = {2009},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {248--256},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{Ren:2013:PTT:2484028.2484052,
@@ -1966,6 +2753,19 @@
   Volume                   = {65},
 
   Publisher                = {American Psychological Association}
+}
+
+@InProceedings{Rosen-Zvi2004,
+  Title                    = {The author-topic model for authors and documents},
+  Author                   = {Rosen-Zvi, Michal and Griffiths, Thomas and Steyvers, Mark and Smyth, Padhraic},
+  Booktitle                = {Proceedings of the 20th conference on Uncertainty in artificial intelligence},
+  Year                     = {2004},
+  Organization             = {AUAI Press},
+  Pages                    = {487--494},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @Article{rossion1999spatio,
@@ -2138,6 +2938,30 @@
   Pages                    = {7--16}
 }
 
+@Book{Stein2005,
+  Title                    = {Subjectivity and Subjectivisation: Linguistic Perspectives},
+  Author                   = {Stein, D. and Wright, S.},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2005},
+  ISBN                     = {9780521023498},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09},
+  Url                      = {http://books.google.com.hk/books?id=mWlS5Q8uBYcC}
+}
+
+@InProceedings{Steyvers2004,
+  Title                    = {Probabilistic author-topic models for information discovery},
+  Author                   = {Steyvers, Mark and Smyth, Padhraic and Rosen-Zvi, Michal and Griffiths, Thomas},
+  Booktitle                = {Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2004},
+  Organization             = {ACM},
+  Pages                    = {306--315},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{stieglitz2012political,
   Title                    = {Political Communication and Influence through Microblogging--An Empirical Analysis of Sentiment in Twitter Messages and Retweet Behavior},
   Author                   = {Stieglitz, Stefan and Dang-Xuan, Linh},
@@ -2163,6 +2987,17 @@
   Pages                    = {1--9}
 }
 
+@InProceedings{Suh2010,
+  Title                    = {Want to be retweeted? large scale analytics on factors impacting retweet in twitter network},
+  Author                   = {Suh, Bongwon and Hong, Lichan and Pirolli, Peter and Chi, Ed H},
+  Booktitle                = {2010 IEEE Second International Conference on Social Computing},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {177--184},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{suh2010want,
   Title                    = {Want to be retweeted? large scale analytics on factors impacting retweet in twitter network},
   Author                   = {Suh, Bongwon and Hong, Lichan and Pirolli, Peter and Chi, Ed H},
@@ -2179,6 +3014,32 @@
   Year                     = {2011},
   Organization             = {Springer-Verlag},
   Pages                    = {177--188}
+}
+
+@InProceedings{Tan2011,
+  Title                    = {User-level sentiment analysis incorporating social networks},
+  Author                   = {Tan, Chenhao and Lee, Lillian and Tang, Jie and Jiang, Long and Zhou, Ming and Li, Ping},
+  Booktitle                = {Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {1397--1405},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Tan2011a,
+  Title                    = {User-level sentiment analysis incorporating social networks},
+  Author                   = {Tan, Chenhao and Lee, Lillian and Tang, Jie and Jiang, Long and Zhou, Ming and Li, Ping},
+  Booktitle                = {Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {1397--1405},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{tan2011user,
@@ -2198,6 +3059,19 @@
   Organization             = {Citeseer}
 }
 
+@Article{Thelwall2010a,
+  Title                    = {Emotion homophily in social network site messages},
+  Author                   = {Thelwall, Mike},
+  Journal                  = {First Monday},
+  Year                     = {2010},
+  Number                   = {4},
+  Volume                   = {15},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @Article{thelwall2011sentiment,
   Title                    = {Sentiment in Twitter events},
   Author                   = {Thelwall, Mike and Buckley, Kevan and Paltoglou, Georgios},
@@ -2208,6 +3082,34 @@
   Volume                   = {62},
 
   Publisher                = {Wiley Online Library}
+}
+
+@Article{Thelwall2010,
+  Title                    = {Sentiment strength detection in short informal text},
+  Author                   = {Thelwall, Mike and Buckley, Kevan and Paltoglou, Georgios and Cai, Di and Kappas, Arvid},
+  Journal                  = {Journal of the American Society for Information Science and Technology},
+  Year                     = {2010},
+  Number                   = {12},
+  Pages                    = {2544--2558},
+  Volume                   = {61},
+  Owner                    = {xsongx},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2014.10.09}
+}
+
+@Article{Thelwall2010b,
+  Title                    = {Sentiment strength detection in short informal text},
+  Author                   = {Thelwall, Mike and Buckley, Kevan and Paltoglou, Georgios and Cai, Di and Kappas, Arvid},
+  Journal                  = {Journal of the American Society for Information Science and Technology},
+  Year                     = {2010},
+  Number                   = {12},
+  Pages                    = {2544--2558},
+  Volume                   = {61},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{tjong2003introduction,
@@ -2342,6 +3244,17 @@
   Year                     = {2011}
 }
 
+@InProceedings{Weng2010,
+  Title                    = {Twitterrank: finding topic-sensitive influential twitterers},
+  Author                   = {Weng, Jianshu and Lim, Ee-Peng and Jiang, Jing and He, Qi},
+  Booktitle                = {Proc. of the third ACM WSDM},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {261--270},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{weng2011imass,
   Title                    = {IMASS: an intelligent microblog analysis and summarization system},
   Author                   = {Weng, Jui-Yu and Yang, Cheng-Lun and Chen, Bo-Nian and Wang, Yen-Kai and Lin, Shou-De},
@@ -2411,6 +3324,17 @@
   Pages                    = {583--592}
 }
 
+@InProceedings{Xu2012,
+  Title                    = {Modeling user posting behavior on social media},
+  Author                   = {Xu, Zhiheng and Zhang, Yang and Wu, Yao and Yang, Qing},
+  Booktitle                = {Proc. of the 35th ACM SIGIR},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {545--554},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{xue2004optimizing,
   Title                    = {Optimizing web search using web click-through data},
   Author                   = {Xue, Gui-Rong and Zeng, Hua-Jun and Chen, Zheng and Yu, Yong and Ma, Wei-Ying and Xi, WenSi and Fan, WeiGuo},
@@ -2418,6 +3342,17 @@
   Year                     = {2004},
   Organization             = {ACM},
   Pages                    = {118--126}
+}
+
+@InProceedings{Yang2010,
+  Title                    = {Understanding retweeting behaviors in social networks},
+  Author                   = {Yang, Zi and Guo, Jingyi and Cai, Keke and Tang, Jie and Li, Juanzi and Zhang, Li and Su, Zhong},
+  Booktitle                = {Proc. of the 19th ACM CIKM},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {1633--1636},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InProceedings{yang2010understanding,
@@ -2438,6 +3373,21 @@
   Pages                    = {2701--2703}
 }
 
+@Article{Yu2008,
+  Title                    = {Classifying party affiliation from political speech},
+  Author                   = {Yu, Bei and Kaufmann, Stefan and Diermeier, Daniel},
+  Journal                  = {Journal of Information Technology \& Politics},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {33--48},
+  Volume                   = {5},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {Taylor \& Francis},
+  Timestamp                = {2014.10.09}
+}
+
 @InProceedings{zaman2010predicting,
   Title                    = {Predicting information spreading in twitter},
   Author                   = {Zaman, Tauhid R and Herbrich, Ralf and Van Gael, Jurgen and Stern, David},
@@ -2456,6 +3406,19 @@
   Year                     = {2001},
   Organization             = {ACM},
   Pages                    = {334--342}
+}
+
+@InCollection{Zhai2011,
+  Title                    = {Constrained LDA for grouping product features in opinion mining},
+  Author                   = {Zhai, Zhongwu and Liu, Bing and Xu, Hua and Jia, Peifa},
+  Booktitle                = {Advances in knowledge discovery and data mining},
+  Publisher                = {Springer},
+  Year                     = {2011},
+  Pages                    = {448--459},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
 }
 
 @InCollection{zhang2013personalized,
@@ -2519,6 +3482,19 @@
   Pages                    = {51--57}
 }
 
+@InProceedings{Zhao2012,
+  Title                    = {User-sentiment topic model: refining user's topics with sentiment information},
+  Author                   = {Zhao, Tong and Li, Chunping and Ding, Qiang and Li, Li},
+  Booktitle                = {Proceedings of the ACM SIGKDD Workshop on Mining Data Semantics},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {10},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.09}
+}
+
 @Article{zinko2009biz,
   Title                    = {What is Biz Stone doing},
   Author                   = {Zinko, Carolyne},
@@ -2529,7 +3505,6 @@
 @Book{whitepaper2014,
   Title                    = {大数据白皮书(2014)},
   Author                   = {工业和信息化部电信研究院},
-  Publisher                = {工业和信息化部电信研究院},
   Year                     = {2014},
 
   Pages                    = {1--33}
