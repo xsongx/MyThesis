@@ -38,6 +38,7 @@
   Publisher                = {Springer},
   Year                     = {2011},
   Pages                    = {1--12},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -326,6 +327,7 @@
   Year                     = {2003},
   Pages                    = {993--1022},
   Volume                   = {3},
+
   Owner                    = {xsongx},
   Publisher                = {JMLR. org},
   Timestamp                = {2014.10.09}
@@ -379,6 +381,7 @@
   Year                     = {2010},
   Organization             = {IEEE},
   Pages                    = {1--10},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -492,6 +495,7 @@
   Number                   = {2},
   Pages                    = {1},
   Volume                   = {1},
+
   Owner                    = {xsongx},
   Publisher                = {Citeseer},
   Timestamp                = {2014.10.09}
@@ -550,6 +554,7 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {1185--1194},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -574,6 +579,7 @@
   Year                     = {2014},
   Organization             = {International World Wide Web Conferences Steering Committee},
   Pages                    = {925--936},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -619,6 +625,7 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {123--132},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -818,6 +825,7 @@
   Number                   = {6},
   Pages                    = {1261},
   Volume                   = {33},
+
   Owner                    = {xsongx},
   Publisher                = {American Psychological Association},
   Timestamp                = {2014.10.09}
@@ -830,6 +838,7 @@
   Year                     = {2013},
   Organization             = {ACM},
   Pages                    = {577--586},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -885,6 +894,7 @@
   Publisher                = {Oliver and Boyd Edinburgh},
   Year                     = {1970},
   Volume                   = {14},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -995,6 +1005,7 @@
   Number                   = {3},
   Pages                    = {211--223},
   Volume                   = {12},
+
   Owner                    = {xsongx},
   Publisher                = {Springer},
   Timestamp                = {2014.10.09}
@@ -1056,6 +1067,7 @@
   Number                   = {1},
   Pages                    = {17--28},
   Volume                   = {42},
+
   Owner                    = {xsongx},
   Publisher                = {ACM},
   Timestamp                = {2014.10.09}
@@ -1121,6 +1133,7 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {199--206},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1174,6 +1187,7 @@
   Year                     = {2011},
   Organization             = {ACM},
   Pages                    = {57--58},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1194,6 +1208,7 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {80--88},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1214,6 +1229,7 @@
   Year                     = {2013},
   Organization             = {International World Wide Web Conferences Steering Committee},
   Pages                    = {607--618},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1252,6 +1268,7 @@
   Year                     = {2000},
   Pages                    = {665--666},
   Volume                   = {23},
+
   Abstract                 = {Three fallacies in the rationality debate obscure the possibility for reconciling the opposed camps. I focus on how these fallacies arise in the view that subjects interpret their task differently from the experimenters (owing to the influence of conversational expectations). The themes are: first, critical assessment must start from subjects' understanding; second, a modal fallacy; and third, fallacies of distribution.},
   Doi                      = {10.1017/S0140525X00223431},
   ISSN                     = {0140525X},
@@ -1287,6 +1304,7 @@
   Year                     = {2013},
   Organization             = {International World Wide Web Conferences Steering Committee},
   Pages                    = {657--664},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1501,6 +1519,7 @@
   Year                     = {2003},
   Organization             = {ACM},
   Pages                    = {137--146},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1560,6 +1579,7 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {591--600},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1739,21 +1759,7 @@
   Number                   = {1},
   Pages                    = {1--167},
   Volume                   = {5},
-  Owner                    = {xsongx},
-  Publisher                = {Morgan \& Claypool Publishers},
-  Timestamp                = {2014.10.09}
-}
 
-@Article{Liu2012a,
-  Title                    = {Sentiment analysis and opinion mining},
-  Author                   = {Liu, Bing},
-  Journal                  = {Synthesis Lectures on Human Language Technologies},
-  Year                     = {2012},
-  Number                   = {1},
-  Pages                    = {1--167},
-  Volume                   = {5},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {Morgan \& Claypool Publishers},
   Timestamp                = {2014.10.09}
@@ -1939,6 +1945,7 @@
   Pages                    = {869--872},
   Publisher                = {ACM},
   Series                   = {SIGIR '13},
+
   Acmid                    = {2484158},
   Doi                      = {10.1145/2484028.2484158},
   ISBN                     = {978-1-4503-2034-4},
@@ -1990,6 +1997,7 @@
   Author                   = {Macskassy, Sofus A and Michelson, Matthew},
   Booktitle                = {ICWSM},
   Year                     = {2011},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2100,6 +2108,7 @@
   Journal                  = {Annual review of sociology},
   Year                     = {2001},
   Pages                    = {415--444},
+
   Owner                    = {xsongx},
   Publisher                = {JSTOR},
   Timestamp                = {2014.10.09}
@@ -2225,6 +2234,7 @@
   Number                   = {1},
   Pages                    = {136--144},
   Volume                   = {17},
+
   Owner                    = {xsongx},
   Publisher                = {Elsevier},
   Timestamp                = {2014.10.09}
@@ -2328,6 +2338,7 @@
   Year                     = {2011},
   Organization             = {ACM},
   Pages                    = {183--188},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2495,33 +2506,6 @@
   Publisher                = {Now Publishers Inc.}
 }
 
-@Article{Pang2008,
-  Title                    = {Opinion mining and sentiment analysis},
-  Author                   = {Pang, Bo and Lee, Lillian},
-  Journal                  = {Foundations and trends in information retrieval},
-  Year                     = {2008},
-  Number                   = {1-2},
-  Pages                    = {1--135},
-  Volume                   = {2},
-
-  __markedentry            = {[xsongx:]},
-  Owner                    = {xsongx},
-  Publisher                = {Now Publishers Inc.},
-  Timestamp                = {2014.10.09}
-}
-
-@Article{pang2008opinion,
-  Title                    = {Opinion mining and sentiment analysis},
-  Author                   = {Pang, Bo and Lee, Lillian},
-  Journal                  = {Foundations and trends in information retrieval},
-  Year                     = {2008},
-  Number                   = {1-2},
-  Pages                    = {1--135},
-  Volume                   = {2},
-
-  Publisher                = {Now Publishers Inc.}
-}
-
 @InProceedings{paul2011you,
   Title                    = {You Are What You Tweet: Analyzing Twitter for Public Health.},
   Author                   = {Paul, Michael J and Dredze, Mark},
@@ -2539,6 +2523,7 @@
   Year                     = {2011},
   Pages                    = {2825--2830},
   Volume                   = {12},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2548,6 +2533,7 @@
   Author                   = {Pennacchiotti, Marco and Popescu, Ana-Maria},
   Booktitle                = {ICWSM},
   Year                     = {2011},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2575,6 +2561,7 @@
   Author                   = {Petrovic, Sasa and Osborne, Miles and Lavrenko, Victor},
   Booktitle                = {ICWSM},
   Year                     = {2011},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2598,6 +2585,7 @@
   Author                   = {Pfitzner, Ren{\'e} and Garas, Antonios and Schweitzer, Frank},
   Booktitle                = {ICWSM},
   Year                     = {2012},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2664,6 +2652,7 @@
   Author                   = {Ramage, Daniel and Dumais, Susan and Liebling, Dan},
   Booktitle                = {ICWSM},
   Year                     = {2010},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2943,6 +2932,7 @@
   Author                   = {Stein, D. and Wright, S.},
   Publisher                = {Cambridge University Press},
   Year                     = {2005},
+
   ISBN                     = {9780521023498},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09},
@@ -2994,6 +2984,7 @@
   Year                     = {2010},
   Organization             = {IEEE},
   Pages                    = {177--184},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3092,6 +3083,7 @@
   Number                   = {12},
   Pages                    = {2544--2558},
   Volume                   = {61},
+
   Owner                    = {xsongx},
   Publisher                = {Wiley Online Library},
   Timestamp                = {2014.10.09}
@@ -3251,6 +3243,7 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {261--270},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3331,6 +3324,7 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {545--554},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3351,6 +3345,7 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {1633--1636},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
