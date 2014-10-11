@@ -23,8 +23,6 @@
   Note                     = {\url{http://is.muni.cz/publication/884893/en}},
   Pages                    = {45--50},
   Publisher                = {ELRA},
-
-  __markedentry            = {[xsongx:]},
   Day                      = {22},
   Language                 = {English},
   Owner                    = {xsongx},
@@ -50,8 +48,6 @@
   Publisher                = {Springer},
   Year                     = {2011},
   Pages                    = {1--12},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -143,8 +139,6 @@
   Year                     = {2003},
   Organization             = {ACM},
   Pages                    = {529--535},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -262,8 +256,6 @@
   Year                     = {2010},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {36--44},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -340,8 +332,6 @@
   Year                     = {2003},
   Pages                    = {993--1022},
   Volume                   = {3},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {JMLR. org},
   Timestamp                = {2014.10.09}
@@ -420,8 +410,6 @@
   Year                     = {2011},
   Organization             = {ACM},
   Pages                    = {150--158},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -566,8 +554,6 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {1185--1194},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -716,8 +702,6 @@
   Year                     = {2010},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {241--249},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1046,8 +1030,6 @@
 
   Author                   = {Maria Grineva},
   Year                     = {2012},
-
-  __markedentry            = {[xsongx:6]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1344,8 +1326,6 @@
   Year                     = {2011},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {151--160},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1357,8 +1337,6 @@
   Year                     = {2011},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {151--160},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1405,8 +1383,6 @@
   Year                     = {2011},
   Organization             = {ACM},
   Pages                    = {815--824},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1493,8 +1469,6 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {887--888},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1506,8 +1480,6 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {649--658},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1626,8 +1598,6 @@
 
   Address                  = {New York},
   Editor                   = {Berger, Morroe and Abel, Theodore},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Shorttitle               = {Friendship as a social process},
   Timestamp                = {2014.10.09}
@@ -1676,8 +1646,6 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {1562--1566},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1698,8 +1666,6 @@
   Year                     = {2010},
   Organization             = {IEEE},
   Pages                    = {893--898},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1710,8 +1676,6 @@
   Booktitle                = {KDD},
   Year                     = {2012},
   Pages                    = {1023-1031},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1732,8 +1696,6 @@
   Year                     = {2009},
   Organization             = {ACM},
   Pages                    = {375--384},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1745,8 +1707,6 @@
   Year                     = {2010},
   Organization             = {Association for computational linguistics},
   Pages                    = {144--152},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1791,8 +1751,6 @@
   Number                   = {1},
   Pages                    = {84--89},
   Volume                   = {24},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1878,8 +1836,6 @@
   Year                     = {2009},
   Organization             = {ACM},
   Pages                    = {665--672},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1909,8 +1865,6 @@
   Year                     = {2008},
   Organization             = {ACM},
   Pages                    = {121--130},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -1971,6 +1925,16 @@
   Year                     = {2013}
 }
 
+@Misc{Lyons1977,
+  Title                    = {Semantics. 2 vols},
+
+  Author                   = {Lyons, John},
+  Year                     = {1977},
+  Owner                    = {xsongx},
+  Publisher                = {Cambridge: Cambridge University Press},
+  Timestamp                = {2014.10.10}
+}
+
 @InProceedings{macdonald2007overview,
   Title                    = {Overview of the TREC 2007 Blog Track.},
   Author                   = {Macdonald, Craig and Ounis, Iadh and Soboroff, Ian},
@@ -2007,8 +1971,6 @@
   Author                   = {Macskassy, Sofus A and Michelson, Matthew},
   Booktitle                = {ICWSM},
   Year                     = {2011},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2037,8 +1999,6 @@
   Number                   = {2},
   Pages                    = {177--190},
   Volume                   = {18},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {Emerald Group Publishing Limited},
   Timestamp                = {2014.10.09}
@@ -2069,8 +2029,6 @@
   Author                   = {Marlin, Benjamin M},
   Booktitle                = {NIPS},
   Year                     = {2003},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2120,8 +2078,6 @@
   Journal                  = {Annual review of sociology},
   Year                     = {2001},
   Pages                    = {415--444},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {JSTOR},
   Timestamp                = {2014.10.09}
@@ -2134,8 +2090,6 @@
   Year                     = {2007},
   Organization             = {ACM},
   Pages                    = {171--180},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2178,8 +2132,6 @@
   Title                    = {Expertise modeling for matching papers with reviewers},
   Author                   = {Mimno, David and McCallum, Andrew},
   Year                     = {2007},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2257,8 +2209,6 @@
   Number                   = {10},
   Pages                    = {4241--4251},
   Volume                   = {40},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {Elsevier},
   Timestamp                = {2014.10.09}
@@ -2382,8 +2332,6 @@
   Year                     = {2010},
   Pages                    = {122--129},
   Volume                   = {11},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2487,7 +2435,7 @@
   Publisher                = {ACM}
 }
 
-@Article{Pang:2008:OMS:1454711.1454712,
+@Article{Pang2008OMS,
   Title                    = {Opinion Mining and Sentiment Analysis},
   Author                   = {Pang, Bo and Lee, Lillian},
   Journal                  = {Found. Trends Inf. Retr.},
@@ -2629,6 +2577,17 @@
   Volume                   = {19}
 }
 
+@Book{Rachels1986,
+  Title                    = {The elements of moral philosophy},
+  Author                   = {Rachels, James and Rachels, Stuart},
+  Publisher                = {Random House New York},
+  Year                     = {1986},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.10}
+}
+
 @InProceedings{radlinski2007active,
   Title                    = {Active exploration for learning rankings from clickthrough data},
   Author                   = {Radlinski, Filip and Joachims, Thorsten},
@@ -2664,8 +2623,6 @@
   Year                     = {2009},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {248--256},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2751,8 +2708,6 @@
   Year                     = {2004},
   Organization             = {AUAI Press},
   Pages                    = {487--494},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -2946,8 +2901,6 @@
   Year                     = {2004},
   Organization             = {ACM},
   Pages                    = {306--315},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3014,8 +2967,6 @@
   Year                     = {2011},
   Organization             = {ACM},
   Pages                    = {1397--1405},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3027,8 +2978,6 @@
   Year                     = {2011},
   Organization             = {ACM},
   Pages                    = {1397--1405},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3057,8 +3006,6 @@
   Year                     = {2010},
   Number                   = {4},
   Volume                   = {15},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3097,8 +3044,6 @@
   Number                   = {12},
   Pages                    = {2544--2558},
   Volume                   = {61},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {Wiley Online Library},
   Timestamp                = {2014.10.09}
@@ -3263,6 +3208,21 @@
   Year                     = {2003}
 }
 
+@Article{Wiebe2004,
+  Title                    = {Learning subjective language},
+  Author                   = {Wiebe, Janyce and Wilson, Theresa and Bruce, Rebecca and Bell, Matthew and Martin, Melanie},
+  Journal                  = {Computational linguistics},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {277--308},
+  Volume                   = {30},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Publisher                = {MIT Press},
+  Timestamp                = {2014.10.10}
+}
+
 @InProceedings{xiang2010modeling,
   Title                    = {Modeling relationship strength in online social networks},
   Author                   = {Xiang, Rongjing and Neville, Jennifer and Rogati, Monica},
@@ -3376,8 +3336,6 @@
   Number                   = {1},
   Pages                    = {33--48},
   Volume                   = {5},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Publisher                = {Taylor \& Francis},
   Timestamp                = {2014.10.09}
@@ -3410,8 +3368,6 @@
   Publisher                = {Springer},
   Year                     = {2011},
   Pages                    = {448--459},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }
@@ -3484,8 +3440,6 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {10},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
 }

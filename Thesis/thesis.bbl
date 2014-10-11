@@ -61,12 +61,27 @@ In Proceedings of the third ACM international conference on Web search and data
   mining.
 2010:  251--260.
 
-\bibitem{6710245}
-Cambria~E, White~B, Durrani~T, et~al.
-Computational Intelligence for Natural Language Processing [Guest
-  Editorial]~[J].
-Computational Intelligence Magazine, IEEE.
-2014, 9~(1):  19--63.
+\bibitem{Lyons1977}
+Lyons~J.
+Semantics. 2 vols.
+1977.
+
+\bibitem{Wiebe2004}
+Wiebe~J, Wilson~T, Bruce~R, et~al.
+Learning subjective language~[J].
+Computational linguistics.
+2004, 30~(3):  277--308.
+
+\bibitem{Rachels1986}
+Rachels~J, Rachels~S.
+The elements of moral philosophy~[M].
+Random House New York, 1986.
+
+\bibitem{Pang2008OMS}
+Pang~B, Lee~L.
+Opinion Mining and Sentiment Analysis~[J].
+Found. Trends Inf. Retr.
+2008, 2~(1-2):  1--135.
 
 \bibitem{cambria2014jumping}
 Cambria~E, White~B.
@@ -74,39 +89,11 @@ Jumping NLP curves: A review of natural language processing research~[J].
 IEEE Computational Intelligence Magazine.
 2014, 9~(2):  48--57.
 
-\bibitem{zinko2009biz}
-Zinko~C.
-What is Biz Stone doing~[J].
-San Francisco Chronicle.
-2009.
-
-\bibitem{ellison2007social}
-Ellison~N~B, et~al.
-Social network sites: Definition, history, and scholarship~[J].
-Journal of Computer-Mediated Communication.
-2007, 13~(1):  210--230.
-
-\bibitem{marlow2005structural}
-Marlow~C~A.
-The structural determinants of media contagion~[D].
-[S.~l.]: Massachusetts Institute of Technology, 2005.
-
-\bibitem{o2011twitter}
-O'Reilly~T, Milstein~S.
-The twitter book~[M].
-O'Reilly, 2011.
-
-\bibitem{honey2009beyond}
-Honey~C, Herring~S~C.
-Beyond microblogging: Conversation and collaboration via Twitter~[C].
-In System Sciences, 2009. HICSS'09. 42nd Hawaii International Conference on.
-2009:  1--10.
-
-\bibitem{golder2006usage}
-Golder~S~A, Huberman~B~A.
-Usage patterns of collaborative tagging systems~[J].
-Journal of information science.
-2006, 32~(2):  198--208.
+\bibitem{Liu2012}
+Liu~B.
+Sentiment analysis and opinion mining~[J].
+Synthesis Lectures on Human Language Technologies.
+2012, 5~(1):  1--167.
 
 \bibitem{hong2011predicting}
 Hong~L, Dan~O, Davison~B~D.
@@ -720,12 +707,6 @@ In Proceedings of the 49th Annual Meeting of the Association for Computational
   Linguistics: Human Language Technologies: short papers-Volume 2.
 2011:  42--47.
 
-\bibitem{pang2008opinion}
-Pang~B, Lee~L.
-Opinion mining and sentiment analysis~[J].
-Foundations and trends in information retrieval.
-2008, 2~(1-2):  1--135.
-
 \bibitem{gouws2011contextual}
 Gouws~S, Metzler~D, Cai~C, et~al.
 Contextual bearing on linguistic variation in social media~[C].
@@ -1215,12 +1196,6 @@ Petrovic~S, Osborne~M, Lavrenko~V.
 RT to Win! Predicting Message Propagation in Twitter.~[C].
 In ICWSM.
 2011.
-
-\bibitem{Pang:2008:OMS:1454711.1454712}
-Pang~B, Lee~L.
-Opinion Mining and Sentiment Analysis~[J].
-Found. Trends Inf. Retr.
-2008, 2~(1-2):  1--135.
 
 \bibitem{Agarwal:2011:PRU:2145432.2145499}
 Agarwal~D, Chen~B-C, Pang~B.

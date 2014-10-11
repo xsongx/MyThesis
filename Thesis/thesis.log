@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  10 OCT 2014 08:37
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  11 OCT 2014 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 12 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -2026,44 +2026,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--86
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[][][][]$[][][][] [] [] [] [][][][][][][][][][] [] [][][] [] [][][][] [] [][] [
-] [][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
- []
 
+Package natbib Warning: Citation `Kim2004' on page 5 undefined on input line 10
+3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[][][][]$[][][][][] [] [] [] [][][][] [] [][][][][][][] [] [][][] [] [][][][] [
-] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][]
- []
-
-[5]
-File: figures/Twitter.png Graphic file (type QTm)
- <use  "figures/Twitter.png" > [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[5] [6] [7] [8] [9] [10] [11]
 File: figures/Research_Framwork.png Graphic file (type QTm)
-
-<use  "figures/Research_Framwork.png" > [15] [16] [17] [18]
+ <use  "figures/Research_Framwork.png" > [12]
+[13] [14] [15]
 File: figures/Paper_Framwork.png Graphic file (type QTm)
-
-<use  "figures/Paper_Framwork.png" > [19]) (./data/chap02.tex [20]
+ <use  "figures/Paper_Framwork.png" > [16]) (./data/chap02.tex
+[17]
 File: figures/Twitter_Search.png Graphic file (type QTm)
-
-<use  "figures/Twitter_Search.png" >
+ <use  "figures/Twitter_Search.png" >
 Overfull \hbox (6.81737pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
 File: figures/Twitter_SearchRes.png Graphic file (type QTm)
-<use  "figures/Twitter_SearchRes.png" > [21
+<use  "figures/Twitter_SearchRes.png" > [18
 
 
 ]
 File: figures/TBB_examples.png Graphic file (type QTm)
 
-<use  "figures/TBB_examples.png" > [22] [23]
+<use  "figures/TBB_examples.png" > [19] [20]
 Underfull \vbox (badness 4634) has occurred while \output is active []
 
- [24]
+ [21]
 Overfull \hbox (22.57909pt too wide) in paragraph at lines 82--83
 []\EU1/AdobeSongStd(0)/bx/n/12.045 链 接 积 木  |（\EU1/TimesNewRoman(0)/bx/n/12.045
  URL\EU1/AdobeSongStd(0)/bx/n/12.045 ）| \EU1/AdobeSongStd(1)/m/n/12.045 ：|  链 接
@@ -2073,125 +2063,134 @@ EU1/AdobeSongStd(1)/m/n/12.045 ”。|
  []
 
 File: figures/TBB_gold.png Graphic file (type QTm)
-<use  "figures/TBB_gold.png" > [25] [26] [27] [28] [29] [30]
-File: figures/Framwork.png Graphic file (type QTm)
+<use  "figures/TBB_gold.png" > [22] [23] [24]
 
-<use  "figures/Framwork.png" >
+Package natbib Warning: Citation `pang2008opinion' on page 25 undefined on inpu
+t line 163.
+
+[25] [26] [27]
+File: figures/Framwork.png Graphic file (type QTm)
+ <use  "figures/Framwork.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+File: figures/TBB_fea.png Graphic file (type QTm)
+
+<use  "figures/TBB_fea.png" > [29
+
+
+] [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-File: figures/TBB_fea.png Graphic file (type QTm)
-
-<use  "figures/TBB_fea.png" > [32
-
-
-] [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
 Overfull \hbox (1.87186pt too wide) in paragraph at lines 300--335
  [] 
  []
 
-[35] [36]
+[32] [33]
 Underfull \vbox (badness 4927) has occurred while \output is active []
 
- [37])
-(./data/chap03.tex [38]
+ [34])
+(./data/chap03.tex [35]
 Underfull \hbox (badness 10000) in paragraph at lines 6--6
 [][][][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][]
 [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] []
  []
 
-[39
+[36
 
 
-] [40] [41] [42]
+] [37] [38] [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-[44] [45] [46] [47] [48] [49]
+ [40]
+[41] [42] [43] [44] [45] [46]
 Underfull \vbox (badness 3930) has occurred while \output is active []
 
- [50]
+ [47]
 Underfull \hbox (badness 1515) in paragraph at lines 275--276
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 的
  作 者 以 往 发 布
  []
 
-[51]
+[48]
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
- [52]
-[53] [54] [55]
+ [49]
+[50] [51] [52]
 File: figures/Sub_classify.png Graphic file (type QTm)
- <use  "figures/Sub_classify.png" > [56]
+ <use  "figures/Sub_classify.png" > [53]
 Underfull \vbox (badness 1975) has occurred while \output is active []
 
- [57]
-[58]
+ [54]
+[55]
 Underfull \vbox (badness 3668) has occurred while \output is active []
 
- [59])
-(./data/chap04.tex [60]
+ [56])
+(./data/chap04.tex [57]
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][][][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][]
 [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] []
  []
 
-[61
+[58
 
 
-] [62] [63] [64] [65] [66] [67] [68] [69]
+]
+
+Package natbib Warning: Citation `Pang:2008:OMS:1454711.1454712' on page 59 und
+efined on input line 25.
+
+[59] [60] [61] [62] [63] [64] [65] [66]
 Overfull \hbox (1.77858pt too wide) in alignment at lines 175--212
 [] [] [] 
  []
 
-[70]
+[67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
-[72]) (./data/chap05.tex [73] [74
+ [68]
+[69]) (./data/chap05.tex [70] [71
 
 
-] [75] [76] [77] [78] [79]
+] [72] [73] [74] [75] [76]
 Underfull \hbox (badness 1515) in paragraph at lines 171--172
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
  []
 
-[80] [81]) (./data/chap06.tex [82] [83
+[77] [78]) (./data/chap06.tex [79] [80
 
 
-] [84]) (./data/ack.tex [85]) [86
+] [81]) (./data/ack.tex [82]) [83
 
 ]
-(./thesis.bbl [87
+(./thesis.bbl [84
 
 
-] [88] [89] [90] [91] [92] [93] [94] [95]
-Underfull \hbox (badness 10000) in paragraph at lines 754--758
+] [85] [86] [87] [88] [89] [90] [91] [92]
+Underfull \hbox (badness 10000) in paragraph at lines 735--739
 []\EU1/TimesNewRoman(0)/m/n/12.045 Voorhees E M. Natural language processing an
 d information re-
  []
 
-[96] [97] [98] [99]
-Underfull \hbox (badness 1052) in paragraph at lines 1107--1112
+[93] [94] [95] [96]
+Underfull \hbox (badness 1052) in paragraph at lines 1088--1093
 []\EU1/TimesNewRoman(0)/m/n/12.045 Lee S-W, Lee J-T, Song Y-I, et al. High prec
 ision opinion retrieval using
  []
 
-[100] [101]
-Underfull \hbox (badness 2165) in paragraph at lines 1288--1293
+[97] [98]
+Underfull \hbox (badness 2165) in paragraph at lines 1263--1268
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stieglitz S, Dang-Xuan L. Political Communic
 ation and Influence through
  []
 
-[102] [103] [104] [105] [106]) (./data/resume.tex [107] [108
+[99] [100] [101] [102] [103]) (./data/resume.tex [104] [105
 
-]) [109]
+]) [106]
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
@@ -2207,12 +2206,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 111.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 32186 strings out of 495484
- 601524 string characters out of 6183322
- 659181 words of memory out of 5000000
- 34877 multiletter control sequences out of 15000+600000
+ 32172 strings out of 493918
+ 601145 string characters out of 6150564
+ 662943 words of memory out of 5000000
+ 34973 multiletter control sequences out of 15000+600000
  84234 words of font info for 306 fonts, out of 8000000 for 9000
- 102 hyphenation exceptions out of 8191
- 51i,17n,66p,10456b,1492s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1144 hyphenation exceptions out of 8191
+ 51i,17n,66p,10456b,1478s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (122 pages).
+Output written on thesis.pdf (119 pages).
