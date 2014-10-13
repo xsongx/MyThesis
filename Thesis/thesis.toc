@@ -4,98 +4,90 @@
 \contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}社交媒体}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}主观性信息}{4}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}研究问题}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}相关研究}{7}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Twitter与自然语言处理}{8}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}信息检索与机器学习}{10}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Twitter中的传播分析}{11}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}研究内容与方法}{12}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}本文研究内容}{12}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}本文研究方法}{13}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}本文主要贡献}{14}{section.1.5}
-\contentsline {section}{\numberline {1.6}本文结构}{16}{section.1.6}
-\contentsline {chapter}{\numberline {2}利用结构化信息的Twitter检索}{18}{chapter.2}
-\contentsline {section}{\numberline {2.1}引言}{18}{section.2.1}
-\contentsline {section}{\numberline {2.2}相关工作}{20}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}基于结构化的信息检索}{21}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Twitter信息检索}{21}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Twitter积木（TBB）}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Twitter积木的定义}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Twitter积木自动标注}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Twitter积木分析}{26}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}基于Twitter积木的tweet排序学习}{27}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Twitter检索排序学习框架}{27}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Twitter积木特征}{29}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Twitter信息检索实验}{31}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Twitter信息检索实验数据}{31}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}信息检索评价指标}{32}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Twitter信息检索实验设置和基准系统（Baseline）}{32}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Twitter信息检索实验结果及分析}{33}{subsection.2.5.4}
-\contentsline {section}{\numberline {2.6}小结}{35}{section.2.6}
-\contentsline {chapter}{\numberline {3}Twitter观点检索}{36}{chapter.3}
-\contentsline {section}{\numberline {3.1}引言}{36}{section.3.1}
-\contentsline {section}{\numberline {3.2}相关工作}{38}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Twitter观点挖掘}{38}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}TREC观点检索}{39}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}基于排序学习的Twitter观点检索框架}{40}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Twitter观点检索排序学习框架}{41}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Twitter观点检索相关特征}{41}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}社交媒体特征}{41}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Twitter特定特征}{41}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}用户特征}{42}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}观点化特征}{43}{section.3.5}
-\contentsline {section}{\numberline {3.6}Twitter观点检索实验}{45}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Twitter观点检索实验数据}{45}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Twitter观点检索实验设置}{46}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}基准系统（Baseline）}{46}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Twitter观点检索实验结果及分析}{48}{subsection.3.6.4}
-\contentsline {subsubsection}{\numberline {3.6.4.1}社交媒体特征实验结果}{48}{subsubsection.3.6.4.1}
-\contentsline {subsubsection}{\numberline {3.6.4.2}基于话题不相关的观点化特征实验结果}{50}{subsubsection.3.6.4.2}
-\contentsline {subsubsection}{\numberline {3.6.4.3}基于话题相关的观点化特征实验结果}{52}{subsubsection.3.6.4.3}
-\contentsline {subsubsection}{\numberline {3.6.4.4}基于观点化特征的Twitter观点分类实验结果}{53}{subsubsection.3.6.4.4}
-\contentsline {subsubsection}{\numberline {3.6.4.5}最佳Twitter观点检索系统实验结果}{54}{subsubsection.3.6.4.5}
-\contentsline {subsection}{\numberline {3.6.5}Twitter观点检索实验数据偏置分析}{55}{subsection.3.6.5}
-\contentsline {section}{\numberline {3.7}小结}{57}{section.3.7}
-\contentsline {chapter}{\numberline {4}Twitter中传播观点的发现}{58}{chapter.4}
-\contentsline {section}{\numberline {4.1}引言}{58}{section.4.1}
-\contentsline {section}{\numberline {4.2}相关工作}{60}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Tweet转发预测}{60}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Twitter观点检索 }{61}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}观点质量评价}{62}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Twitter传播观点检索实验数据}{63}{section.4.3}
-\contentsline {section}{\numberline {4.4}基于排序学习的 Twitter传播观点检索框架 }{63}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Twitter传播观点检索排序学习框架}{63}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Twitter传播观点检索相关特征}{64}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}传播度特征}{64}{section.4.5}
-\contentsline {section}{\numberline {4.6}观点化特征}{65}{section.4.6}
-\contentsline {section}{\numberline {4.7}文本质量特征}{65}{section.4.7}
-\contentsline {section}{\numberline {4.8}Twitter传播观点检索实验}{66}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}传播观点人工预测实验}{66}{subsection.4.8.1}
-\contentsline {subsection}{\numberline {4.8.2}Twitter传播观点检索实验设置和基准系统（Baseline）}{67}{subsection.4.8.2}
-\contentsline {subsection}{\numberline {4.8.3}Twitter传播观点检索实验结果及分析}{67}{subsection.4.8.3}
-\contentsline {subsection}{\numberline {4.8.4}Twitter观点传播预测VS\nobreakspace {}Twitter普通tweet传播预测}{70}{subsection.4.8.4}
-\contentsline {subsection}{\numberline {4.8.5}Twitter传播观点预测VS\nobreakspace {}Twitter传播观点人工预测}{70}{subsection.4.8.5}
-\contentsline {section}{\numberline {4.9}小结}{70}{section.4.9}
-\contentsline {chapter}{\numberline {5}Twitter中信息传播者的发现}{71}{chapter.5}
-\contentsline {section}{\numberline {5.1}引言}{71}{section.5.1}
-\contentsline {section}{\numberline {5.2}相关工作}{72}{section.5.2}
-\contentsline {section}{\numberline {5.3}基于排序学习的Twitter信息传播者发现框架 }{72}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Twitter信息传播者发现排序学习框架}{72}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Twitter信息传播者相关特征}{73}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}转发历史特征}{73}{section.5.4}
-\contentsline {section}{\numberline {5.5}用户特征}{74}{section.5.5}
-\contentsline {section}{\numberline {5.6}用户活跃时间特征}{75}{section.5.6}
-\contentsline {section}{\numberline {5.7}用户兴趣特征}{75}{section.5.7}
-\contentsline {section}{\numberline {5.8}Twitter信息传播者发现实验}{75}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Twitter信息传播者发现实验数据}{75}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Twitter信息传播者发现实验设置}{76}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Twitter信息传播者发现基准系统（Baseline）}{76}{subsection.5.8.3}
-\contentsline {subsection}{\numberline {5.8.4}Twitter信息传播者发现实验结果及分析}{77}{subsection.5.8.4}
-\contentsline {section}{\numberline {5.9}小结}{79}{section.5.9}
-\contentsline {chapter}{\numberline {6}总结与展望}{80}{chapter.6}
-\contentsline {section}{\numberline {6.1}工作总结}{80}{section.6.1}
-\contentsline {section}{\numberline {6.2}工作展望}{81}{section.6.2}
-\contentsline {chapter}{致谢}{83}{chapter*.56}
-\contentsline {chapter}{参考文献}{84}{section*.57}
-\contentsline {chapter}{作者在学期间取得的学术成果}{105}{chapter*.59}
+\contentsline {section}{\numberline {1.2}研究问题}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}相关研究}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Twitter与自然语言处理}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}信息检索与机器学习}{11}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Twitter中的传播分析}{12}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}研究内容与方法}{13}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}本文研究内容}{13}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}本文研究方法}{15}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}本文主要贡献}{16}{section.1.5}
+\contentsline {section}{\numberline {1.6}本文结构}{17}{section.1.6}
+\contentsline {chapter}{\numberline {2}应用语义关系自动构建情感词典}{20}{chapter.2}
+\contentsline {section}{\numberline {2.1}引言}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}词典资源简介}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}HowNet语义词典}{20}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}WordNet语义词典}{21}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}SentiWordNet情感词典}{21}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}基于语义关系的情感词典构建方法}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}词语抽取和义原抽取及语义分析}{24}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}情感值的查询与计算}{24}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}词语倾向性值查询与计算}{25}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}义原倾向性值查询与计算}{25}{subsubsection.2.3.2.2}
+\contentsline {subsection}{\numberline {2.3.3}词语情感值计算}{26}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}实验及结果}{27}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}评价指标}{27}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}性能评测结果}{27}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}阈值T的设定}{27}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}与其他词典性能对比}{28}{subsubsection.2.4.2.2}
+\contentsline {section}{\numberline {2.5}小结}{28}{section.2.5}
+\contentsline {chapter}{\numberline {3}基于语料资源的中文情感词典扩展}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}问题描述}{30}{section.3.2}
+\contentsline {section}{\numberline {3.3}数据集及预处理}{30}{section.3.3}
+\contentsline {section}{\numberline {3.4}基于语言特征的情感词典扩展}{31}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}连词选择}{31}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}基于连词的极性计算}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}实验}{32}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}基于统计特征的情感词典扩展}{33}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}统计特征选择}{34}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}基于上下文的情感词极性计算}{34}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}实验}{34}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}基于混合特征的情感词典扩展}{36}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}基于混合特征的情感词极性计算}{36}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}实验}{37}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}小结}{37}{section.3.7}
+\contentsline {chapter}{\numberline {4}Twitter中传播观点的发现}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{40}{section.4.1}
+\contentsline {section}{\numberline {4.2}相关工作}{42}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Tweet转发预测}{42}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Twitter观点检索 }{43}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}观点质量评价}{44}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Twitter传播观点检索实验数据}{45}{section.4.3}
+\contentsline {section}{\numberline {4.4}基于排序学习的 Twitter传播观点检索框架 }{45}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Twitter传播观点检索排序学习框架}{45}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Twitter传播观点检索相关特征}{46}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}传播度特征}{46}{section.4.5}
+\contentsline {section}{\numberline {4.6}观点化特征}{47}{section.4.6}
+\contentsline {section}{\numberline {4.7}文本质量特征}{47}{section.4.7}
+\contentsline {section}{\numberline {4.8}Twitter传播观点检索实验}{48}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}传播观点人工预测实验}{48}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Twitter传播观点检索实验设置和基准系统（Baseline）}{49}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}Twitter传播观点检索实验结果及分析}{49}{subsection.4.8.3}
+\contentsline {subsection}{\numberline {4.8.4}Twitter观点传播预测VS\nobreakspace {}Twitter普通tweet传播预测}{52}{subsection.4.8.4}
+\contentsline {subsection}{\numberline {4.8.5}Twitter传播观点预测VS\nobreakspace {}Twitter传播观点人工预测}{52}{subsection.4.8.5}
+\contentsline {section}{\numberline {4.9}小结}{52}{section.4.9}
+\contentsline {chapter}{\numberline {5}Twitter中信息传播者的发现}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}相关工作}{54}{section.5.2}
+\contentsline {section}{\numberline {5.3}基于排序学习的Twitter信息传播者发现框架 }{54}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Twitter信息传播者发现排序学习框架}{54}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Twitter信息传播者相关特征}{55}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}转发历史特征}{55}{section.5.4}
+\contentsline {section}{\numberline {5.5}用户特征}{56}{section.5.5}
+\contentsline {section}{\numberline {5.6}用户活跃时间特征}{57}{section.5.6}
+\contentsline {section}{\numberline {5.7}用户兴趣特征}{57}{section.5.7}
+\contentsline {section}{\numberline {5.8}Twitter信息传播者发现实验}{57}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Twitter信息传播者发现实验数据}{57}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Twitter信息传播者发现实验设置}{58}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Twitter信息传播者发现基准系统（Baseline）}{58}{subsection.5.8.3}
+\contentsline {subsection}{\numberline {5.8.4}Twitter信息传播者发现实验结果及分析}{59}{subsection.5.8.4}
+\contentsline {section}{\numberline {5.9}小结}{61}{section.5.9}
+\contentsline {chapter}{\numberline {6}总结与展望}{62}{chapter.6}
+\contentsline {section}{\numberline {6.1}工作总结}{62}{section.6.1}
+\contentsline {section}{\numberline {6.2}工作展望}{63}{section.6.2}
+\contentsline {chapter}{致谢}{65}{chapter*.42}
+\contentsline {chapter}{参考文献}{66}{section*.43}
+\contentsline {chapter}{作者在学期间取得的学术成果}{83}{chapter*.45}
 \contentsfinish 

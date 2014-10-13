@@ -4,12 +4,11 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 16295 items from 5000.
+Reallocated field_info (elt_size=4) to 14540 items from 5000.
 Database file #1: ref/refs.bib
 Warning--I didn't find a database entry for "agichtein2008finding"
-Warning--I didn't find a database entry for "Kim2004"
-Warning--I didn't find a database entry for "pang2008opinion"
 Warning--I didn't find a database entry for "Pang:2008:OMS:1454711.1454712"
+Warning--I didn't find a database entry for "Agarwal:2011:PRU:2145432.2145499"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
 -- See the "userguide.pdf" manual for usage information.
@@ -29,6 +28,30 @@ Warning--empty editor in speriosu2011twitter
 Warning--The editor in mislove2010you is missing.
 Warning--empty editor in mislove2010you
 Warning--there's a publisher but no address in Rachels1986
+Warning--The editor in Kim2004 is missing.
+Warning--empty editor in Kim2004
+Warning--The editor in Dave2003 is missing.
+Warning--empty editor in Dave2003
+Warning--The editor in Liu2007 is missing.
+Warning--empty editor in Liu2007
+`editor' is a missing field, not a string, for entry Oghina2012
+while executing---line 5059 of file bstutf8.bst
+Warning--there's a publisher but no address in Oghina2012
+Warning--The editor in Joshi2010 is missing.
+Warning--empty editor in Joshi2010
+Warning--The editor in Sadikov2009 is missing.
+Warning--empty editor in Sadikov2009
+Warning--empty pages in Sadikov2009
+Warning--The editor in Asur2010 is missing.
+Warning--empty editor in Asur2010
+`editor' is a missing field, not a string, for entry Chen2012
+while executing---line 5059 of file bstutf8.bst
+Warning--there's a publisher but no address in Chen2012
+Warning--The editor in Metaxas2011 is missing.
+Warning--empty editor in Metaxas2011
+Warning--The editor in Gayo-Avello2011 is missing.
+Warning--empty editor in Gayo-Avello2011
+Warning--empty pages in Gayo-Avello2011
 Warning--The editor in hong2011predicting is missing.
 Warning--empty editor in hong2011predicting
 Warning--The editor in toutanova2003feature is missing.
@@ -160,183 +183,49 @@ Warning--empty editor in l2013Luo_POR
 Warning--empty pages in l2013Luo_POR
 Warning--The editor in Luo:2013:RMF:2484028.2484158 is missing.
 Warning--empty editor in Luo:2013:RMF:2484028.2484158
-Warning--The editor in efron2010hashtag is missing.
-Warning--empty editor in efron2010hashtag
-Warning--The editor in duan2010empirical is missing.
-Warning--empty editor in duan2010empirical
-`editor' is a missing field, not a string, for entry massoudi2011incorporating
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in massoudi2011incorporating
-Warning--The editor in naveed2011searching is missing.
-Warning--empty editor in naveed2011searching
-Warning--The editor in callan1994passage is missing.
-Warning--empty editor in callan1994passage
-`editor' is a missing field, not a string, for entry ahnizeret2004information
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in ahnizeret2004information
-Warning--The editor in fernandes2007computing is missing.
-Warning--empty editor in fernandes2007computing
-Warning--The editor in cai2004block is missing.
-Warning--empty editor in cai2004block
-Warning--The editor in metzler2011usc is missing.
-Warning--empty editor in metzler2011usc
-Warning--empty pages in metzler2011usc
-Warning--The editor in miyanishi2011trec is missing.
-Warning--empty editor in miyanishi2011trec
-Warning--empty pages in miyanishi2011trec
-Warning--The editor in zhang2012query is missing.
-Warning--empty editor in zhang2012query
-Warning--The editor in darwish2012language is missing.
-Warning--empty editor in darwish2012language
-Warning--The editor in zhang2012transductive is missing.
-Warning--empty editor in zhang2012transductive
-Warning--empty pages in zhang2012transductive
-`editor' is a missing field, not a string, for entry miyanishi2013combining
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in miyanishi2013combining
-Warning--The editor in choi2012quality is missing.
-Warning--empty editor in choi2012quality
-`editor' is a missing field, not a string, for entry ferguson2012investigation
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in ferguson2012investigation
-Warning--The editor in amati2012survival is missing.
-Warning--empty editor in amati2012survival
-Warning--The editor in tjong2003introduction is missing.
-Warning--empty editor in tjong2003introduction
-Warning--empty journal in lafferty2001conditional
-Warning--empty pages in lafferty2001conditional
-Warning--The editor in gimpel2011part is missing.
-Warning--empty editor in gimpel2011part
-Warning--The editor in gouws2011contextual is missing.
-Warning--empty editor in gouws2011contextual
-Warning--empty pages in wei2011exploring
-Warning--empty journal in page1999pagerank
-Warning--empty pages in page1999pagerank
-`editor' is a missing field, not a string, for entry voorhees1999natural
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in voorhees1999natural
-Warning--The editor in zhang2007opinion is missing.
-Warning--empty editor in zhang2007opinion
-Warning--The editor in he2008effective is missing.
-Warning--empty editor in he2008effective
-Warning--The editor in zhang2008generation is missing.
-Warning--empty editor in zhang2008generation
-Warning--The editor in gerani2010proximity is missing.
-Warning--empty editor in gerani2010proximity
-Warning--The editor in ounis2006overview is missing.
-Warning--empty editor in ounis2006overview
-Warning--empty pages in ounis2006overview
-Warning--The editor in macdonald2007overview is missing.
-Warning--empty editor in macdonald2007overview
-Warning--there's neither address nor publisher in ounis2008overview
-Warning--The editor in macdonald2010blog is missing.
-Warning--empty editor in macdonald2010blog
-Warning--The editor in robertson1996okapi is missing.
-Warning--empty editor in robertson1996okapi
-Warning--The editor in jiang2011target is missing.
-Warning--empty editor in jiang2011target
-Warning--The editor in liu2012emoticon is missing.
-Warning--empty editor in liu2012emoticon
-Warning--empty pages in liu2012emoticon
-Warning--The editor in meng2012entity is missing.
-Warning--empty editor in meng2012entity
-Warning--The editor in ounis2011overview is missing.
-Warning--empty editor in ounis2011overview
-Warning--empty pages in ounis2011overview
-Warning--The editor in davidov2010enhanced is missing.
-Warning--empty editor in davidov2010enhanced
-Warning--The editor in barbosa2010robust is missing.
-Warning--empty editor in barbosa2010robust
-Warning--The editor in kouloumpis2011twitter is missing.
-Warning--empty editor in kouloumpis2011twitter
-Warning--empty pages in kouloumpis2011twitter
-Warning--The editor in agarwal2011sentiment is missing.
-Warning--empty editor in agarwal2011sentiment
-Warning--The editor in tan2011user is missing.
-Warning--empty editor in tan2011user
-Warning--The editor in wang2011topic is missing.
-Warning--empty editor in wang2011topic
-Warning--The editor in hu2013exploiting is missing.
-Warning--empty editor in hu2013exploiting
-Warning--The editor in mukherjee2012twisent is missing.
-Warning--empty editor in mukherjee2012twisent
-Warning--The editor in saif2011semantic is missing.
-Warning--empty editor in saif2011semantic
-Warning--empty pages in saif2011semantic
-Warning--The editor in marchetti2012learning is missing.
-Warning--empty editor in marchetti2012learning
-Warning--The editor in aisopos2012content is missing.
-Warning--empty editor in aisopos2012content
-Warning--empty pages in kontopoulos2013ontology
-Warning--The editor in hu2013unsupervised is missing.
-Warning--empty editor in hu2013unsupervised
-Warning--The editor in bollen2011modeling is missing.
-Warning--empty editor in bollen2011modeling
-Warning--empty pages in bollen2011modeling
-Warning--The editor in bermingham2010classifying is missing.
-Warning--empty editor in bermingham2010classifying
-Warning--The editor in chung2011can is missing.
-Warning--empty editor in chung2011can
-Warning--empty pages in chung2011can
-Warning--The editor in conover2011political is missing.
-Warning--empty editor in conover2011political
-Warning--empty pages in conover2011political
-Warning--The editor in gonzalez2011identifying is missing.
-Warning--empty editor in gonzalez2011identifying
-Warning--The editor in eguchi2006sentiment is missing.
-Warning--empty editor in eguchi2006sentiment
-Warning--The editor in huang2009unified is missing.
-Warning--empty editor in huang2009unified
-`editor' is a missing field, not a string, for entry gerani2009investigating
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in gerani2009investigating
-Warning--The editor in mishne2006multiple is missing.
-Warning--empty editor in mishne2006multiple
-Warning--empty pages in mishne2006multiple
-`editor' is a missing field, not a string, for entry na2009improving
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in na2009improving
-`editor' is a missing field, not a string, for entry santos2009integrating
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in santos2009integrating
-Warning--The editor in zhang2008improve is missing.
-Warning--empty editor in zhang2008improve
-Warning--The editor in vechtomova2007using is missing.
-Warning--empty editor in vechtomova2007using
-Warning--empty pages in vechtomova2007using
-Warning--The editor in bermingham2009study is missing.
-Warning--empty editor in bermingham2009study
-Warning--The editor in jia2009effect is missing.
-Warning--empty editor in jia2009effect
-Warning--The editor in li2010unified is missing.
-Warning--empty editor in li2010unified
-Warning--The editor in lee2010high is missing.
-Warning--empty editor in lee2010high
-Warning--The editor in gerani2011aggregating is missing.
-Warning--empty editor in gerani2011aggregating
-Warning--The editor in he2009fitting is missing.
-Warning--empty editor in he2009fitting
-Warning--The editor in amati2010performance is missing.
-Warning--empty editor in amati2010performance
-Warning--The editor in seki2009adaptive is missing.
-Warning--empty editor in seki2009adaptive
-Warning--The editor in orimaye2011sentence is missing.
-Warning--empty editor in orimaye2011sentence
-Warning--The editor in xu2012find is missing.
-Warning--empty editor in xu2012find
-`editor' is a missing field, not a string, for entry amati2008automatic
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in amati2008automatic
-Warning--The editor in jijkoun2010generating is missing.
-Warning--empty editor in jijkoun2010generating
-Warning--empty booktitle in Joachims:1999:MLS:299094.299104
+Warning--empty pages in Yuan2013
+Warning--there's a publisher but no address in Liu2012b
+Warning--The editor in Wilson2005d is missing.
+Warning--empty editor in Wilson2005d
+Warning--empty editor in Taboada2004
+Warning--empty booktitle in Taboada2004
+Warning--empty pages in Taboada2004
+Warning--empty editor in Baccianella2010
+Warning--empty booktitle in Baccianella2010
+Warning--empty editor in Agerri2010
+Warning--empty booktitle in Agerri2010
+Warning--empty pages in Agerri2010
+Warning--The author in 2013 is missing.
+Warning--The author in 2013a is missing.
+Warning--empty editor in 刘群2002
+Warning--empty booktitle in 刘群2002
+Warning--empty pages in 刘群2002
+Warning--empty editor in Hatzivassiloglou1997
+Warning--empty booktitle in Hatzivassiloglou1997
+Warning--empty editor in Wilson2005
+Warning--empty booktitle in Wilson2005
+Warning--there's neither address nor publisher in Bradley1999
+Warning--empty pages in Nielsen2011
+Warning--empty editor in Esuli2006
+Warning--empty booktitle in Esuli2006
+Warning--empty editor in Mohammad2013
+Warning--empty booktitle in Mohammad2013
+Warning--empty pages in Mohammad2013
+Warning--empty editor in Kiritchenko2014
+Warning--empty booktitle in Kiritchenko2014
+Warning--empty pages in Kiritchenko2014
+Warning--The editor in Cambria2014 is missing.
+Warning--empty editor in Cambria2014
+Warning--empty pages in Cambria2014
+Warning--empty editor in Turney2002
+Warning--empty booktitle in Turney2002
+Warning--The editor in Lin2012 is missing.
+Warning--empty editor in Lin2012
 Warning--empty journal in west2003introducing
 Warning--empty pages in west2003introducing
 Warning--The editor in petrovic2011rt is missing.
 Warning--empty editor in petrovic2011rt
 Warning--empty pages in petrovic2011rt
-Warning--The editor in Agarwal:2011:PRU:2145432.2145499 is missing.
-Warning--empty editor in Agarwal:2011:PRU:2145432.2145499
 Warning--The editor in suh2010want is missing.
 Warning--empty editor in suh2010want
 Warning--The editor in zaman2010predicting is missing.
@@ -408,6 +297,10 @@ Warning--The editor in xie2012review is missing.
 Warning--empty editor in xie2012review
 Warning--The editor in morales2013synthetic is missing.
 Warning--empty editor in morales2013synthetic
+Warning--The editor in gimpel2011part is missing.
+Warning--empty editor in gimpel2011part
+Warning--The editor in duan2010empirical is missing.
+Warning--empty editor in duan2010empirical
 Warning--The editor in nagarajan2010qualitative is missing.
 Warning--empty editor in nagarajan2010qualitative
 Warning--empty pages in nagarajan2010qualitative
@@ -444,8 +337,15 @@ Warning--The editor in efron2011estimation is missing.
 Warning--empty editor in efron2011estimation
 Warning--The editor in metzler2012structured is missing.
 Warning--empty editor in metzler2012structured
+Warning--The editor in zhang2012query is missing.
+Warning--empty editor in zhang2012query
 Warning--The editor in choi2012temporal is missing.
 Warning--empty editor in choi2012temporal
+Warning--The editor in amati2012survival is missing.
+Warning--empty editor in amati2012survival
+`editor' is a missing field, not a string, for entry miyanishi2013combining
+while executing---line 5059 of file bstutf8.bst
+Warning--there's a publisher but no address in miyanishi2013combining
 Warning--The editor in meij2012adding is missing.
 Warning--empty editor in meij2012adding
 Warning--The editor in cassidy2012analysis is missing.
@@ -466,45 +366,45 @@ Warning--empty editor in petrovic2013can
 Warning--empty pages in petrovic2013can
 
 Done.
-You've used 247 entries,
+You've used 209 entries,
             4554 wiz_defined-function locations,
-            2162 strings with 51901 characters,
-and the built_in function-call counts, 162485 in all, are:
-= -- 18169
-> -- 2686
-< -- 203
-+ -- 1614
-- -- 813
-* -- 13509
-:= -- 18410
-add.period$ -- 976
-call.type$ -- 247
+            2040 strings with 44818 characters,
+and the built_in function-call counts, 131207 in all, are:
+= -- 14720
+> -- 2147
+< -- 165
++ -- 1289
+- -- 646
+* -- 10825
+:= -- 14741
+add.period$ -- 812
+call.type$ -- 209
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 676
-duplicate$ -- 10889
-empty$ -- 17218
-format.name$ -- 813
-if$ -- 39241
+cite$ -- 551
+duplicate$ -- 8699
+empty$ -- 13928
+format.name$ -- 646
+if$ -- 31783
 int.to.chr$ -- 0
-int.to.str$ -- 247
-missing$ -- 12
-newline$ -- 1474
-num.names$ -- 259
-pop$ -- 1301
+int.to.str$ -- 209
+missing$ -- 5
+newline$ -- 1234
+num.names$ -- 212
+pop$ -- 1094
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 4201
+skip$ -- 3507
 stack$ -- 0
-substring$ -- 19664
-swap$ -- 3172
-text.length$ -- 203
+substring$ -- 15571
+swap$ -- 2621
+text.length$ -- 165
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1960
-warning$ -- 429
-while$ -- 1668
-width$ -- 250
-write$ -- 2173
-(There were 11 error messages)
+type$ -- 1705
+warning$ -- 342
+while$ -- 1338
+width$ -- 212
+write$ -- 1823
+(There were 5 error messages)

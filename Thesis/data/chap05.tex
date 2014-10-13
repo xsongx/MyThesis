@@ -97,7 +97,7 @@ Twitter用户一般不太可能在很晚的时间与其他人进行交流，而�
 \section{Twitter信息传播者发现实验}
 
 \subsection{Twitter信息传播者发现实验数据}
-到目前为止还没有关于在Twitter中发现信息传播者的数据，因此我们自己构造了相关数据\footnote{下载地址：\url{https://sourceforge.net/projects/retweeter/}}}。
+到目前为止还没有关于在Twitter中发现信息传播者的数据，因此我们自己构造了相关数据\footnote{下载地址：\url{https://sourceforge.net/projects/retweeter/}}。
 
 我们从Twitter Streaming API中随机选取了500条tweet，每个tweet至少被其作者的粉丝转发过一次。这些数据时间分布在2012年9月14日到2012年10月1日之间。Kwak等人发现一半以上的转发行为发生在原始tweet发布一个小时以内，75\%发生在一天以内\upcite{kwak2010twitter}，因此我们在一天以后重新抓取了500个tweet，检测最后到底有哪些粉丝转发了对应的tweet。另外，由于Twitter API的限制和有些受欢迎的用户粉丝很多，我们不太可能全部抓取所有的粉丝，所以对每一个tweet，我们只研究了tweet作者最新的100个粉丝，并获取了每个粉丝最新的200个tweet。
 
