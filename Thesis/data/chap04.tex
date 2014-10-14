@@ -1,301 +1,312 @@
 \chapter{Twitter中传播观点的发现}
-\label{ROR}
+\label{ch4}
 
 \section{引言}
-\label{ROR_Intr}
-以往的传播分析中有一个假说：“如果人们觉得自己的观点是公众中的少数派，他们将不愿意传播自己的看法；而如果他们觉得自己的看法与大多数人一致，他们就会勇敢地说出来”\upcite{west2003introducing}。以前的大众媒体通过关注多数派的观点来营造一种意见环境，因此影响和制约舆论，舆论的形成不是社会公众理性讨论的结果，而是舆论环境的压力作用于人们惧怕孤立的心理，强制人们对优势意见采取趋同行为\upcite{朱海青2013微博传播中}。而以Twitter为代表的社交媒体则部分打破了这种环境，人们在这些平台上面实现相对平等的信息传播、意见的交流与交锋、讨论协商公共事务等。社交媒体强大的互动性、进入的低门槛、以及人人享有表达观点等的优点，彻底打破了以往传统媒体对话语权。随着以Twitter为代表的社交媒体的迅速发展，越来越多的人在这个社交媒体上分享消息，发表自己对人，事件，产品等的看法。实际上Twitter已经变成了一个巨大的观点库，不仅可以帮助人们做出决策，还可以帮助政府与公司收集人们对政策或产品的评价，以此做出相应的调整。
+\label{ch4_intr}
 
-但是，这种观点库因为tweet数据量的庞大和质量的显著差异使其很难被有效利用。首先，由于Twitter拥有超过5亿的用户并且每天产生多于3.4亿个tweet\footnote{\url{http://www.mediabistro.com/alltwitter/500-million-registered-users_b18842}}，造成用户面临数据过载的问题；其次，观点的重要性往往差别较大，这就造成一些应用中用户可能忽略某些观点。例如，以下是两个关于话题“Obama”的tweet，并且这两个tweet都包含观点：
- \begin{description}
-\item{(a)} \emph{``RT@KG\_NYK: The fact that Obama ``lost" the debate b/c he didnt call Romney's lies out well enough is pretty harrowing commentary on surf "}
-\item{(b)} \emph{``MyNameisGurley AND I HATE OBAMA}
-  \end{description}  
-用户一般会认为Tweet（a）比Tweet（b）重要，因为Tweet（a）介绍了Obama竞选美国总统的第一次电视辩论的基本情况，并且给出了相关的观点，而tweet（b）只是对Obama的一个一般性观点，对大多数用户来说，没有多少价值。另外，Tweet（a）是对用户@KG\_NYK观点tweet的转发，这也表明了Tweet（a）同意用户@KG\_NYK的观点。
+Sentiment analysis is the computational study of how opinions, attitudes, emotions, and perspectives are expressed in language. 
+It can provide tools and techniques for extracting subjective information from large datasets and summarizing it for successive application such as Business Intelligence, Public Opinion Analysis, and Election Prediction, etc. \cite{xsongx:b1} 
+Sentiment classification, which deals with determining sentiment orientation of target text, is the classification form of sentiment analysis \cite{xsongx:b2}. 
+Although it can be viewed as a special text categorization problem, in fact sentiment classification is a more challenging task than text classification, because sentiment expressions critically depend on domains and context \cite{xsongx:b6}.
 
-评估观点的重要性是非常主观的，但是在Twitter中人们一般通过转发行为间接说明tweet的重要性\upcite{hong2011predicting}。这是基于人们在微博传播行为上的一个基本假设：当人们认为一个tweet非常重要且值得和大家分享此消息时，他们将通过转发传播这个tweet。基于此本章将研究如何在Twitter中进行传播观点检索（发现）\footnote{本章将传播观点发现问题用检索的方法解决，需要强调的是分类方法同样可以解决此问题，但将其视为排序问题并不失一般性。}。不同于第二章的Twitter信息检索，本章的传播观点检索试图查找的tweet是包含观点的tweet。另外，本章的问题也不同于第三章的Twitter观点检索，因为我们的目的不仅仅是找到话题相关的观点，更重要的是发现能够传播的观点。总的来说，相关的tweet必须满足三个条件：
-  \begin{enumerate}
-  \item 与查询词话题相关。
-  \item tweet包含涉及查询词的主观化观点，但不考虑观点的态度是正面的还是负面的。
-  \item 这个tweet将会被转发。
-  \end{enumerate} 
+With the emergence and prosperity of microblogs, the amount of user-generated content(UGC) has risen exponentially over the last decade, and such content is now always at our fingertips.
+It has been well recognized that UGC of microblogs with rich sentiment information can trigger more attention, feedback or participation, and sentiment analysis researchers have begun to pay more and more attention to microblogs \cite{DBLP:conf/hicss/StieglitzD12}.
+The distillation of subjective knowledge from such abundant language resources becomes an important part of applications in fields such as commerce, tourism, politics and health. 
+But as a freely-publishing platform, users may use or create new words of abbreviations and acronyms that seldom appear in conventional text documents, for example, words like "coooooool", “OMG",":-(", are intuitive and popular in tweets.
+Although they may provide convenience for on-line communications of users, it is difficult for computer to accurately identify the semantic meanings of these words. 
+To make situation worse, new words may arise and old words may change their meaning continuously in tweets.
+The noisy quantity, informal nature and explosive vocabulary make sentiment classification of tweets a very difficult and challenging task. 
+The sentiment in tweets often depends on such particular expressions as emoticons, repeated letters and exclamation, etc., which resolve their semantic meanings only in the context of microblogs. 
+Context dependence has been the main challenge sentiment classification of tweets must face.
+In this work, we have focused on the context-dependent problem of sentiment classification on microblogs. 
 
+For the problem, we propose a novel semi-supervised framework based on our two rational hypotheses.
+Firstly the problem is formulated as feature vector space model of text classification. 
+And the feature space is divided into two parts consisted of general part and context part.   
+Then a general classifier is trained on off-the-shelf labelled idiom resources by making use of general part of features, and a context classifier is trained on tweets randomly retrieved from microblogs in distant supervision manner by making use of context-dependent part of features. 
+As a result, a semi-supervised framework is developed to combine the general classifier and context classifier into a bootstrapping classifier to harmonize with the two parts of features. 
 
-Twitter中传播观点的发现可以帮助政府、企业、用户发现高质量的观点，从应用的角度来说，传播性观点的发现，能够帮助政府部门迅速掌握舆论情况，发现问题，引导公共舆论或及时调整政策，维护社会的和谐与稳定。企业通过对传播性观点的分析，能够从中挖掘出消费者对本公司产品哪些地方不满意，对其他竞争公司的相同产品哪些地方比较送欢迎，以此改进本公司的产品质量与服务。从用户的角度来说，传播性的观点往往更加影响他们的决策与判定，因为传播性的观点往往会影响用户周围圈子的观点，而用户做出决策往往具有协同性。
+The rest of the paper is organized as follows: Related works are discussed in Section~\ref{related}. The problem is formulated in Section~\ref{problem}, and our framework of semi-supervised sentiment classification is described in Section~\ref{framework}. The results and discussions of the experiment are presented in Section~\ref{experiment}. Finally we conclude about our work in Section~\ref{conclusion}.
 
-但是Twitter中传播观点的发现充满了挑战，以前的研究发现预测一个tweet是否被转发与tweet的话题紧密相关，而话题可以通过一元的词向量来有效表示\upcite{hong2011predicting,petrovic2011rt}。而在这个任务中，因为初步检索返回的结果都是话题相关的tweet，tweet之间在话题上差别不大，所以同一话题下的tweet是否将被转发依赖于其他非话题因素，例如，tweet是否可信，tweet的文本质量是否较高，tweet的写法是否规范等。以前的研究发现这些文本分析比基于话题的文本分析难度更大\upcite{Pang:2008:OMS:1454711.1454712,Agarwal:2011:PRU:2145432.2145499}，另外，tweet的文本还存在着文本短小的特点。但是tweet丰富的社交媒体信息，包括tweet特定的特点和用户信息，可以作为额外的辅助信息潜在地帮助tweet的文本分析，最终提高Twitter中传播观点检索（发现）的效果。
+\section{Related Works}
+\label{related}
 
-本章中我们依然用机器学习的方法学习排序模型，此模型利用一系列特征捕获Twitter中传播观点相关的信息。这些特征包括：tweet的传播度特征、tweet的观点化特征、tweet的文本质量特征。其中tweet的传播度特征是一个tweet能够被转发的置信度；另外，我们继续利用前一章介绍的tweet观点化特征帮助传播观点检索，这个特征利用社交媒体信息和文本的结构化信息；最后，我们还设计了一些与文本质量有关的特征，例如，文本长度、语言属性、文本的流畅程度等。
+Sentiment analysis has been a popular research area for years. 
+Previous efforts mainly focuses on reviews and news comments. 
+Generally, in terms of methodology, rule-based approaches and machine-learning based approaches are two major popular methods, and the machine-learning based approaches usually act as an upper bound for other methods to compare with because of the strong generalization ability of classifiers \cite{xsongx:b1,xsongx:b4}. 
 
-实验结果表明这三大类特征对于Twitter中的传播观点检索都是有效的，我们整合三大类特征形成的系统明显优于BM25基准系统和最好的Twitter观点检索系统（第三章中介绍的最好的观点检索系统\upcite{luo2012opinion}）。而且将我们最好的系统与人进行观点传播预测比较发现，我们的方法能达到人判定的程度。
+Recently, sentiment analysis researchers have begun to pay more and more attention to the massive user-generated content of social networks such as Twitter\footnote{\url{twitter.com}}. 
+Many studies showed that the unique characteristics of Twitter can be incorporated into sentiment analysis techniques.
+Barbosa and Feng~\cite{Barbosa:2010RSD} first investigated to use a two-stage Support Vector Machine (SVM) classifier for tweets sentiment classification which proved to be robust regarding biased and noisy data. 
+Hu et al.~\cite{Hu:2013www} interpreted emotional signals available in social media data for unsupervised sentiment analysis by providing a unified way to model two main categories of emotional signals: emotion indication and emotion correlation. 
+Jiang et al.~\cite{xsongx:b6} focused on target-dependent Twitter sentiment classification, they proposed to improve target-dependent Twitter sentiment classification by taking both target-dependent features and related tweets into consideration. 
+Wang et al.~\cite{Wang:2011TSA} focused their study on hashtag-level sentiment classification, they proposed a novel graph model and further improved the model using an enhanced boosting classification setting. 
+Amir Asiaee T et al.~\cite{AsiaeeT:2012} presented a cascaded classifier framework for per-tweet sentiment analysis by extracting tweets about a desired target subject, separating tweets with sentiment, and  setting apart positive from negative tweets.
+Hu et al.~\cite{Hu:2013ESR} extracted sentiment relations between tweets based on social theories, and proposed a novel sociological approach to utilize sentiment relations between messages to facilitate sentiment classification and effectively handle noisy Twitter data.
+Motivated by sociological theories arguing that humans tend to have consistently biased opinions, Guerra et al.~\cite{CalaisGuerra:2011BOT} addressed challenges of topic-based real-time sentiment analysis by proposing a novel transfer learning approach with a suitable source task of opinion holder bias prediction.
+Thelwall et al.~\cite{Thelwall:2010SSS,Thelwall:2012SSD} designed SentiStrength, an algorithm for extracting sentiment strength from informal English text. The algorithm built on human-evaluated dictionaries for words connotated with positive or negative sentiments and exploited the grammar and spelling styles in typical microblogs.
 
-本章的主要工作如下：
-\begin{enumerate}
-\item 我们定义了Twitter中传播观点发现的新任务，意在Twitter中发现高质量的观点。
-\item 我们设计了基于tweet的传播度特征、观点化特征、文本质量特征的Twitter传播观点检索方法，并在真实的数据集上验证了方法的有效性。
-\item 实验结果验证了我们设计的特征对于传播观点检索是有效的，并且系统显著优于BM25基准系统和最好的Twitter观点检索系统。
-\item 另外，我们的方法在识别Twitter中的观点是否会被转发上可以达到人预测的水平。
-\end{enumerate}
+All works above have tried to adapted their methods to microblogs by making use of the network and language characteristics, no matter what approaches they have taken. However, in this paper, we solve the context-dependent problem from a novel perspective by separating context-independent part of features from context-dependent part of features in the feature space of sentiment classification.
 
-\section{相关工作}
-\label{rel_prop_3}
-Twitter中传播观点的发现主要是在Twitter中找到会被传播的观点，因此一个tweet首先必须是观点化的文本，这就与Twitter中的观点检索任务相关。Twitter中一个观点能否传播需要考虑哪些影响人们转发行为的因素，因此可以借鉴预测一般tweet转发（不考虑是否为观点化的tweet）的相关工作。正如前面强调的，高质量的文本往往与信息的传播性相关，因此如何分析观点的质量也是必须考虑的问题。基于以上分析，我们从三个方面讨论相关工作：tweet转发预测，Twitter观点检索，观点质量评价。
+\section{Problem Formulation and Hypotheses}
+\label{problem}
 
-\subsection{Tweet转发预测}
-\label{rel_retweet}
-在Twitter中，消息的重要性可以通过是否被转发来体现。因此，有许多工作是直接预测一个发布的tweet，能否在将来某个时候被其他人转发。
+\subsection{Problem Formulation}
+\label{formulation}
 
-Suh等人是第一个提出研究预测tweet转发的研究单位\upcite{suh2010want}，他们设计了一系列特征，并在大规模数据上进行验证，最后发现tweet内容，tweet是否包含链接或hashtag，与tweet是否转发十分相关。
+Simply speaking, sentiment classification aims to classify text as predefined sentiment polarity classes (negative or positive).  
+Formally, Given document corpus $ D=\lbrace d_{1},\dots ,d_{n} \rbrace$ , and predefined sentiment classes $ C=\lbrace 1,-1\mid \mathrm{positive}=1,\mathrm{negative}=-1 \rbrace$ , the task of sentiment classification is to predict each $ d_{i} $ with a label $ c_{i} $. 
+To be along with text categorization, each document can be represented as a vector of features $ x=R^{n} $, where $ n $ is the size of a pre-specified feature volume $ V $. 
+For sentiment classification, the weight of each entry in the vector usually is often specified as binary, with weight equals to 1 for feature present in the vector and 0 for absent. 
+Given a training dataset $ X=\lbrace x_{1},\dots,x_{m} \rbrace $, a classifier can be build:
+\begin{equation}
+\label{e1}
+  f:X \longrightarrow Y, Y=\lbrace 1,-1 \rbrace \enspace .
+\end{equation} 
+and it is employed  to predict label for an unseen instance $ x $ by computing $ f \left( x \right)   $, with each instance represent as a vector $ x=\left( w_{1},\dots,w_{v} \right)  $, in which $ w_{i} $ is the $ i $th feature’s weight. 
 
-Zaman等人也在较早的时候利用协同过滤的方法预测一对用户，其中一人发布tweet，另外的用户是否会转发\upcite{zaman2010predicting}。他们发现用户信息是最有效的特征。
+\subsection{Feature Space Division}
+\label{division}
 
-Naveed等人则基于tweet的内容构建了一个计算tweet被转发可能性的模型\upcite{P:WebSci:2011:NaveedGKC}，他们定义了tweet的“有趣”性。实验结果表面他们定义的“有趣”性能够帮助tweet的转发预测。
+In previous sentiment classification researches, there is an underlying hypothesis, which implies all features in the text vector represent the document's sentiment polarity equally. 
+In fact, some features may only appear in specific context, while others appear across any context. 
+As an example, an English tweet is listed as following:
 
-Petrovic等人利用基于passive-aggressive算法的机器学习方法对一个tweet能否被转发进行预测\upcite{petrovic2011rt}。他们发现tweet的文本内容，用户的分组数目，粉丝数目和作者是否是验证用户是预测tweet转发任务最重要的特征\upcite{hong2011predicting}。
+\textit{@Kid\_Cloudz: Happy birthday to Yessicaaaa! :D lovee you feggit wish you the best day everrrrr!!!!! @030268.}
 
-Hong等人采用与Petrovic等人类似的机器学习方法，不仅预测了tweet是否将被转发，还预测了tweet将被转发的次数。
+If simple ``bag-of-words'' features are considered, all words would be extracted as equal features to model the sentiment when computationally classifying sentiment polarity of this tweet. 
+However with thorough considerations, we can find that such words as "@Kid\_Cloudz, :D, lovee, everrrrr,!!!!!" are mainly used in the  language context of microblogs, while "Happy, birthday, wish, best, thanks" are sentiment indicators of text almost in any language context. 
+With such intuition, we proposed a feature space division hypothesis as:
+\newtheorem{hypothesis}{Hypothesis}{\bfseries}{\rmfamily}
+\begin{hypothesis}
+\label{h1}
+In the feature space of sentiment classification, features can be divided into two different parts:
+\begin{itemize}
+\item context-independent part, i.e. general features, which are indicators of sentiment independent of any language context;
+\item context-dependent part, i.e. context features, which indicate sentiment in specific language context.
+\end{itemize}
+\end{hypothesis}
+Formally, for the text feature vector of a tweet $ x=\left(  w_{1},\dots,w_{l},w_{l+1},\dots,w_{v} \right) $, it could be divided into two parts:
+\begin{equation}
+\label{e2}
+x=\left\{
+\begin{array}{rcl}
+x_{g}     & \qquad        &:\mbox{general features}\\
+x_{c}     &  \qquad       &:\mbox{context features}
+\end{array}
+\right. \enspace .
+\end{equation}
+where $ x_{g}= \left( w_{1},\dots,w_{l}\right) $ denotes the general part of feature space, while $ x_{c}= \left( w_{l+1},\dots,w_{v}\right) $ denotes the context dependent part.
 
-Artzi等人则将转发与回复行为看做对一个tweet的响应\upcite{artzi2012predicting}，他们依然基于机器学习的方法对tweet能否引起响应进行预测。另外，许多其它工作从不同角度预测tweet的转发行为或热点事件在Twitter中的传播\upcite{gupta2012predicting,feng2013retweet,kong2012predicting,hong2013co}。
+\section{Sentiment Classification Framework}
+\label{framework}
 
-Stieglitz等人分析了tweet文本的情感倾向性是否对tweet转发有影响\upcite{stieglitz2012political}。他们选取与政治话题有关的tweet作为研究对象，发现某些与政党和政治人物有关的情感词的确对相关tweet能否被转发有影响。与他们的工作不同，我们的工作不是检测情感因素能否影响tweet的转发，而是分析哪些因素影响Twitter中观点的传播。
+Besides traditional expressions, some languages of microblogs are often considered ``Mars Language'' because of their obscurity.  
+However users could still distinguish the sentiment polarity of the tweet even if some words seem strange to them.
+Intuitively, this kind of phenomenon may be explained by the general part of the tweet which is used to express the holistic sentiment polarity across any context, and the polarity of general sentiment words are prone to be recognized by anyone independent of context knowledge. 
+Comparably, for sentiment classification, we put forward that, the sentiment polarity of a document could sometimes still be recognized with only general part of feature space ($ x_{g} $ in Equation~\ref{e2}). 
+That is to say, if general sentiment knowledge could be modeled, what sentimental polarity a tweet prefers for could still be classified based on such general sentiment models. 
 
-\subsection{Twitter观点检索 }
+In fact, many researchers have tried to establish all kinds of sentimental ontology lexicons to represent general knowledge of human’s sentiment, such as SentiWordNet \cite{xsongx:b17} and General Inquiry \cite{xsongx:b18} in English, HowNet\footnote{\url{http://www.keenage.com}} \cite{xsongx:b19} and NTUSD \cite{xsongx:b20} in Chinese, etc. 
+However, some entries of these lexical resources have multiple senses with different sense representing different sentimental polarity, and the exact sentiment of each sense unavoidably depends on the context.
+It seems a rather difficult task to find a general resources to model the context independent knowledge.
+Actually such knowledge exists in many situations, and many regular language expressions in the form of one general phrase or combination of a few words could identify exact sentimental polarity independent of language context, such as idioms and proverbs. 
 
-上一章中，我们第一次研究了Twitter中的观点检索\upcite{luo2012opinion}，发现利用社交媒体信息与tweet的观点化信息可以帮助检索。实验结果表明当检索模型中考虑链接（URL）、提及（Mention）、发布数目（statues）、粉丝数目（statues）、tweet 文本的观点化程度等特征时，可以提高 Twitter 观点检索的效果。另外，我们还提出了一种利用社交媒体信息和 tweet 文本结构化信息帮助生成近似主观化 tweet（PST）和近似客观化 tweet（POT）的方法，以此提高评估 tweet观点化的程度，实验发现将其引入观点检索中可以替代传统手工标注数据的方法，且考虑话题相关因素构造 PST 和 POT 时，效果更好。本章中我们将在这个工作的基础上进一步研究如何在Twitter中找到传播观点，并将观点检索方法作为其中一个基准系统。
+\subsection{General Sentiment Classifier}
+\label{general}
 
-Paltoglou等人利用Twitter TREC2011数据重新标注了tweet的主观性\upcite{paltoglou2013subjectivity}，他们的工作是我们~\ref{TwitterBias}节工作的进一步扩展，主要是标注了TREC数据中更多的tweet，并请多人交叉标注，但他们的工作并未提出任何观点检索的方法，也没有涉及Twitter中观点是如何传播的问题。
+There are many linguistic resources highly valuable for sentiment classification, of which idiom resources attract interests of this research. 
+Idioms are common phenomena of many languages beside Chinese, such as ``castles in the air'', ``a bed of thorns'', and ``bring down the house'' in English.
+As is convinced, the sentimental polarity of idioms is independent and unchangeable under any context. 
+There are many off-the-shelf idiom lexicons in all kinds of languages with entries taking the example form as:
 
-\subsection{观点质量评价}
-根据观点的质量进行商品评论的排序一直是购物网站十分关注的问题，例如，Amazon.com和Ebay.com。但是，大多数的网站都是根据用户的投票（如：thumbs up和thumbs down）进行评论的排序，自动化地对评论进行排序一直是个热点和难点。
+\textit{castles in the air: a derogatory term, indicate the illusive things or impractical fanciness metaphorically.}
 
-Kim等人与Zhang和Varadarajan\upcite{kim2006automatically,zhang2006utility}最先讨论了如何自动化地评估商品评论的质量，他们利用回归模型对每个评论进行有用性打分，以此对评论进行排序。他们发现利用评论文本的句法和语法信息能够帮助评论文本质量。实验结果表明，浅层语法分析特征，如：评论中名词、动词、形容词不同的比例能够影响评论的质量。
+In this example, the entry is composed of three parts: the idiom ``castles in the air'', the semantic orientation ``a derogatory term'' representing negative
+sentimental polarity and a short paraphrase with three general negative words (``illusive, impractical and fanciness''). 
+The example provides us with a labelled sentimental instance with general sentiment features and a negative label.
+Most importantly, the sentimental polarity of such instance is independent of any context just as the idiom it explains. 
+Based on such observation, another hypothesis is proposed as follows:
+\begin{hypothesis}
+\label{h2}
+The sentimental polarity of the idiom paraphrase is independent of language context just as the idiom it describes.
+\end{hypothesis}
+With Hypothesis~\ref{h2} admitted, we could constructed a training dataset with the features extracted from paraphrases of idioms as general feature vector, the sentimental polarity of idioms as sentimental labels. 
+Then a context-independent classifier could be trained to model the general sentiment knowledge.
 
-Liu等人详细分析了Amazon中发布的评论\upcite{liu2007low}，发现用户对评论的投票存在三类明显的偏置：
-  \begin{enumerate}
-  \item {\textbf{不平衡投票偏置（Imbalanced Vote Bias）}}：有些评论存在大量的用户投票，有些评论很少有人投票，甚至没有人投票。
-  \item {\textbf{优胜者投票偏置（Winner Circle Bias）}}：一旦某些评论被其他用户投票的次数超过一定的数量后，这个评论将会被更多人投票。
-  \item {\textbf{新旧评论投票偏置（Early Birds Bias）}}：发布较早的评论所吸引的投票热度明显高于发布较晚的评论。
-  \end{enumerate} 
-基于以上三种偏置，Kim等人与Zhang和Varadarajan研究工作中所采用的训练数据是不可信的，因此Liu等人选取了专家数据训练模型对新评论进行质量评估。
+\subsection{Context Sentiment Classifier}
+\label{context}
 
-Ghost等人研究了评论对于商品销售的影响\upcite{Ghose:2011:EHE:2053026.2053262}，例如，商品的销售量与评论的关系。他们发现评论的主观性程度，信息量，可读性，语言用词的正确性影响商品的销售量。
+As the general sentiment features are only one part of all features in the whole feature space, the other context-dependent part of features should be considered in order to capture the subtle clues embedded in the specific sentiment expressions in language context of microblogs.
 
-Liu等人研究了电影评论的质量\upcite{liu2008modeling}，他们发现除了文本信息的因素，评论者的领域知识程度，评论发布时间也与评论的质量有关。Danescu-Niculescu-Mizil等人和Lu等人还发现评论的有用性不仅与评论的内容有关\upcite{Danescu-Niculescu-Mizil:2009:ORO:1526709.1526729,Lu:2010:ESC:1772690.1772761}，还与其社会属性相关，例如评价对象的质量，评价者的权威性等\upcite{tsur2009revrank,siersdorfer2010useful,jindal2010finding,chen2011user,tsaparas2011selecting,agarwal2011personalized,shmueli2012care,dalal2012multi,mishra2012semi,mahajan2012logucb,jain2013topical}。
+To model the context-dependent part of tweets, there are two questions must be solved. 
+The first is to identify the context-dependent part of features extracted from tweets. 
+In fact, new expressions appears on microblogs with the explosively increasing of UGC, which makes it rather difficult to clearly tell whether each word is context dependent or not. 
+However tweets are conventionally short with the limitation of 140 characters, and users often express one particular sentiment in one tweet with a few words. 
+Based on the particular characteristics of tweets, we make an assumption that if a tweet contains idioms,  sentimental polarity of words in a tweet are often context-dependent except for the idioms. 
+The second is how to find labelled instances to train the context-dependent classifier. 
+Some researchers have proposed distant supervision to solve the training data shortage of Twitter \cite{xsongx:b36,xsongx:b37}. 
+In this paper we establish our training dataset in a similar way.
+We retrieve tweets on microblogs and try to get as many tweets as possible that contains idioms. 
+By stripping off idioms, we extracted context-dependent features from left words, and took the sentimental polarity of idioms as labels. 
+So we get our noisy labelled dataset and a context-dependent classifier is trained to model the context-dependent knowledge.
 
-另外，随着评论信息变得越来越重要，很多商家由于恶性竞争，在相关评论网站上发布垃圾评论甚至虚假评论，因此有一些工作围绕垃圾评论或虚假评论识别展开\upcite{jindal2007analyzing,lim2010detecting,wang2011review,mukherjee2011detecting,mukherjee2012spotting,li2011learning,xie2012review,morales2013synthetic}。
+\subsection{Combination of Two Classifiers}
+\label{combination}
 
-以上工作大部分处理的对象都是传统的网站评论。但是Twitter作为一种新型社交媒体，它简短的文本和丰富的社交媒体属性应该被用于考虑评论的质量。
+Although theoretically the general classifier and context classifier could be able to model different sentiment knowledge separately and classify the sentiment of a tweet accurately to some extent, the coverage and efficiency of them are limited by the quality and quantity of training datasets. 
+Besides, it is obvious that the paraphrase of idiom and tweet segments (lefts by stripping off idioms) is usually very short, so the feature vectors of datasets must be very sparse, which degrades the performance of the classifiers. 
+For above reasons, a consistent bootstrapping machine learning framework is chosen to combine the two classifiers together. 
+The framework is illustrated in Figure~\ref{fig1}. 
+\begin{figure*}[!t] 
+\centering%
+\includegraphics[width=6.0in,height=2.8in]{itse13p.pdf}
+\caption{The Bootstrapping Sentiment classification Framework}
+\label{fig1}
+\end{figure*}
+As illustrated in the framework, in an iterating manner, the general classifier $ P_{g} $ and context classifier $ P_{c} $ are applied to test dataset so that the every test instance $ x_{i} $ is predicted labels $ c_{i}=\lbrace c_{g},c_{c}\rbrace $ initially, with confidence $ p_{i}= \lbrace p_{g},p_{c}\rbrace$. 
+Then a combined confidence score is calculated with Equation~\ref{e3}:
+\begin{equation}
+\label{e3}
+p_{i}=\left\{
+\begin{array}{rcl}
+\lambda\ast p_{g} + \left( 1-\lambda \right) \ast p_{c} \qquad \mbox{if} \quad c_{g}=c_{c};\\
+0 \qquad \mbox{if} \quad c_{g} \neq c_{c};
+\end{array}
+\right. \enspace .
+\end{equation}
+where $ \lambda $ is the coefficient to control impacting weights of different part of features. 
+We initialize $ \lambda = 0.5 $ with equal weights of general part and context part of features, and to make combined classifier more adaptable for microblogs, we  increase the weight of context part step by step with the bootstrapping iteration progressing.
+The test dataset initially labelled as $ c_{i} \left( c_{i} \in \lbrace 1, -1\rbrace \right)$ was sorted with descending confidence $ p_{i} \left( p_{i} \neq 0 \right) $ for two sentimental categories $ C=\lbrace 1,-1\rbrace $ separately.
+The $ n $  positive and negative instances with top high confidence are selected as new instances to add into the training dataset and improve the context classifier to a more context-aware classifier. 
+Such a procedure iterates until convergence.
+The output of such semi-supervised sentiment classification framework is the predicted results of test dataset. 
+Above all, the whole framework can combine the two classifiers which constructed on divided feature space into a stronger classifier. 
 
-\section{Twitter传播观点检索实验数据}
-为了研究哪些因素与Twiter中的传播观点有关，我们利用了第三章介绍的Twitter观点检索数据\footnote{下载地址：\url{https://sourceforge.net/projects/ortwitter/}}。这个数据包括50个查询词和5000个已经被判定是否为相关观点的tweet。每一个查询词，平均有16.62个话题相关且带观点的tweet。这个数据是在2011年11月通过Twitter streaming API收集的。
+\subsection{Classifier Description}
+\label{classifier}
 
-我们本章的目的是在Twitter中找到话题相关的观点并且在未来会被转发。因此，我们在2012年4月利用Twitter statuses API\footnote{\url{https://dev.twitter.com/docs/api/1/get/statuses/show/\%3Aid}}重新抓取了原数据中的tweet。根据我们在~\ref{ROR_Intr}对相关tweet的定义，我们将以前相关观点tweet进行再标注，如果在这6个月中，相关观点tweet被转发了，则该tweet是相关tweet，否则为不相关tweet，而其他在原始数据中剩余的tweet都为不相关tweet。我们认为这些tweet是否相关的状态已经稳定，它们不太可能被再次转发。另外，当我们重新抓取这些tweet时，我们发现某些tweet因为各种原因已经被删除，我们将这些被删除的tweet统统认定为不相关tweet，因为它们已经无法通过转发进行消息的传播。最终，对于每一个查询词，平均有3.4个相关tweet，这说明了Twitter中只有很少一部分的观点会被转发，大部分的观点是不会被传播的。有趣的是，这个数据中观点被转发的比例是20.5\%，而普通tweet被转发的比例是16.6\%，这说明Twitter中，观点比普通tweet更容易被传播。
+We adopt the same methods as Pang et al.~\cite{xsongx:b4}, in that they have applied Na\"\i ve Bayes, Maximum Entropy and Support Vector Machine classifiers to identify the effectiveness of machine learning techniques on sentiment classification, and they got satisfying result (accuracy of 82.9\%).
+\subsubsection{Na\"\i ve Bayes Classifier.}
+\label{bayes}
+Naïve Bayesian classifier is the most popular text classification techniques.
+For sentiment classification problem as formulated in Section~\ref{formulation}, to determine which sentimental category $ c_{j} $ a document $ d_{i} $ belongs to, it is needed to compute the posterior probability $ P \left(c_{j} \mid d_{i} \right)$. 
+According to the Bayesian probability and the multinomial model, based on the hypothesis that the probabilities of features $ w_{d_{i},k} $ are independent given document class, Equation~\ref{e4} is got:
+\begin{equation}
+\label{e4}
+P \left(c_{j} \mid d_{i} \right) = \frac{P \left( c_{j} \right)\prod_{k=1}^{| d_{i} |} P \left( w_{d_{i},k} \mid c_{j} \right)}{\sum_{r=1}^{|C|}P \left( c_{r} \right)\prod_{k=1}^{| d_{i} |} P \left( w_{d_{i},k} \mid c_{r} \right)} \enspace .
+\end{equation}
+The class with the highest probability is assigned as the sentimental category of the document $ d_{i} $. 
+\subsubsection{Maximum Entropy Classifier.}
+\label{entropy}
+The Maximum Entropy classifier assigns the class with the higher conditional probability to the sentimental category of document $ d_{i} $ as follows:
+\begin{equation}
+\label{e5}
+P \left( c_{j} \mid d_{i}, \overrightarrow{\theta} \right) = \frac{1}{Z}exp \left( \overrightarrow{\theta}, \overrightarrow{f} \left( d_{i},c_{j} \right) \right) \enspace .
+\end{equation}
+where $ \overrightarrow{\theta} $ denotes the vector of feature weights, $ \overrightarrow{f} \left( d_{i}, c_{j} \right)$ denotes feature function that maps pair $ \left( d_{i}, c_{j} \right) $ to a feature vector, and $ Z $ denotes normalization factor.
+With labelled dataset $ D $, the training procedure is trying to solve such an optimization problem as:
+\begin{equation}
+\label{e6}
+\overrightarrow{\theta^{\ast}}=argmax_{\overrightarrow{\theta}}\prod_{i=1}^{|D|} P \left( c_{j} \mid d_{i}, \overrightarrow{\theta} \right) \enspace .
+\end{equation} 
+\subsubsection{Support Vector Machine Classifier.}
+\label{svm}
+Support Vector Machines classifier (SVM), is a kind of discriminative method of machine learning techniques.
+SVM tries to find a decision surface to separate the training data into two classes and makes decisions based on support vectors. 
+In this research, linear SVM has been adopted due to its popularity and sound performance in sentiment classification task.
+The training of SVM is trying to minimize an constraint optimization problem:
+\begin{equation}
+\label{e7}
+\begin{aligned}
+\overrightarrow{\alpha^{\ast}}=argmin \left( -\sum_{i=1}^{n}\alpha_{i} + \sum_{i=1}^{n} \sum_{j=1}^{n}\alpha_{i}\alpha{j} x_{i}x_{j}<\overrightarrow{x_{i}},\overrightarrow{x_{j}}> \right)\\
+\mbox{Subject to:} \sum_{i=1}^{n}\alpha_{i}y_{i}=0 , 0\leqslant \alpha_{i} \leqslant 1
+\end{aligned} \enspace .
+\end{equation}
 
-\section{基于排序学习的 Twitter传播观点检索框架 }
-我们的目的是构造一个排序系统，这个系统能够在Twitter中找到未来会被传播的观点。为此我们设计了tweet传播度特征，tweet观点化特征和tweet文本质量特征。我们将这些特征引入到排序学习算法中，通过标注的训练数据学习模型，以此为新的tweet进行排序获得相关文档。
+\section{Experiment}
+\label{experiment}
 
- \subsection{Twitter传播观点检索排序学习框架}
- 我们依然采用排序学习作为我们系统的基本框架。通过一些查询词和一些被标注是否与查询词相关的tweet构成训练集合，然后设计开发针对相关定义的特征进行模型训练，学习到的模型能够对新的查询词和对应的tweet进行排序，排序位置高的为相关tweet。特征的有效性可以通过模型中引入不同的特征在测试集合中的排序效果进行评估。
+In this section, the proposed semi-supervised sentiment classification framework is verified in an empirical test. 
+The test has been carried out with Chinese dataset constructed from an off-the-shelf on-line idiom dictionary and microblog platform Tencent\footnote{\url{http://t.qq.com/}}. 
 
- \subsection{Twitter传播观点检索相关特征}
- 正如~\ref{rel_prop_3}介绍的相关工作，Twitter的传播观点检索首先需要考虑的是，tweet能否在将来被传播，因此如何评估tweet被转发的可能性是需要解决的问题。其次，Twitter传播观点检索中对tweet观点化的评价是非常重要的一部分，tweet是否是观点，是决定tweet能否成为相关tweet的必要条件。最后，在Twitter中文本的高质量与tweet的传播性息息相关，因此需要分析哪些因素影响文本的质量。因此为了在Twitter中检索到传播的观点，我们设计了传播度特征，观点化特征，文本质量特征：
- 
-  \begin{enumerate}
-\item{\textbf{传播度特征（Retweetability Feature）}}：主要评估tweet未来会被转发的可能性。
-\item{\textbf{观点化特征（Opinionatedness Feature）}}：主要涉及如何评估tweet的观点化程度。
-\item{\textbf{文本质量特征（Textural Quality Features）}}：主要涉及tweet文本有关的属性特征。
-\end{enumerate}
-接下来，我们将具体介绍有关的特征。
+\subsection{Experiment Description}
+\label{description}
 
-\section{传播度特征}
-Twitter中tweet的转发被认为是最重要的信息传播手段，并且有大量的工作是关于给定一条tweet，预测该tweet在未来能否被转发\upcite{hong2011predicting,petrovic2011rt}。因此，我们设计了一个特征来预测tweet是否会被转发。我们利用Petrovic等人的工作来设定该特征\upcite{petrovic2011rt}。该工作通过机器学习利用passive-aggressive算法来计算tweet会被转发的置信度。算法中利用了一系列与预测转发有关的特征，包括：
+\paragraph{Dataset}
+We crawled the on-line idiom dictionary from China Education Network\footnote{\url{http://chengyu.teachercn.com}} and got an idiom dataset of 8,160 instances labelled with positive (3,648 instances) and negative (4,512 instances) sentiment, which was used to train the general classifier. 
+From Apr.15th,2013 to May 1st,2013, we monitored Tencent time-line tweet streams, retrieved and extracted the tweets that contained at least one idiom in our idiom dataset, resulting in about 120,346 tweets. 
+After stripping off idioms from all tweets and removing tweets with characters less than 4, we got a dataset of 91,268 instances which was used to train context classifier. 
+The dataset from the First Chinese tweet Sentiment Analysis and Semantic Relationship Extraction Evaluation of CCF Natural Language Processing and Chinese Computing\footnote{\url{http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html}} was used to evaluate performance of our framework. 
+\paragraph{Classifiers and performance measurement}
+There are various complicated measurements to evaluate the performance of computational algorithm, of which the simplest accuracy index was chosen to evaluate the performance of our framework, because the comparison between measurements was not the important points of our research. 
+As for classifiers, Na\"\i ve Bayes classifier and Maximum Entropy classifier of NLTK (Natural Language ToolKits) \cite{xsongx:b27} package and Support Vector Machine classifier of Libsvm \cite{xsongx:b28} package were used for classification. 
+All the parameters and settings were optimized by cross-validation.
+\paragraph{Baseline and upper bound}
+Two baselines were used to compare with the proposed framework, the first one was na\"\i ve $ 50\% $ baseline since the test dataset was balanced with respect to the sentiment classes, the other one was the traditional lexicon-based classifier by comparing the number of positive words and negative words in HowNet sentiment lexicon for a tweet to determine its sentiment class.
+As mentioned in Section~\ref{related}, supervised machine learning methods are often used as upper bound to be compared by other methods. 
+In the experiments, an upper bound was also set up with test dataset in the five-folded cross-validation manner.
+\paragraph{Preprocessing}
+Text written in Chinese are not well formatted in that words in a sentence are not separated by space as English. 
+All the text in Chinese must be segmented before bag-of-words features being extracted. 
+In the experiment, all text of training and testing dataset were segmented with Chinese segmentation software ICTCLAS\footnote{\url{http://ictclas.nlpir.org/}}.
 
- \begin{enumerate}
-\item{\textbf{内容（Content）}}：tweet中的文本内容。这个特征主要表示tweet的话题，因为有关特定话题的tweet比有关其他话题的tweet更容易被转发。例如，人们可能更加关注与话题“ran nuclear”有关的tweet，而对话题“systems biology”相关的tweet兴趣较小。
-\item{\textbf{粉丝数目（Followers）}}：tweet作者的粉丝数目。这个特征反映了用户受欢迎的程度。一个受欢迎的用户发布的tweet往往比较容易被转发。
-\item\textbf{\textbf{分组数目（Listed）}}：tweet作者被分组的数目。这个特征同样反映了用户受欢迎的程度。
-\item\textbf{\textbf{验证用户（Verified）}}：tweet作者是否被官方验证。这个功能主要是Twitter官方来验证某些用户的权威性（如，明星）。在Petrovic等人的工作中，他们发现91\% 由验证用户发布的tweet都会被转发，而只有6\%的非验证用户发布的tweet被其他人转发\upcite{petrovic2011rt}。
-\end{enumerate}
-
-对于tweet是否会被转发，时间因素也非常重要，例如，人们可能在2011年11月对“American Music Awards”的关注度远远高于2012年4月。因此，我们在训练预测tweet是否会被转发的模型时，使用了由Twitter streaming API\footnote{\url{http://stream.twitter.com/}}抓取的2011年11月的tweet。这个训练数据中总共包含3000万条tweet，我们将那些由“retweet”按钮转发的tweet视为正例，其他tweet视为反例。最后，我们测试了我们模型的预测性能，我们随机选取了10万条tweet作为测试集，结果显示我们预测模型的正确率到达 95.99\%。
-
-利用这个模型，我们可以对我们传播观点检索中的数据进行转发预测，我们利用passive-aggressive算法对tweet转发预测的置信度作为特征的分值，并称该特征为Retweetability特征。
-
-\section{观点化特征}
-显然传播观点检索任务中，对tweet的观点化程度进行评估依然是不可或缺的。这里我们采用~\ref{form}节介绍的方法对tweet进行观点化程度的评估，具体采用表~\ref{Features_Sum}中介绍的Q\_D特征：由话题相关的PSTs和POTs数据对tweet的观点性打分，因为这个特征在Twitter观点检索任务中，取得最佳的检索效果。另外，我们将这个特征称为Opinionatedness特征。
-
-\section{文本质量特征}
-Twitter作为一种非常流行的社交媒体吸引了许多用户在其发布各种消息，例如，个人信息，垃圾信息，对话信息等等。不同于传统新闻网站发布的正式消息，这些信息大部分都没有进行认真地编辑，因此存在大量的错别字，缩写语和口语化的用词。Tweet文本的质量往往参差不齐，我们设计了一些特征来帮助判定twee文本的质量，以此帮助Twitter中传播观点的检索：
-
- \begin{enumerate}
-\item{\textbf{长度（Length）}}：tweet文本中词的个数。Kim等人发现文本的长度能够有效评估评论的质量\upcite{kim2006automatically}。直觉上，更长的tweet一般包含更多的信息，我们用此特征间接表示tweet信息的丰富程度。
-\item{\textbf{词性（PosTag）}}：第三章的研究已经发现个人发布的信息更有可能在tweet中包含观点，这些tweet经常包含人称代词，例如，“i”，“u”，“my”，另外还包含一些表情符合，例如，“:)”，“:(”，“d”，但是一些很少包含“开放类（open-class）”词的观点往往是一些低质量的信息，例如，这个tweet“@fayemckeever Jennifer Aniston :)”几乎对读者来说没有任何价值。因此我们设计了一些特征，意在捕获tweet文本的语言属性，具体包括tweet中“开放类（open-class）”词的比例，名词的比例，动词的比例，形容词的比例。这里我们使用Twitter Part-of-Speech Tagging\footnote{下载地址：\url{http://www.ark.cs.cmu.edu/TweetNLP/}} 对tweet进行词性标注\upcite{gimpel2011part,owoputi2013improved}。
-\item{\textbf{流畅度（Fluency）}}：tweet的流畅程度反映了tweet的可读性，我们利用语言模型（ language model）来解决评估tweet文本的流畅程度\upcite{katz1987estimation}。我们将tweet~$t$在特定语言模型下的概率作为tweet文本流畅度的分值$F(t)$，具体公式如下：
-$$F(t)=\frac{1}{m}P(w^m) =\frac{1}{m}\prod\limits_i\limits^m P(w_i | w_{i-N+1}, w_{i-N+2},...,w_{i-1})$$ 
-其中tweet~$t$可以表示成一个词向量$w^m=(w_1,w_2,...,w_m)$。为了解决语言模型中长度的偏置问题，我们通过tweet文本的长度来对其值进行归一化。我们利用2011年11月的3000万条tweet计算得到N元语言模型（N=4）。
-\end{enumerate}
-
-\section{Twitter传播观点检索实验}
-
-\subsection{传播观点人工预测实验}
-\label{human}
-在评估我们的Twitter中传播观点检索方法之前，我们首先测试人是否可以正确判断哪些是传播的观点。我们请了两个用户参与测试，总共向他们给出了100对tweet，然后要用户判断那个是未来会被转发的观点。每一对tweet都只与一个话题相关，并且只有一个是转发的观点。给出每一对tweet请用户判断时，tweet的顺序被随机打乱，为的是避免tweet排列顺序的偏置。
-
-我们以正确率衡量人的判断能力，正确率是100对tweet中用户准确判断那个是传播观点的tweet对数。实验结果显示，两个用户都能够击败随机的选取系统（正确率为50\%），其中一个用户判断的正确率为75\% ，另一个为 69\%。实验结果说明人能够有效地在Twitter中判断那个是传播的观点，那个不是。
-
-\subsection{Twitter传播观点检索实验设置和基准系统（Baseline）}
-本节我们介绍一下我们的实验设置和基准系统。对于排序学习的实现，我们依然使用了SVM Rank工具\footnote{下载地址：\url{http://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html}}。我们选取线性核函数，实验结果都是选取最优的参数设定。为了避免过拟合，我们使用了10次交叉验证，因此每次验证中包含45个查询词和对应的tweet作为训练集合，5个查询词和对应的tweet作为测试集。我们还是使用平均准确率（Mean Average Precision-MAP）作为我们测试的验证指标。
-
-Twitter传播观点检索是一项新的工作，直接研究该问题的的工作还没有，因此我们选取另外两个方法作为我们的基准系统。一个是使用Okapi BM25计算的查询词与tweet的话题相关性进行排序得到的BM25基准系统，这个系统被广泛应用于各种Twitter检索任务中\upcite{duan2010empirical,luo2012improving,luo2012opinion}。另一个基准系统采用第三章介绍的Twitter观点检索的方法。这个方法利用了社交媒体特征与tweet的观点化特征，我们将这个基准系统称为TOR（Twitter Opinion Retrieval）。TOR具体的特征在表~\ref{TOR}中给出。
-
-\begin{table}[!htbp]
- \centering
- \caption{TOR基准系统的相关特征}
-  \label{TOR}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}| l p{3.0in}|}
- \hline 
-\textbf{TOR特征（TOR Features）} & \textbf{描述} \\
- \hline
-BM25 & Okapi BM25分数\\
-链接（URL）& tweet中是否包含链接 \\
-提及（Mentions）& tweet是否包含提及 \\
-发布数目（Statuses ）  &  tweet的作者以往发布tweet的数目 \\   
-粉丝数目（Followers） & tweet的作者的粉丝数目 \\
-观点化程度（Opinionatedness） & tweet的观点化程度\\
- \hline
- \end{tabular*}
-\end{table}
-
-\subsection{Twitter传播观点检索实验结果及分析}
-本节我们验证上面设计的特征是否对于Twitter中的传播观点检索有效。我们将设计的特征一个一个加到两个基准系统中进行验证。表~\ref{Features_PropogatedOpinionSum} 简要概述了Twitter传播观点发现所使用的相关特征。表~\ref{TOR_POR}和表~\ref{BM25_POR}给出了实验结果。
-
-\begin{table}
+\subsection{Result and Analysis}
+\label{result}
+To determine the values of $ \lambda $ in Equation~\ref{e3}, we carried out traversal experiment by varying the value of $ \lambda $ from $ 0 $ to $ 1 $ with step of $ 0.1 $. The result is illustrated in Figure~\ref{fig2}.
+\begin{figure}[!t]
 \centering
-\caption{Twitter传播观点检索特征概况}
- \label{Features_PropogatedOpinionSum}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}| l l p{1.6in}|}
+\includegraphics[width=3.5in,height=2.0in]{lambda.pdf}
+\caption{The Impact of $ \lambda $ on Different Classifiers: NB denotes Na\"\i ve Bayes, MX denotes Maximum Entropy and SVM denotes Support Vector Machine.}
+\label{fig2}
+\end{figure}
+The values of $ \lambda $ for each combined bootstrapping classifier based on three different classifiers are fixed as the accuracy reaches its peak, which are: $ 0.4 $ for Na\"\i ve Bayes classifier, $ 0.5 $ for Maximum Entropy classifier, and $ 0.3 $ for Support Vector Machine classifier.
+
+The final sentiment classification results are shown in Table~\ref{t1}. 
+\begin{table}[!t]
+\caption{Results for Different Classifiers}
+\label{t1}
+\centering
+\begin{tabular}{|l||l|l|l|}
 \hline
-\textbf{基准系统特征（Baseline Feature）} & \textbf{取值范围}& \textbf{描述} \\
- \hline
-BM25 & $(0,+\infty)$ &tweet的BM25分值\\
- \hline 
-  
- \hline
-\textbf{Twitter观点检索系统特征（TOR Features）} & \textbf{取值范围}& \textbf{描述} \\
- \hline
-BM25 & $(0,+\infty)$ &tweet的BM25分值\\
- 链接（URL）& $0$ or $1$ & tweet中是否包含链接 \\
- 提及（Mentions）& $0$ or $1$ & tweet是否包含提及 \\
-发布数目（Statuses ）  & $N^+=\{1,2,3,...\}$ & tweet的作者以往发布tweet的数目 \\   
-粉丝数目（Followers） &$N=\{0,1,2,...\}$& tweet的作者的粉丝数目 \\
-观点化程度（Opinionatedness） &$(-\infty,+\infty)$& tweet的观点化程度\\ 
- \hline 
- 
- \hline 
-\textbf{传播度特征（Retweetability Feature）} & \textbf{取值范围} & \textbf{Description} \\
- \hline
-转发置信度（Retweetability）& [0,1] & tweet转发的置信度 \\
- \hline 
- 
- \hline 
-\textbf{观点化特征（Opinionatedness Feature）} & \textbf{取值范围} & \textbf{Description} \\
- \hline
-观点化程度（Opinionatedness） &$(-\infty,+\infty)$& tweet的观点化程度\\ 
- \hline 
- 
- \hline 
-\textbf{文本质量特征（Textural Quality Features）} & \textbf{取值范围} & \textbf{Description} \\
- \hline
-长度（Length）& [1,140] & tweet的词数 \\           
-词性（PosTag）& [0,1] & 不同词性的词分布比例\\    
-流畅度（Fluency）& [0,1] & 语言模型计算的tweet文本流畅程度\\   
- \hline
- \end{tabular*}
+%\noalign{\bigskip}
+\bfseries Classifier &  \bfseries NB    &   \bfseries MX    &   \bfseries SVM    \\
+%   & Lexicon  & Supervised & General & Context &  Combined \\
+%\noalign{\bigskip}
+\hline
+%\noalign{\bigskip}
+\bfseries Lexicon Classifier & 0.725 & 0.725 & 0.725 \\
+\hline
+\bfseries Supervised Classifier & 0.785 & \textbf{0.806} & 0.826 \\
+\hline
+\bfseries General Classifier & 0.734 &  0.740 & 0.762 \\
+\hline
+\bfseries Context Classifier & 0.766 & 0.785 & 0.805 \\
+\hline
+\bfseries Combined Classifier & \textbf{0.802} & 0.802 & \textbf{0.843} \\
+% NB & 0.725 & 0.785 & 0.714 & 0.766 & \textbf{0.802}   \\
+% MX & 0.725 & \textbf{0.806} & 0.740 & 0.785 & 0.802  \\
+% SVM & 0.725 & 0.826 & 0.722 & 0.805 & \textbf{0.843} \\
+%\noalign{\bigskip}
+\hline
+\end{tabular}
 \end{table}
 
-\begin{table}[!htbp]
- \centering
-  \caption{Twitter传播观点检索系统实验结果（TOR）}
- \label{TOR_POR}
- \begin{tabular}{|l l|}
- \hline
- & MAP \\
- \hline
- BM25 & 0.0997\\
- BM25+Retweetability & 0.1077\\
-  BM25+Opinionatedness & 0.1146 \\
- BM25+Length& 0.0881\\
-BM25+PosTag & 0.1157\\
-BM25+Fluency& 0.1046\\
-BM25+Textural Quality & 0.1277\\
-BM25+All& 0.1317\\ 
- \hline
- \end{tabular}
-   \begin{tablenotes}
-        \footnotesize
-\item $^\triangle$ 和$^\blacktriangle$分别表示排序结果显著高于BM25传播观点检索系统（p $<$ 0.05和p $<$ 0.01），BM25+All使用了BM25，Retweetability，Opinionatedness和Textural Quality features特征。
-\end{tablenotes}
-\end{table}
+Firstly, the accuracies of general classifier and context classifier all surpass the na\"\i ve baseline (50\%), which proves that they are superior to random selection and may be better choice when there are no labelled dataset available for supervised or semi-supervised machine-learning sentiment classification.
 
-\begin{table}[!htbp]
- \centering
-  \caption{Twitter传播观点检索系统实验结果（BM25）}
- \label{BM25_POR}
- \begin{tabular}{|l l|}
- \hline
- & MAP \\
- \hline
-TOR & 0.1521\\
-TOR+Retweetability  &0.1806$^\blacktriangle$\\
-TOR+Length  &0.1580 \\
-TOR+PosTag  &0.1917$^\blacktriangle$\\
-TOR+Fluency  &0.1875$^\triangle$\\
-TOR+Textural Quality&0.1930$^\blacktriangle$ \\
-TOR+Retweetability+Textural Quality (Best)&0.1992$^\blacktriangle$\\
- \hline
- \end{tabular}
-   \begin{tablenotes}
-        \footnotesize
-\item $^\triangle$ 和$^\blacktriangle$分别表示排序结果显著高于TOR传播观点检索系统（p $<$ 0.05和p $<$ 0.01）。
-\end{tablenotes}
-\end{table}
+Secondly, the accuracy of general classifier is a little higher than the traditional lexicon-based classifier, in that although they can both model the general sentiment knowledge, the general classifier is trained on context-independent part of features, so it can better catch the holistic sentimental polarity of tweets, while the sentiment lexicon often contains ambiguous entries. 
+As for the context classifier, the performance outperforms the traditional lexicon-based classifier and general classifier, because it has been trained on context-aware part of features, and the users are more willing to express their sentiment with ``Mars Language'' of microblogs, so the context classifier is more adaptable for microblog context.
 
-我们看到当传播度特征（Retweetability），词性特征（PosTag），流畅度特征（Fluency）整合到TOR基准系统时，检索传播观点的MAP值能够显著提高。这说明考虑tweet被传播的可能性，tweet文本的语言属性，tweet文本的可读性可以帮助发现Twitter中的传播观点。另外，我们发现TOR基准系统的MAP值显著高于BM25基准系统的MAP值 （p$<$0.01），这说明tweet的观点化程度和tweet的一些社交媒体信息同样能够帮助发现Twitter中的传播观点。虽然当BM25基准系统整合传播度特征，词性特征，流畅度特征时，MAP值都有提高，但并不显著，可能的原因是仅仅使用这些特征与BM25特征组合不足以发现Twitter中的传播观点。有趣的是我们发现长度特征（Length）整合到TOR基准系统时，能够帮助传播观点检索，但整合到BM25基准系统时，MAP值反而下降，这说明tweet的长度信息不像其他网站的评论信息一样\upcite{kim2006automatically}，对观点的质量判断有效。可能的原因是tweet的长度限制在140个字符，因此tweet的长度差异性不像其他网站的评论一样那么明显。最后我们将整合的文本质量特征（Textual Quality）加到两个基准系统中，文本质量特征包括长度特征，词性特征，流畅度特征，实验结果显示文本质量特征能够帮助Twitter中的传播观点检索。以上种种说明我们设计的传播度特征，观点化特征，文本质量特征对于Twitter中的传播观点检索是有效的。
+Finally, the combined classifier shows the best performance by combining general classifier and context classifier. 
+It even outperforms the upper bound supervised classifier, which proves the effectiveness our proposed framework because it can not only catch the holistic sentimental polarity of tweets by modelling general sentiment knowledge but also adapt to the microblog language context by considering the subtle sentiment expressions articulated in tweets.
 
-最后我们将所有的特征都整合到TOR基准系统中（Best），表~\ref{BM25_POR}给出了Twitter传播观点检索最好的结果，MAP值达到0.1992，这个MAP值超过TOR基准系统MAP值30.97\%，超过BM25基准系统MAP值99.80\%。以上说明我们最好的系统不仅能够在Twitter中找到话题相关的观点，而且观点能在未来被转发传播。例如，以下一个例子是我们数据中与话题“American Music Awards”相关的三个tweet：
+\section{Conclusion}
+\label{conclusion}
 
-\begin{description}
-\item{(a)} \emph{Watch Olnine Free| The 39th Annual American Music Awards (TV 2011): The 39th Annual American Music Awards (TV 20... \url{http://t.co/SxrjVVmx}}
-\item{(b)} \emph{We're so excited for the American Music Awards this weekend}
-\item{(c)} \emph{That awkward moment when the American Music Awards is really the American Minaj Awards}
-\end{description}
-
-在我们的各个系统中，BM25基准系统将Tweet（a）排在Tweet（b）和Tweet（c）前面，但是Tweet（a）只是与查询词“American Music Awards”话题相关，并不包含观点。基准系统TOR将Tweet（b）排在其他两个tweet前面，虽然Tweet（b）包含了对话题“American Music Awards”的观点，但是该tweet并没有被转发。而我们最好的传播观点检索系统（Best）将Tweet（c）排在最前面，我们可以看到这个tweet不仅与话题“American Music Awards”相关，而且还包含有意思的观点，另外，六个月后这个tweet还被转发了143次。
-
-\subsection{Twitter观点传播预测VS~Twitter普通tweet传播预测}
-已经有许多工作是关于预测普通的tweet能否被转发\upcite{hong2011predicting,petrovic2011rt}。我们想研究分析一下在Twitter中普通tweet转发与观点转发之间的关系。因此，我们构造了一个系统只使用传播度特征（Retweetability）进行Twitter中传播观点的检索。表~\ref{Human_POR} 显示了实验结果。我们发现只使用传播度特征的检索系统明显不如Best系统效果好，这说明Twitter中的传播观点转发预测不同于普通tweet的转发预测。因此，正如我们前面的实验结果所得，对于Twitter中的传播观点检索应该考虑更多的因素，如tweet的观点化程度和文本的质量。
-
-\begin{table}[!htbp]
- \centering
-  \caption{Twitter传播观点检索系统实验结果（Retweetability）}
- \label{Human_POR}
- \begin{tabular}{|l l|}
- \hline
- & MAP \\
- \hline
-  Retweetability & 0.0936\\
- TOR+Retweetability+Textural Quality (Best)&0.1992$^\blacktriangle$\\
- \hline
- \end{tabular}
-   \begin{tablenotes}
-        \footnotesize
-\item $^\triangle$ 和$^\blacktriangle$分别表示排序结果显著高于Retweetability传播观点检索系统（p $<$ 0.05和p $<$ 0.01）。
-\end{tablenotes}
-\end{table}
-
-\subsection{Twitter传播观点预测VS~Twitter传播观点人工预测}
-最后，我们将Best系统与人进行Twitter中传播观点预测的实验比较，我们利用~\ref{human}节介绍的100对tweet，然后利用Best系统对每一对tweet进行排序，排序高的判定为Twitter中会被传播的观点。最后实验结果显示我们的Best系统的正确率达到71\%，这个结果略为小于人预测的平均正确率（72\%），但没有显著性差别（p=0.05）。这个结果说明了，在Twitter中的传播观点检索的任务上，我们的方法能够达到人预测的效果。
-
-\section{小结}
-本章中我们详细介绍了如何在Twitter中发现传播观点。一系列特征被整合到基于排序学习的框架中解决传播观点发现的任务，这些特征包括：传播度特征（Retweetability），观点化特征（Opinionatedness），文本质量特征（Textural Quality）。
-
-实验结果表明这些特征对于Twitter中的传播观点的发现是有效的，而且结合所有特征构造的最佳检索系统性能显著优于BM25系统和目前最好的Twitter观点检索系统。最后，我们还发现我们的系统在预测Twitter中观点是否会被转发的能力可以达到人判断的效果。
+Context-dependent problem has always been a main challenge of sentiment classification.
+In this paper, we have proposed a novel semi-supervised framework to get it solved in the microblog language context. 
+From a different perspective of feature space, we put forward the assumption that feature space can be divided into the general part and the context part.
+To make use of two parts of features, two classifiers are trained on dataset constructed from idiom resources and tweets separately. 
+Our framework combines the classifiers with a semi-supervised bootstrapping learning algorithm. 
+The experiment results show that the proposed framework could outperform the state-of-art supervised classifier. 
+In future, we will try to improve the sentiment classification performance by enlarging the context-independent resources and extracting richer features besides bag-of-words feature.

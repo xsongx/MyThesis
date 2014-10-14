@@ -4987,30 +4987,6 @@
   Volume                   = {2014}
 }
 
-@Misc{张华平2014a,
-  Title                    = {NLPIR/ICTCLAS2014分词系统},
-
-  Author                   = {张华平},
-  Month                    = {08-01},
-  Year                     = {2014},
-  Owner                    = {xsongx},
-  Timestamp                = {2014.10.13},
-  Volume                   = {2014}
-}
-
-@Misc{张华平2014b,
-  Title                    = {NLPIR/ICTCLAS2014分词系统},
-
-  Author                   = {张华平},
-  Month                    = {08-01},
-  Year                     = {2014},
-
-  __markedentry            = {[xsongx:6]},
-  Owner                    = {xsongx},
-  Timestamp                = {2014.10.13},
-  Volume                   = {2014}
-}
-
 @Article{张辉2013,
   Title                    = {一种基于 TF{\textperiodcentered} IEF 模型的在线新闻事件探测方法},
   Author                   = {张辉 and 李国辉 and 贾立 and 孙博良},
@@ -5156,26 +5132,6 @@
 @Misc{2013a,
   Title                    = {情感词汇本体库},
   Year                     = {2013},
-  Number                   = {2013-08-15},
-  Owner                    = {xsongx},
-  Timestamp                = {2014.10.13},
-  Volume                   = {2013}
-}
-
-@Misc{2013c,
-  Title                    = {情感词汇本体库},
-  Year                     = {2013},
-  Number                   = {2013-08-15},
-  Owner                    = {xsongx},
-  Timestamp                = {2014.10.13},
-  Volume                   = {2013}
-}
-
-@Misc{2013e,
-  Title                    = {情感词汇本体库},
-  Year                     = {2013},
-
-  __markedentry            = {[xsongx:6]},
   Number                   = {2013-08-15},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13},
