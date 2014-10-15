@@ -3,7 +3,7 @@
 
 \section{引言}
 \label{ch4_intr}
-文本的情感分析是挖掘文本中主观性信息学的主要手段，是研究文本中观点、态度、情绪和立场等主观性信息是如何表达的。情感分析技术可以从数量庞大的文本数据中抽取并总结主观性信息，为后续的一些应用（商业智能（Business Intelligence），舆情分析（Public Opinion Analysis）或选举预测（Election Prediction）等）提供技术和工具支持。
+文本的情感分析是挖掘文本中主观性信息学的主要手段，是研究文本中观点、态度、情绪和立场等主观性信息是如何表达的。情感分析技术可以从数量庞大的文本数据中抽取并总结主观性信息，为后续的一些应用（商业智能）提供技术和工具
 Sentiment analysis is the computational study of how opinions, attitudes, emotions, and perspectives are expressed in language. 
 It can provide tools and techniques for extracting subjective information from large datasets and summarizing it for successive application such as Business Intelligence, Public Opinion Analysis, and Election Prediction, etc. \cite{xsongx:b1} 
 Sentiment classification, which deals with determining sentiment orientation of target text, is the classification form of sentiment analysis \cite{xsongx:b2}. 
