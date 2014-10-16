@@ -1,92 +1,48 @@
-\chapter{Twitter中传播观点的发现}
+\chapter{无监督的自举式情感分类}
 \label{ch4}
 
 \section{引言}
 \label{ch4_intr}
-文本的情感分析是挖掘文本中主观性信息学的主要手段，是研究文本中观点、态度、情绪和立场等主观性信息是如何表达的。情感分析技术可以从数量庞大的文本数据中抽取并总结主观性信息，为后续的一些应用（商业智能（Business Intelligence），舆情分析（Public Opinion Analysis）或选举预测（Election Prediction）等）提供技术和工具支持。
-Sentiment analysis is the computational study of how opinions, attitudes, emotions, and perspectives are expressed in language. 
-It can provide tools and techniques for extracting subjective information from large datasets and summarizing it for successive application such as Business Intelligence, Public Opinion Analysis, and Election Prediction, etc. \cite{xsongx:b1} 
-Sentiment classification, which deals with determining sentiment orientation of target text, is the classification form of sentiment analysis \cite{xsongx:b2}. 
-Although it can be viewed as a special text categorization problem, in fact sentiment classification is a more challenging task than text classification, because sentiment expressions critically depend on domains and context \cite{xsongx:b6}.
+文本的情感分析是挖掘文本中主观性信息学的主要手段，是研究文本中观点、态度、情绪和立场等主观性信息是如何表达的。情感分析技术可以从数量庞大的文本数据中抽取并总结主观性信息，为后续的一些应用（商业智能（Business Intelligence），舆情分析（Public Opinion Analysis）或选举预测（Election Prediction）等）提供技术和工具支持\upcite{Liu2012}。在社交媒体中，一些基于文本的平台比如微博产生了大量针对各种话题或实体的带有主观性信息的数据。这对这些数据的分析，也就是情感分析正逐渐受到各个研究领域（比如推荐系统和搜索引擎）的重视。情感分析中一个主要的方法就是应用各种分类技术，也就是根据作者的主观态度将文本进行分类，一般将这种研究称为情感分类研究。情感分类一般是从一些标注过的训练数据中通过学习得到一个分类模型，学习得到能够将一种情感类型区别于其他类型的一些特征\upcite{LourencoJr2014}。这种模型的性能主要依赖于其能够学习到的数据中出现的情感的文本表达模式，一般是文本中出现的词语、短语或者词语的各种组合。情感分类也就是情感分析的分类形式，虽然可以被视作文本分类的特殊形式，实际上情感分类是比文本分类更具挑战的任务，因为文本中情感的表达方式严重依赖领域和上下文环境\upcite{jiang2011target,}。
 
-With the emergence and prosperity of microblogs, the amount of user-generated content(UGC) has risen exponentially over the last decade, and such content is now always at our fingertips.
-It has been well recognized that UGC of microblogs with rich sentiment information can trigger more attention, feedback or participation, and sentiment analysis researchers have begun to pay more and more attention to microblogs \cite{DBLP:conf/hicss/StieglitzD12}.
-The distillation of subjective knowledge from such abundant language resources becomes an important part of applications in fields such as commerce, tourism, politics and health. 
-But as a freely-publishing platform, users may use or create new words of abbreviations and acronyms that seldom appear in conventional text documents, for example, words like "coooooool", “OMG",":-(", are intuitive and popular in tweets.
-Although they may provide convenience for on-line communications of users, it is difficult for computer to accurately identify the semantic meanings of these words. 
-To make situation worse, new words may arise and old words may change their meaning continuously in tweets.
-The noisy quantity, informal nature and explosive vocabulary make sentiment classification of tweets a very difficult and challenging task. 
-The sentiment in tweets often depends on such particular expressions as emoticons, repeated letters and exclamation, etc., which resolve their semantic meanings only in the context of microblogs. 
-Context dependence has been the main challenge sentiment classification of tweets must face.
-In this work, we have focused on the context-dependent problem of sentiment classification on microblogs. 
+随着微博（Twitter、新浪微博等）的出现和广泛使用，用户产生内容（UGC，User-Generated Content）成指数增长，这些内容并且这些内容对于我们来说是很容易获取的，并且这些内容里面有很多用户对于各种话题的观点和情感等主观性信息。因此我们可以很方便的从这些数据中提取出主观性信息，并使其在商业、旅游或者健康领域得到应用。但是对微博进行情感分类特别具有挑战性，因为（1）用户使用微博表达观点的方式是多种多样的，既有正规传统语言的表达方式，又有社交媒体特有的流行的表达方式，比如"coooooool", “OMG",":-("，“屌丝”，“逆袭”等，这些表达方式虽然对于人来说是比较直观和易于理解的，并且更加方便了用户的在线交流，但是对于计算机来说，却是很难准确确定这些表达方式的观点和情感等语义信息。（2）更具挑战性的是，因为用户群体的复杂性，经常会有用户创造出的一些缩写词或者新词，并且会将一些传统的词赋予新的语义在微博中重新使用，这些语言上的变化使得微博上观点的表达方式有别于传统文本的表达方式。综上所述，可以看出微博中的文本噪声、非正式本质以及语言词汇的急剧膨胀使得对微博中表达的主观性信息自动分析需要依赖于微博这种独特的语言环境，因此进行情感分类是困难的。这种情况被称为微博情感分类的领域（或语言环境）依赖问题，也就是使用其他文本数据集（比如评论或博客）训练出的分类器在微博的情感分类时会出现性能急剧下降，而要获得大量微博训练数据集需要大量的人力，并且微博数据具有时效性，不同时间阶段的微博数据集中观点表达方式也会产生漂移。
 
-For the problem, we propose a novel semi-supervised framework based on our two rational hypotheses.
-Firstly the problem is formulated as feature vector space model of text classification. 
-And the feature space is divided into two parts consisted of general part and context part.   
-Then a general classifier is trained on off-the-shelf labelled idiom resources by making use of general part of features, and a context classifier is trained on tweets randomly retrieved from microblogs in distant supervision manner by making use of context-dependent part of features. 
-As a result, a semi-supervised framework is developed to combine the general classifier and context classifier into a bootstrapping classifier to harmonize with the two parts of features. 
+本章我们主要关注微博情感分类的领域依赖性问题。为了解决这个问题，基于我们的一些观察，我们提出了一种无监督的自举式（bootstrapping）情感分类框架。该框架首先使用现有的已经有情感标签的语言资源训练得到一个通用的能够跨领域使用的分类器；然后再根据该分类器的跨领域特点使用其作为初始分类器对微博进行分类，获得一些高可信度的微博作为训练集训练得到一个微博分类器；将两个分类器结合迭代使用共同训练（Co-training）过程，逐步在目标数据集扩展并训练微博分类器，直至其分类性能达到最优。
 
-The rest of the paper is organized as follows: Related works are discussed in Section~\ref{related}. The problem is formulated in Section~\ref{problem}, and our framework of semi-supervised sentiment classification is described in Section~\ref{framework}. The results and discussions of the experiment are presented in Section~\ref{experiment}. Finally we conclude about our work in Section~\ref{conclusion}.
+\section{相关工作}
+\label{ch4_relt}
+情感分类在观点挖掘研究中越来越受到重视，前期工作主要研究针对评论（商品或电影）进行情感分类。经常使用的方法可以分为基于规则的方法和基于学习的方法，其中基于机器学习方法性能一般比较好因而常被用来作为对表的标准\upcite{Pang2002}。
 
-\section{Related Works}
-\label{related}
+现在研究人员逐渐开始注意到微博中用户的主观性信息，并开始结合微博的语言特点进行对微博进行情感分类研究。一些研究显示可以将微博的一些独特的特征结合进情感分类方法中。比如，Barbosa和Feng~\upcite{Barbosa2010}提出了两阶段支持向量机分类器（Support Vector Machine (SVM) classifier）对tweet进行情感分类，证明了该分类其能对tweet的类别偏置（biased）和噪声具有很好的鲁棒性；Hu等~\upcite{Hu2013}将社交媒体数据中的情感表达解成情感指征（emotion indication）和情感关联（emotion correlation）两种信号，通过对两类情感信息进行联合建模方式实现了对微博的无监督情感分类；Jiang等~\upcite{jiang2011target}主要关注依赖于特定目标的微博情感分类，提出了通过将目标依赖特征（target-dependent features）和相关微博同时进行考虑的监督学习方法，并证明了可以提升情感分类性能；Wang等~\upcite{wang2011topic}针对hashtag级别的情感分类进行了研究，并提出了一个全新的图模型，然后使用提升（boosting）式分类方法进一步提高了模型的性能；Amir等~\upcite{AsiaeeT2012}针对单条微博的情感分类提出了一个分层分类器框架，框架通过抽取对特定目标的微博，将微博按情感类型分开以及分离正负情感类型微博三个层次进行有监督的分类学习；Hu等~\upcite{hu2013exploiting}基于社交理论抽取微博之间的情感关系，提出了一种全新的社会学方法使用这些情感关系以促进情感分类性能，并有效解决了数据中的噪声问题；同样受到社会学理论的启发，Guerra等~\upcite{CalaisGuerra2011}依据人类通常会持有一致的带有偏执的观点，提出了全新的迁移学习（transfer learning）方法解决微博基于话题的实时情感分类问题；Thelwall等~\upcite{Thelwall2010,Thelwall2012}设计了SentiStrength情感分析工具，用于对微博等社交媒体中非正式语言中的情感分析，该工具是基于规则的方法，使用了人工编辑的词典并结合了微博语言中的句法和拼写特点抽取微博中的情感强度，该工具获得了广泛的应用。
 
-Sentiment analysis has been a popular research area for years. 
-Previous efforts mainly focuses on reviews and news comments. 
-Generally, in terms of methodology, rule-based approaches and machine-learning based approaches are two major popular methods, and the machine-learning based approaches usually act as an upper bound for other methods to compare with because of the strong generalization ability of classifiers \cite{xsongx:b1,xsongx:b4}. 
+以上这些工作通过利用微博的一些网络和语言特点对情感分类方法进行了适应性的改进，以使得这些方法能够适用于微博语言环境，但是没有彻底解决微博情感分类问题的语言环境依赖问题，本章我们提出的方法从一个全新的视角来看情感分类问题，将情感分类的特征空间分各位环境依赖部分（context-dependent part）和环境独立部分（context-independent part）分别进行训练分类器，然后将两种分类器结合进一个自举式（bootstrapping）学习框架中。
 
-Recently, sentiment analysis researchers have begun to pay more and more attention to the massive user-generated content of social networks such as Twitter\footnote{\url{twitter.com}}. 
-Many studies showed that the unique characteristics of Twitter can be incorporated into sentiment analysis techniques.
-Barbosa and Feng~\cite{Barbosa:2010RSD} first investigated to use a two-stage Support Vector Machine (SVM) classifier for tweets sentiment classification which proved to be robust regarding biased and noisy data. 
-Hu et al.~\cite{Hu:2013www} interpreted emotional signals available in social media data for unsupervised sentiment analysis by providing a unified way to model two main categories of emotional signals: emotion indication and emotion correlation. 
-Jiang et al.~\cite{xsongx:b6} focused on target-dependent Twitter sentiment classification, they proposed to improve target-dependent Twitter sentiment classification by taking both target-dependent features and related tweets into consideration. 
-Wang et al.~\cite{Wang:2011TSA} focused their study on hashtag-level sentiment classification, they proposed a novel graph model and further improved the model using an enhanced boosting classification setting. 
-Amir Asiaee T et al.~\cite{AsiaeeT:2012} presented a cascaded classifier framework for per-tweet sentiment analysis by extracting tweets about a desired target subject, separating tweets with sentiment, and  setting apart positive from negative tweets.
-Hu et al.~\cite{Hu:2013ESR} extracted sentiment relations between tweets based on social theories, and proposed a novel sociological approach to utilize sentiment relations between messages to facilitate sentiment classification and effectively handle noisy Twitter data.
-Motivated by sociological theories arguing that humans tend to have consistently biased opinions, Guerra et al.~\cite{CalaisGuerra:2011BOT} addressed challenges of topic-based real-time sentiment analysis by proposing a novel transfer learning approach with a suitable source task of opinion holder bias prediction.
-Thelwall et al.~\cite{Thelwall:2010SSS,Thelwall:2012SSD} designed SentiStrength, an algorithm for extracting sentiment strength from informal English text. The algorithm built on human-evaluated dictionaries for words connotated with positive or negative sentiments and exploited the grammar and spelling styles in typical microblogs.
-
-All works above have tried to adapted their methods to microblogs by making use of the network and language characteristics, no matter what approaches they have taken. However, in this paper, we solve the context-dependent problem from a novel perspective by separating context-independent part of features from context-dependent part of features in the feature space of sentiment classification.
-
-\section{Problem Formulation and Hypotheses}
-\label{problem}
-
-\subsection{Problem Formulation}
-\label{formulation}
-
-Simply speaking, sentiment classification aims to classify text as predefined sentiment polarity classes (negative or positive).  
-Formally, Given document corpus $ D=\lbrace d_{1},\dots ,d_{n} \rbrace$ , and predefined sentiment classes $ C=\lbrace 1,-1\mid \mathrm{positive}=1,\mathrm{negative}=-1 \rbrace$ , the task of sentiment classification is to predict each $ d_{i} $ with a label $ c_{i} $. 
-To be along with text categorization, each document can be represented as a vector of features $ x=R^{n} $, where $ n $ is the size of a pre-specified feature volume $ V $. 
-For sentiment classification, the weight of each entry in the vector usually is often specified as binary, with weight equals to 1 for feature present in the vector and 0 for absent. 
-Given a training dataset $ X=\lbrace x_{1},\dots,x_{m} \rbrace $, a classifier can be build:
+\section{问题的形式化}
+\label{ch4_form}
+简单来说，情感分类主要目标就是将文本分类为预先定义的情感极性类别（一般是积极的，positive或消极的，negative）。形式化上，对于给定的文档语料库$ D=\lbrace d_{1},\dots ,d_{n} \rbrace$，预定义的情感类别$ Y=\lbrace 1,-1\mid \mathrm{positive}=1,\mathrm{negative}=-1 \rbrace$，情感分类的任务就是对每一个文档$ d_{i} $预测一个类别标签$ y_{i} $。为了与文本分类问题一致，每个文档可以表示为一个特征向量$ x=R^{n} $，$ n $表示特征空间的大小对于情感分类问题来说，对于每一个特征通常将其权重定为二值的，1表示特征在文档中出现，0表示没有出现\upcite{Pang2002}。对于有监督的机器学习，给定训练集$ D=\lbrace x_{1},\dots,x_{m} \rbrace $，可以学习到分类器：
 \begin{equation}
 \label{e1}
-  f:X \longrightarrow Y, Y=\lbrace 1,-1 \rbrace \enspace .
+  f:D \longrightarrow Y, Y=\lbrace 1,-1 \rbrace \enspace .
 \end{equation} 
-and it is employed  to predict label for an unseen instance $ x $ by computing $ f \left( x \right)   $, with each instance represent as a vector $ x=\left( w_{1},\dots,w_{v} \right)  $, in which $ w_{i} $ is the $ i $th feature’s weight. 
+对于未来文档$ x $，同样将其表示为特征向量$ x=\left( w_{1},\dots,w_{v} \right)  $（$ w_{i} $表示第$ i $维权重），就可以使用该分类器去预测其情感类别：$ f \left( x \right)   $。
 
-\subsection{Feature Space Division}
-\label{division}
+在以往的情感分类研究中，有一个潜在的假设，就是用于表示文本的特征向量中所有的特征（一般是词语）在表达情感极性时作用是相同的，也就是其出现与否可以在所有的文本中表达相同的情感。实际上这种假设是不成了立的，因为有些词语表达的是客观信息，有些表达主观信息，而且即便是表达主观信息，作用也都不一样。因为有些词语无论用在那种领域或语境下都能表达同样的情感，而有些词语只能在某些具体的语境下表达某种情感。以下面这条微博为例：
 
-In previous sentiment classification researches, there is an underlying hypothesis, which implies all features in the text vector represent the document's sentiment polarity equally. 
-In fact, some features may only appear in specific context, while others appear across any context. 
-As an example, an English tweet is listed as following:
+\begin{description}
+\item{tweeet:} @Kid\_Cloudz: Happy birthday to Yessicaaaa! :D lovee you feggit wish you the best day everrrrr!!!!! @030268.
+\end{description}
 
-\textit{@Kid\_Cloudz: Happy birthday to Yessicaaaa! :D lovee you feggit wish you the best day everrrrr!!!!! @030268.}
+以词袋模型（bag-of-words）为例，所有的词语都应该抽取出来作为特征加入到特征向量中同等地用于对这条微博的情感倾向进行建模。然而，仔细观察就会发现，微博中有些词语（@Kid\_Cloudz, :D, lovee, everrrrr,!!!!!）实际上只能在微博这种语境中出现并且表达出某种情感倾向，而另外一些词语（Happy, birthday, wish, best, thanks）无论在什么领域或语境下都是正面情感倾向的的标识。基于这样的直观认识，我们可以提出以下特征空间划分的假设：
 
-If simple ``bag-of-words'' features are considered, all words would be extracted as equal features to model the sentiment when computationally classifying sentiment polarity of this tweet. 
-However with thorough considerations, we can find that such words as "@Kid\_Cloudz, :D, lovee, everrrrr,!!!!!" are mainly used in the  language context of microblogs, while "Happy, birthday, wish, best, thanks" are sentiment indicators of text almost in any language context. 
-With such intuition, we proposed a feature space division hypothesis as:
-\newtheorem{hypothesis}{Hypothesis}{\bfseries}{\rmfamily}
-\begin{hypothesis}
-\label{h1}
-In the feature space of sentiment classification, features can be divided into two different parts:
+\begin{theorem}[假设]
+\textbf{特征空间划分假设：} 对于微博情感分类问题的特征向量空间，可以将其所有的特征划分为以下两个部分：
 \begin{itemize}
-\item context-independent part, i.e. general features, which are indicators of sentiment independent of any language context;
-\item context-dependent part, i.e. context features, which indicate sentiment in specific language context.
+\item{领域独立部分：}也就是通用的特征，该部分特征在任何领域和语言环境下都是某种情感倾向的表达方式。
+\item{领域依赖部分：}也就是具体语言特征，这部分特征只有在微博这种语言环境下才能有具体的语义和表达一定的情感倾向。
 \end{itemize}
-\end{hypothesis}
-Formally, for the text feature vector of a tweet $ x=\left(  w_{1},\dots,w_{l},w_{l+1},\dots,w_{v} \right) $, it could be divided into two parts:
+\end{theorem}
+这个假设可以更加形式化的表示，对于情感分类问题中一条微博的特征向量$ x=\left(  w_{1},\dots,w_{l},w_{l+1},\dots,w_{v} \right) $，可以划分为两个部分：
+
 \begin{equation}
 \label{e2}
 x=\left\{
@@ -96,25 +52,45 @@ x_{c}     &  \qquad       &:\mbox{context features}
 \end{array}
 \right. \enspace .
 \end{equation}
-where $ x_{g}= \left( w_{1},\dots,w_{l}\right) $ denotes the general part of feature space, while $ x_{c}= \left( w_{l+1},\dots,w_{v}\right) $ denotes the context dependent part.
+其中，$ x_{g}= \left( w_{1},\dots,w_{l}\right) $是特征向量空间的通用部分，而$ x_{c}= \left( w_{l+1},\dots,w_{v}\right) $是领域依赖部分。
 
-\section{Sentiment Classification Framework}
-\label{framework}
+基于以上假设，情感分类问题可以进一步形式化定义为：
 
-Besides traditional expressions, some languages of microblogs are often considered ``Mars Language'' because of their obscurity.  
-However users could still distinguish the sentiment polarity of the tweet even if some words seem strange to them.
-Intuitively, this kind of phenomenon may be explained by the general part of the tweet which is used to express the holistic sentiment polarity across any context, and the polarity of general sentiment words are prone to be recognized by anyone independent of context knowledge. 
-Comparably, for sentiment classification, we put forward that, the sentiment polarity of a document could sometimes still be recognized with only general part of feature space ($ x_{g} $ in Equation~\ref{e2}). 
-That is to say, if general sentiment knowledge could be modeled, what sentimental polarity a tweet prefers for could still be classified based on such general sentiment models. 
+\begin{definition}[情感分类]
+根据假设（1），情感分类问题可以表示为$(X_{g},X_{c},Y)$，其中：
+\begin{itemize}
+\item $ X_{g}\subset R^d$和$ X_{c}\subset R^p$为两个输入特征空间，$d+p=n$，分别表示两部分空间的维度;
+\item $Y$为输出空间，一般表示为二值空间$ Y=\lbrace 1,-1\mid \mathrm{positive}=1,\mathrm{negative}=-1 \rbrace$;
+\item 假设有一独立同分布（independently identically distributed）微博实例集合$D=\{(x_i^g,x_i^c,y_i);i=1\ddots m\}$，该集合是从空间$P=X_g \times X_c \times Y$中采样得到，向量$x_i^g$表示实例领域独立部分特征，向量$x_i^c$表示领域依赖部分特征，$y$表示实例微博的情感类别；
+\end{itemize}
+实际上经过特征空间的划分提供了对于同一微博的两种不同的视角（view），因此可以将数据集$D$看作是$D_g=\{(x_i^g,y_i);i=1\ddots m\} \in (X_g \times Y)^m$和$D_c=\{(x_i^c,y_i);i=1\ddots m\} \in (X_c \times Y)^m$两种不同的集合，因此对于集合$D$的情感分类问题可以视为构建两个分类器通用情感分类器（General Sentiment Classifier）和微博情感分类器（Context Sentiment Classifier）：
+\begin{equation}
+\begin{cases}
+General Sentiment Classifier:f_g:X_g \mapsto Y\\
+Context Sentiment Classifier:f_c:X_C \mapsto Y
+\end{cases}
+\end{equation}
+\end{definition}
+当然基于部分特征空间的分类器性能上是否会降低还是一个值得研究的问题，但是本章我们主要研究以下几个问题：
+\begin{enumerate}
+\item 对于从实例中抽取到的同一个特征空间，怎么确定特征空间中领域依赖和领域独立两部分特征？
+\item 得到不同的特征空间后，使用什么样的训练数据集来训练得到两个不同的分类器？
+\item 两种独立的分类器比同一空间分类器性能上会有什么样的变化，如何将两种分类器结合起来达到更好的性能？
+\end{enumerate}
 
-In fact, many researchers have tried to establish all kinds of sentimental ontology lexicons to represent general knowledge of human’s sentiment, such as SentiWordNet \cite{xsongx:b17} and General Inquiry \cite{xsongx:b18} in English, HowNet\footnote{\url{http://www.keenage.com}} \cite{xsongx:b19} and NTUSD \cite{xsongx:b20} in Chinese, etc. 
-However, some entries of these lexical resources have multiple senses with different sense representing different sentimental polarity, and the exact sentiment of each sense unavoidably depends on the context.
-It seems a rather difficult task to find a general resources to model the context independent knowledge.
-Actually such knowledge exists in many situations, and many regular language expressions in the form of one general phrase or combination of a few words could identify exact sentimental polarity independent of language context, such as idioms and proverbs. 
+\section{无监督的情感分类框架}
+\label{ch4_frame}
+在微博语言中，除了正规的表达方式方式外，一些语言因为比较难以理解而常被视为“火星文”，尤其是对于不长使用微博的人来说对于一条微博中出现的一词语可能不理解其语义。但是整条微博的情感倾向性确能够比较容易读懂，因为微博常常是正规表达方式和“火星文”混合在一起使用的，理解了正规表达部分，也就能理解了整条微博的情感倾向。直观上，这种现象可以通过我们的特征空间分割假设来解释，正规表达部分特征也能从一个不同的视角（view）来阐释整条微博的主观情感。而这些正规表达部分特征$ x_{g} $是不以来于微博语境的，对于任何人（长使用微博的或是很少使用微博的）都是易于理解的。
 
-\subsection{General Sentiment Classifier}
+相似的，对于微博的自动情感分类，基于我们特征空间分割假设，可以认为一条微博的情感倾向性可以通过两部分特征都识别出来。也就是说，如果能够对与一些通用的情感表达知识，在某种程度上也能识别出一条微博的情感极性（根据微博中正规表达方式的比例不同，比例越大就越容易识别）。实际上有很多研究者已经开始研究如何建立各种情感词汇表来对这种通用的情感知识进行建模了，比如我们前面章节的工作中提到的OpinionFinder词典\upcite{Wilson2005,Wilson2009}、ANEW词典\upcite{Bradley1999}、AFINN词典\upcite{Nielsen2011}、SentiWordnet\upcite{Esuli2006}、HowNet情感词典\upcite{2013}，NTUSD情感词典\upcite{Ku2007}、情感词汇本体词库\upcite{2013a}以及我们的SentiHowNet\upcite{谢松县2014}。虽然这些词典在尝试着建立通用的情感表达知识库，但是由于存在一词多义现象，使得一个词语的具体情感倾向性还是需要具体的语言上下文进行“消歧”。因此能够真正找到通用的资源来对跨领域情感知识进行建模不是一件容易的事。但是这样的知识资源却是存在的，比如成语和谚语等具有明确无歧义的情感倾向性，如何能够利用这样的知识资源对通用情感知识进行建模是本章研究的重点。
+
+\subsection{通用情感分类器}
 \label{general}
-
+在语言资源中有许多对情感分类研究非常有用的资源，其中成语资源就是其中之一。成语（或谚语，本章中用成语通指这两种语言资源）无论在中文还是英文中都存在，比如中文的“空中楼阁”、英文的``bring down the house''（搏得满堂喝彩）等。这些成语的情感倾向性是固定不变的，不会随着领域或语境的不同而有歧义。这与我们的通用情感分类器需求十分契合，实际上有很多的专门针对成语编辑的词典资源，为通用情感分类器提供了很好的数据集进行训练。一般的成语词典的条目如下所示：
+\begin{description}
+\item{空中楼阁：}贬义词，形容虚构的事物或不现实的理论、方案，脱离实际的理论、计划及空想。
+\end{description}
+在“空中楼阁：”条目中，有三部分组成：成语本身、情感倾向性（贬义，属消极情感）以及该成语的释义部分。其中释义部分有几个同
 There are many linguistic resources highly valuable for sentiment classification, of which idiom resources attract interests of this research. 
 Idioms are common phenomena of many languages beside Chinese, such as ``castles in the air'', ``a bed of thorns'', and ``bring down the house'' in English.
 As is convinced, the sentimental polarity of idioms is independent and unchangeable under any context. 
