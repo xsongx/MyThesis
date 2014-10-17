@@ -90,30 +90,19 @@ Context Sentiment Classifier:f_c:X_C \mapsto Y
 \begin{description}
 \item{空中楼阁：}贬义词，形容虚构的事物或不现实的理论、方案，脱离实际的理论、计划及空想。
 \end{description}
-在“空中楼阁：”条目中，有三部分组成：成语本身、情感倾向性（贬义，属消极情感）以及该成语的释义部分。其中释义部分有几个同
-There are many linguistic resources highly valuable for sentiment classification, of which idiom resources attract interests of this research. 
-Idioms are common phenomena of many languages beside Chinese, such as ``castles in the air'', ``a bed of thorns'', and ``bring down the house'' in English.
-As is convinced, the sentimental polarity of idioms is independent and unchangeable under any context. 
-There are many off-the-shelf idiom lexicons in all kinds of languages with entries taking the example form as:
+在“空中楼阁：”条目中，有三部分组成：成语本身、情感倾向性（贬义，属消极情感）以及该成语的释义部分。其中释义部分有几个明显表示贬义的词语（虚构的、不现实、脱离实际以及空想）。该词条可以看作是给我们提供了一条带有通用情感知识的标注数据，释义中的词语可以看作通用部分特征$\{x_i^g\}$,情感标签$y_i$就是成语的情感标签。由于成语的情感倾向是不依赖于任何领域和语境的，因此我们可以认为存在如下假设：
 
-\textit{castles in the air: a derogatory term, indicate the illusive things or impractical fanciness metaphorically.}
-
-In this example, the entry is composed of three parts: the idiom ``castles in the air'', the semantic orientation ``a derogatory term'' representing negative
-sentimental polarity and a short paraphrase with three general negative words (``illusive, impractical and fanciness''). 
-The example provides us with a labelled sentimental instance with general sentiment features and a negative label.
-Most importantly, the sentimental polarity of such instance is independent of any context just as the idiom it explains. 
-Based on such observation, another hypothesis is proposed as follows:
-\begin{hypothesis}
+\begin{definition}[假设]
 \label{h2}
-The sentimental polarity of the idiom paraphrase is independent of language context just as the idiom it describes.
+每条成语条目可以看作是一条不依赖于任何领域的情感标注数据。
 \end{hypothesis}
-With Hypothesis~\ref{h2} admitted, we could constructed a training dataset with the features extracted from paraphrases of idioms as general feature vector, the sentimental polarity of idioms as sentimental labels. 
-Then a context-independent classifier could be trained to model the general sentiment knowledge.
+在假设~\ref{h2}基础上，我们可以根据现存的成语词典构建一个训练数据集用于训练通用情感分类器$f_g$，该分类器用于对通用情感知识的建模。
 
-\subsection{Context Sentiment Classifier}
+\subsection{微博情感分类器}
 \label{context}
+由于通用特征只是全特征空间的一部分，在识别情感倾向时仅代表跨领域或语境的情感表达方式。在微博这种特殊的语言环境下，情感的表达通常有其独特的方式，比如表情符、简写、以及故意不规范的拼写等等。为了能够更好的识别出微博中的细腻的情感倾向，必须要考虑微博中领域依赖部分的特征。
 
-As the general sentiment features are only one part of all features in the whole feature space, the other context-dependent part of features should be considered in order to capture the subtle clues embedded in the specific sentiment expressions in language context of microblogs.
+为了对微博情感特征的领域依赖部分进行建模，有两个问题必须考虑。首先是如何界定微博中抽取的特征中那些是领域依赖的特征。随着用户发布微博数量的急剧膨胀以及用户在语言使用上的自主性，一些微博特有的主管观点或情感的新的表达方式不断出现，并且同样使用一些通用词语，在特定的语境下也会出现不同于其固有的语义信息。不断涌现的新词和词语在为上的语义变异使得界定领域依赖部分特征变得非常困难。但是众所周知，微博文本属于短文本，每条微博都有字数上的限制（一般是要求140字以内），因此用户在一条微博中表达某种情感倾向时，需要
 
 To model the context-dependent part of tweets, there are two questions must be solved. 
 The first is to identify the context-dependent part of features extracted from tweets. 
