@@ -1,6 +1,16 @@
 \chapter{转发分析}
 \label{ch6}
 
+
+
+\begin{abstract}
+\begin{quote}
+Information diffusion plays an important role for both researches and applications in current ``word of mouth'' web. In this paper, we investigate how users' subjectivity influences their information diffusion behavior. 
+Inspired by the psychological research, we define a general subjectivity model by combining both topics and opinions articulated in User-Generated Content (UGC) and propose an efficient framework to establish the subjectivity model. 
+In order to evaluate the impact of subjectivity on information diffusion behavior, a novel subjectivity similarity measurement between two subjectivity models is put forward.The proposed model has been used to predict the retweeting  behavior on Twitter, by considering the subjectivity similarities in the attractiveness, sociality and popularity aspects. In the experiments, with a statistical hypothesis test and case study, we demonstrate that a user is more likely to retweet a message in terms of the influence of subjectivity. The evaluation on the practical Twitter dataset shows that our  model can improve the performance of retweeting prediction, compared with the state-of-the-art methods.
+\end{quote}
+\end{abstract}
+
 \section{Introduction}
 \label{introduction}
 \noindent Information diffusion plays an important role in scenes such as marketing and election by triggering and cascading a large number of users. It has drawn considerable attentions from researchers, especially in the area of online social networks. They have built standard models for the general information diffusion, which are useful for simulating the information flow\cite{goldenberg2001talk,kempe2003maximizing}, or detecting the outbreak of information cascades\cite{cheng2014can}. However, they ignore the intention of users in the process of information diffusion. As information consumer and producer in the web 2.0 era, each user can declare his interests, express opinions, choose information to read and spread on various social media platforms. Whether a message will be spread across the network depends on the ``word of mouth'' effect, which can elicit the diffusion behavior of users. With the development of Natural Language Processing and data mining techniques, the intention of users can be analyzed by modeling users with user-generated data. In this work, we target at an interesting problem: the mechanism of ``word of mouth'' effect, i.e. given a new message from a specific user, we intend to predict who will participate in the future diffusion process after receiving this message. 
@@ -286,10 +296,10 @@ They have common interest (the $ 14^{th} $ topic), and furthermore the non-retwe
 \subsection{Performance Evaluation}
 
 We carried out the retweeting prediction experiments in three stages. Firstly we compared our model against other topic-based models including TF-IDF model (modeling user interests using bag-of-words), entity-based model (using entities extracted from the UGC) and hashtag-based model (using hashtags used in the UGC)\cite{abel2011analyzing}.
-Secondly, our model was compared with two generative topic-sentiment models (TSM model\cite{mei2007topic} and JST model\upcite{lin2009joint}). TSM and JST can also model topic and topic related sentiment simultaneously. We also use Equation~\ref{subsim} to calculate three  subjectivity similarities for bith TSM and JST as our method in section~\ref{retweet}, and combine them together in the predction.
+Secondly, our model was compared with two generative topic-sentiment models (TSM model\cite{mei2007topic} and JST model\cite{lin2009joint}). TSM and JST can also model topic and topic related sentiment simultaneously. We also use Equation~\ref{subsim} to calculate three  subjectivity similarities for bith TSM and JST as our method in section~\ref{retweet}, and combine them together in the predction.
 
 The subjectivity model has been proposed to catch the subjective motivation of users based on UGC, whereas other important factors associated with retweeting behavior are not considered, such as network topology and meta-data of users. 
-Therefore, our model is also compared with the method of Luo \emph{et al.}~\upcite{Luo:2013RMF}(marked as ``LUO''), in which different factors that might affect rewteeting behaviors are considered.
+Therefore, our model is also compared with the method of Luo \emph{et al.}~\shortcite{Luo:2013RMF}(marked as ``LUO''), in which different factors that might affect rewteeting behaviors are considered.
 They only use bag-of-words to model user interests, so we also carried out combining experiments to demonstrate that the performance of prediction can be improved by replacing their bag-of-words model with our model (marks with ``LUO+'' prefix). 
 \begin{table}[htb]
 \scriptsize

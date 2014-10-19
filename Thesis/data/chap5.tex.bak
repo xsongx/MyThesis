@@ -14,7 +14,7 @@
 \caption{主观模型总体框架.}
 \label{fig5-1}
 \end{figure*}
-\end{landscape}
+\bend{landscape}
 
 \section{相关工作}
 \label{ch5_sec2}
@@ -88,15 +88,15 @@ P \left( u \right) = \lbrace \left( t, w_{u} \left( t \right), \lbrace d_{u,t} \
 \end{figure}
 
 生成过程如下：
-\begin{itemize}
+\begin{itemize*}
 \item 对每个用户$ u $, 获取话题分布$ \theta_{u} \sim Dir \left(  \alpha \right) $；
 \item 对用户微博中的每个词语$ w_{u,n} $，$ n \in \left\lbrace 1, \cdots, N \right\rbrace $：
-\begin{itemize}
+\begin{itemize*}
 \item 获取一个话题$ z_{u,n} \sim Multinomial \left( \theta_{u}  \right) $；
 \item 基于话题$ z_{u,n} $，从话题的多项分布中获取词语$ w_{u,n} $:\\ 
 $$  p \left( w_{u,n} \vert z_{u,n}, \beta_{k}  \right) $$；
-\end{itemize}
-\end{itemize}
+\end{itemize*}
+\end{itemize*}
 
 为了从用户产生的内容中提取出讨论的话题，用户所发的微博应该和LDA模型的文档自然对应起来。由于我们的目标是了解用户感兴趣的话题而不是单条微博谈论的话题，所以我们将一个用户所有的微博连接起来组成一篇大的微博文档作为LDA 模型的文档。因此LDA模型中的一篇文档就对应于一个用户，因此一个用户感兴趣的话题就可以使用在话题空间的一个多项式分布来表示，正好可以和我们的主观模型的话题权重相对应。在用户层面的LDA模型中，给定用户集合$ V $以及话题数目$ K $，一个用户$ u \in V $的所有微博文档可使用话题上一个多项分布$ \theta_{u} $来表示，该分布具有参数为$ \alpha $的Dirichlet先验分布；一个话题$ k \in K $可以用所有词汇上的一个多项分布$ \beta_{k} $来表示，该分布具有参数为$ \eta $的Dirichlet先验分布。模型中的两个分布能够使用Gibbs采样或变分推理（variational inference）进行估计。本章中我们使用的是基于变分推理的话题模型工具Gensim\upcite{vRehruvrek2010}，该工具使用的是在线批处理模式的变分推理，而且能够对新文档进行话题推理。\cite{mei2007topic,lin2009joint}
 
@@ -197,8 +197,8 @@ P\left( u \right)= \left\lbrace \left( t, p\left( t \vert \theta_{u} \right), \l
 \label{polarity}
 p=  
 \begin{cases}
-{positive} &  \qquad if \; \dfrac{\widehat{s_{m}+s_m}{2}} > \dfrac{|S|}{2} +1\\
-{negative} &  \qquad if \; \dfrac{\widehat{s_{m}+s_m}{2}} < \dfrac{|S|}{2} \\
+{positive} &  \qquad if \; \dfrac{\widehat{s_{m}_s_m}{2}} > \dfrac{|S|}{2} +1\\
+{negative} &  \qquad if \; \dfrac{\widehat{s_{m}_s_m}{2}} < \dfrac{|S|}{2} \\
 {neutral}  &   \qquad otherwise \;  
 \end{cases}
 \end{equation}
@@ -229,20 +229,20 @@ Igraph\footnote{\url{http://igraph.org/}}工具包，最后将用户划分为106
 除了主观模型，我们也使用生成模型JST和TSM进行了对比试验。其中模型的Dirichlet先验参数设为$ \alpha=50/T $（$ T $为话题数目），$ \beta=0.01 $。JST的不对称情感先验参数$ \gamma $依照经验设为$ (0.01, 1.8) $。两个模型推导都进行2,000次迭代Gibbs采样。
 
 \subsection{样例分析}
-为了定性展示我们所提出的主观模型的有效性，我们给出了一个学习得到的用户的主观模型如图所示。该用户发表了533条微博，所有微博用词云图~\ref{fig5:a}来显示。
+为了定性展示我们所提出的主观模型的有效性，我们给出了一个学习得到的用户的主观模型如图~\ref{fig5-3}所示。该用户发表了533条微博，所有微博用词云图~\ref{fig5:a}来显示。
 
 \begin{figure}[htb]
 \centering
-\includegraphics[height=150pt]{5-4.png}
-\caption{微博词云}
-\label{fig5:a}
-\end{figure}
-
-\begin{figure}[htb]
-\centering
-\includegraphics[height=150pt]{5-3.png}
-\caption{主观模型。主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $。}
-\label{fig5:b}
+\subfigure[所有微博词云]{
+	\label{fig5:a}
+	\includegraphics[width=1.8in,height=1.5in]{5-4.png}
+	}%
+\subfigure[主观模型]{
+    \label{fig5:b}
+    \includegraphics[width=3.2in,height=1.5in]{5-3.png}
+	}
+	\caption{主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $.}	
+	\label{fig5-3}
 \end{figure}
 
 图~\ref{fig5:b}是用户在$ [0,100] $话题空间和$ [0,8] $情感强度空间的可视化的主观模型。很明显，从词云图上可以看到该用户讨论了三个话题（话题2：``\#Obamacare''，话题32：``\#libya''以及话题83：``\#occupywallst''），子图~\ref{fig5:b}左侧展示了用户在每个话题上的兴趣权重。子图~\ref{fig5:b}右侧是用户对这三个话题所持观点分布，总体来看，对于话题``\#libya''情感分布100\%在强度4上，属于中性，对话题``\#Obamacare''和``\#occupywallst''情感分部都是50\%在强度4以及50\%在强度5上，属于中性偏正面倾向。从这个样例可以看出，我们的主观模型对用户的主观性进行了详细的建模，不但有用户的兴趣分布，也有细粒度的观点分部信息。
@@ -287,4 +287,27 @@ SUB & 71.53\% $ \ast $ & 81.05\% $ \ast $ & 78.32\% & 74.54\%\\
 
 \section{小结}
 \label{sec6}
-本章中，我们定义并研究了社交媒体中用户的观点集成问题，提出了主观模型作为解决方案并设计了新的算法来从用户的历史数据中构建主观模型。使用主观模型可以自动总结用户在各个话题上的综合观点。实验证明，主观模型能有效的对用户的主观性进行建模，并且在观点预测任务中基于主观模型的方法性能显著比现有的几个情感分析方法要好，而且比TSM和JST两个生成模型更适于与Twitter。
+本章中，我们定义并研究了社交媒体中用户的观点集成问题，提出了主观模型作为解决方案并设计了新的算法来从用户的历史数据中构建主观模型。使用主观模型可以自动总结用户在各个话题上的综合观点
+
+
+In this paper, we define and investigate a novel opinion integration problem for social
+media users. We propose a subjectivity model to solve this problem in a three-stage
+framework and design an algorithm to establish the subjectivity model from historical
+tweets of users. With this model, we can automatically generate an integrated opinion
+summary that consists of both topics of interest distribution and topic related opinion
+distribution for a user. The proposed model is demonstrated effective in the applica-
+tion of opinion prediction. Experiments on Twitter data show that the proposed model
+can effectively describe topic related opinions with two probabilistic distributions and
+clearly outperforms generative models in the opinion prediction task. In the future, we
+will apply our model in several social network analysis applications to testify its ef-
+fectiveness.
+In this paper, we define and investigate a novel opinion integration problem for social media usrs.
+We propose a subjectivity model to solve this problem in a three-stage framework and design an algorithm to establish the subjectivity model from historical tweets of users. With this model, we can automatically generate an integrated opinion summary that consists of both topics of interest distribution and topic related opinion distribution for a user. The proposed model is compared with generative models such as TSM and JST model to show that it is more suitable for the social media language. Experiments on Twitter data show that the proposed model can effectively describe topic related opinions with two probabilistic distributions and clearly outperforms generative models in a opinion prediction task. In the future, we will apply our model in several social network analysis applications to testify its effectiveness.
+
+\section*{Acknowledgments}
+
+The research is supported by the National Natural Science Foundation of China (Grant No. 61170156 and 61202337).
+
+\bibliographystyle{splncs}
+\bibliography{apweref}
+\end{document}

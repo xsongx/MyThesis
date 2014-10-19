@@ -14,7 +14,7 @@
 \caption{主观模型总体框架.}
 \label{fig5-1}
 \end{figure*}
-\bend{landscape}
+\end{landscape}
 
 \section{相关工作}
 \label{ch5_sec2}
@@ -88,17 +88,17 @@ P \left( u \right) = \lbrace \left( t, w_{u} \left( t \right), \lbrace d_{u,t} \
 \end{figure}
 
 生成过程如下：
-\begin{itemize*}
+\begin{itemize}
 \item 对每个用户$ u $, 获取话题分布$ \theta_{u} \sim Dir \left(  \alpha \right) $；
 \item 对用户微博中的每个词语$ w_{u,n} $，$ n \in \left\lbrace 1, \cdots, N \right\rbrace $：
-\begin{itemize*}
+\begin{itemize}
 \item 获取一个话题$ z_{u,n} \sim Multinomial \left( \theta_{u}  \right) $；
 \item 基于话题$ z_{u,n} $，从话题的多项分布中获取词语$ w_{u,n} $:\\ 
 $$  p \left( w_{u,n} \vert z_{u,n}, \beta_{k}  \right) $$；
-\end{itemize*}
-\end{itemize*}
+\end{itemize}
+\end{itemize}
 
-为了从用户产生的内容中提取出讨论的话题，用户所发的微博应该和LDA模型的文档自然对应起来。由于我们的目标是了解用户感兴趣的话题而不是单条微博谈论的话题，所以我们将一个用户所有的微博连接起来组成一篇大的微博文档作为LDA 模型的文档。因此LDA模型中的一篇文档就对应于一个用户，因此一个用户感兴趣的话题就可以使用在话题空间的一个多项式分布来表示，正好可以和我们的主观模型的话题权重相对应。在用户层面的LDA模型中，给定用户集合$ V $以及话题数目$ K $，一个用户$ u \in V $的所有微博文档可使用话题上一个多项分布$ \theta_{u} $来表示，该分布具有参数为$ \alpha $的Dirichlet先验分布；一个话题$ k \in K $可以用所有词汇上的一个多项分布$ \beta_{k} $来表示，该分布具有参数为$ \eta $的Dirichlet先验分布。模型中的两个分布能够使用Gibbs采样或变分推理（variational inference）进行估计。本章中我们使用的是基于变分推理的话题模型工具Gensim\upcite{vRehruvrek2010}，该工具使用的是在线批处理模式的变分推理，而且能够对新文档进行话题推理。
+为了从用户产生的内容中提取出讨论的话题，用户所发的微博应该和LDA模型的文档自然对应起来。由于我们的目标是了解用户感兴趣的话题而不是单条微博谈论的话题，所以我们将一个用户所有的微博连接起来组成一篇大的微博文档作为LDA 模型的文档。因此LDA模型中的一篇文档就对应于一个用户，因此一个用户感兴趣的话题就可以使用在话题空间的一个多项式分布来表示，正好可以和我们的主观模型的话题权重相对应。在用户层面的LDA模型中，给定用户集合$ V $以及话题数目$ K $，一个用户$ u \in V $的所有微博文档可使用话题上一个多项分布$ \theta_{u} $来表示，该分布具有参数为$ \alpha $的Dirichlet先验分布；一个话题$ k \in K $可以用所有词汇上的一个多项分布$ \beta_{k} $来表示，该分布具有参数为$ \eta $的Dirichlet先验分布。模型中的两个分布能够使用Gibbs采样或变分推理（variational inference）进行估计。本章中我们使用的是基于变分推理的话题模型工具Gensim\upcite{vRehruvrek2010}，该工具使用的是在线批处理模式的变分推理，而且能够对新文档进行话题推理。\cite{mei2007topic,lin2009joint}
 
 \subsubsection{观点分析}
 \label{sentiment}
@@ -118,57 +118,15 @@ o=\begin{cases}
 
 \subsubsection{构建主观模型}
 \label{concrete}
-
-With statistical topic analysis and sentiment analysis described above, we can concrete subjective model in a local network settings now. 
-For user set $ U $ of a local network, we denote tweet set published by a user $ u $ as $ C_{u}=\left\lbrace c_{i} \vert i \in \left[ 1, \cdots, N \right]  \right\rbrace$. Each $ C_{u} $ is concatenated to a single document $ d_{u} $ to construct Local Topic Space $ T=\left\lbrace t_{i} \vert i=1, \cdots, K \right\rbrace $.
-In the Local Topic Space $ T $, a topic model is built with parameter $ \theta $\ representing the distribution of each user over topics he tweets about, and
-parameter $ \beta $ represents the distribution of each topic over the vocabulary of all tweets. SentiStrength is applied to each tweet $ c $ in collection $ C_{u} $ and outputs sentiment strength $ s_{c} $ for tweet $ c $. 
-We build the subjective model of user $ u $ as follows:
-\begin{itemize*}
-\item Firstly, for user $ u $, the corresponding component $ \theta_{u} $ is his topic distribution in the Local Topic Space $ T $. $ p\left( z_{u} \vert \theta_{u} \right)  $ could be regarded as the weight of subjective model $ w_{u} \left( t_{i} \right)  $, and topics he tweets about are $ Z_{u}= \left\lbrace z_{u} \vert p\left( z_{u} \vert \theta_{u} \right)>0 \right\rbrace $.
-\item Secondly, the topic model of Local Topic Space $ T $ is applied to each tweet $ c $ to find topics of $ c $, which are $ Z_{c} =\left\lbrace z_{c} \vert p\left( z_{c} \vert \theta, \beta, Z_{u} \right)>0 \right\rbrace $.
-\item Thirdly, the opinion distribution of user $ u $ towards topic $ t \in Z_{u} $ could be calculated as:
-\begin{equation}
-\label{opinionall}
-d_{u,t}\left( o \right) = \left\lbrace \dfrac{N_{o}}{\sum_{o \in O} N_{o}} \vert O=\left[ 0, \cdots, 8 \right] \right\rbrace 
-\end{equation}
-where $ N_{o} $ is the number of times user $ u $ expresses an opinion to topic $ t $ with sentiment strength $ o $, which could be calculated as:
-\begin{equation}
-\label{opinion1}
-N_{o}=\sum_{c \in Cu} I\left( s_{c} \right) , \text{ if } s_{c}=o \& t \in Z_{c}
-\end{equation}
-\begin{equation}
-\label{opinion2}
-I\left( s_{c} \right)=\left\{
-\begin{array}{ll}
-{1} & \text{if } s_{c}=o \& t \in Z_{c}\\
-{0} & \text{else}
-\end{array}
-\right.
-\end{equation}
-
-where $ s_{c} $ denotes the sentiment strength of tweet $ c $, and for simplicity, we assume the sentiment of tweet $ c $ is related to every topic it talks about in $ Z_{c} $.
-
-\end{itemize*}
-
-Totally, we build subjective model $ P\left( u \right) $ for user $ u $ as:
-\begin{equation}
-\label{subuser}
-P\left( u \right)= \left\lbrace \left( t, p\left( z_{u} \vert \theta_{u} \right), d_{u,t}\left( o \right) \right)  \vert t \in Z_{u}, o \in O  \right\rbrace  
-\end{equation}
-and accordingly subjective model $ P\left( c \right) $ for tweet $ c $ as:
-\begin{equation}
-\label{subtweet}
-P\left( c \right)= \left\lbrace \left( t, p\left( z_{c} \vert \theta, \beta \right), d_{c,t}\left( o \right) \right)  \vert t \in Z_{c}, o \in O  \right\rbrace  
-\end{equation}
-For users set $ V $ of a social network, we denote tweets set published by a user $ u \in V $ as $ M_{u}=\left\lbrace m_{i} \right\rbrace$. $ M_{u} $ is concatenated to a document $ d_{u} $ to construct Topic Space $ T=\left\lbrace t_{i} \vert i=1, \cdots, K \right\rbrace $ with LDA model.
-A topic model is built with parameter $ \theta $ representing the distribution of each user over topics in the Topic Space $ T $, and
-parameter $ \beta $ represents the distribution of each topic over the vocabulary of all tweets. SentiStrength is applied to each tweet $ m $ in collection $ M_{u} $ and outputs sentiment strength $ s_{m} $ for tweet $ m $. 
-With statistical topic analysis and opinion analysis for each user and tweet, we put forward an novel algorithm to concrete subjectivity model $ P(u) $ for user $ u $ as algorithm~\ref{alg1}:
+对用户微博进行话题分析以及情感分析后，我们就可以为用户开始构建主观模型了。
+对于一社交网络的用户集合$ V $，用$ M_{u}=\left\lbrace m_{i} \right\rbrace$表示每一用户 $ u \in V $所发布的所有微博。按照用户层面LDA话题模型要求，将$ M_{u} $中所有微博连接在一起形成一片长的微博文档$ d_{u} $，然后可以用这些微博文档$\{ d_{u}|u \in V\} $使用LDA话题模型进行训练获得话题个数为$ K $的话题空间。
+训练得到的话题模型用参数$ \theta $表示每个用户在话题空间$ T $中感兴趣的话题的分布，参数$ \beta $表示每个话题在所有微博词汇上的分布。
+使用SentiStrength对每个用户的每条微博$ m $进行情感分析得到每条微博大的情感强度$ s_{m} $。
+于是对用户$ u $构建主观模型$ P(u) $的过程如算法~\ref{alg5-1}所示：
 
 \begin{algorithm}[htb] 
-\caption{ Establishment of subjectivity model .} 
-\label{alg1}
+\caption{主观模型的构建过程} 
+\label{alg5-1}
 \begin{algorithmic}[0] %这个1 表示每一行都显示数字
 \REQUIRE ~~\\ %算法的输入参数：Input
 The users set of a local network, $ V $;\\
@@ -206,53 +164,56 @@ P\left( u \right)= \left\lbrace \left( t, p\left( t \vert \theta_{u} \right), \l
 \RETURN $P(u)$; %算法的返回值
 \end{algorithmic}
 \end{algorithm}
-In the algorithm,  we assume the sentiment of tweet $ m $ is related to every topic it talks about in $ Z_{m} $ for simplicity.
 
-\subsection{Comparison with Generative Model}
+算法中，由于微博的短小，我们简单假设微博$ m $的情感$ s_m $是针对微博所讨论的所有话题$ Z_{m} $的，并没有区分针对不同话题的不同观点。
+
+\subsection{与生成模型比较}
 \label{comparison}
+前期研究中提出了一些基于话题模型的生成模型，能够扩展基本的话题模型将文档中表达的情感与话题结合统一建模\upcite{Mei2007,Lin2009}。TSM模型（Topic Sentiment Mixture model）\upcite{Mei2007}认为文档中表示情感等主观信息的语言与描述话题的语言是独立的，因此可以将表示情感的语言模型跟表示话题的语言模型分开，在文档的生成过程中词语要么从话题中要么从情感中采样获得。JST模型（Joint Sentiment/Topic model）\upcite{Lin2009}提出了一种新的方式来分析文档中的情感信息，使用话题模型抽取话题过程中将话题和情感关联起来，因此可以同时对话题和情感信息建模。
+这些模型在发现话题相关的观点信息时跟我们提出的主观模型是很相似的，都能同时对用户的感兴趣话题以及话题相关的观点建模。
 
-Several generative models unifying topics and sentiment have been proposed, and they extend basic topic model to explain the sentiment related to topic from documents such as reviews or comments \cite{mei2007topic,lin2009joint}. Topic Sentiment Mixture (TSM) model \cite{mei2007topic} represents the sentiment as a language model separated from topics, which means TSM considers the topic and sentiment orthogonally, the word samples from either topics or sentiments. Joint Sentiment/Topic (JST) model \cite{lin2009joint} presents a novel way to detect the sentiment of document with topic extraction and its sampling process considers that the topics are associated with sentiment and document, which can model the topic and sentiment simultaneously. These models are similar as our work in mining topic-related opinion at user (document) level, all of which try to model topic and sentiment at the same time in a generative way. Usually they learn a general word-sentiment distribution to model the sentiment of blogs or reviews, which may not work well for short and informal social media languages such as tweets. Compared to the traditional topic-based representation, sentiment representation is deemed to be more challenging as sentiment is often embodied in subtle linguistic mechanisms such as the use of sarcasm or incorporated with highly domain-specific information. Intuitively, sentiment is dependent on contextual information, such as language usage characteristics. Sentiment of tweets is determined not only by formal words but also by various special characteristics of Twitter languages such as emoticon, capitalized words, repeated letters and exclamation mark, etc. Those features can not be easily modeled by a probabilistic distribution.  However, rule-based sentiment analysis methods can catch such subtle sentiment of tweets by transforming the characteristics into rules. Therefore, our model is more suitble for integrating topic related opinion of users on social media. 
+但是他们通常需要通过学习获得一个通用词语-情感分布来对文档中的情感建模，这对短小和不正规的社交媒体语言尤其是Twitter来说是困难的。相较于话题的表达，情感等主观信息更难发现，u因为情感信息常常隐含在一些微妙的语言表达方式中（比如反讽），还有一些具体的领域和语境中也会具有独特的情感表达方式。微博中的情感除了一些正规的表达语言外，还有很多微博特有的语言特色来表示，比如表情符、字母大小写、字母重复以及惊叹号的使用等等。微博上的这些语言特色很难用概率分布来表示用于对情感建模。可是基于规则的情感分析方法可以很容易通过将这些语言特色转化为规则来抓住微博语言中微妙的情感表达方式。因此，我们的模型采用了基于规则的情感分析工具发现微博中的情感信息，更适合于Twitter等短文本社交媒体上用户主观信息的建模。
 
-\subsection{Application of Subjectivity Model}
+\subsection{主观模型的应用}
 \label{application}
+从用户微博中学习得到的主观模型能够在用户观点挖掘分析以及行为分析预测（转发、关注等行为）得到应用。本章我们以用户观点的预测为例来验证主观模型的作用，也就是学习到的主观模型能否有效的对用户将来针对某话题的观点进行预测。根据据用户观点的一致性，我们认为用户不会就某一话题表达随机正面或负面的观点，例如按照常理一个支持某候选人的用户更趋向于针对该候选人发表正面观点的微博。社会学上称这种现象为人的主观偏执（bias），也就是人的主观性\upcite{Walton1991}。因此得到了用户的主观模型，就可以预测用户就某一话题发表的微博所持观点。
 
-The learned subjectivity model can be used to help with many applications such as user opinion mining and user behavior prediction (retweet, follow, etc). Here we illustrate one application on , i.e., how the learned model can help improve the performance of user opinion prediction.
-Our strategy is based on the premises that users usually tend to express their opinions consistently. In other words, positive and negative opinions are not randomly expressed by people. E.g, a user who supports a candidate in an election will tend to post positive tweets on a regular basis. Technically, social theories say that the user exhibits a varying degree of bias, which is his subjectivity \cite{walton1991bias}. 
+我们将观点预测问题形式化为三元组$ < author, m, t >$，其中$author$微博$ m $作者，微博涉及话题为$ t $。观点预测的目标就是计算得出用户$author$的微博$ m $针对话题$ t $表达出的观点极性$ p=\left\{positive,negative\right\} $。情感分析领域针对这一问题的主要方法是从微博中抽取出文本的表达模式，然后探索这些模式来预测观点的极性。
+单条短微博经常会由于缺乏上下文信息而使得观点模糊不清，但是用户的主观模型是从用户所有的微博中建立的，因此具有足够的信息，并且由于用户主观性的一致性，主观模型的观点信息比一条短文本更加可靠。因此我们提出使用主观模型来提高观点预测效果。
+具体来说，对微博$ m $，其作者的主观模型算法~\ref{alg5-1}构建，微博$ m $的情感值通过某种方法比如SentiStrength得出为$s_m$。微博$ m $所谈论的话题可以使用的公式~\ref{tweettopic}推导得出：
 
-We formulate the opinion prediction of a user as a triplet in the form of $ < author, m, t >$, where $author$ is the user who post tweet $ m $, which talks about topic $ t $. The goal is to predict the polarity $ p=\left\{positive,negative\right\} $ of tweet $ m $ toward topic $ t $. For such a problem, the dominant approach relies on extracting textual patterns from tweets and exploiting these patterns to predict polarity.
-
-However subjectivity model of a user provides information that is more robust to a single tweet short of context, as it is more consistent than typical textual information. Thus, we propose an alternate approach that is based on subjectivity model. More specifically, the topic tweet $ m $ talks about can be identified with equation~\ref{tweettopic} in algorithm~\ref{alg1}:
 \begin{equation}
 \widehat{t}=argmax(\widehat{P}(t| \theta,\beta ,Z_{u})|t).
 \end{equation}
-Thus opinion distribution of the user $author$ can be achieved from his subjectivity model $ P(author) $: $ O_{author,\widehat{t}} $, which is a sentiment value distribution. We can get a normalized sentiment value of the user on topic $ \widehat{t} $:
+用户$author$的观点分布可以从主观模型$ P(author) $中确定，$ O_{author,\widehat{t}} $，为在情感值上的分布，我们可以计算出用户在话题$ \widehat{t} $上归一化情感值：
+
 \begin{equation}
-\widehat{S_{m}}=\sum_{i \in T}d_{i}\ast v_{i}
+\widehat{s_{m}}=\sum_{i \in T}d_{i}\ast v_{i}
 \end{equation}
-where $ v_{i} $ denotes the sentiment value and $ d_{i} $ denotes the corresponding sentiment distribution.
-Now we can predict the polarity $ p $ with the normalized sentiment value of tweet $ m $:
+其中$ v_{i} $表示情感值，$ d_{i} $表示情感值对应的分布。
+于是可以使用微博的情感值$s_m$和归一化的主观模型情感值$ \widehat{s_{m}} $进行观点极性$ p $预测：
+
 \begin{equation}
 \label{polarity}
-p= \left\{ 
-\begin{array}{lll}
-{positive} &  \qquad if \; \widehat{S_{m}} > 5 \\
-{negative} &  \qquad if \; \widehat{S_{m}} < 4 \\
-{neutral}  &   \qquad others \;  
-\end{array}
-\right.
+p=  
+\begin{cases}
+{positive} &  \qquad if \; \dfrac{\widehat{s_{m}+s_m}{2}} > \dfrac{|S|}{2} +1\\
+{negative} &  \qquad if \; \dfrac{\widehat{s_{m}+s_m}{2}} < \dfrac{|S|}{2} \\
+{neutral}  &   \qquad otherwise \;  
+\end{cases}
 \end{equation}
+其中$ S $是情感强度空间。
 
-\section{Experiment}
+\section{实验}
 \label{sec5}
 
-\subsection{Dataset and Settings}
-
-We use an off-the-shelf dataset \cite{DBLP:conf/kdd/LiWDWC12}, which is crawled from Twitter through its open Api. The details about the dataset can be summarized as Table~\ref{tab1}. 
+\subsection{数据集及设置}
+我们使用的是通过Twitter公开的API抓取的现成的数据集\upcite{Li2012a}。数据集的具体细节在表~\ref{tab5-1}中列出。
 
 \begin{table}
 \centering
-\caption{Twitter Dataset Statistics}
-\label{tab1}
+\caption{Twitter数据集统计}
+\label{tab5-1}
 \begin{tabular}{ll|ll}
 \hline
 Total users  & 139,180 & Friends per user & 14.8 \\
@@ -262,46 +223,51 @@ Total tweets & 76,409,820 & Tweets per user & 549 \\
 \end{tabular}
 \end{table}
 
-It is time-consuming to establish subjectivity model with the 139,180 users directly for the computational complexity of LDA. However, the principle of homophily \cite{lazarsfeld_friendship_1954}, or ``birds of a feather flock together'' \cite{mcpherson2001birds} —suggests that users that are``connected'' closely may tend to talk about similar topics and hold similar opinions \cite{thelwall2010emotion}. On Twitter, the connections a user creates may correspond to approval or a desire to pay attention, or suggestive of the possibility of shared topics and opinions. Therefore we adopt the community structure of social network to divide the  139,180 users into different community and establish subjectivity model for a user in his community subnetwork. The communities are found with the packages igraph\footnote{\url{http://igraph.org/}}. There are 106 communities in the full network, and 73 communties have users less than 15, for which topics can not be found effectively with LDA, so we filter out users in these communities. At the same time, we also filter out 15,756 users who are inactive with tweets less than 5, only tweet themselves with words less than 3, or only publish content with url links. In the final dataset, there are 122,329 users distributed in 33 communities. The subjectivity model for each user is established within his own community as algorithm~\ref{alg1}.
+由于LDA模型的计算复杂度，直接从139,180个用户的所有微博中构建主观模型需要耗费大量的时间。根据社交网络的同质性\upcite{Lazarsfeld1954}，也就是“物以类聚（birds of a feather flock together）”的原则\upcite{McPherson2001}，社交网络中连接紧密的用户更趋向于讨论形同话题持有相似观点\upcite{Thelwall2010a}。在Twitter上，用户之间的连接关系对应着认可或关注，或者意味着有相似话题或观点。因此我们利用社交网络的社区结构（community）将139,180个用户划分为不同的社区，在社区内部为用户构建主观模型。社区的划分我们使用的是
+Igraph\footnote{\url{http://igraph.org/}}工具包，最后将用户划分为106个社区。对于用户数少于15的小社区，使用LDA进行话题分析效果比较差，因此我们将这些社区和用户过滤掉。同时我们也过滤掉了发微博少于5的、每次发微博字数少于3个的或微博中只有网络连接的用户15,756个。最后形成的数据集中有122,329个用户，分部于33个社区中。我们为每个用户在其社区内局部网络中按照算法~\ref{alg5-1}构建主观模型。
 
-Besides our model, we also conduct a set of comparing experiments on both JST and TSM. The symmetry Dirichlet prior $ \alpha $ and $ \beta $ were set to $ 50/T $ and 0.01 respectively for all models. The asymmetry sentiment prior $ \gamma $ empirically was set to (0.01, 1.8) for JST. Results of JST were averaged over 5 runs with 2000 Gibbs sampling iterations.
+除了主观模型，我们也使用生成模型JST和TSM进行了对比试验。其中模型的Dirichlet先验参数设为$ \alpha=50/T $（$ T $为话题数目），$ \beta=0.01 $。JST的不对称情感先验参数$ \gamma $依照经验设为$ (0.01, 1.8) $。两个模型推导都进行2,000次迭代Gibbs采样。
 
-\subsection{Case Study}
-
-In order to qualitatively evaluate the effectiveness of our method, we give a vivid example of a user's subjectivity model, who has published 533 tweets. All his tweets are illustrated as Figure~\ref{fig5:a} in a word-cloud way.
+\subsection{样例分析}
+为了定性展示我们所提出的主观模型的有效性，我们给出了一个学习得到的用户的主观模型如图所示。该用户发表了533条微博，所有微博用词云图~\ref{fig5:a}来显示。
 
 \begin{figure}[htb]
 \centering
-\subfigure[Word Cloud.]{
-	\label{fig5:a}
-	\includegraphics[width=1.8in,height=1.5in]{example.pdf}
-	}%
-\subfigure[Subjectivity Model.]{
-    \label{fig5:b}
-    \includegraphics[width=3.2in,height=1.5in]{fig1.pdf}
-%    \end{minipage}
-	}
-	\caption{ In the subjectivity model, left sub-graph denotes interests distribution on topic 2, 32 and 83: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $. The right sub-graph denotes opinions towards topics: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $.}	
-	\label{fig5}
+\includegraphics[height=150pt]{5-4.png}
+\caption{微博词云}
+\label{fig5:a}
 \end{figure}
 
-Figure~\ref{fig5:b} is the visualized subjectivity model of the user in a $ [0,100] $ topic space and a $ [0,8] $ sentiment strength space, which is constructed according to our method. 
-It is obvious that the user is interested in three topics (topic 2: ``\#Obamacare'', topic 32: ``\#libya'' and topic 83:``\#occupywallst''), and  the left part of Figure~\ref{fig5:b} denotes the weights of his topics of interest. The right part denotes the opinions of the user towards three topics, in which he is neutral to topic ``\#libya'' with 100\% distribution on sentiment strength value 4, positive to topic ``\#Obamacare'' and ``\#occupywallst'' with 50\% on value 4 and 50\% on value 5. 
-From the example, it is demonstrated that our model can give a detail description for the subjectivity of users in that it can model not only the interest distribution but also opinion coverage over a fine-grain sentiment.
+\begin{figure}[htb]
+\centering
+\includegraphics[height=150pt]{5-3.png}
+\caption{主观模型。主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $。}
+\label{fig5:b}
+\end{figure}
 
-\subsection{Opinion Prediction Performance}
-To directly evaluate the effectiviness of our model quantitatively, we compare our model with other two generative topic-sentiment model (TSM and JST) and an off-the-shelft sentiment analysis mothod (OpinionFinder (OF)\footnote{See \url{http://www.cs.pitt.edu/mpqa/opinionfinderrelease/}}) in the performance of opinion prediction. OpinionFinder is a publicly available software package for sentiment analysis that can be applied to determine sentence-level subjectivity, i.e. to identify the emotional polarity (positive or negative) of sentences \cite{wilson2005recognizing}. 
+图~\ref{fig5:b}是用户在$ [0,100] $话题空间和$ [0,8] $情感强度空间的可视化的主观模型。很明显，从词云图上可以看到该用户讨论了三个话题（话题2：``\#Obamacare''，话题32：``\#libya''以及话题83：``\#occupywallst''），子图~\ref{fig5:b}左侧展示了用户在每个话题上的兴趣权重。子图~\ref{fig5:b}右侧是用户对这三个话题所持观点分布，总体来看，对于话题``\#libya''情感分布100\%在强度4上，属于中性，对话题``\#Obamacare''和``\#occupywallst''情感分部都是50\%在强度4以及50\%在强度5上，属于中性偏正面倾向。从这个样例可以看出，我们的主观模型对用户的主观性进行了详细的建模，不但有用户的兴趣分布，也有细粒度的观点分部信息。
 
-We randomly select 1,000 target users from our dataset with at least 80 tweets, and select one random tweet for each user from his tweets collection to compose a 1,000-tweets test set. In order to identify topic of each tweet more obviously, the tweets with hashtag are prior to be selected. All 1,000 tweets in the test set are manually labelled with sentiment polarity as the golden standard. The number of topic is set to 50, 100, 150 and 200 iteratively. Accuracy is used as our performance measurement, and the result is list in Table~\ref{tab2}.
+\subsection{观点预测性能}
+为了定量评价主观模型的有效性，我们将主观模型在观点预测任务上与两个生成模型（TSM and JST）和一些主流的情感分析方法进行了对比实验。由于缺少可用的标注数据，我们主要跟几个无监督的情感分析方法进行了对比，这些方法主要有：
+\begin{itemize}
+\item \textbf{OF:OpinionFinder}是一个公开可用的情感分析软件包，主要是用于句子层面的主观性分析\upcite{Wilson2005}。
+\item \textbf{S140:Sentiment140}使用远距离监督（distant supervision）方式（使用表情符获取训练数据）进行微博的情感分类。
+\item \textbf{STR:SentiStrength}将微博中的一些语言特点转化成规则结合基于词典的方法专门针对微博等短文本社交媒体进行情感分析\upcite{Thelwall2010}。
+\end{itemize}
+
+我们从数据集中随机选择了1,000个至少有80条微博的用户条，然后每个用户随机选择一条微博组成了1,000条微博的数据集用于性能评测。为了能更容易识别微博的话题，我们优先选择带hashtag的微博。所有的1,000条微博进行人工标注作为评测标准。话题模型的话题数分别设置为50, 100, 150以及200，评价指标使用的是准确率，结果如表~\ref{tab5-2}所示。
+
 \begin{table}[htb]
 \centering
-\caption{Accuracy performance. A significant improvement over OF with $ \ast $.}
-\label{tab2}
+\caption{评价结果。相对于OF显著的性能提升使用$ \ast $标记。}
+\label{tab5-2}
 \begin{tabular}{l|llll}
 \hline
 Method & 50 & 100 & 150 & 200\\
 \hline
 OF &  65.85\%& & & \\
+S140 &  70.45\%& & & \\
+STR &  69.98\%& & & \\
 TSM & 63.46\%& 72.94\% $ \ast $  &67.83\% & 66.65\% \\
 JST & 61.25\% & 68.57\% $ \ast $ & 75.88\%  $ \ast $ & 67.03\%\\
 SUB & 71.53\% $ \ast $ & 81.05\% $ \ast $ & 78.32\% & 74.54\%\\
@@ -309,18 +275,16 @@ SUB & 71.53\% $ \ast $ & 81.05\% $ \ast $ & 78.32\% & 74.54\%\\
 \end{tabular}
 \end{table}
 
-As can be observed from the result table that: firstly, the performance of OpinionFinder is the lowest with 65.85\% accuracy, and we think the reseason lying in that it is designed for the review and not adapts to tweets with informal language usage; secondly, overall, the two generative models outperform OpinionFinder, which demonstrates the importance of relating sentiment to the topics of users; finally, our model (SUB) outperforms OpinionFinder significantly with all four topic settings, and compared with two generative models, our model outperforms TSM significantly, and get a little better performance than JST. We think it is because sentiment analysis technique of our model is more suitable for the Twitter language, for it can extract subltle sentiment imbeded in special language characteristcs such as repeated letters and emoticons.
+从表中可以看出：
 
-\section*{Conclusion}
+首先，OpinioFinder的准确率是最低的65.85\%，主要原因是OpinioFinder主要是针对评论而设计的主观性信息分析工具，不适用于Twitter这种语言环境；
+
+第二点，两个情感分析方法的准确率都显著的好于OpinioFinder（Sentiment140：70.45\%，SentiStrength：69.98\%）;
+
+第三点，总体上两个生成模型的准确率都好于OpinioFinder，证明了将情感信息与话题进行关联的重要性，它们的准确率都比Sentiment140和SentiStrength稍好，但是不显著；
+
+最后，我们的模型（SUB）准确率在四种话题设置下都显著地超过了三个情感分析方法，并且将主观模型的信息加入到SentiStrength的分析结果后，显著提高了SentiStrength的性能，与两个生成模型相比较，我们的模型性能明显比TSM要好，稍好于JST，这是因为我们的模型构建所用的情感分析方法更适合与Twitter语言，能够更准确的分析微博中的情感信息。
+
+\section{小结}
 \label{sec6}
-
-In this paper, we define and investigate a novel opinion integration problem for social media usrs.
-We propose a subjectivity model to solve this problem in a three-stage framework and design an algorithm to establish the subjectivity model from historical tweets of users. With this model, we can automatically generate an integrated opinion summary that consists of both topics of interest distribution and topic related opinion distribution for a user. The proposed model is compared with generative models such as TSM and JST model to show that it is more suitable for the social media language. Experiments on Twitter data show that the proposed model can effectively describe topic related opinions with two probabilistic distributions and clearly outperforms generative models in a opinion prediction task. In the future, we will apply our model in several social network analysis applications to testify its effectiveness.
-
-\section*{Acknowledgments}
-
-The research is supported by the National Natural Science Foundation of China (Grant No. 61170156 and 61202337).
-
-\bibliographystyle{splncs}
-\bibliography{apweref}
-\end{document}
+本章中，我们定义并研究了社交媒体中用户的观点集成问题，提出了主观模型作为解决方案并设计了新的算法来从用户的历史数据中构建主观模型。使用主观模型可以自动总结用户在各个话题上的综合观点。实验证明，主观模型能有效的对用户的主观性进行建模，并且在观点预测任务中基于主观模型的方法性能显著比现有的几个情感分析方法要好，而且比TSM和JST两个生成模型更适于与Twitter。

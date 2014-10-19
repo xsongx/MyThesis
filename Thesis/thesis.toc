@@ -68,26 +68,52 @@
 \contentsline {subsubsection}{\numberline {4.5.1.4}数据预处理}{51}{subsubsection.4.5.1.4}
 \contentsline {subsection}{\numberline {4.5.2}实验结果}{51}{subsection.4.5.2}
 \contentsline {section}{\numberline {4.6}小结}{52}{section.4.6}
-\contentsline {chapter}{\numberline {5}Twitter中信息传播者的发现}{53}{chapter.5}
+\contentsline {chapter}{\numberline {5}用户主观性建模}{53}{chapter.5}
 \contentsline {section}{\numberline {5.1}引言}{53}{section.5.1}
-\contentsline {section}{\numberline {5.2}相关工作}{54}{section.5.2}
-\contentsline {section}{\numberline {5.3}基于排序学习的Twitter信息传播者发现框架 }{54}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Twitter信息传播者发现排序学习框架}{54}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Twitter信息传播者相关特征}{55}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}转发历史特征}{55}{section.5.4}
-\contentsline {section}{\numberline {5.5}用户特征}{56}{section.5.5}
-\contentsline {section}{\numberline {5.6}用户活跃时间特征}{57}{section.5.6}
-\contentsline {section}{\numberline {5.7}用户兴趣特征}{57}{section.5.7}
-\contentsline {section}{\numberline {5.8}Twitter信息传播者发现实验}{57}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Twitter信息传播者发现实验数据}{57}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Twitter信息传播者发现实验设置}{58}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Twitter信息传播者发现基准系统（Baseline）}{58}{subsection.5.8.3}
-\contentsline {subsection}{\numberline {5.8.4}Twitter信息传播者发现实验结果及分析}{59}{subsection.5.8.4}
-\contentsline {section}{\numberline {5.9}小结}{61}{section.5.9}
-\contentsline {chapter}{\numberline {6}总结与展望}{62}{chapter.6}
-\contentsline {section}{\numberline {6.1}工作总结}{62}{section.6.1}
-\contentsline {section}{\numberline {6.2}工作展望}{63}{section.6.2}
-\contentsline {chapter}{致谢}{65}{chapter*.40}
-\contentsline {chapter}{参考文献}{66}{section*.41}
-\contentsline {chapter}{作者在学期间取得的学术成果}{81}{chapter*.43}
+\contentsline {section}{\numberline {5.2}相关工作}{55}{section.5.2}
+\contentsline {section}{\numberline {5.3}观点集成问题}{55}{section.5.3}
+\contentsline {section}{\numberline {5.4}主观模型}{57}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}模型定义}{57}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}主观模型的构建}{58}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}话题分析}{58}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}观点分析}{59}{subsubsection.5.4.2.2}
+\contentsline {subsubsection}{\numberline {5.4.2.3}构建主观模型}{60}{subsubsection.5.4.2.3}
+\contentsline {subsection}{\numberline {5.4.3}与生成模型比较}{60}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}主观模型的应用}{62}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}实验}{63}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}数据集及设置}{63}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}样例分析}{64}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}观点预测性能}{65}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}小结}{66}{section.5.6}
+\contentsline {chapter}{\numberline {6}转发分析}{67}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{67}{section.6.1}
+\contentsline {section}{\numberline {6.2}Related Work}{69}{section.6.2}
+\contentsline {section}{\numberline {6.3}Subjectivity Model}{69}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Definition}{70}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Establishment of Subjectivity Model}{70}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Topic Analysis}{71}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Opinion Analysis}{71}{subsubsection.6.3.2.2}
+\contentsline {subsection}{\numberline {6.3.3}Subjectivity Similarity}{72}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}Opinion Similarity}{72}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}Subjectivity Similarity}{73}{subsubsection.6.3.3.2}
+\contentsline {section}{\numberline {6.4}Retweeting Analysis}{73}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Attractiveness}{74}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Sociality}{74}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}Expert Factor $ w_E(u_a) $:}{74}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}Leadership Factor $ w_L(u_a) $:}{74}{subsubsection.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.2.3}Similarity Factor $ w_S(u_a,f) $:}{75}{subsubsection.6.4.2.3}
+\contentsline {subsubsection}{\numberline {6.4.2.4}Interaction Factor $ w_I(u_a,f) $:}{75}{subsubsection.6.4.2.4}
+\contentsline {subsection}{\numberline {6.4.3}Popularity}{75}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Experiments}{75}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Dataset and Settings}{75}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Correlation Test}{76}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Case Study}{76}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}Performance Evaluation}{78}{subsection.6.5.4}
+\contentsline {section}{\numberline {6.6}Conclusion}{79}{section.6.6}
+\contentsline {chapter}{\numberline {7}总结与展望}{80}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{80}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{81}{section.7.2}
+\contentsline {chapter}{致谢}{83}{chapter*.51}
+\contentsline {chapter}{参考文献}{84}{section*.52}
+\contentsline {chapter}{作者在学期间取得的学术成果}{102}{chapter*.54}
 \contentsfinish 
