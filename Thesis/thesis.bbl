@@ -869,41 +869,107 @@ NLPIR/ICTCLAS2014分词系统.
 计算机学报.
 2001, 24~(7):  742--747.
 
-\bibitem{west2003introducing}
-West~T, Turner~L.
-Introducing communication theory: analysis and application with powerweb~[J].
-2003.
+\bibitem{LourencoJr2014}
+Lourenco~Jr~R, Veloso~A, Pereira~A, et~al.
+Economically-efficient sentiment stream analysis~[C].
+In Proceedings of the 37th international ACM SIGIR conference on Research \&
+  development in information retrieval.
+2014:  637--646.
 
-\bibitem{朱海青2013微博传播中}
-朱海青.
-微博传播中 “沉默的螺旋”~[J].
-青年记者.
-2013~(12):  43--44.
+\bibitem{jiang2011target}
+Jiang~L, Yu~M, Zhou~M, et~al.
+Target-dependent Twitter Sentiment Classification.~[C].
+In ACL.
+2011:  151--160.
+
+\bibitem{Pang2002}
+Pang~B, Lee~L, Vaithyanathan~S.
+Thumbs up?: sentiment classification using machine learning techniques~[C/OL].
+In Proceedings of the ACL-02 conference on Empirical methods in natural
+  language processing - Volume 10.
+Stroudsburg, PA, USA, 2002:  79--86.
+\url{http://dx.doi.org/10.3115/1118693.1118704}.
+
+\bibitem{Barbosa2010}
+Barbosa~L, Feng~J.
+Robust sentiment detection on twitter from biased and noisy data~[C].
+In Proceedings of the 23rd International Conference on Computational
+  Linguistics: Posters.
+2010:  36--44.
+
+\bibitem{Hu2013}
+Hu~X, Tang~J, Gao~H, et~al.
+Unsupervised sentiment analysis with emotional signals~[C].
+In Proc. of the 22nd WWW.
+2013:  607--618.
+
+\bibitem{wang2011topic}
+Wang~X, Wei~F, Liu~X, et~al.
+Topic sentiment analysis in twitter: a graph-based hashtag sentiment
+  classification approach~[C].
+In Proceedings of the 20th ACM international conference on Information and
+  knowledge management.
+2011:  1031--1040.
+
+\bibitem{AsiaeeT2012}
+Asiaee~T~A, Tepper~M, Banerjee~A, et~al.
+If you are happy and you know it... tweet~[C].
+In Proceedings of the 21st ACM international conference on Information and
+  knowledge management.
+2012:  1602--1606.
+
+\bibitem{hu2013exploiting}
+Hu~X, Tang~L, Tang~J, et~al.
+Exploiting social relations for sentiment analysis in microblogging~[C].
+In Proceedings of the sixth ACM international conference on Web search and data
+  mining.
+2013:  537--546.
+
+\bibitem{CalaisGuerra2011}
+Calais~Guerra~P~H, Veloso~A, Meira~Jr~W, et~al.
+From bias to opinion: a transfer-learning approach to real-time sentiment
+  analysis~[C].
+In Proceedings of the 17th ACM SIGKDD international conference on Knowledge
+  discovery and data mining.
+2011:  150--158.
+
+\bibitem{Thelwall2010}
+Thelwall~M, Buckley~K, Paltoglou~G, et~al.
+Sentiment strength detection in short informal text~[J].
+Journal of the American Society for Information Science and Technology.
+2010, 61~(12):  2544--2558.
+
+\bibitem{Go2009}
+Go~A, Bhayani~R, Huang~L.
+Twitter Sentiment Classification using Distant Supervision~[J].
+Processing.
+2009:  1--6.
+
+\bibitem{marchetti2012learning}
+Marchetti-Bowick~M, Chambers~N.
+Learning for microblogs with distant supervision: Political forecasting with
+  twitter~[C].
+In Proceedings of the 13th Conference of the European Chapter of the
+  Association for Computational Linguistics.
+2012:  603--612.
+
+\bibitem{Loper2002}
+Loper~E, Bird~S.
+NLTK: The Natural Language Toolkit~[EB/OL].
+2002.
+\url{http://arxiv.org/abs/cs/0205028}.
+
+\bibitem{Chang2011}
+Chang~C-C, Lin~C-J.
+LIBSVM: A library for support vector machines~[J].
+ACM Transactions on Intelligent Systems and Technology.
+2011, 2:  27:1--27:27.
+Software available at \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}.
 
 \bibitem{petrovic2011rt}
 Petrovic~S, Osborne~M, Lavrenko~V.
 RT to Win! Predicting Message Propagation in Twitter.~[C].
 In ICWSM.
-2011.
-
-\bibitem{suh2010want}
-Suh~B, Hong~L, Pirolli~P, et~al.
-Want to be retweeted? large scale analytics on factors impacting retweet in
-  twitter network~[C].
-In Social Computing (SocialCom), 2010 IEEE Second International Conference on.
-2010:  177--184.
-
-\bibitem{zaman2010predicting}
-Zaman~T~R, Herbrich~R, Van~Gael~J, et~al.
-Predicting information spreading in twitter~[C].
-In Workshop on Computational Social Science and the Wisdom of Crowds, NIPS.
-2010:  17599--601.
-
-\bibitem{P:WebSci:2011:NaveedGKC}
-Naveed~N, Gottron~T, Kunegis~J, et~al.
-Bad News Travel Fast: A Content-based Analysis of Interestingness on
-  Twitter~[C].
-In WebSci '11: Proceedings of the 3rd International Conference on WebScience.
 2011.
 
 \bibitem{artzi2012predicting}
@@ -912,243 +978,6 @@ Predicting responses to microblog posts~[C].
 In Proceedings of the 2012 Conference of the North American Chapter of the
   Association for Computational Linguistics: Human Language Technologies.
 2012:  602--606.
-
-\bibitem{gupta2012predicting}
-Gupta~M, Gao~J, Zhai~C, et~al.
-Predicting future popularity trend of events in microblogging platforms~[J].
-Proceedings of the American Society for Information Science and Technology.
-2012, 49~(1):  1--10.
-
-\bibitem{feng2013retweet}
-Feng~W, Wang~J.
-Retweet or not?: personalized tweet re-ranking~[C].
-In Proceedings of the sixth ACM international conference on Web search and data
-  mining.
-2013:  577--586.
-
-\bibitem{kong2012predicting}
-Kong~S, Feng~L, Sun~G, et~al.
-Predicting lifespans of popular tweets in microblog~[C].
-In Proceedings of the 35th international ACM SIGIR conference on Research and
-  development in information retrieval.
-2012:  1129--1130.
-
-\bibitem{hong2013co}
-Hong~L, Doumith~A~S, Davison~B~D.
-Co-factorization machines: modeling user interests and predicting individual
-  decisions in Twitter~[C].
-In Proceedings of the sixth ACM international conference on Web search and data
-  mining.
-2013:  557--566.
-
-\bibitem{stieglitz2012political}
-Stieglitz~S, Dang-Xuan~L.
-Political Communication and Influence through Microblogging--An Empirical
-  Analysis of Sentiment in Twitter Messages and Retweet Behavior~[C].
-In System Science (HICSS), 2012 45th Hawaii International Conference on.
-2012:  3500--3509.
-
-\bibitem{paltoglou2013subjectivity}
-Paltoglou~G, Buckley~K.
-Subjectivity annotation of the microblog 2011 realtime adhoc relevance
-  judgments~[M]~//~Paltoglou~G, Buckley~K.
- Advances in Information Retrieval.
-Springer, 2013: 2013: 344--355.
-
-\bibitem{kim2006automatically}
-Kim~S-M, Pantel~P, Chklovski~T, et~al.
-Automatically assessing review helpfulness~[C].
-In Proceedings of the 2006 Conference on Empirical Methods in Natural Language
-  Processing.
-2006:  423--430.
-
-\bibitem{zhang2006utility}
-Zhang~Z, Varadarajan~B.
-Utility scoring of product reviews~[C].
-In Proceedings of the 15th ACM international conference on Information and
-  knowledge management.
-2006:  51--57.
-
-\bibitem{liu2007low}
-Liu~J, Cao~Y, Lin~C-Y, et~al.
-Low-Quality Product Review Detection in Opinion Summarization.~[C].
-In EMNLP-CoNLL.
-2007:  334--342.
-
-\bibitem{Ghose:2011:EHE:2053026.2053262}
-Ghose~A, Ipeirotis~P~G.
-Estimating the Helpfulness and Economic Impact of Product Reviews: Mining Text
-  and Reviewer Characteristics~[J].
-IEEE Trans. on Knowl. and Data Eng.
-2011, 23~(10):  1498--1512.
-
-\bibitem{liu2008modeling}
-Liu~Y, Huang~X, An~A, et~al.
-Modeling and predicting the helpfulness of online reviews~[C].
-In Data Mining, 2008. ICDM'08. Eighth IEEE International Conference on.
-2008:  443--452.
-
-\bibitem{Danescu-Niculescu-Mizil:2009:ORO:1526709.1526729}
-Danescu-Niculescu-Mizil~C, Kossinets~G, Kleinberg~J, et~al.
-How opinions are received by online communities: a case study on amazon.com
-  helpfulness votes~[C].
-In Proceedings of the 18th international conference on World wide web.
-New York, NY, USA, 2009:  141--150.
-
-\bibitem{Lu:2010:ESC:1772690.1772761}
-Lu~Y, Tsaparas~P, Ntoulas~A, et~al.
-Exploiting social context for review quality prediction~[C].
-In Proceedings of the 19th international conference on World wide web.
-New York, NY, USA, 2010:  691--700.
-
-\bibitem{tsur2009revrank}
-Tsur~O, Rappoport~A.
-RevRank: A Fully Unsupervised Algorithm for Selecting the Most Helpful Book
-  Reviews.~[C].
-In ICWSM.
-2009.
-
-\bibitem{siersdorfer2010useful}
-Siersdorfer~S, Chelaru~S, Nejdl~W, et~al.
-How useful are your comments?: analyzing and predicting youtube comments and
-  comment ratings~[C].
-In Proceedings of the 19th international conference on World wide web.
-2010:  891--900.
-
-\bibitem{jindal2010finding}
-Jindal~N, Liu~B, Lim~E-P.
-Finding unusual review patterns using unexpected rules~[C].
-In Proceedings of the 19th ACM international conference on Information and
-  knowledge management.
-2010:  1549--1552.
-
-\bibitem{chen2011user}
-Chen~B-C, Guo~J, Tseng~B, et~al.
-User reputation in a comment rating environment~[C].
-In Proceedings of the 17th ACM SIGKDD international conference on Knowledge
-  discovery and data mining.
-2011:  159--167.
-
-\bibitem{tsaparas2011selecting}
-Tsaparas~P, Ntoulas~A, Terzi~E.
-Selecting a comprehensive set of reviews~[C].
-In Proceedings of the 17th ACM SIGKDD international conference on Knowledge
-  discovery and data mining.
-2011:  168--176.
-
-\bibitem{agarwal2011personalized}
-Agarwal~D, Chen~B-C, Pang~B.
-Personalized recommendation of user comments via factor models~[C].
-In Proceedings of the Conference on Empirical Methods in Natural Language
-  Processing.
-2011:  571--582.
-
-\bibitem{shmueli2012care}
-Shmueli~E, Kagian~A, Koren~Y, et~al.
-Care to comment?: recommendations for commenting on news stories~[C].
-In Proceedings of the 21st international conference on World Wide Web.
-2012:  429--438.
-
-\bibitem{dalal2012multi}
-Dalal~O, Sengemedu~S~H, Sanyal~S.
-Multi-objective ranking of comments on web~[C].
-In Proceedings of the 21st international conference on World Wide Web.
-2012:  419--428.
-
-\bibitem{mishra2012semi}
-Mishra~A, Rastogi~R.
-Semi-supervised correction of biased comment ratings~[C].
-In Proceedings of the 21st international conference on World Wide Web.
-2012:  181--190.
-
-\bibitem{mahajan2012logucb}
-Mahajan~D~K, Rastogi~R, Tiwari~C, et~al.
-LogUCB: an explore-exploit algorithm for comments recommendation~[C].
-In Proceedings of the 21st ACM international conference on Information and
-  knowledge management.
-2012:  6--15.
-
-\bibitem{jain2013topical}
-Jain~V, Galbrun~E.
-Topical organization of user comments and application to content
-  recommendation~[C].
-In Proceedings of the 22nd international conference on World Wide Web
-  companion.
-2013:  61--62.
-
-\bibitem{jindal2007analyzing}
-Jindal~N, Liu~B.
-Analyzing and detecting review spam~[C].
-In Data Mining, 2007. ICDM 2007. Seventh IEEE International Conference on.
-2007:  547--552.
-
-\bibitem{lim2010detecting}
-Lim~E-P, Nguyen~V-A, Jindal~N, et~al.
-Detecting product review spammers using rating behaviors~[C].
-In Proceedings of the 19th ACM international conference on Information and
-  knowledge management.
-2010:  939--948.
-
-\bibitem{wang2011review}
-Wang~G, Xie~S, Liu~B, et~al.
-Review graph based online store review spammer detection~[C].
-In Data Mining (ICDM), 2011 IEEE 11th International Conference on.
-2011:  1242--1247.
-
-\bibitem{mukherjee2011detecting}
-Mukherjee~A, Liu~B, Wang~J, et~al.
-Detecting group review spam~[C].
-In Proceedings of the 20th international conference companion on World wide
-  web.
-2011:  93--94.
-
-\bibitem{mukherjee2012spotting}
-Mukherjee~A, Liu~B, Glance~N.
-Spotting fake reviewer groups in consumer reviews~[C].
-In Proceedings of the 21st international conference on World Wide Web.
-2012:  191--200.
-
-\bibitem{li2011learning}
-Li~F, Huang~M, Yang~Y, et~al.
-Learning to identify review spam~[C].
-In Proceedings of the Twenty-Second international joint conference on
-  Artificial Intelligence-Volume Volume Three.
-2011:  2488--2493.
-
-\bibitem{xie2012review}
-Xie~S, Wang~G, Lin~S, et~al.
-Review spam detection via temporal pattern discovery~[C].
-In Proceedings of the 18th ACM SIGKDD international conference on Knowledge
-  discovery and data mining.
-2012:  823--831.
-
-\bibitem{morales2013synthetic}
-Morales~A, Sun~H, Yan~X.
-Synthetic review spamming and defense~[C].
-In Proceedings of the 22nd international conference on World Wide Web
-  companion.
-2013:  155--156.
-
-\bibitem{gimpel2011part}
-Gimpel~K, Schneider~N, O'Connor~B, et~al.
-Part-of-speech tagging for Twitter: annotation, features, and experiments~[C].
-In Proceedings of the 49th Annual Meeting of the Association for Computational
-  Linguistics: Human Language Technologies: short papers-Volume 2.
-2011:  42--47.
-
-\bibitem{katz1987estimation}
-Katz~S.
-Estimation of probabilities from sparse data for the language model component
-  of a speech recognizer~[J].
-Acoustics, Speech and Signal Processing, IEEE Transactions on.
-1987, 35~(3):  400--401.
-
-\bibitem{duan2010empirical}
-Duan~Y, Jiang~L, Qin~T, et~al.
-An empirical study on learning to rank of tweets~[C].
-In Proceedings of the 23rd International Conference on Computational
-  Linguistics.
-2010:  295--303.
 
 \bibitem{nagarajan2010qualitative}
 Nagarajan~M, Purohit~H, Sheth~A~P.

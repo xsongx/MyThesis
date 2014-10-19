@@ -4,13 +4,9 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces 数据集及词典资源\relax }}{30}{table.caption.20}
 \contentsline {table}{\numberline {3.2}{\ignorespaces 各个领域性能评测结果\relax }}{32}{table.caption.22}
 \contentsline {table}{\numberline {3.3}{\ignorespaces 各个领域性能评测结果\relax }}{37}{table.caption.26}
-\contentsline {table}{\numberline {4.1}{\ignorespaces TOR基准系统的相关特征\relax }}{49}{table.caption.31}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Twitter传播观点检索特征概况\relax }}{50}{table.caption.32}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Twitter传播观点检索系统实验结果（TOR）\relax }}{50}{table.caption.33}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Twitter传播观点检索系统实验结果（BM25）\relax }}{51}{table.caption.34}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Twitter传播观点检索系统实验结果（Retweetability）\relax }}{52}{table.caption.35}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Twitte信息传播者发现实验数据统计信息\relax }}{58}{table.caption.37}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Twitter信息传播者发现特征概况\relax }}{59}{table.caption.38}
-\contentsline {table}{\numberline {5.3}{\ignorespaces 基于不同特征组的Twitter信息传播者发现系统实验结果\relax }}{60}{table.caption.39}
-\contentsline {table}{\numberline {5.4}{\ignorespaces 基于不同特征的Twitter信息传播者检索系统实验结果\relax }}{61}{table.caption.40}
+\contentsline {table}{\numberline {4.1}{\ignorespaces 结果对比表\relax }}{51}{table.caption.33}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Twitte信息传播者发现实验数据统计信息\relax }}{58}{table.caption.35}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Twitter信息传播者发现特征概况\relax }}{59}{table.caption.36}
+\contentsline {table}{\numberline {5.3}{\ignorespaces 基于不同特征组的Twitter信息传播者发现系统实验结果\relax }}{60}{table.caption.37}
+\contentsline {table}{\numberline {5.4}{\ignorespaces 基于不同特征的Twitter信息传播者检索系统实验结果\relax }}{61}{table.caption.38}
 \contentsfinish 

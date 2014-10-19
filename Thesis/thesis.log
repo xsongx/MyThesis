@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  13 OCT 2014 23:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  17 OCT 2014 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1951,7 +1951,15 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 
  [4
 
-] (./thesis.lof)
+] (./thesis.lof
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 17.
+LaTeX Font Info:    Font shape `U/fsy/m/n' will be
+(Font)              scaled to size 10.84042pt on input line 17.
+LaTeX Font Info:    Font shape `U/fsy/m/n' will be
+(Font)              scaled to size 7.58826pt on input line 17.
+LaTeX Font Info:    Font shape `U/fsy/m/n' will be
+(Font)              scaled to size 5.4202pt on input line 17.
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -1966,13 +1974,6 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 
 
 ] [4]) [5] (./data/chap01.tex
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 7.
-LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.84042pt on input line 7.
-LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 7.58826pt on input line 7.
-LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 5.4202pt on input line 7.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 7.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
@@ -2033,11 +2034,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 [8] [9] [10] [11] [12]
+
+LaTeX Warning: Reference `rel_retweet' on page 13 undefined on input line 185.
+
 File: figures/Research_Framwork.png Graphic file (type QTm)
- <use  "figures/Research_Framwork.png" > [13] [14]
-[15] [16]
+<use  "figures/Research_Framwork.png" > [13] [14] [15] [16]
 File: figures/Paper_Framwork.png Graphic file (type QTm)
- <use  "figures/Paper_Framwork.png" > [17]
+
+<use  "figures/Paper_Framwork.png" > [17]
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
  [18])
@@ -2106,49 +2110,47 @@ File: figures/3-6.png Graphic file (type QTm)
 File: figures/3-7.png Graphic file (type QTm)
 
 <use  "figures/3-7.png" >) (./data/chap04.tex [37] [38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[][][][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][]
-[][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-] []
- []
+
+Package natbib Warning: Citation `' on page 40 undefined on input line 6.
 
 [40
 
 
+] [41] [42]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'AdobeKaitiStd(0)' created for font 'Adobe Kaiti Std' with
+. options [Mapping=tex-text,Script={CJK}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
+t line 37.
+
+
+LaTeX Font Warning: Font shape `EU1/AdobeKaitiStd(0)/bx/n' undefined
+(Font)              using `EU1/AdobeKaitiStd(0)/m/n' instead on input line 38.
+
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 59.
+[43] [44] [45] [46]
+File: figures/4-1.png Graphic file (type QTm)
+ <use  "figures/4-1.png" > [47
+
+] [48
+
+] [49] [50]
+File: figures/4-2.png Graphic file (type QTm)
+
+<use  "figures/4-2.png" > [51]) (./data/chap05.tex [52] [53
+
+
 ]
 
-Package natbib Warning: Citation `Pang:2008:OMS:1454711.1454712' on page 41 und
-efined on input line 25.
+LaTeX Warning: Reference `rel_retweet' on page 54 undefined on input line 24.
 
-
-Package natbib Warning: Citation `Agarwal:2011:PRU:2145432.2145499' on page 41 
-undefined on input line 25.
-
-[41] [42]
-
-LaTeX Warning: Reference `TwitterBias' on page 43 undefined on input line 65.
-
-[43] [44] [45] [46]
-
-LaTeX Warning: Reference `form' on page 47 undefined on input line 124.
-
-
-LaTeX Warning: Reference `Features_Sum' on page 47 undefined on input line 124.
-
-
-[47] [48]
-Overfull \hbox (1.77858pt too wide) in alignment at lines 175--212
-[] [] [] 
- []
-
-[49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-[51]) (./data/chap05.tex [52] [53
-
-
-] [54] [55] [56] [57] [58]
+[54] [55] [56] [57] [58]
 Underfull \hbox (badness 1515) in paragraph at lines 171--172
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
@@ -2163,15 +2165,10 @@ Underfull \hbox (badness 1515) in paragraph at lines 171--172
 (./thesis.bbl [66
 
 
-] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
-Underfull \hbox (badness 2165) in paragraph at lines 945--950
-[]\EU1/TimesNewRoman(0)/m/n/12.045 Stieglitz S, Dang-Xuan L. Political Communic
-ation and Influence through
- []
+] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
+[78] [79]) (./data/resume.tex [80] [81
 
-[77] [78] [79] [80] [81]) (./data/resume.tex [82] [83
-
-]) [84]
+]) [82]
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
@@ -2186,17 +2183,20 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 111.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 31949 strings out of 495484
- 590684 string characters out of 6183322
- 665604 words of memory out of 5000000
- 34635 multiletter control sequences out of 15000+600000
- 84242 words of font info for 307 fonts, out of 8000000 for 9000
+ 31994 strings out of 495484
+ 592919 string characters out of 6183322
+ 665123 words of memory out of 5000000
+ 34674 multiletter control sequences out of 15000+600000
+ 84274 words of font info for 311 fonts, out of 8000000 for 9000
  102 hyphenation exceptions out of 8191
- 51i,13n,66p,10456b,1324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,20n,66p,10456b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (97 pages).
+Output written on thesis.pdf (95 pages).
