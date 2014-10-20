@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  20 OCT 2014 08:01
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  20 OCT 2014 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2185,41 +2185,14 @@ File: figures/5-4.png Graphic file (type QTm)
  <use  "figures/5-4.png" >
 File: figures/5-3.png Graphic file (type QTm)
 
-<use  "figures/5-3.png" > [64] [65]) (./data/chap05_l.tex [66]
-
-Package natbib Warning: Citation `petrovic2011rt' on page 67 undefined on input
- line 7.
-
-
-Package natbib Warning: Citation `artzi2012predicting' on page 67 undefined on 
-input line 7.
-
-
-Package natbib Warning: Citation `nagarajan2010qualitative' on page 67 undefine
-d on input line 7.
-
-[67
+<use  "figures/5-3.png" > [64] [65]) (./data/chap05_l.tex [66] [67
 
 
 ]
 
 LaTeX Warning: Reference `rel_retweet' on page 68 undefined on input line 24.
 
-[68] [69]
-
-Package natbib Warning: Citation `cha2009measurement' on page 70 undefined on i
-nput line 63.
-
-[70]
-
-Package natbib Warning: Citation `salton1975vector' on page 71 undefined on inp
-ut line 95.
-
-
-Package natbib Warning: Citation `kwak2010twitter' on page 71 undefined on inpu
-t line 102.
-
-[71] [72]
+[68] [69] [70] [71] [72]
 Underfull \hbox (badness 1515) in paragraph at lines 171--172
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
@@ -2237,9 +2210,9 @@ Underfull \hbox (badness 3907) in paragraph at lines 1088--1092
 visation: Linguistic Perspec-
  []
 
-[90] [91] [92] [93]) (./data/resume.tex [94] [95
+[90]) (./data/resume.tex [91] [92
 
-]) [96]
+]) [93]
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
@@ -2265,12 +2238,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 32176 strings out of 493918
- 596598 string characters out of 6150564
- 671629 words of memory out of 5000000
- 34959 multiletter control sequences out of 15000+600000
+ 32089 strings out of 493918
+ 594557 string characters out of 6150564
+ 671169 words of memory out of 5000000
+ 34872 multiletter control sequences out of 15000+600000
  84274 words of font info for 311 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 51i,20n,66p,10456b,1380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,20n,66p,10456b,1242s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (109 pages).
+Output written on thesis.pdf (106 pages).

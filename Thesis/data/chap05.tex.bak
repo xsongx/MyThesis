@@ -32,7 +32,7 @@ you tweet”)，发帖内容(“What you tweet”)以及网络关系(“Who you 
 我们所提出的话题相关的观点集成问题（OIP）可以使用图~\ref{fig5-2}进行说明。
 \begin{figure}[htb]
 \centering
-\includegraphics[height=170pt]{5-2.png}
+\includegraphics[height=150pt]{5-2.png}
 \caption{观点集成问题示例。}
 \label{fig5-2}
 \end{figure}
@@ -98,7 +98,7 @@ $$  p \left( w_{u,n} \vert z_{u,n}, \beta_{k}  \right) $$；
 \end{itemize}
 \end{itemize}
 
-为了从用户产生的内容中提取出讨论的话题，用户所发的微博应该和LDA模型的文档自然对应起来。由于我们的目标是了解用户感兴趣的话题而不是单条微博谈论的话题，所以我们将一个用户所有的微博连接起来组成一篇大的微博文档作为LDA 模型的文档。因此LDA模型中的一篇文档就对应于一个用户，因此一个用户感兴趣的话题就可以使用在话题空间的一个多项式分布来表示，正好可以和我们的主观模型的话题权重相对应。在用户层面的LDA模型中，给定用户集合$ V $以及话题数目$ K $，一个用户$ u \in V $的所有微博文档可使用话题上一个多项分布$ \theta_{u} $来表示，该分布具有参数为$ \alpha $的Dirichlet先验分布；一个话题$ k \in K $可以用所有词汇上的一个多项分布$ \beta_{k} $来表示，该分布具有参数为$ \eta $的Dirichlet先验分布。模型中的两个分布能够使用Gibbs采样或变分推理（variational inference）进行估计。本章中我们使用的是基于变分推理的话题模型工具Gensim\upcite{vRehruvrek2010}，该工具使用的是在线批处理模式的变分推理，而且能够对新文档进行话题推理。\cite{mei2007topic,lin2009joint}
+为了从用户产生的内容中提取出讨论的话题，用户所发的微博应该和LDA模型的文档自然对应起来。由于我们的目标是了解用户感兴趣的话题而不是单条微博谈论的话题，所以我们将一个用户所有的微博连接起来组成一篇大的微博文档作为LDA 模型的文档。因此LDA模型中的一篇文档就对应于一个用户，因此一个用户感兴趣的话题就可以使用在话题空间的一个多项式分布来表示，正好可以和我们的主观模型的话题权重相对应。在用户层面的LDA模型中，给定用户集合$ V $以及话题数目$ K $，一个用户$ u \in V $的所有微博文档可使用话题上一个多项分布$ \theta_{u} $来表示，该分布具有参数为$ \alpha $的Dirichlet先验分布；一个话题$ k \in K $可以用所有词汇上的一个多项分布$ \beta_{k} $来表示，该分布具有参数为$ \eta $的Dirichlet先验分布。模型中的两个分布能够使用Gibbs采样或变分推理（variational inference）进行估计。本章中我们使用的是基于变分推理的话题模型工具Gensim\upcite{vRehruvrek2010}，该工具使用的是在线批处理模式的变分推理，而且能够对新文档进行话题推理。
 
 \subsubsection{观点分析}
 \label{sentiment}
@@ -233,14 +233,14 @@ Igraph\footnote{\url{http://igraph.org/}}工具包，最后将用户划分为106
 
 \begin{figure}[htb]
 \centering
-\includegraphics[height=150pt]{5-4.png}
+\includegraphics[height=200pt]{5-4.png}
 \caption{微博词云}
 \label{fig5:a}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
-\includegraphics[height=150pt]{5-3.png}
+\includegraphics[height=200pt]{5-3.png}
 \caption{主观模型。主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $。}
 \label{fig5:b}
 \end{figure}

@@ -51,7 +51,7 @@
 \serialno{10069068}
 \confidentiality{公开}
 \UDC{}
-\title{社交媒体中的主观性信息挖掘与分析}
+\title{社交媒体中信息挖掘与分析}
 \displaytitle{社交媒体中的主观性信息挖掘与分析}
 \author{谢松县}
 \zhdate{\zhtoday}
@@ -93,7 +93,8 @@
 \input{data/chap03}
 \input{data/chap04}
 \input{data/chap05}
-\input{data/chap06}
+%\input{data/chap06}
+\input{data/chap05_l}
 \input{data/ack}
 
 \cleardoublepage

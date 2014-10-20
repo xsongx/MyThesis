@@ -103,5 +103,5 @@
 \contentsline {section}{\numberline {6.9}小结}{75}{section.6.9}
 \contentsline {chapter}{致谢}{76}{chapter*.47}
 \contentsline {chapter}{参考文献}{77}{section*.48}
-\contentsline {chapter}{作者在学期间取得的学术成果}{95}{chapter*.50}
+\contentsline {chapter}{作者在学期间取得的学术成果}{92}{chapter*.50}
 \contentsfinish 

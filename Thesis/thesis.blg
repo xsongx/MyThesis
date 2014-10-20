@@ -4,32 +4,12 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 15620 items from 5000.
+Reallocated field_info (elt_size=4) to 13505 items from 5000.
 Database file #1: ref/refs.bib
 Warning--I didn't find a database entry for "agichtein2008finding"
 Warning--I didn't find a database entry for "macskassy2011people"
 Warning--I didn't find a database entry for "jiang2011target"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "mei2007topic"
-Warning--I didn't find a database entry for "lin2009joint"
-Warning--I didn't find a database entry for "goldenberg2001talk"
-Warning--I didn't find a database entry for "kempe2003maximizing"
-Warning--I didn't find a database entry for "cheng2014can"
-Warning--I didn't find a database entry for "moore2008awareness"
-Warning--I didn't find a database entry for "liu2012sentiment"
-Warning--I didn't find a database entry for "thelwall2010sentiment"
-Warning--I didn't find a database entry for "Luo:2013RMF"
-Warning--I didn't find a database entry for "pfitzner2012emotional"
-Warning--I didn't find a database entry for "lek2013aspect"
-Warning--I didn't find a database entry for "chen2010short"
-Warning--I didn't find a database entry for "abel2011analyzing"
-Warning--I didn't find a database entry for "hong2010empirical"
-Warning--I didn't find a database entry for "blei2003latent"
-Warning--I didn't find a database entry for "hu2013unsupervised"
-Warning--I didn't find a database entry for "cialdini2004social"
-Warning--I didn't find a database entry for "rehurek_lrec"
-Warning--I didn't find a database entry for "MohammadKZ2013"
-Warning--I didn't find a database entry for "fisher1970statistical"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
 -- See the "userguide.pdf" manual for usage information.
@@ -308,111 +288,59 @@ Warning--empty editor in vRehruvrek2010
 Warning--The editor in Li2012a is missing.
 Warning--empty editor in Li2012a
 Warning--empty pages in Thelwall2010a
-Warning--The editor in feng2013retweet is missing.
-Warning--empty editor in feng2013retweet
-Warning--The editor in Guerra2014 is missing.
-Warning--empty editor in Guerra2014
-Warning--The editor in Bian2014 is missing.
-Warning--empty editor in Bian2014
-Warning--The editor in suh2010want is missing.
-Warning--empty editor in suh2010want
-Warning--The editor in petrovic2010streaming is missing.
-Warning--empty editor in petrovic2010streaming
-Warning--The editor in becker2011beyond is missing.
-Warning--empty editor in becker2011beyond
-Warning--empty pages in becker2011beyond
-Warning--The editor in weng2011event is missing.
-Warning--empty editor in weng2011event
-Warning--empty pages in weng2011event
-Warning--The editor in benson2011event is missing.
-Warning--empty editor in benson2011event
-Warning--The editor in petrovic2012using is missing.
-Warning--empty editor in petrovic2012using
-Warning--The editor in kanhabua2013understanding is missing.
-Warning--empty editor in kanhabua2013understanding
-Warning--The editor in sakaki2010earthquake is missing.
-Warning--empty editor in sakaki2010earthquake
-Warning--The editor in paul2011you is missing.
-Warning--empty editor in paul2011you
-Warning--empty pages in paul2011you
-Warning--The editor in aramaki2011twitter is missing.
-Warning--empty editor in aramaki2011twitter
-Warning--The editor in abel2012twitcident is missing.
-Warning--empty editor in abel2012twitcident
-Warning--The editor in yin2012esa is missing.
-Warning--empty editor in yin2012esa
-Warning--The editor in efron2011estimation is missing.
-Warning--empty editor in efron2011estimation
-Warning--The editor in metzler2012structured is missing.
-Warning--empty editor in metzler2012structured
-Warning--The editor in zhang2012query is missing.
-Warning--empty editor in zhang2012query
-Warning--The editor in choi2012temporal is missing.
-Warning--empty editor in choi2012temporal
-Warning--The editor in amati2012survival is missing.
-Warning--empty editor in amati2012survival
-`editor' is a missing field, not a string, for entry miyanishi2013combining
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in miyanishi2013combining
-Warning--The editor in meij2012adding is missing.
-Warning--empty editor in meij2012adding
-Warning--The editor in cassidy2012analysis is missing.
-Warning--empty editor in cassidy2012analysis
-Warning--The editor in osborne2012bieber is missing.
-Warning--empty editor in osborne2012bieber
-Warning--empty pages in osborne2012bieber
-Warning--The editor in dong2010time is missing.
-Warning--empty editor in dong2010time
-Warning--The editor in phelan2011using is missing.
-Warning--empty editor in phelan2011using
-Warning--The editor in tsagkias2011linking is missing.
-Warning--empty editor in tsagkias2011linking
-Warning--The editor in becker2012identifying is missing.
-Warning--empty editor in becker2012identifying
-Warning--The editor in petrovic2013can is missing.
-Warning--empty editor in petrovic2013can
-Warning--empty pages in petrovic2013can
+Warning--The editor in petrovic2011rt is missing.
+Warning--empty editor in petrovic2011rt
+Warning--empty pages in petrovic2011rt
+Warning--The editor in artzi2012predicting is missing.
+Warning--empty editor in artzi2012predicting
+Warning--The editor in nagarajan2010qualitative is missing.
+Warning--empty editor in nagarajan2010qualitative
+Warning--empty pages in nagarajan2010qualitative
+Warning--The editor in cha2009measurement is missing.
+Warning--empty editor in cha2009measurement
+Warning--The editor in kwak2010twitter is missing.
+Warning--empty editor in kwak2010twitter
 
 Done.
-You've used 212 entries,
+You've used 185 entries,
             4554 wiz_defined-function locations,
-            2149 strings with 46320 characters,
-and the built_in function-call counts, 133112 in all, are:
-= -- 14966
-> -- 2183
-< -- 167
-+ -- 1309
-- -- 659
-* -- 10933
-:= -- 14937
-add.period$ -- 830
-call.type$ -- 212
+            2004 strings with 41385 characters,
+and the built_in function-call counts, 114765 in all, are:
+= -- 12897
+> -- 1895
+< -- 143
++ -- 1136
+- -- 572
+* -- 9410
+:= -- 12875
+add.period$ -- 720
+call.type$ -- 185
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 539
-duplicate$ -- 8808
-empty$ -- 14142
-format.name$ -- 657
-if$ -- 32291
+cite$ -- 462
+duplicate$ -- 7582
+empty$ -- 12217
+format.name$ -- 570
+if$ -- 27847
 int.to.chr$ -- 0
-int.to.str$ -- 212
-missing$ -- 7
-newline$ -- 1258
-num.names$ -- 217
-pop$ -- 1084
+int.to.str$ -- 185
+missing$ -- 6
+newline$ -- 1094
+num.names$ -- 189
+pop$ -- 949
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3588
+skip$ -- 3095
 stack$ -- 0
-substring$ -- 15746
-swap$ -- 2661
-text.length$ -- 172
+substring$ -- 13486
+swap$ -- 2277
+text.length$ -- 148
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1769
-warning$ -- 327
-while$ -- 1357
-width$ -- 215
-write$ -- 1858
-(There were 6 error messages)
+type$ -- 1566
+warning$ -- 277
+while$ -- 1172
+width$ -- 188
+write$ -- 1614
+(There were 5 error messages)
