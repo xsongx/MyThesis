@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  20 OCT 2014 01:59
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  20 OCT 2014 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,15 +1649,6 @@ Package: xeCJK-listings 2013/12/08 v3.2.9 xeCJK patch file for listings
 
 LaTeX Warning: Label `fig5-1' multiply defined.
 
-
-LaTeX Warning: Label `definition' multiply defined.
-
-
-LaTeX Warning: Label `usermodel' multiply defined.
-
-
-LaTeX Warning: Label `topic' multiply defined.
-
 )
 \openout1 = `thesis.aux'.
 
@@ -2181,241 +2172,74 @@ File: figures/5-1.png Graphic file (type QTm)
 
 ]
 File: figures/5-2.png Graphic file (type QTm)
- <use  "figures/5-2.png" >
-Overfull \hbox (45.4635pt too wide) in paragraph at lines 35--36
- [][] 
- []
-
-[56] [57]
+ <use  "figures/5-2.png" > [56] [57]
 File: figures/5-0.eps Graphic file (type eps)
- <figures/5-0.eps> [58]
+
+<figures/5-0.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-
-Package natbib Warning: Citation `mei2007topic' on page 59 undefined on input l
-ine 101.
-
-
-Package natbib Warning: Citation `lin2009joint' on page 59 undefined on input l
-ine 101.
-
-[59] [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
-[62] [63]
+[58] [59] [60] [61] [62] [63]
 File: figures/5-4.png Graphic file (type QTm)
  <use  "figures/5-4.png" >
 File: figures/5-3.png Graphic file (type QTm)
- <use  "figures/5-3.png" > [64] [65])
-(./data/chap06.tex [66]
 
-Package natbib Warning: Citation `goldenberg2001talk' on page 67 undefined on i
-nput line 6.
+<use  "figures/5-3.png" > [64] [65]) (./data/chap05_l.tex [66]
 
-
-Package natbib Warning: Citation `kempe2003maximizing' on page 67 undefined on 
-input line 6.
+Package natbib Warning: Citation `petrovic2011rt' on page 67 undefined on input
+ line 7.
 
 
-Package natbib Warning: Citation `cheng2014can' on page 67 undefined on input l
-ine 6.
+Package natbib Warning: Citation `artzi2012predicting' on page 67 undefined on 
+input line 7.
 
-File: figures/6-0.pdf Graphic file (type QTm)
-<use  "figures/6-0.pdf" > [67
+
+Package natbib Warning: Citation `nagarajan2010qualitative' on page 67 undefine
+d on input line 7.
+
+[67
 
 
 ]
 
-Package natbib Warning: Citation `moore2008awareness' on page 68 undefined on i
-nput line 18.
+LaTeX Warning: Reference `rel_retweet' on page 68 undefined on input line 24.
 
+[68] [69]
 
-Package natbib Warning: Citation `macskassy2011people' on page 68 undefined on 
-input line 19.
-
-[68]
-
-Package natbib Warning: Citation `liu2012sentiment' on page 69 undefined on inp
-ut line 33.
-
-
-Package natbib Warning: Citation `jiang2011target' on page 69 undefined on inpu
-t line 33.
-
-
-Package natbib Warning: Citation `mei2007topic' on page 69 undefined on input l
-ine 33.
-
-
-Package natbib Warning: Citation `lin2009joint' on page 69 undefined on input l
-ine 33.
-
-
-Package natbib Warning: Citation `thelwall2010sentiment' on page 69 undefined o
-n input line 33.
-
-
-Package natbib Warning: Citation `Luo:2013RMF' on page 69 undefined on input li
-ne 35.
-
-
-Package natbib Warning: Citation `pfitzner2012emotional' on page 69 undefined o
-n input line 35.
-
-
-Package natbib Warning: Citation `liu2012sentiment' on page 69 undefined on inp
-ut line 43.
-
-
-Package natbib Warning: Citation `lek2013aspect' on page 69 undefined on input 
-line 43.
-
-
-Package natbib Warning: Citation `mei2007topic' on page 69 undefined on input l
-ine 43.
-
-[69]
-File: figures/6-1.pdf Graphic file (type QTm)
- <use  "figures/6-1.pdf" >
-
-Package natbib Warning: Citation `chen2010short' on page 70 undefined on input 
-line 81.
-
-
-Package natbib Warning: Citation `abel2011analyzing' on page 70 undefined on in
-put line 81.
-
-
-Package natbib Warning: Citation `macskassy2011people' on page 70 undefined on 
-input line 81.
-
-
-Package natbib Warning: Citation `hong2010empirical' on page 70 undefined on in
-put line 81.
-
-
-Package natbib Warning: Citation `blei2003latent' on page 70 undefined on input
- line 81.
+Package natbib Warning: Citation `cha2009measurement' on page 70 undefined on i
+nput line 63.
 
 [70]
 
-Package natbib Warning: Citation `hong2010empirical' on page 71 undefined on in
-put line 83.
-
-[71]
-
-Package natbib Warning: Citation `thelwall2010sentiment' on page 72 undefined o
-n input line 104.
+Package natbib Warning: Citation `salton1975vector' on page 71 undefined on inp
+ut line 95.
 
 
-Package natbib Warning: Citation `hu2013unsupervised' on page 72 undefined on i
-nput line 104.
+Package natbib Warning: Citation `kwak2010twitter' on page 71 undefined on inpu
+t line 102.
 
-[72]
-
-Package natbib Warning: Citation `cialdini2004social' on page 73 undefined on i
-nput line 167.
-
-[73]
-Overfull \hbox (0.25136pt too wide) in paragraph at lines 181--182
-[]\EU1/TimesNewRoman(0)/m/n/12.045 The similarity of interests between $\OML/tx
-mi/m/it/12.045 u[]$ \EU1/TimesNewRoman(0)/m/n/12.045 and $\OML/txmi/m/it/12.045
- f$ \EU1/TimesNewRoman(0)/m/n/12.045 is measured as the inverse KL-divergence
+[71] [72]
+Underfull \hbox (badness 1515) in paragraph at lines 171--172
+[]|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
+ 粉 丝 以 往 发 布
  []
 
+[73] [74]) (./data/ack.tex [75]) [76
 
-Overfull \hbox (15.17717pt too wide) in paragraph at lines 181--182
-\EU1/TimesNewRoman(0)/m/n/12.045 between their topic weight distribution in the
-ir subjectivity model: $\OML/txmi/m/it/12.045 w[]\OT1/txr/m/n/12.045 (\OML/txmi
-/m/it/12.045 u[]; f\OT1/txr/m/n/12.045 ) = 1\OML/txmi/m/it/12.045 =KL\OT1/txr/m
-/n/12.045 (\OML/txmi/m/it/12.045 ^^R[]; ^^R[]\OT1/txr/m/n/12.045 )$\EU1/TimesNe
-wRoman(0)/m/n/12.045 . 
- []
-
-[74]
-
-Package natbib Warning: Citation `Luo:2013RMF' on page 75 undefined on input li
-ne 204.
-
-[75]
-
-Package natbib Warning: Citation `rehurek_lrec' on page 76 undefined on input l
-ine 208.
+] (./thesis.bbl [77
 
 
-Package natbib Warning: Citation `thelwall2010sentiment' on page 76 undefined o
-n input line 208.
-
-
-Package natbib Warning: Citation `MohammadKZ2013' on page 76 undefined on input
- line 208.
-
-
-Package natbib Warning: Citation `fisher1970statistical' on page 76 undefined o
-n input line 212.
-
-File: figures/6-2.pdf Graphic file (type QTm)
-<use  "figures/6-2.pdf" > [76]
-Overfull \hbox (8.0263pt too wide) in paragraph at lines 268--285
-[]\EU1/TimesNewRoman(0)/m/n/12.045 Table []6.3[] shows the three subjectivity s
-imilarities for both retweeter and non-retweeter.
- []
-
-
-Package natbib Warning: Citation `abel2011analyzing' on page 77 undefined on in
-put line 288.
-
-
-Package natbib Warning: Citation `mei2007topic' on page 77 undefined on input l
-ine 289.
-
-
-Package natbib Warning: Citation `lin2009joint' on page 77 undefined on input l
-ine 289.
-
-
-Underfull \vbox (badness 2351) has occurred while \output is active []
-
- [77]
-
-Package natbib Warning: Citation `Luo:2013RMF' on page 78 undefined on input li
-ne 292.
-
-[78]
-Overfull \hbox (5.81454pt too wide) in paragraph at lines 331--332
-[]\EU1/TimesNewRoman(0)/m/n/12.045 Thirdly, the performance of two topic-sentim
-ent models (TSM: 67.44%, JST: 68.13%)
- []
-
-
-Overfull \hbox (53.765pt too wide) in paragraph at lines 333--335
-[]\EU1/TimesNewRoman(0)/m/n/12.045 Finally, in the combining evaluation, $\OML/
-txmi/m/it/12.045 Sim\OT1/txr/m/n/12.045 (\OML/txmi/m/it/12.045 f; t\OT1/txr/m/n
-/12.045 )$ \EU1/TimesNewRoman(0)/m/n/12.045 gives a significant improvement (LU
-O+$\OML/txmi/m/it/12.045 Sim\OT1/txr/m/n/12.045 (\OML/txmi/m/it/12.045 f; t\OT1
-/txr/m/n/12.045 )$\EU1/TimesNewRoman(0)/m/n/12.045 ,
- []
-
-) (./data/chap06_l.tex [79] [80
-
-
-] [81]) (./data/ack.tex [82]) [83
-
-] (./thesis.bbl [84
-
-
-] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96]
+] [78] [79] [80]
+[81] [82] [83] [84] [85] [86] [87] [88] [89]
 Underfull \hbox (badness 3907) in paragraph at lines 1088--1092
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stein D, Wright S. Subjectivity and Subjecti
 visation: Linguistic Perspec-
  []
 
-[97] [98] [99] [100]) (./data/resume.tex [101] [102
+[90] [91] [92] [93]) (./data/resume.tex [94] [95
 
-]) [103]
+]) [96]
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
@@ -2441,12 +2265,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 32140 strings out of 493918
- 593573 string characters out of 6150564
- 673600 words of memory out of 5000000
- 34917 multiletter control sequences out of 15000+600000
+ 32176 strings out of 493918
+ 596598 string characters out of 6150564
+ 671629 words of memory out of 5000000
+ 34959 multiletter control sequences out of 15000+600000
  84274 words of font info for 311 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  51i,20n,66p,10456b,1380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (116 pages).
+Output written on thesis.pdf (109 pages).

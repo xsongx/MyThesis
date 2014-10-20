@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  20 OCT 2014 01:34
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  20 OCT 2014 08:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3071,7 +3071,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.35 \includegraphics
-                     [height=170pt]{5-2.png}
+                     [height=150pt]{5-2.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3087,7 +3087,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6125,35 +6125,9 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-! LaTeX Error: Environment itemize* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 \begin{itemize*}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 90--92
+Overfull \hbox (20.0pt too wide) in paragraph at lines 90--91
 [] 
  []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 \item 对
-              每个用户$ u $, 获取话题分布$ \theta_{u} \sim Dir \le...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 每 in font nullfont!
@@ -6183,19 +6157,6 @@ Overfull \hbox (32.6699pt too wide) in paragraph at lines 92--93
 \OML/cmm/m/it/10 Dir []$ 
  []
 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 \item 对
-              用户微博中的每个词语$ w_{u,n} $，$ n \in \left\lbra...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no 户 in font nullfont!
@@ -6210,40 +6171,14 @@ Missing character: There is no 语 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-! LaTeX Error: Environment itemize* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 \begin{itemize*}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (35.1523pt too wide) in paragraph at lines 93--95
+Overfull \hbox (35.1523pt too wide) in paragraph at lines 93--94
 \OML/cmm/m/it/10 w[]$$n \OMS/cmsy/m/n/10 2
  []
 
 
-Overfull \hbox (46.34708pt too wide) in paragraph at lines 93--95
+Overfull \hbox (46.34708pt too wide) in paragraph at lines 93--94
 []$ 
  []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 \item 获
-              取一个话题$ z_{u,n} \sim Multinomial \left( \theta_{u}  \...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 获 in font nullfont!
 Missing character: There is no 取 in font nullfont!
@@ -6261,19 +6196,6 @@ Overfull \hbox (27.7524pt too wide) in paragraph at lines 95--96
 Overfull \hbox (77.66129pt too wide) in paragraph at lines 95--96
 \OML/cmm/m/it/10 Multinomial []$ 
  []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \item 基
-              于话题$ z_{u,n} $，从话题的多项分布中获取词语...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 基 in font nullfont!
 Missing character: There is no 于 in font nullfont!
@@ -6305,32 +6227,6 @@ Overfull \hbox (69.17673pt too wide) detected at line 97
  []
 
 Missing character: There is no ； in font nullfont!
-
-! LaTeX Error: \begin{document} ended by \end{itemize*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 \end{itemize*}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \end{itemize*}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no 了 in font nullfont!
 Missing character: There is no 从 in font nullfont!
@@ -6783,39 +6679,6 @@ Missing character: There is no 题 in font nullfont!
 Missing character: There is no 推 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-Missing character: There is no [ in font nullfont!
-\citation{mei2007topic}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .^^J
-l.101 ...推理。\cite{mei2007topic,lin2009joint}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `mei2007topic' on page  undefined on input line 101.
-
-Missing character: There is no , in font nullfont!
-\citation{lin2009joint}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .^^J
-l.101 ...推理。\cite{mei2007topic,lin2009joint}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `lin2009joint' on page  undefined on input line 101.
-
-Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 101--102
 []
@@ -6834,16 +6697,6 @@ Overfull \hbox (39.37733pt too wide) in paragraph at lines 101--102
 
 Overfull \hbox (25.10883pt too wide) in paragraph at lines 101--102
 \OML/cmm/m/it/10 K$$^^L[]$$^^Q$
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 101--102
-[]
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 101--102
-[] 
  []
 
 ! Undefined control sequence.
@@ -10519,8 +10372,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195 
-      
+l.196 \begin{equation}
+                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -10529,8 +10382,8 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{ch5}{{}{\thepage 
                                    }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10541,8 +10394,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig5-1}{{}{\thepage 
                                       }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10553,8 +10406,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{ch5_sec2}{{}{\thepage 
                                         }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10565,8 +10418,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{sec3}{{}{\thepage 
                                     }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10577,8 +10430,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig5-2}{{}{\thepage 
                                       }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10589,8 +10442,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{sec4}{{}{\thepage 
                                     }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10601,8 +10454,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{definition}{{}{\thepage 
                                           }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10613,8 +10466,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{usermodel}{{1}{\thepage 
                                           }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10625,8 +10478,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{establish}{{}{\thepage 
                                          }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10637,8 +10490,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{topic}{{}{\thepage 
                                      }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10649,8 +10502,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig5-1}{{}{\thepage 
                                       }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10661,8 +10514,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{sentiment}{{}{\thepage 
                                          }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10673,8 +10526,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{opinionmap}{{2}{\thepage 
                                            }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10685,8 +10538,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{concrete}{{}{\thepage 
                                         }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10697,8 +10550,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{alg5-1}{{}{\thepage 
                                       }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10709,8 +10562,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{ alg1:topic }{{}{\thepage 
                                             }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10721,8 +10574,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{alg1:sentiment}{{}{\thepage 
                                               }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10733,8 +10586,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{tweettopic}{{3}{\thepage 
                                            }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10745,8 +10598,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{subuser}{{4}{\thepage 
                                         }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10757,8 +10610,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{comparison}{{}{\thepage 
                                           }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10769,8 +10622,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{application}{{}{\thepage 
                                            }}
-l.195 
-      
+l.196 \begin{equation}
+                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10785,7 +10638,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 196--196
 
 ! Misplaced alignment tab character &.
 l.200 {positive} &
-                    \qquad if \; \dfrac{\widehat{s_{m}_s_m}{2}} > \dfrac{|S|...
+                    \qquad if \; \dfrac{\widehat{s_{m}+s_m}{2}} > \dfrac{|S|...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -10795,25 +10648,15 @@ might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
 l.200 {positive} &  \qquad if \; \dfrac
-                                       {\widehat{s_{m}_s_m}{2}} > \dfrac{|S|...
+                                       {\widehat{s_{m}+s_m}{2}} > \dfrac{|S|...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Double subscript.
-l.200 ...e} &  \qquad if \; \dfrac{\widehat{s_{m}_
-                                                  s_m}{2}} > \dfrac{|S|}{2} ...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.200 ... &  \qquad if \; \dfrac{\widehat{s_{m}_s_
-                                                  m}{2}} > \dfrac{|S|}{2} +1\\
-I treat `x_1_2' essentially like `x_1{}_2'.
-
 ! Undefined control sequence.
-l.200 ...; \dfrac{\widehat{s_{m}_s_m}{2}} > \dfrac
+l.200 ...; \dfrac{\widehat{s_{m}+s_m}{2}} > \dfrac
                                                   {|S|}{2} +1\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10823,7 +10666,7 @@ and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
 l.201 {negative} &
-                    \qquad if \; \dfrac{\widehat{s_{m}_s_m}{2}} < \dfrac{|S|...
+                    \qquad if \; \dfrac{\widehat{s_{m}+s_m}{2}} < \dfrac{|S|...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -10833,25 +10676,15 @@ might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
 l.201 {negative} &  \qquad if \; \dfrac
-                                       {\widehat{s_{m}_s_m}{2}} < \dfrac{|S|...
+                                       {\widehat{s_{m}+s_m}{2}} < \dfrac{|S|...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Double subscript.
-l.201 ...e} &  \qquad if \; \dfrac{\widehat{s_{m}_
-                                                  s_m}{2}} < \dfrac{|S|}{2} \\
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.201 ... &  \qquad if \; \dfrac{\widehat{s_{m}_s_
-                                                  m}{2}} < \dfrac{|S|}{2} \\
-I treat `x_1_2' essentially like `x_1{}_2'.
-
 ! Undefined control sequence.
-l.201 ...; \dfrac{\widehat{s_{m}_s_m}{2}} < \dfrac
+l.201 ...; \dfrac{\widehat{s_{m}+s_m}{2}} < \dfrac
                                                   {|S|}{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10870,7 +10703,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (337.3998pt too wide) detected at line 204
+Overfull \hbox (362.67043pt too wide) detected at line 204
 []\OML/cmm/m/it/10 p \OT1/cmr/m/n/10 = []  \OML/cmm/m/it/10 if [] > []\OT1/cmr/
 m/n/10 2 + 1[] [] \OML/cmm/m/it/10 if [] < []\OT1/cmr/m/n/10 2[] [] \OML/cmm/m/
 it/10 otherwise 
@@ -11901,20 +11734,6 @@ Missing character: There is no 模 in font nullfont!
 Missing character: There is no 型 in font nullfont!
 Missing character: There is no 如 in font nullfont!
 Missing character: There is no 图 in font nullfont!
-! Undefined control sequence.
-<write> ...g: Reference `fig5-3' on page \thepage 
-                                                  \space undefined\on@line .^^J
-l.232 ...�用户的主观模型如图~\ref{fig5-3}
-                                                  所示。该用户发表�...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig5-3' on page  undefined on input line 232.
-
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
@@ -11963,8 +11782,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 231--233
  []
 
 
-Overfull \hbox (21.7221pt too wide) in paragraph at lines 231--233
-[] [] 
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 231--233
+[] 
  []
 
 
@@ -11986,8 +11805,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.236 \subfigure
-                [所有微博词云]{
+l.236 \includegraphics
+                      [height=200pt]{5-4.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11995,35 +11814,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no 所 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 微 in font nullfont!
-Missing character: There is no 博 in font nullfont!
-Missing character: There is no 词 in font nullfont!
-Missing character: There is no 云 in font nullfont!
-Missing character: There is no ] in font nullfont!
-! Undefined control sequence.
-l.238 ^^I\includegraphics
-                         [width=1.8in,height=1.5in]{5-4.png}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no , in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -12031,11 +11821,11 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no - in font nullfont!
@@ -12044,24 +11834,61 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-! Undefined control sequence.
-l.240 \subfigure
-                [主观模型]{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 \caption
+              {微博词云}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 微 in font nullfont!
+Missing character: There is no 博 in font nullfont!
+Missing character: There is no 词 in font nullfont!
+Missing character: There is no 云 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 234--240
+[]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 \begin{figure}
+                    [htb]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no 主 in font nullfont!
-Missing character: There is no 观 in font nullfont!
-Missing character: There is no 模 in font nullfont!
-Missing character: There is no 型 in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.242     \includegraphics
-                          [width=3.2in,height=1.5in]{5-3.png}
+l.243 \includegraphics
+                      [height=200pt]{5-3.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12069,18 +11896,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no , in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -12088,11 +11903,11 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no - in font nullfont!
@@ -12108,12 +11923,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244 ^^I\caption
-                 {主观模型中,左侧图代表话题分部: $ (  w_{u}\le...
+l.244 \caption
+              {主观模型。主观模型中,左侧图代表话题分部: $...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 观 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 型 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 主 in font nullfont!
 Missing character: There is no 观 in font nullfont!
 Missing character: There is no 模 in font nullfont!
@@ -12144,7 +11964,7 @@ Missing character: There is no 部 in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -12159,86 +11979,86 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 234--247
+Overfull \hbox (20.0pt too wide) in paragraph at lines 241--247
 []
  []
 
 
-Overfull \hbox (41.27608pt too wide) in paragraph at lines 234--247
+Overfull \hbox (41.27608pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 w[] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (64.60944pt too wide) in paragraph at lines 234--247
+Overfull \hbox (64.60944pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 08\OML/cmm/m/it/10 ; w[] [] 
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (64.60944pt too wide) in paragraph at lines 234--247
+Overfull \hbox (64.60944pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 48\OML/cmm/m/it/10 ; w[] [] 
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (21.66673pt too wide) in paragraph at lines 234--247
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 44)$
  []
 
 
-Overfull \hbox (22.6694pt too wide) in paragraph at lines 234--247
+Overfull \hbox (22.6694pt too wide) in paragraph at lines 241--247
 \OML/cmm/m/it/10 O[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (45.6829pt too wide) in paragraph at lines 234--247
+Overfull \hbox (45.6829pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (59.01624pt too wide) in paragraph at lines 234--247
+Overfull \hbox (59.01624pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; d[] [] \
 OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (16.66672pt too wide) in paragraph at lines 234--247
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5)$
  []
 
 
-Overfull \hbox (26.65553pt too wide) in paragraph at lines 234--247
+Overfull \hbox (26.65553pt too wide) in paragraph at lines 241--247
 \OML/cmm/m/it/10 O[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (49.66904pt too wide) in paragraph at lines 234--247
+Overfull \hbox (49.66904pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (16.66672pt too wide) in paragraph at lines 234--247
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0)$
  []
 
 
-Overfull \hbox (26.65553pt too wide) in paragraph at lines 234--247
+Overfull \hbox (26.65553pt too wide) in paragraph at lines 241--247
 \OML/cmm/m/it/10 O[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (49.66904pt too wide) in paragraph at lines 234--247
+Overfull \hbox (49.66904pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (63.00237pt too wide) in paragraph at lines 234--247
+Overfull \hbox (63.00237pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; d[] [] \
 OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (16.66672pt too wide) in paragraph at lines 234--247
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 241--247
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5)$
  []
 
@@ -13995,11 +13815,11 @@ Missing character: There is no 。 in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 43 strings out of 493918
- 397 string characters out of 6150564
+ 40 strings out of 493918
+ 360 string characters out of 6150564
  61172 words of memory out of 5000000
- 3465 multiletter control sequences out of 15000+600000
+ 3462 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 19i,7n,21p,670b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,7n,19p,670b,117s stack positions out of 5000i,500n,10000p,200000b,80000s
 Output written on chap05.pdf (1 page).
