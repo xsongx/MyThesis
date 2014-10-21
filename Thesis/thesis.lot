@@ -7,8 +7,8 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces 结果对比表\relax }}{51}{table.caption.33}
 \contentsline {table}{\numberline {5.1}{\ignorespaces Twitter数据集统计\relax }}{63}{table.caption.38}
 \contentsline {table}{\numberline {5.2}{\ignorespaces 评价结果。相对于OF显著的性能提升使用$ \ast $标记。\relax }}{66}{table.caption.41}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Twitte信息传播者发现实验数据统计信息\relax }}{72}{table.caption.43}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Twitter信息传播者发现特征概况\relax }}{73}{table.caption.44}
-\contentsline {table}{\numberline {6.3}{\ignorespaces 基于不同特征组的Twitter信息传播者发现系统实验结果\relax }}{74}{table.caption.45}
-\contentsline {table}{\numberline {6.4}{\ignorespaces 基于不同特征的Twitter信息传播者检索系统实验结果\relax }}{75}{table.caption.46}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Illustration of opinion similarity\relax }}{73}{table.caption.45}
+\contentsline {table}{\numberline {6.2}{\ignorespaces ANOVA results for subjectivity similarities. If the difference is due to chance, \textit {F-ratio}=1.00, otherwise \textit {F-ratio} \textgreater 1.00 (\textit {p-value} \textless 0.01).\relax }}{76}{table.caption.46}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Illustration of example subjectivity similarities\relax }}{77}{table.caption.48}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Accuracy performance. A significant improvement over baseline with $ \ast $ and LUO's model with $ \ddagger $ ($p < 0.05$).\relax }}{78}{table.caption.49}
 \contentsfinish 

@@ -1164,42 +1164,253 @@ Emotion homophily in social network site messages~[J].
 First Monday.
 2010, 15~(4).
 
-\bibitem{petrovic2011rt}
-Petrovic~S, Osborne~M, Lavrenko~V.
-RT to Win! Predicting Message Propagation in Twitter.~[C].
+\bibitem{Goldenberg2001}
+Goldenberg~J, Libai~B, Muller~E.
+Talk of the network: A complex systems look at the underlying process of
+  word-of-mouth~[J].
+Marketing letters.
+2001, 12~(3):  211--223.
+
+\bibitem{Kempe2003}
+Kempe~D, Kleinberg~J, Tardos~{\'E}.
+Maximizing the spread of influence through a social network~[C].
+In Proceedings of the ninth ACM SIGKDD international conference on Knowledge
+  discovery and data mining.
+2003:  137--146.
+
+\bibitem{Cheng2014}
+Cheng~J, Adamic~L, Dow~P~A, et~al.
+Can cascades be predicted?~[C].
+In Proceedings of the 23rd international conference on World wide web.
+2014:  925--936.
+
+\bibitem{Moore2008}
+Moore~J, Haggard~P.
+Awareness of action: Inference and prediction~[J].
+Consciousness and cognition.
+2008, 17~(1):  136--144.
+
+\bibitem{Hyman2000}
+Hyman~J.
+Three Fallacies about Action~[J].
+Behavioral and Brain Sciences.
+2000, 23:  665--666.
+
+\bibitem{Feng2013}
+Feng~W, Wang~J.
+Retweet or not?: personalized tweet re-ranking~[C].
+In Proc. of the 6th WSDM.
+2013:  577--586.
+
+\bibitem{Guerra2014}
+Guerra~P~C, Meira~W, Jr, Cardie~C.
+Sentiment Analysis on Evolving Social Streams: How Self-report Imbalances Can
+  Help~[C/OL].
+In Proc. of the 7th WSDM.
+New York, NY, USA, 2014:  443--452.
+\url{http://doi.acm.org/10.1145/2556195.2556261}.
+
+\bibitem{Bian2014}
+Bian~J, Yang~Y, Chua~T-S.
+Predicting Trending Messages and Diffusion Participants in Microblogging
+  Network~[C/OL].
+In Proc. of SIGIR '14.
+New York, NY, USA, 2014:  537--546.
+\url{http://doi.acm.org/10.1145/2600428.2609616}.
+
+\bibitem{suh2010want}
+Suh~B, Hong~L, Pirolli~P, et~al.
+Want to be retweeted? large scale analytics on factors impacting retweet in
+  twitter network~[C].
+In Social Computing (SocialCom), 2010 IEEE Second International Conference on.
+2010:  177--184.
+
+\bibitem{petrovic2010streaming}
+Petrovi{\'c}~S, Osborne~M, Lavrenko~V.
+Streaming first story detection with application to twitter~[C].
+In Human Language Technologies: The 2010 Annual Conference of the North
+  American Chapter of the Association for Computational Linguistics.
+2010:  181--189.
+
+\bibitem{becker2011beyond}
+Becker~H, Naaman~M, Gravano~L.
+Beyond Trending Topics: Real-World Event Identification on Twitter.~[C].
 In ICWSM.
 2011.
 
-\bibitem{artzi2012predicting}
-Artzi~Y, Pantel~P, Gamon~M.
-Predicting responses to microblog posts~[C].
+\bibitem{weng2011event}
+Weng~J, Lee~B-S.
+Event Detection in Twitter.~[C].
+In ICWSM.
+2011.
+
+\bibitem{naaman2011hip}
+Naaman~M, Becker~H, Gravano~L.
+Hip and trendy: Characterizing emerging trends on Twitter~[J].
+Journal of the American Society for Information Science and Technology.
+2011, 62~(5):  902--918.
+
+\bibitem{benson2011event}
+Benson~E, Haghighi~A, Barzilay~R.
+Event discovery in social media feeds~[C].
+In Proceedings of the 49th Annual Meeting of the Association for Computational
+  Linguistics: Human Language Technologies-Volume 1.
+2011:  389--398.
+
+\bibitem{petrovic2012using}
+Petrovi{\'c}~S, Osborne~M, Lavrenko~V.
+Using paraphrases for improving first story detection in news and Twitter~[C].
+In Proceedings of The 2012 Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies.
+2012:  338--346.
+
+\bibitem{kanhabua2013understanding}
+Kanhabua~N, Nejdl~W.
+Understanding the Diversity of Tweets in the Time of Outbreaks~[C].
+In Proceedings of the 22nd international conference on World Wide Web
+  companion.
+2013:  1335--1342.
+
+\bibitem{sakaki2010earthquake}
+Sakaki~T, Okazaki~M, Matsuo~Y.
+Earthquake shakes Twitter users: real-time event detection by social
+  sensors~[C].
+In Proceedings of the 19th international conference on World wide web.
+2010:  851--860.
+
+\bibitem{paul2011you}
+Paul~M~J, Dredze~M.
+You Are What You Tweet: Analyzing Twitter for Public Health.~[C].
+In ICWSM.
+2011.
+
+\bibitem{aramaki2011twitter}
+Aramaki~E, Maskawa~S, Morita~M.
+Twitter catches the flu: Detecting influenza epidemics using twitter~[C].
+In Proceedings of the Conference on Empirical Methods in Natural Language
+  Processing.
+2011:  1568--1576.
+
+\bibitem{abel2012twitcident}
+Abel~F, Hauff~C, Houben~G-J, et~al.
+Twitcident: fighting fire with information from social web streams~[C].
+In Proceedings of the 21st international conference companion on World Wide
+  Web.
+2012:  305--308.
+
+\bibitem{yin2012esa}
+Yin~J, Karimi~S, Robinson~B, et~al.
+ESA: emergency situation awareness via microbloggers~[C].
+In Proceedings of the 21st ACM international conference on Information and
+  knowledge management.
+2012:  2701--2703.
+
+\bibitem{efron2011estimation}
+Efron~M, Golovchinsky~G.
+Estimation methods for ranking recent information~[C].
+In Proceedings of the 34th international ACM SIGIR conference on Research and
+  development in Information Retrieval.
+2011:  495--504.
+
+\bibitem{metzler2012structured}
+Metzler~D, Cai~C, Hovy~E.
+Structured event retrieval over microblog archives~[C].
 In Proceedings of the 2012 Conference of the North American Chapter of the
   Association for Computational Linguistics: Human Language Technologies.
-2012:  602--606.
+2012:  646--655.
 
-\bibitem{nagarajan2010qualitative}
-Nagarajan~M, Purohit~H, Sheth~A~P.
-A Qualitative Examination of Topical Tweet and Retweet Practices.~[C].
-In ICWSM.
-2010.
+\bibitem{zhang2012query}
+Zhang~X, He~B, Luo~T, et~al.
+Query-biased learning to rank for real-time twitter search~[C].
+In Proceedings of the 21st ACM international conference on Information and
+  knowledge management.
+2012:  1915--1919.
 
-\bibitem{cha2009measurement}
-Cha~M, Mislove~A, Gummadi~K~P.
-A measurement-driven analysis of information propagation in the flickr social
-  network~[C].
-In Proceedings of the 18th international conference on World wide web.
-2009:  721--730.
+\bibitem{soboroff2012evaluating}
+Soboroff~I, McCullough~D, Lin~J, et~al.
+Evaluating real-time search over tweets~[J].
+Proc. ICWSM.
+2012:  943--961.
 
-\bibitem{salton1975vector}
-Salton~G, Wong~A, Yang~C-S.
-A vector space model for automatic indexing~[J].
-Communications of the ACM.
-1975, 18~(11):  613--620.
+\bibitem{choi2012temporal}
+Choi~J, Croft~W~B.
+Temporal models for microblogs~[C].
+In Proceedings of the 21st ACM international conference on Information and
+  knowledge management.
+2012:  2491--2494.
 
-\bibitem{kwak2010twitter}
-Kwak~H, Lee~C, Park~H, et~al.
-What is Twitter, a social network or a news media?~[C].
+\bibitem{amati2012survival}
+Amati~G, Amodeo~G, Gaibisso~C.
+Survival analysis for freshness in microblogging search~[C].
+In Proceedings of the 21st ACM international conference on Information and
+  knowledge management.
+2012:  2483--2486.
+
+\bibitem{miyanishi2013combining}
+Miyanishi~T, Seki~K, Uehara~K.
+Combining recency and topic-dependent temporal variation for microblog
+  search~[M]~//~Miyanishi~T, Seki~K, Uehara~K.
+ Advances in Information Retrieval.
+Springer, 2013: 2013: 331--343.
+
+\bibitem{meij2012adding}
+Meij~E, Weerkamp~W, de~Rijke~M.
+Adding semantics to microblog posts~[C].
+In Proceedings of the fifth ACM international conference on Web search and data
+  mining.
+2012:  563--572.
+
+\bibitem{cassidy2012analysis}
+Cassidy~T, Ji~H, Ratinov~L-A, et~al.
+Analysis and Enhancement of Wikification for Microblogs with Context
+  Expansion.~[C].
+In COLING.
+2012:  441--456.
+
+\bibitem{osborne2012bieber}
+Osborne~M, Petrovic~S, McCreadie~R, et~al.
+Bieber no more: First story detection using Twitter and Wikipedia~[C].
+In Proceedings of the SIGIR Workshop on Time-aware Information Access.
+2012.
+
+\bibitem{dong2010time}
+Dong~A, Zhang~R, Kolari~P, et~al.
+Time is of the essence: improving recency ranking using twitter data~[C].
 In Proceedings of the 19th international conference on World wide web.
-2010:  591--600.
+2010:  331--340.
+
+\bibitem{phelan2011using}
+Phelan~O, McCarthy~K, Bennett~M, et~al.
+On using the real-time web for news recommendation \& discovery~[C].
+In Proceedings of the 20th international conference companion on World wide
+  web.
+2011:  103--104.
+
+\bibitem{tsagkias2011linking}
+Tsagkias~M, de~Rijke~M, Weerkamp~W.
+Linking online news and social media~[C].
+In Proceedings of the fourth ACM international conference on Web search and
+  data mining.
+2011:  565--574.
+
+\bibitem{becker2012identifying}
+Becker~H, Iter~D, Naaman~M, et~al.
+Identifying content for planned events across social media sites~[C].
+In Proceedings of the fifth ACM international conference on Web search and data
+  mining.
+2012:  533--542.
+
+\bibitem{petrovic2013can}
+Petrovic~S, Osborne~M, McCreadie~R, et~al.
+Can Twitter replace Newswire for breaking news?~[C].
+In Proceedings of the 7th International AAAI Conference on Weblogs and Social
+  Media.
+2013.
+
+\bibitem{chang2013improving}
+Chang~Y, Dong~A, Kolari~P, et~al.
+Improving recency ranking using twitter data~[J].
+ACM Transactions on Intelligent Systems and Technology (TIST).
+2013, 4~(1): ~4.
 
 \end{thebibliography}

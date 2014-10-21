@@ -85,23 +85,35 @@
 \contentsline {subsection}{\numberline {5.5.2}样例分析}{64}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}观点预测性能}{65}{subsection.5.5.3}
 \contentsline {section}{\numberline {5.6}小结}{66}{section.5.6}
-\contentsline {chapter}{\numberline {6}Twitter中信息传播者的发现}{67}{chapter.6}
+\contentsline {chapter}{\numberline {6}转发分析}{67}{chapter.6}
 \contentsline {section}{\numberline {6.1}引言}{67}{section.6.1}
-\contentsline {section}{\numberline {6.2}相关工作}{68}{section.6.2}
-\contentsline {section}{\numberline {6.3}基于排序学习的Twitter信息传播者发现框架 }{68}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Twitter信息传播者发现排序学习框架}{68}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Twitter信息传播者相关特征}{69}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}转发历史特征}{69}{section.6.4}
-\contentsline {section}{\numberline {6.5}用户特征}{70}{section.6.5}
-\contentsline {section}{\numberline {6.6}用户活跃时间特征}{71}{section.6.6}
-\contentsline {section}{\numberline {6.7}用户兴趣特征}{71}{section.6.7}
-\contentsline {section}{\numberline {6.8}Twitter信息传播者发现实验}{71}{section.6.8}
-\contentsline {subsection}{\numberline {6.8.1}Twitter信息传播者发现实验数据}{71}{subsection.6.8.1}
-\contentsline {subsection}{\numberline {6.8.2}Twitter信息传播者发现实验设置}{72}{subsection.6.8.2}
-\contentsline {subsection}{\numberline {6.8.3}Twitter信息传播者发现基准系统（Baseline）}{72}{subsection.6.8.3}
-\contentsline {subsection}{\numberline {6.8.4}Twitter信息传播者发现实验结果及分析}{73}{subsection.6.8.4}
-\contentsline {section}{\numberline {6.9}小结}{75}{section.6.9}
-\contentsline {chapter}{致谢}{76}{chapter*.47}
-\contentsline {chapter}{参考文献}{77}{section*.48}
-\contentsline {chapter}{作者在学期间取得的学术成果}{92}{chapter*.50}
+\contentsline {section}{\numberline {6.2}相关工作}{69}{section.6.2}
+\contentsline {section}{\numberline {6.3}Subjectivity Model}{69}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Definition}{70}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Establishment of Subjectivity Model}{70}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Topic Analysis}{71}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Opinion Analysis}{71}{subsubsection.6.3.2.2}
+\contentsline {subsection}{\numberline {6.3.3}Subjectivity Similarity}{72}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}Opinion Similarity}{72}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}Subjectivity Similarity}{73}{subsubsection.6.3.3.2}
+\contentsline {section}{\numberline {6.4}Retweeting Analysis}{73}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Attractiveness}{74}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Sociality}{74}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}Expert Factor $ w_E(u_a) $:}{74}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}Leadership Factor $ w_L(u_a) $:}{74}{subsubsection.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.2.3}Similarity Factor $ w_S(u_a,f) $:}{75}{subsubsection.6.4.2.3}
+\contentsline {subsubsection}{\numberline {6.4.2.4}Interaction Factor $ w_I(u_a,f) $:}{75}{subsubsection.6.4.2.4}
+\contentsline {subsection}{\numberline {6.4.3}Popularity}{75}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Experiments}{75}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Dataset and Settings}{75}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Correlation Test}{76}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Case Study}{76}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}Performance Evaluation}{78}{subsection.6.5.4}
+\contentsline {section}{\numberline {6.6}Conclusion}{79}{section.6.6}
+\contentsline {chapter}{\numberline {7}总结与展望}{80}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{80}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{81}{section.7.2}
+\contentsline {chapter}{致谢}{83}{chapter*.51}
+\contentsline {chapter}{参考文献}{84}{section*.52}
+\contentsline {chapter}{作者在学期间取得的学术成果}{102}{chapter*.54}
 \contentsfinish 

@@ -1,45 +1,28 @@
 \chapter{转发分析}
 \label{ch6}
 
+\section{引言}
+\label{ch6_intro}
+信息传播在市场营销以及选举策略等应用场景发挥着很大的作用，因为通过信息传播可以触发大量的人参与并逐步层叠扩展到更多的人。信息传播的研究引起了很多研究者的关注，尤其是在线的社交网络的研究者，他们对信息传播提出了一些通用的模型，用于帮助模拟信息流动（information flow）\upcite{Goldenberg2001,Kempe2003}以及探测信息级联（information cascades）的爆发\upcite{Cheng2014}。可是他们常常都是将用户看作是网络中单一的节点，忽略了用户在信息传播过程中的自主性。作为Web2.0时代的信息消费者和生产者，每个用户都可以在社交媒体上发帖表明自己的兴趣和观点，选择信息阅读和传播。在社交网络上一条信息能否获得广泛传播依赖于“口碑相传（word of mouth）”效应，该效应会引发用户的传播行为。随着自然语言处理（Natural Language Processing）和数据挖掘（data mining）技术的发展，社交媒体上用户的意图可以使用他们产生的数据对用户进行建模来分析。本章中，我们关注一个有趣的问题：“口碑相传”效应机制问题，也就是给定某个特定用户的一条新微博，我们想要预测在所有收到该微博的所有用户中谁最有可能参与到该条信息的后续传播中去。作为一个典型的场景，我们用在Twitter中的一个异构网络来说明这个问题，如图~\ref{fig6-0}所示，网络中Tony和他的网络中的朋友讨论了两个话题：“苹果手机（Iphone）"以及电影"冰雪奇缘（Frozen）"，现在Tony发了一条有关电影“冰雪奇缘”的新微博，我们想去发现他的朋友中谁会转发这条微博进行传播。
 
-
-\begin{abstract}
-\begin{quote}
-Information diffusion plays an important role for both researches and applications in current ``word of mouth'' web. In this paper, we investigate how users' subjectivity influences their information diffusion behavior. 
-Inspired by the psychological research, we define a general subjectivity model by combining both topics and opinions articulated in User-Generated Content (UGC) and propose an efficient framework to establish the subjectivity model. 
-In order to evaluate the impact of subjectivity on information diffusion behavior, a novel subjectivity similarity measurement between two subjectivity models is put forward.The proposed model has been used to predict the retweeting  behavior on Twitter, by considering the subjectivity similarities in the attractiveness, sociality and popularity aspects. In the experiments, with a statistical hypothesis test and case study, we demonstrate that a user is more likely to retweet a message in terms of the influence of subjectivity. The evaluation on the practical Twitter dataset shows that our  model can improve the performance of retweeting prediction, compared with the state-of-the-art methods.
-\end{quote}
-\end{abstract}
-
-\section{Introduction}
-\label{introduction}
-\noindent Information diffusion plays an important role in scenes such as marketing and election by triggering and cascading a large number of users. It has drawn considerable attentions from researchers, especially in the area of online social networks. They have built standard models for the general information diffusion, which are useful for simulating the information flow\cite{goldenberg2001talk,kempe2003maximizing}, or detecting the outbreak of information cascades\cite{cheng2014can}. However, they ignore the intention of users in the process of information diffusion. As information consumer and producer in the web 2.0 era, each user can declare his interests, express opinions, choose information to read and spread on various social media platforms. Whether a message will be spread across the network depends on the ``word of mouth'' effect, which can elicit the diffusion behavior of users. With the development of Natural Language Processing and data mining techniques, the intention of users can be analyzed by modeling users with user-generated data. In this work, we target at an interesting problem: the mechanism of ``word of mouth'' effect, i.e. given a new message from a specific user, we intend to predict who will participate in the future diffusion process after receiving this message. 
-As a special scene, we illustrate the problem in a heterogeneous network of Twitter in Figure~\ref{fig00}, in which Tony and his friends have tweeted on two topics: cellphone ``Iphone'' and movie ``Frozen''. Now Tony posts a new tweet about ``Frozen'', we want to find out who will disseminate it among all his friends.
 \begin{figure}[htb]
 \centering
-\includegraphics[width=2.2in,height=1.5in]{6-0.pdf}
-\caption{Problem illustration. For opinions of different users, the color ``red'' stands for positive evaluation, ``green'' for negative, and ``yellow'' for neutral.}
-\label{fig00}
+\includegraphics[height=170pt]{6-0.pdf}
+\caption{问题图示}
+\label{fig6-0}
 \end{figure}
+\footnotetext{每个用户的观点用不同颜色表示，“红色”当标正面观点，“绿色”代表负面观点，“黄色”代表中性观点。}
 
-The diffusion behavior varies in different social networks. In this paper, we investigate our problem under the context of Twitter, which plays an important role in the process of information diffusion on the Internet because the retweeting convention provides an unprecedented mechanism for the spread of information despite the restricted length of a single message. 
-In fact, almost a quarter of the tweets are retweeted from others in Twitter\cite{yang2010understanding}. Therefore, understanding how retweeting behavior works can help explaining information diffusion in Twitter. 
+不同社交网络平台上的信息传播行为是不一样的，本章我们主要研究Twitter上的转发行为。因为庞大的用户群以及信息的爆炸式增长，Twitter在互联网上信息传播中扮演着重要角色，尽管微博长度上受到限制，但是Twitter为用户提供的转发按钮为信息的快速传播提供了前所未有的机制。据统计Twitter上的微博超过四分之一是转发别人的\upcite{yang2010understanding}，因此如果能够理解了转发行为是如何发生的也就能很好的解释Twitter上的信息传播。
 
-As the participants of information diffusion, users naturally make communication and interaction by expressing opinions and preferences on the topics that interest them. In psychological researches, it has been identified that the subjective initiative nature of human determines that subjectivity will undoubtedly influence his behaviors\cite{moore2008awareness}. According to the theory of Biased Assimilation, people tend to choose and disseminate information according to their own biased opinions\cite{Hyman2000}. Therefore, opinion comprehension is a key aspect of users's intention in the process of information diffusion. 
-Previous studies have developed a variety of techniques and models to capture the factors that affect retweeting behaviors\cite{macskassy2011people,feng2013retweet}. However to the best of our knowledge, few studies have investigated the subjective motivation of a user retweeting a message. 
-For the  ``word of mouth'' effect in Twitter, retweeting is a process that includes receiving, evaluating and deciding whether to share. The crucial part is to evaluate whether a tweet contains information worthy enough to be shared.  
-Therefore modeling the subjective motivation of users will provide an important perspective for retweeting behavior analysis. 
-Intuitively, based on the principle of ``like attracts like'', a biased user is prone to retweet a message that meets his own tastes. As for the example in Figure~\ref{fig00}, the tweets of the users have presented their different opinions on two topics. Tony and Jane were positive on movie ``Frozen'', while Ada was negative and Yang was neutral. For the new tweet from Tony which is positive on ``Frozen'', it is easily to understand that Jane is more likely to retweet it because Jane and Tony both like the movie. Therefore how the subjectivity of a user influences his information diffusion behavior is focused on in our work.
+作为信息传播的参与者，用户很自然地会在相互通信交互中表达出自己感兴趣的话题并发表自己的观点。在心理学的研究中证实人的主观能动性（subjective initiative）本质决定了人的主观性会影响其行为\upcite{Moore2008}，同样根据偏颇吸收（Biased Assimilation）理论，人总是趋向于选择和传播跟自己偏执观点（biased opinions）相似的信息\upcite{Hyman2000}。因此能够全面掌握用户的主观性是研究用户参与信息传播意图的一个很重要的方面。针对转发行为的前期研究已经发展出了一些方法和模型用于找到影响转发的因素\upcite{Macskassy2011,Feng2013}。然而据我们所知，还没与研究关注到用户转发行为背后的主观动机。就Twitter的口碑效应来说，转发意味着包括接受消息，评估内容以及衡量时候转发三个环节的一个完整过程，其中最重要的就是评估消息中是否有价值的信息值得和朋友分享。因此对用户的主观动机进行建模会为转发行为分析提供重要的研究视角。直觉上，依据“物以类聚（like attracts like）”原则，具有主观性的用户更趋向于转发那些能够迎合他口味（观点）的信息。就我们在图~\ref{fig6-0}中的例子来说，用户对两个话题所持观点已经在他们之前发布的微博中表达了，Tony和Jane对电影“冰雪奇缘”持正面肯定观点，而Ada持负面观点，Yang持中性观点。如果Tony新发布的是对冰雪奇缘正面肯定的微博，Jane是最有可能转发这条微博的就很容易理解了。因此用户的主观性是如何影响其转发行为的是本章的关注点。
 
-For the problem to be investigated, there are two questions arising: how to accurately model the subjectivity of users, and how to effectively measure the worthiness for the users to retweet in terms of subjectivity? 
-Answering the questions is non-trivial. 
-In this paper, we propose a general method to model subjectivity of users, define a novel similarity measurement to calculate the worthiness,  and identify factors that influence a user's retweeting behavior from the attractiveness, sociality and popularity aspects. 
+为了研究主观性和转发行为的关系，有两个问题需要回答：（1）怎样准确对用户的主观性进行建模？（2）怎么样从主观性上有效度量用户认为微博传播的值得性？
+回答这两个问题不是一件很容易的事，其中上一章我们已经提出了使用主观模型来解决社交媒体上用户观点集成问题，本章我们将继续使用主管模型的概念，提出一个更加通用的框架，并就主管模型提出一个全新的相似性计算方法来度量传播的值得性，而且就影响转发行为的因素，我们会结合主观相似性度量来分析三个最有可能引起转发行为的因素。
 
-The rest of the paper is organized as follows: Firstly related works are described; the definition and establishment details of the proposed subjectivity model are given before the subjectivity similarity is defined; Then the factors are specified for the retweeting analysis problem; Further experiments of quantitative evaluation is given; Finally we summarizes the paper and points out future work.
-
-\section{Related Work}
-\label{relatedwork}
-
+\section{相关工作}
+\label{ch6_relatedwork}
+很多工作
 Sentiment analysis have tried to mine subjective information from reviews\cite{liu2012sentiment}, and there are also many works pay attention to informal text of social media recently\cite{jiang2011target,tan2011user,Guerra2014}. In our work, instead of focusing on opinion in single text piece, we model subjectivity of a user by integrating all opinions scattering in text pieces to his topics of interest. As another line of works similar to our work, topic-sentiment models can also correlate sentiment with topics, for example, TSM~\cite{mei2007topic} model and JST~\cite{lin2009joint} model. Usually they learn a general word-sentiment distribution to model the sentiment of blogs or reviews, and they represent sentiment as binary polarity. Sentiment expression in informal languages is deemed to be more complicated. Sentiment is often embodied in subtle linguistic characteristics such as: misspellings, abbreviations, emphatic uppercasing, emphatic lengthening and the use of slang and neologisms. Moreover, besides polarity,  fine-grained sentiment (strength) is important to distinguish subtle opinions. These lead to much more sparsity in the input and is a special challenge for the word-sentiment distriution. In this paper, we propose to model opinion with a distribution by integrating fine-grained sentiment from a rule-based sentiment analysis method, which can catch subtle sentiment by transforming linguistic characteristics into rules\cite{thelwall2010sentiment}.
    
 A large body of studies has analyzed the characteristics of retweeting behavior\cite{Bian2014,Luo:2013RMF}, examining the factors that lead to increased retweetability\cite{suh2010want,comarela2012understanding} and designing models to estimate the probability of being retweeted\cite{jenders2013analyzing,pfitzner2012emotional}. However, all of the above works ignore the subjectivie motivation of users, which is the underlying reason for the retweeting behavior. 
@@ -296,10 +279,10 @@ They have common interest (the $ 14^{th} $ topic), and furthermore the non-retwe
 \subsection{Performance Evaluation}
 
 We carried out the retweeting prediction experiments in three stages. Firstly we compared our model against other topic-based models including TF-IDF model (modeling user interests using bag-of-words), entity-based model (using entities extracted from the UGC) and hashtag-based model (using hashtags used in the UGC)\cite{abel2011analyzing}.
-Secondly, our model was compared with two generative topic-sentiment models (TSM model\cite{mei2007topic} and JST model\cite{lin2009joint}). TSM and JST can also model topic and topic related sentiment simultaneously. We also use Equation~\ref{subsim} to calculate three  subjectivity similarities for bith TSM and JST as our method in section~\ref{retweet}, and combine them together in the predction.
+Secondly, our model was compared with two generative topic-sentiment models (TSM model\cite{mei2007topic} and JST model\upcite{lin2009joint}). TSM and JST can also model topic and topic related sentiment simultaneously. We also use Equation~\ref{subsim} to calculate three  subjectivity similarities for bith TSM and JST as our method in section~\ref{retweet}, and combine them together in the predction.
 
 The subjectivity model has been proposed to catch the subjective motivation of users based on UGC, whereas other important factors associated with retweeting behavior are not considered, such as network topology and meta-data of users. 
-Therefore, our model is also compared with the method of Luo \emph{et al.}~\shortcite{Luo:2013RMF}(marked as ``LUO''), in which different factors that might affect rewteeting behaviors are considered.
+Therefore, our model is also compared with the method of Luo \emph{et al.}~\upcite{Luo:2013RMF}(marked as ``LUO''), in which different factors that might affect rewteeting behaviors are considered.
 They only use bag-of-words to model user interests, so we also carried out combining experiments to demonstrate that the performance of prediction can be improved by replacing their bag-of-words model with our model (marks with ``LUO+'' prefix). 
 \begin{table}[htb]
 \scriptsize
