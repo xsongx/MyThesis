@@ -4,22 +4,15 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 15485 items from 5000.
+Reallocated field_info (elt_size=4) to 15215 items from 5000.
 Database file #1: ref/refs.bib
 Warning--I didn't find a database entry for "agichtein2008finding"
 Warning--I didn't find a database entry for "macskassy2011people"
+Warning--I didn't find a database entry for "Luo:2013:RMF:2484028.2484158"
 Warning--I didn't find a database entry for "Liu2012b"
 Warning--I didn't find a database entry for "jiang2011target"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Feng2013"
-Warning--I didn't find a database entry for "Luo:2013RMF"
-Warning--I didn't find a database entry for "rehurek_lrec"
-Warning--I didn't find a database entry for "thelwall2010sentiment"
-Warning--I didn't find a database entry for "MohammadKZ2013"
-Warning--I didn't find a database entry for "fisher1970statistical"
-Warning--I didn't find a database entry for "abel2011analyzing"
-Warning--I didn't find a database entry for "mei2007topic"
-Warning--I didn't find a database entry for "lin2009joint"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
 -- See the "userguide.pdf" manual for usage information.
@@ -189,8 +182,6 @@ Warning--empty pages in luo2012opinion
 Warning--The editor in l2013Luo_POR is missing.
 Warning--empty editor in l2013Luo_POR
 Warning--empty pages in l2013Luo_POR
-Warning--The editor in Luo:2013:RMF:2484028.2484158 is missing.
-Warning--empty editor in Luo:2013:RMF:2484028.2484158
 Warning--empty pages in Yuan2013
 Warning--The editor in Wilson2005d is missing.
 Warning--empty editor in Wilson2005d
@@ -318,6 +309,9 @@ Warning--empty editor in Pfitzner2012
 Warning--empty pages in Pfitzner2012
 Warning--The editor in Lek2013 is missing.
 Warning--empty editor in Lek2013
+Warning--The editor in Luo2013 is missing.
+Warning--empty editor in Luo2013
+Warning--there's a publisher but no address in Fisher1970
 Warning--The editor in petrovic2010streaming is missing.
 Warning--empty editor in petrovic2010streaming
 Warning--The editor in becker2011beyond is missing.
@@ -376,45 +370,45 @@ Warning--empty editor in petrovic2013can
 Warning--empty pages in petrovic2013can
 
 Done.
-You've used 219 entries,
+You've used 220 entries,
             4554 wiz_defined-function locations,
-            2176 strings with 47365 characters,
-and the built_in function-call counts, 137975 in all, are:
-= -- 15512
-> -- 2259
+            2174 strings with 47512 characters,
+and the built_in function-call counts, 138653 in all, are:
+= -- 15580
+> -- 2272
 < -- 172
-+ -- 1355
-- -- 682
-* -- 11344
-:= -- 15485
-add.period$ -- 857
-call.type$ -- 219
++ -- 1363
+- -- 686
+* -- 11406
+:= -- 15564
+add.period$ -- 860
+call.type$ -- 220
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 558
-duplicate$ -- 9151
-empty$ -- 14657
-format.name$ -- 680
-if$ -- 33455
+cite$ -- 560
+duplicate$ -- 9206
+empty$ -- 14737
+format.name$ -- 684
+if$ -- 33612
 int.to.chr$ -- 0
-int.to.str$ -- 219
+int.to.str$ -- 220
 missing$ -- 7
-newline$ -- 1299
-num.names$ -- 224
-pop$ -- 1125
+newline$ -- 1304
+num.names$ -- 225
+pop$ -- 1133
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3709
+skip$ -- 3716
 stack$ -- 0
-substring$ -- 16362
-swap$ -- 2743
+substring$ -- 16458
+swap$ -- 2747
 text.length$ -- 177
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1837
-warning$ -- 339
-while$ -- 1402
-width$ -- 222
-write$ -- 1916
+type$ -- 1843
+warning$ -- 340
+while$ -- 1407
+width$ -- 223
+write$ -- 1923
 (There were 6 error messages)

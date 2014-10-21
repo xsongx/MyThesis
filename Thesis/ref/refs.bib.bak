@@ -2796,7 +2796,7 @@
   Year                     = {2012}
 }
 
-@InProceedings{Luo:2013:RMF:2484028.2484158,
+@InProceedings{Luo2013,
   Title                    = {Who will retweet me?: finding retweeters in twitter},
   Author                   = {Luo, Zhunchen and Osborne, Miles and Tang, Jintao and Wang, Ting},
   Booktitle                = {Proceedings of the 36th international ACM SIGIR conference on Research and development in information retrieval},
@@ -2807,28 +2807,6 @@
 
   ISBN                     = {978-1-4503-2034-4},
   Location                 = {Dublin, Ireland}
-}
-
-@InProceedings{Luo2013,
-  Title                    = {Who will retweet me?: finding retweeters in twitter},
-  Author                   = {Luo, Zhunchen and Osborne, Miles and Tang, Jintao and Wang, Ting},
-  Booktitle                = {Proc. of the 36th ACM SIGIR},
-  Year                     = {2013},
-
-  Address                  = {New York, NY, USA},
-  Pages                    = {869--872},
-  Publisher                = {ACM},
-  Series                   = {SIGIR '13},
-
-  Acmid                    = {2484158},
-  Doi                      = {10.1145/2484028.2484158},
-  ISBN                     = {978-1-4503-2034-4},
-  Keywords                 = {propagation analysis, retweeter, twitter},
-  Location                 = {Dublin, Ireland},
-  Numpages                 = {4},
-  Owner                    = {xsongx},
-  Timestamp                = {2014.10.09},
-  Url                      = {http://doi.acm.org/10.1145/2484028.2484158}
 }
 
 @InProceedings{luo2012opinion,

@@ -648,13 +648,6 @@ Propagated Opinion Retrieval in Twitter.~[C].
 In WISE.
 2013.
 
-\bibitem{Luo:2013:RMF:2484028.2484158}
-Luo~Z, Osborne~M, Tang~J, et~al.
-Who will retweet me?: finding retweeters in twitter~[C].
-In Proceedings of the 36th international ACM SIGIR conference on Research and
-  development in information retrieval.
-2013:  869--872.
-
 \bibitem{Yuan2013}
 Yuan~S, Wang~J, van~der Meer~M.
 Adaptive Keywords Extraction with Contextual Bandits for Advertising on Parked
@@ -1243,6 +1236,18 @@ Cialdini~R~B, Goldstein~N~J.
 Social influence: Compliance and conformity~[J].
 Annu. Rev. Psychol.
 2004, 55:  591--621.
+
+\bibitem{Luo2013}
+Luo~Z, Osborne~M, Tang~J, et~al.
+Who will retweet me?: finding retweeters in twitter~[C].
+In Proceedings of the 36th international ACM SIGIR conference on Research and
+  development in information retrieval.
+2013:  869--872.
+
+\bibitem{Fisher1970}
+Fisher~S R~A, Genetiker~S, Fisher~R~A, et~al.
+Statistical methods for research workers~[M].
+Oliver and Boyd Edinburgh, 1970.
 
 \bibitem{petrovic2010streaming}
 Petrovi{\'c}~S, Osborne~M, Lavrenko~V.

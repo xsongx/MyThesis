@@ -1,0 +1,158 @@
+\chapter{应用语义关系自动构建情感词典}
+\label{ch2}
+%本章将进入论文排版的正文, 按元素分主要包括：
+%{\kai 字体段落，图片表格，公式定理，参考文献}这几部分。
+%这个样例文件将包括模板中使用到的所有格式、模板中自定义命令到或者特有的东西，
+%都将被一一介绍，希望大家在排版自己的学位论文前能细致的看一遍，记住样例的格式和
+%方法，方便上手。
+
+\section{引言}
+\label{ch2:intro}
+随着互联网的发展,尤其是社交网络的发展，各种社交媒体的用户发布内容中出现了海量含有用户主观情感色彩的文本数据。针对网络文本的信息处理开始由获得关键词\upcite{Yuan2013}、事件
+\upcite{张辉2013}、话题\upcite{刘健2013} 等事实信息,开始向情感观点等主观信息深入，情感分析便是近年来迅速发展的信息处理技术\upcite{Liu2012b}。从数据中提炼出用户的主观信息对于商业情报、舆情分析等具有重要意义。情感分析技术就是对带有情感色彩的主观性文本进行自动推理、分析、归纳的过程，涉及自然语言处理、机器学习、认知科学以及社会心理学等方面的研究\upcite{黄萱菁2011}。语言的情感表达往往使用具有明确情感色彩的词汇，因此构建带有情感色彩的词典资源是进行情感分析研究的基础。情感分析研究在英文上发展迅速，积累了许多情感词典资源，比如：General Inquirer（GI）\upcite{Stone1966}，OpinionFinder（OF）\upcite{Wilson2005d}，Appraisal Lexicon（AL）\upcite{Taboada2004}，SentiWordNet\upcite{Baccianella2010}以及Q-WordNet\upcite{Agerri2010}。中文情感分析研究起步较晚，缺乏普遍认可的可靠的中文情感词典\upcite{朱嫣岚2006,朱征宇2013,黄硕2013}。目前研究使用主要有HowNet情感词典\upcite{2013}，NTUSD情感词典\upcite{Ku2007}以及大连理工大学的情感词汇本体词库\upcite{2013a}。这些词典主要是以手工或半自动方式编辑而成，可靠性和领域适应性受到限制，并且情感词以主要褒贬二值区分，缺少情感强度值的细粒度划分。能够将资源丰富的英文词典跨语言向资源相对贫乏的语言进行适应性的转化，以产生其相应情感分析词典，既可以省去耗费大量人力的人工标注过程，又可以克服自动或半自动方法的可靠性问题。
+
+本章提出基于可靠的英文情感词典资源的中文情感词典的构建方法，可以根据语义关系将英文词及其情感值转化得到中文词语的情感强度值，并且完全是自动的，可靠性和适应性更高。
+
+\section{词典资源简介}
+\label{ch2:lex}
+
+\subsection{HowNet语义词典}
+HowNet是一个以中英文词语所代表的概念为描述对象，揭示概念与概念之间以及概念的属性与属性之间的关系的知识库。义原是HowNet最小语义单元，用于定义和描述概念的属性和概念间的相互关系，义原通过一个树状的层次结构组织构成上下位关系。概念是对词汇语义的一种描述，每一个词可以表达为几个概念\upcite{刘群2002}。如图~\ref{hownet}所示，HowNet采用KDML（Knowledge Dictionary Mark-up Language）语言描述概念，其中W\_X表示词语，G\_X表示词语词性，E\_X表示词语例子，X为C时表示中文，X为E时表示英文。DEF是对于该概念的定义项，称之为一个语义表达式，其中中英文标注的是义原，“\#\*”等标示符号来对概念属性之间关系进行描述，DEF中还可以包含概念，概念之间相互交织构成一个网。HowNet一共有2234个义原，收录了近15万条概念记录，涵盖了绝大部分中文常用词语，本章将基于HowNet的词语进行情感词典的构建。
+
+\begin{figure}[htp]
+\centering
+\includegraphics[height=95pt]{2-1.png}
+\caption{HowNet中概念的定义方式}
+\label{hownet}
+\end{figure}
+
+\subsection{WordNet语义词典}
+WordNet是由Princeton大学的心理学家，语言学家和计算机工程师联合设计的一种基于认知语言学的英文词典\upcite{Fellbaum1998}。WordNet是根据词义而不是词形来组织词汇信息。WordNet使用同义词集合（Synset）代表概念，词汇关系在词语之间体现，语义关系在概念之间体现。WordNet将英语的名词、动词、形容词和副词组织为Synsets，每一个Synset表示一个基本的词汇概念，并在这些概念之间建立了包括同义关系（synonymy）、反义关系（antonymy）等多种语义关系。其中，WordNet最重要的关系就是词的同义反义关系。
+
+\subsection{SentiWordNet情感词典}
+SentimentWordNet是Baccianella\upcite{Baccianella2010}等在语义词典WordNet基础上使用随机游走的图算法得到的情感词典。词典的每条记录都是一个WordNet的Synset，并且每个Synset都计算出了褒义、贬义情感强度值，本文就是利用SentimentWordNet的情感强度值以及HowNet概念的语义关系进行计算得到中文词语的情感值。SentimentWordNet共有117,000多 Synsets，192,493单词。
+
+\section{基于语义关系的情感词典构建方法}
+\label{ch2:construct}
+将英文情感词典的研究成果转化为文资源，可以利用语言之间的语义对应关系减少词典的歧义，使情感词典更加可靠，还可以直接将英文中对情感强度的计算直接转化为中文词语的情感强度计算，减少了计算开支。本研究正是基于这种动机展开的。HowNet对义原和概念进行了英汉双语标注，可以作为转化的“桥梁”。但是英文词语和中文词语都存在一词多义现象，不同语义所表达的情感倾向也不同，因此得到的情感值也会存在歧义。HowNet中概念的DEF是由义原按语义关系进行描述的，可以利用这种语义关系对词语的情感值进行“消歧”。总体来说，解决方案如图~\ref{frame}框架所示。
+
+\begin{landscape}
+\begin{figure*}
+\centering
+\includegraphics[height=280pt]{2-2.png}
+\caption{基于语义关系的情感词典解决方案}
+\label{frame}
+\end{figure*}
+\end{landscape}
+构建中文情感词典框架可以分为义原和词语抽取及语义分析、义原和词语情感值查询与计算以及词语的情感值计算三个过程。
+
+\subsection{词语抽取和义原抽取及语义分析}
+词语抽取主要是从HowNet词典中抽取词语（W\_C）和属性定义（DEF）并对DEF进行分析。DEF是由义原和语义关系描述等构成的,在进行词语倾向计算时，需要根据义原进行词语的语义分析和倾向计算。情感词语抽取处理流程如图~\ref{atom}所示。
+
+\begin{figure}[htp]
+\centering
+\includegraphics[height=170pt]{2-3.png}
+\caption{词语和义原抽取处理流程}
+\label{atom}
+\end{figure}
+
+在抽取得到的词语记录中，主要关注的内容有词语编号（No\.）、中文词语（W\_C）、中文词性（G\_C）、英文词语（W\_E）、英文词性（G\_E）、属性（DEF）、第一属性（First\_DEF）等。其中第一属性是指位于属性DEF第一位置的义原，通过第一属性可以分析出该词语所属的特征类。
+
+由于HowNet中的词语是由义原和语义关系描述等构成的。在进行词语倾向计算时，需要根据义原进行词语的语义分析和倾向计算。在抽取得到的义原的记录中，主要关注的内容有词语编号（No\.）、特征类别（Category）、中文词语（W\_C）、英文词语（W\_E）、属性（DEF）、层次（Layer）、父亲节点编号（Father）等。根据记录中的层次（Layer）和父亲节点编号（Father）可以得到义原之间的语义关系，如编号为33的义原“依靠”位于“事件类（Event）”的第五层，其父亲节点编号为32，通过查询编号为32的义原，得到其父亲节点义原为“有关（relate）”，表示DEF中包含，因此抽取的记录中包含了义原及其在词语中的语义关系。
+
+\subsection{情感值的查询与计算}
+HowNet词语是中英双语，因此有的可以直接将抽取到的英文词语（W\_E）、英文词性（G\_E）直接送入英文情感词典查询其情感值。但是大部分词语英文部分不是一个单词，因此无法直接得到情感值，而且由于词语的多义性，也无法获得唯一的情感值，因此需要进行“消歧”；HowNet中词语是由其属性DEF定义的，DEF是由多个义原按照一定的语义关系组合而成的，词语的倾向性可以看作是由义原的倾向性按照一定的规律组合而成的。因此词语的倾向性值可以通过义原的倾向性值根据语义关系计算获得，一方面可以获得直接查询无法获得情感值的词语，另外一方面也可以利用DEF情感值进行修正并消歧。
+
+\subsubsection{词语倾向性值查询与计算}
+\label{sense}
+WordNet是以词义（sense）来记录的， sense以同一词义的词集Synset表示。通过查询可以得到词语W\_E所有的sense，将每个sense映射到SentiWordNet就可以得到对应的情感值。
+
+\subsubsection{义原倾向性值查询与计算}
+基于WordNet和SentiWordNet的义原倾向计算过程如图~\ref{atomsen}所示。
+在HowNet中获取义原后将义原对应英文词语（如“good”）映射到WordNet中进行查询，得到该词语所有的Sense（如“good”的Sense共有27个）；将这些Sense映射到SentiWordNet中查询得到对应Sense情感值；将情感值加权根据公式~\ref{eq1}计算得到义原的情感倾向值（如“good”的倾向值为PosScore=0.597，NegScore=0.004）。
+\begin{equation}
+\label{eq1}
+\varphi(s,p)=\dfrac{\sum_{i=1} \varphi_i (s,p)}{\sum_{p\in P}\sum_{i=1}^m \varphi_i(s,p)}
+\end{equation}
+
+\begin{figure}[htp]
+\centering
+\includegraphics[height=250pt]{2-4.png}
+\caption{义原情感值计算过程}
+\label{atomsen}
+\end{figure}
+
+公式中$ P$表示极性类型（积极、消极、中性，“P、N、O”），$m$为与义原相对应的Sense的总数，$s$表示义原，$\varphi(s,p)$表示义原的极性值，$\varphi_i (s,p)$表示义原在编号为的Sense中的类型极性值。
+
+事件类义原有很多在DEF描述中可以引起情感值的变化，比如“DoNot|不做，lose|失去”等会引起情感值符号反转，因此我们标注了819个事件类义原的在情感值计算中的语义角色，并用系数$\lambda$来表示。
+
+\subsection{词语情感值计算}
+通过~\ref{sense}部分查询可以获得部分词语的情感倾向值，有些词语由于是多义的，情感值可能有几个，因此需要根据词语DEF描述中义原情感值进行计算修正和消歧。对HowNet中词语属性描述DEF语义关系的不同提出如下定义：
+
+\textbf{定义1 情感倾向值取反：}词语$s$的$p$极性值$\varphi(s,p)$取反运算是，将$s$的积极倾向值和消极倾向值互换，过程如公式~\ref{2-2}：
+\begin{equation}
+\label{2-2}
+\overline{\varphi(s,p)}=\varphi(s,p),\quad (p,q) \in P\&\& p \neq q
+\end{equation}
+
+\textbf{定义2 因子乘法运算：} $\lambda$因子与词语$s$的$p$极性值的乘法运算定义为$\lambda$乘法运算，过程如公式~\ref{2-3}：
+\begin{equation}
+\label{2-3}
+\lambda \times \varphi(s,p) =\begin{cases}
+& \lambda \varphi(s,p), \quad  \lambda >0\\
+& 0, \quad\quad  \lambda=0\\
+&|\lambda|\varphi(s,p), \quad  \lambda <0
+\end{cases}
+\end{equation}
+$\lambda$取值的确定需要根据义原的类别特征、词语DEF的组成特征和义原间的语义关系进行确定，这些都已经在抽取部分和义原情感值计算部分记录下来。如词语“好”的DEF中每个义原的$\lambda$可以均取值为1。词语“扭亏为盈”的DEF为“DEF=alter|改变，StateIni=InDebt|亏损，StateFin=earn|赚”，义原“InDebte|亏损”为初始状态，“earn|赚”为最终状态，经过分析后，义原“InDebte|亏损”的$\lambda$取值为0，义原“earn|赚”的$\lambda$取值为1。词语倾向计算总结为公式~\ref{2-4}。其中$\varphi(s,p)$表示词语$s$的$p$极性值，$t_i$表示词语DEF中第$i$个义原，$n$为词语DEF中义原总数。
+\begin{equation}
+\label{2-4}
+\varphi(s,p)=\dfrac{\sum_{i=1}^n\lambda_i\times\varphi(t_i,p)}{\sum_{p\in P}\sum_{i=1}^n\lambda_i\times\varphi(t_i,p)}
+\end{equation}
+其中：$\sum_{p \in P}\varphi(s,p)=1$。
+
+对于已经通过查询得到情感值的词语，可以在多个英文词义sense对应的情感值$\varphi(s,p)$取最接近DEF分析计算得到的情感值$\varphi_min(s,p)$的，然后加和平均，计算公式为：
+\begin{equation}
+\Psi(s,p)=\dfrac{\varphi_{min}(s,p)+\varphi(s,p)}{2}
+\end{equation}
+其中：$\varphi_{min}(s,p)=\min \{|\varphi_s(s,p)-\varphi(s,p)|\}$。
+
+\section{实验及结果}
+情感词典的实验评测有两种方法，一是与人工编辑的或者其他可靠性较高的词典进行对比评测，二是将词典应用到情感分析的其他任务上观察性能的提升，本文使用第一种方法。在实验评测时，基准词语由HowNet中随机选取了2000个词语进行人工判断，人工判断只给出褒贬两种极性。本章生成词典SentiLex与HowNet情感词典，NTUSD情感词典以及大连理工大学的情感词汇本体词库DLLEX进行对比评价。
+
+\subsection{评价指标}
+评价指标采用准确率、召回率以及F值作为评测标准。设$a_1$表示褒义判断正确词数；$a_2$表示贬义判断正确词数；$b_1$表示判断为褒义的词数；$b_2$表示判断为贬义词数；$c_1$表示基准词典褒义词数；$c_12$表示基准词典贬义词数。准确率计算公式为：$$P=\dfrac{a_1+a_2}{b_1+b_2}\times 100\%$$
+召回率计算公式为：$$R=\dfrac{a_1+a_2}{c_1+c_2}\times 100\%$$
+F值计算公式为：$$F=\dfrac{2 \times P\times R}{P+R} \times100\%$$。
+
+\subsection{性能评测结果}
+\subsubsection{阈值T的设定}
+由于基准词是褒贬二值标注的，因此需要将生成的情感词典连续情感值转换为离散褒贬值。将褒义和贬义情感值相减得到词语的倾向值来判断词语的极性，为了提高判断的准确性，设定阈值T，高于T为褒义，低于-T为贬义。图\ref{fig2-5}为T的不同取值对词典性能指标的影响。在T=0时，虽然召回率最高达到88.58\%，但准确率最低仅有54.40\%，F值仅为67.40\%。挡T=0.05时，准确率提高到77.75\%，有较大提高，召回率仅下降到87.61\%，下降幅度较小，F值提高到82.39\%。当T提高到0.05时性能指标达到最好，因此可以设定T为0.05。
+
+\begin{figure}[htp]
+\centering
+\includegraphics[height=170pt]{2-5.png}
+\caption{不同T值时的性能指标}
+\label{fig2-5}
+\end{figure}
+
+\subsubsection{与其他词典性能对比}
+在T=0.05时，SentiLex与其他词典性能比较如表~\ref{tab2-1}所示，SentiLex准确率为77.75\%，接近最高的DLLEX词典78.40\%，而召回率为87.61\%，F值为82.39\%，均为四个词典中最高。
+\begin{table}[htp]
+\centering
+\caption{T=0.05时的性能对比}
+\label{tab2-1}
+ \begin{tabular}{|l|l|l|l|}
+ \hline
+ &准确率（P）& 召回率（R）&F值\\
+ \hline
+ HowNet &74.55\%&82.35\%&78.26\%\\
+NTUSD&64.23\%&80.27\%&71.36\%\\
+DLLEX&\textbf{78.40\%}&85.58\%&81.83\%\\
+SentiLex&77.75\%&\textbf{87.61\%}&\textbf{82.39\%}\\
+ \hline
+\end{tabular}
+\end{table}
+
+\section{小结}
+本章对中文情感词典构建相关研究进行了分析，以英文情感词典为基础，设计了基于语义关系的情感词典自动构建方法。方法以HowNet、WordNet语义词典和SentiWordNet情感词典为基础，借鉴英文情感词典进行中文情感词典的构建，并且与现有的常用情感词典进行了实验对比。实验结果表明，本文设计的方法取得了较好的评测性能。

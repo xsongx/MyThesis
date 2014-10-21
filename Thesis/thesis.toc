@@ -101,16 +101,16 @@
 \contentsline {paragraph}{相似性因子（Similarity Factor） $ w_S(u_a,f) $:}{75}{paragraph*.48}
 \contentsline {paragraph}{交互因子（Interaction Factor） $ w_I(u_a,f) $:}{75}{paragraph*.49}
 \contentsline {subsubsection}{\numberline {6.3.3.3}流行性度量}{75}{subsubsection.6.3.3.3}
-\contentsline {section}{\numberline {6.4}Experiments}{76}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Dataset and Settings}{76}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Correlation Test}{76}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Case Study}{76}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Performance Evaluation}{78}{subsection.6.4.4}
-\contentsline {section}{\numberline {6.5}Conclusion}{79}{section.6.5}
-\contentsline {chapter}{\numberline {7}总结与展望}{81}{chapter.7}
-\contentsline {section}{\numberline {7.1}工作总结}{81}{section.7.1}
-\contentsline {section}{\numberline {7.2}工作展望}{82}{section.7.2}
-\contentsline {chapter}{致谢}{84}{chapter*.55}
-\contentsline {chapter}{参考文献}{85}{section*.56}
-\contentsline {chapter}{作者在学期间取得的学术成果}{103}{chapter*.58}
+\contentsline {section}{\numberline {6.4}实验}{76}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}数据集与实验设置}{76}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}相关性检验}{76}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}样例分析}{77}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}转发预测}{79}{subsection.6.4.4}
+\contentsline {section}{\numberline {6.5}小结}{82}{section.6.5}
+\contentsline {chapter}{\numberline {7}总结与展望}{83}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{83}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{84}{section.7.2}
+\contentsline {chapter}{致谢}{86}{chapter*.58}
+\contentsline {chapter}{参考文献}{87}{section*.59}
+\contentsline {chapter}{作者在学期间取得的学术成果}{105}{chapter*.61}
 \contentsfinish 
