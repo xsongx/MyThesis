@@ -88,32 +88,29 @@
 \contentsline {chapter}{\numberline {6}转发分析}{67}{chapter.6}
 \contentsline {section}{\numberline {6.1}引言}{67}{section.6.1}
 \contentsline {section}{\numberline {6.2}相关工作}{69}{section.6.2}
-\contentsline {section}{\numberline {6.3}Subjectivity Model}{69}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Definition}{70}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Establishment of Subjectivity Model}{70}{subsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.2.1}Topic Analysis}{71}{subsubsection.6.3.2.1}
-\contentsline {subsubsection}{\numberline {6.3.2.2}Opinion Analysis}{71}{subsubsection.6.3.2.2}
-\contentsline {subsection}{\numberline {6.3.3}Subjectivity Similarity}{72}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}Opinion Similarity}{72}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}Subjectivity Similarity}{73}{subsubsection.6.3.3.2}
-\contentsline {section}{\numberline {6.4}Retweeting Analysis}{73}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Attractiveness}{74}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Sociality}{74}{subsection.6.4.2}
-\contentsline {subsubsection}{\numberline {6.4.2.1}Expert Factor $ w_E(u_a) $:}{74}{subsubsection.6.4.2.1}
-\contentsline {subsubsection}{\numberline {6.4.2.2}Leadership Factor $ w_L(u_a) $:}{74}{subsubsection.6.4.2.2}
-\contentsline {subsubsection}{\numberline {6.4.2.3}Similarity Factor $ w_S(u_a,f) $:}{75}{subsubsection.6.4.2.3}
-\contentsline {subsubsection}{\numberline {6.4.2.4}Interaction Factor $ w_I(u_a,f) $:}{75}{subsubsection.6.4.2.4}
-\contentsline {subsection}{\numberline {6.4.3}Popularity}{75}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Experiments}{75}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Dataset and Settings}{75}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Correlation Test}{76}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Case Study}{76}{subsection.6.5.3}
-\contentsline {subsection}{\numberline {6.5.4}Performance Evaluation}{78}{subsection.6.5.4}
-\contentsline {section}{\numberline {6.6}Conclusion}{79}{section.6.6}
-\contentsline {chapter}{\numberline {7}总结与展望}{80}{chapter.7}
-\contentsline {section}{\numberline {7.1}工作总结}{80}{section.7.1}
-\contentsline {section}{\numberline {7.2}工作展望}{81}{section.7.2}
-\contentsline {chapter}{致谢}{83}{chapter*.51}
-\contentsline {chapter}{参考文献}{84}{section*.52}
-\contentsline {chapter}{作者在学期间取得的学术成果}{102}{chapter*.54}
+\contentsline {section}{\numberline {6.3}基于主观模型的转发分析}{69}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}主观模型}{70}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}主观相似性}{72}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}观点相似性}{72}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}主观相似性}{73}{subsubsection.6.3.2.2}
+\contentsline {subsection}{\numberline {6.3.3}转发行为分析}{73}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}吸引力度量}{74}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}社交性度量}{74}{subsubsection.6.3.3.2}
+\contentsline {paragraph}{专家指数因子（Expert Factor） $ w_E(u_a) $：}{75}{paragraph*.46}
+\contentsline {paragraph}{领导力因子（Leadership Factor） $ w_L(u_a) $:}{75}{paragraph*.47}
+\contentsline {paragraph}{相似性因子（Similarity Factor） $ w_S(u_a,f) $:}{75}{paragraph*.48}
+\contentsline {paragraph}{交互因子（Interaction Factor） $ w_I(u_a,f) $:}{75}{paragraph*.49}
+\contentsline {subsubsection}{\numberline {6.3.3.3}流行性度量}{75}{subsubsection.6.3.3.3}
+\contentsline {section}{\numberline {6.4}Experiments}{76}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Dataset and Settings}{76}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Correlation Test}{76}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Case Study}{76}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Performance Evaluation}{78}{subsection.6.4.4}
+\contentsline {section}{\numberline {6.5}Conclusion}{79}{section.6.5}
+\contentsline {chapter}{\numberline {7}总结与展望}{81}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{81}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{82}{section.7.2}
+\contentsline {chapter}{致谢}{84}{chapter*.55}
+\contentsline {chapter}{参考文献}{85}{section*.56}
+\contentsline {chapter}{作者在学期间取得的学术成果}{103}{chapter*.58}
 \contentsfinish 

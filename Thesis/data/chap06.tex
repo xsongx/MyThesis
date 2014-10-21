@@ -22,111 +22,68 @@
 
 \section{相关工作}
 \label{ch6_relatedwork}
-很多工作
-Sentiment analysis have tried to mine subjective information from reviews\cite{liu2012sentiment}, and there are also many works pay attention to informal text of social media recently\cite{jiang2011target,tan2011user,Guerra2014}. In our work, instead of focusing on opinion in single text piece, we model subjectivity of a user by integrating all opinions scattering in text pieces to his topics of interest. As another line of works similar to our work, topic-sentiment models can also correlate sentiment with topics, for example, TSM~\cite{mei2007topic} model and JST~\cite{lin2009joint} model. Usually they learn a general word-sentiment distribution to model the sentiment of blogs or reviews, and they represent sentiment as binary polarity. Sentiment expression in informal languages is deemed to be more complicated. Sentiment is often embodied in subtle linguistic characteristics such as: misspellings, abbreviations, emphatic uppercasing, emphatic lengthening and the use of slang and neologisms. Moreover, besides polarity,  fine-grained sentiment (strength) is important to distinguish subtle opinions. These lead to much more sparsity in the input and is a special challenge for the word-sentiment distriution. In this paper, we propose to model opinion with a distribution by integrating fine-grained sentiment from a rule-based sentiment analysis method, which can catch subtle sentiment by transforming linguistic characteristics into rules\cite{thelwall2010sentiment}.
-   
-A large body of studies has analyzed the characteristics of retweeting behavior\cite{Bian2014,Luo:2013RMF}, examining the factors that lead to increased retweetability\cite{suh2010want,comarela2012understanding} and designing models to estimate the probability of being retweeted\cite{jenders2013analyzing,pfitzner2012emotional}. However, all of the above works ignore the subjectivie motivation of users, which is the underlying reason for the retweeting behavior. 
+在微博转发行为分析方面，很多工作已经在转发行为特征、查找提高微博转发性的因素以及设计能估计转发概率的模型方面展开研究。Suh等~\upcite{suh2010want}通过研究发现带有网络连接URL以及hashtag标记的微博更有可能被转发。Macskassy和Michelson~\upcite{Macskassy2011}发现从微博内容中推到得出的模型能够解释大多数的转发行为。Comarela等\upcite{comarela2012understanding}发现对微博作者的先前反应，微博作者发帖频率，微博内容的新鲜程度以及微博的长度会影响关注者的转发可能性。Starbird和Palen~\upcite{starbird2012will}特别针对危机发生时的微博信息转发机制进行了研究，发现带有跟带有危机话题关键词的微博更有可能被转发。Osborne和Lavrenko~\upcite{petrovic2011rt}通过引入一些有用特征，比如微博的新颖性和作者被加入朋友列表的次数，来使用被动主动算法（passive aggressive algorithm）训练模型预测转发行为。Jenders等~\upcite{jenders2013analyzing}从微博及其作者的网络结构、信息内容以及情感方面分析了一些“显式”和“隐式”的影响转发的特征。Naveed等~\upcite{NaveedGKC2011,naveed2011searching}
+引入了微博的趣味性指标，并使用一些比如表情符、情感以及话题等特征对其进行量化来预测一条微博被转发的可能性。Feng和Wang~\upcite{feng2013retweet}构建了一个图模型并将微博以及用户的所有信息源结合进图的节点和边，并提出了一个特征敏感的因子分解模型（factorization model）对微博依据被转发的可能概率进行重排序。Pfitzner等~\upcite{Pfitzner2012}提出了一种叫做情感分歧（emotional divergence）指标来评价微博被转发的可能性，并研究证实了高情感分歧值的微博会有更高五倍的机会被转发。
 
-\section{Subjectivity Model}
+总体来说，上述所有工作主要是回答“某条微博会否被某些用户转发”这样一个问题，但是他们还不能回答“从一个信息消费者角度来看的某条微博是否值得用户采用转发行为进行信息传播”这样的问题，本章中我们会结合上章提出的主观模型从用户的兴趣和观点角度就用户的主观动机来分析转发行为。
+\section{基于主观模型的转发分析}
+为了研究用户转发行为的主观动机，首先需要了解用户的主观性，也就是能清楚用户喜欢什么和不喜欢什么，也就是用户感兴趣的话题和用户对话题所持的观点，这就是上章我们为用户所建立主观模型的作用。随着社交媒体普及率越来越高，社交媒体上带有用户主观性信息的用户产生内容（UGC）也越来越多，自然语言处理领域的观点挖掘（opinion mining）\upcite{Liu2012}研究开始通过计算方式自动对用户的观点信息进行建模。并且也出现了一些基于方面（aspect-based）情感分析或话题情感模型（topic-sentiment model）\upcite{Lek2013,Mei2007}将针对话题的观点投射为二值极性，评价等级或情绪类型等某一个单一的情感值，但是这些模型因为这种观点简单的表示形式而使得其作用受到限制。因此在主观模型中，我们通过将话题和观点结合为一个模型并将话题和观点使用新的表示形式（在话题空间和情感空间的分布）来对用户的主观性进行建模。
+
+\subsection{主观模型}
 \label{subjectivemodel}
-
-%Subjectivity has been extensively studied by psychologists to characterize the personality of a person based on his historical behaviors and remarks\cite{engbert2007agency}. 
-%Linguists define the subjectivity of language as speakers always show their perspectives, attitudes and sentiments to events, people, topics, and entities in their linguistic contents\cite{stein2005subjectivity}. 
-With the explosion of social media over the past decade, more and more User-Generated Content (UGC) is available on the Web containing users' opinions.
-In the Natural Language Processing area, opinion mining techniques\cite{liu2012sentiment} have been developed to computationally model the subjectivity of users. A variety of aspect-based or topic-sentiment models have been built from UGC by casting opinions as polarity, ratings, or emotions regarding a topic\cite{lek2013aspect,mei2007topic}. But their utility is often limited by their representation of opinions. In this paper, we give a more general framework to model subjectivity by combining topics and opinions together with a new representation of opinions. Here we give our definition of subjectivity model under context of Twitter, while we emphasize that our model can be adapted to other context as well.
-
-\subsection{Definition}
-\label{definition}
-
-Let $G=\left( V,E \right) $ denote a social network on Twitter, where $ V $ is a set of users, and $ E\subset V\times V $ is a set of follow relationships between users. For each user $ u \in V $, there is a tweets collection $ M_{u} $ denoting his message history. We assume that there is a topic space $ T $ containing all the topics that users in $ V $ talk about, and a sentiment space $ S $ evaluating their opinions on these topics. 
-For the ``subjectivity'' of a user $ u  \in V $, we refer to both topics and opinions articulated in his tweets collection $ M_{u} $.  
-\begin{definition}[Subjectivity Model]
-The subjectivity model of user $ u $, is the combination of topics of interest $\left\lbrace  k \right\rbrace $ in topic space $T$ and his opinions $\left\lbrace O_{k}\right\rbrace $ on each topic distributed over sentiment space $ S $. 
-\begin{equation*}
-\label{usermodel}
-SM_{u}  = \lbrace \left( k, w_{u,k} , \lbrace d_{u,k,s} |s \in S \rbrace \right) |  k \in T \rbrace
-\end{equation*}
-where:
+在Twitter上，用户一般是对多个不同话题感兴趣，比如图~\ref{fig6-0}中的例子中Tony和Jane都对苹果手机话题和冰雪奇缘电影刚兴趣并表达了自己的观点。一般来讲，用户对话题的兴趣度会随着话题的不同而不同，而且，即便对同一个感兴趣话题，当一个用户其其不同的方面（aspects）发表微博表达的观点也不是完全一样的，因此我们认为对用户的主观性进行建模时：
 \begin{itemize}
-\item with respect to user $ u $, for each topic $k \in T$, weight $ w_{u,k} $ represents the distribution of the user's interests on it, subject to $ \sum_{t=1}^{|T|}w_{u,k} =1 $.
-\item opinion of $ u $ towards topic $k$ is modeled as a topic-dependent sentiment distribution over sentiment space $ S $, $O_{k}=\lbrace d_{u,k,s}|s \in S \rbrace $, subject to $ \sum_{s=1}^{|S|} d_{u,k,s}=1$.
+\item 每一个用户$ u $都对应着一个在话题空间$ T $的$ |T| $维的话题分布$ W_{u}=\{w_u(t)\}|W_u \in R^{|T|},\sum_{t}w_{u}(t)=1 $，其中$ w_{u}(t) $表示用户在话题$ t $上的兴趣度。
+\item 用户$ u $对话题$ t $的观点应该表示为一个在情感空间$ S $的$ |S| $维的情感分布$ O_t=\{d_{u,t}(s)| O_t \in R^{|S|}, \sum_{s}d_{u,t}(s)=1\}$，其中$ d_{u,t}(s) $表示用户观点中带有情感值$ s $的可能性。
 \end{itemize}
-\end{definition}
-The proposed model is general in that the topics of interest and topic-dependent opinions are incorporated into a holistic framework. More importantly, opinions are represented as a probabilistic distribution in a scalable sentiment space which can cover all the sentiment modalities. For example, it could be binary space standing for sentiment polarity, or sequential space for sentiment strength, or discrete space for emotions. 
-Figure~\ref{fig0} is a visualized subjectivity model example in a $ [0,100] $ topic space and a $ [0,8] $ sentiment space. 
-\begin{figure}[t]
-%\centering
-\includegraphics[width=3.3in,height=1.2in]{6-1.pdf}
-\caption{Subjectivity model of user $u$. The left subgraph denotes interests distribution on topic 2, 32 and 83: $ (  w_{u,2}=0.08,w_{u,32}=0.48, w_{u,83}=0.44)  $. The right subgraph denotes opinions towards topics: $ O_{2}=( d_{u,2,4} =0.5, d_{u,2,5} =0.5)$, $O_{32}=(d_{u,32,4}=1.0) $, $ O_{83}=( d_{u,83,4}=0.5, d_{u,83,5}=0.5 ) $.}
-\label{fig0}
+
+从技术角度来讲，我们提出主观模型的目标就是设计一个通用的框架能够从社交媒体用户产生的数据中同时学习到用户兴趣（对应的话题分布）和观点（对应的观点分布），以此为基础进行用户一些在线行为的分析，本章中我们主要研究用户的转发行为。之所以说我们提出的主观模型是通用的，因为它不但将用户的兴趣和观点融进一个整体框架，更重要的是，在主观模型中观点表示为一个在可扩展的情感空间上的概率分布。这个情感空间既可以是表示情感正负极性的二值空间，又可以是连续值表示的情感强度空间，或是离散值表示的情绪类型空间，因此可以覆盖所有的观点表示形式。图~\ref{fig6-1}是一个在$ [0,100] $话题空间和$ [0,8] $情感强度空间主观模型的可视化示例。
+
+\begin{figure}[htp]
+\centering
+\includegraphics[height=170pt]{6-1.pdf}
+\caption{可视化主观模型示例}
+\label{fig6-1}
 \end{figure}
-%The definition of the subjectivity model is in an abstract form, which needs to be concreted from two aspect:(1)how to construct the subjectivity model (2)how to utilize this model for retweeting analysis.
- 
-\subsection{Establishment of Subjectivity Model}
-\label{establishment}
+左侧图中表示用户在话题2，32和83上的兴趣度：$$ (  w_{u,2}=0.08,w_{u,32}=0.48, w_{u,83}=0.44)  $$
+右侧图中表示在每个话题上的观点分布：
+$$ O_{2}=( d_{u,2,4} =0.5, d_{u,2,5} =0.5)$$
+$$O_{32}=(d_{u,32,4}=1.0) $$ $$O_{83}=( d_{u,83,4}=0.5, d_{u,83,5}=0.5 )$$
 
-In this section, we present our framework of how to concrete subjectivity model by deriving topics and opinions from the UGC of users $ M=\lbrace M_{u}\vert u \in V\rbrace$.
+在构建主观模型时，我们的框架是将话题分析和观点分析分开进行的。具体点来讲，首先使用的是用户层面（user-level）的LDA话题模型从用户所有的微博$M_u$中训练一个全局话题模型$ TM=(\theta,\phi) $,其中$ \theta $表示用户在话题空间$ T $的兴趣度分布，$ \phi $表示话题在词表上的分布。由于微博比较短小，通常认为每条微博谈论的是一个话题，因此我们可以根据全局话题模型计算微博$ t $从话题模型中产生的概率值为$ t $指定一个最有可能的话题：
 
-\subsubsection{Topic Analysis}
-\label{topic}
-
-%We simply use the concept of topics to broadly refer to the different kinds of content such as key words, entities, hashtag, etc. 
-Previous studies have tried to identify topics from tweets by finding key words\cite{chen2010short}, extracting  entities\cite{abel2011analyzing} or linking tweets to external knowledge categories\cite{macskassy2011people}. However, works show that topic model is more effective in identifying topics from short and informal social media language\cite{hong2010empirical}. In this paper, state-of-the-art Latent Dirichlet Allocation (LDA)\cite{blei2003latent} is employed for unsupervised topic discovery and for topic assignment of future tweets. LDA can be used to find a set of $ K $ latent topics from a document corpus, and then to represent each document $ D $ with a distribution $ \theta_{D} $ of the latent topics. For each word $ w_{i} $ in $ D $, a topic $ z $ is first sampled from the document topic distribution $ \theta_{D} $, then $ w_{i} $ is sampled according to word distribution $ \phi_{z} $ of topic $ z $. 
-
-As the first step, we adopt the user-level LDA model to build a global Topic Model (TM), which takes all tweets of a user $M_u$ as one document of LDA\cite{hong2010empirical}. The TM model will be used throughout our framework. 
-%For a single tweet $ t $, each dimension $ i $ of its topic distribution $ \theta_{t} $ can be obtained as follows:
-%\begin{equation}
-%\theta_{t,i}=\dfrac{\prod_{w \in t}P(w|\phi_{i})}{\prod_{w \in t}\sum_{k}P(w|\phi_{k})}
-%\end{equation}
-Usually a tweet concentrates on a single topic within its short length, therefore we assign a tweet $ t $ to a topic that maximizes the probability of generating $ t $:
 \begin{equation}
 \label{twtopic}
 z_{t} = \arg \max_{k}\prod_{w \in t} P(w|\phi_{k})
 \end{equation}
-We can get a weight distribution on each topic $ k $ of user $ u $ by normalizing all tweets that talk about topic $ k $: 
+然后就可以将用户$ u $所有谈论同一话题的微博数进行归一化后获得用户$ u $在话题上的兴趣度：
+
 \begin{equation}
 w_{u,k}=\dfrac{|\{ t: t \in M_{u} \wedge z_{t}=k\}|}{|M_{u}|}
 \end{equation}
 
-\subsubsection{Opinion Analysis}
-\label{opinion}
+关于观点分布，正如我们在图~\ref{fig6-0}中的例子看到，Tony和Jane总体上都是对电影“冰雪奇缘”持正面观点，但是他们有可能是因为不同的原因而喜欢这部电影的。Jane可能非常喜欢电影浪漫的故事情节，但是对它的动画画面稍微有点失望；而Tony喜欢这部电影可能是因为被这部电影的动画技术所折服，却不喜欢它略显幼稚的公主王子题材。之前的情感分析研究主要是将观点通过计算得出某一个单一值，尤其是正负极性二值为主，并不区分针对话题的每个观点在不同方面的具体情感，也无法计算观点的大小顺序，比如那个用户更喜欢电影些。因此在主观模型中，我们将观点表示为在情感空间$ S $的一个分布用以更精确的表示和区分观点。假设微博$ t $通过情感分析得出其在情感空间的情感值为$ s_t $，用户在某一话题$ k $上的观点分布可以通过将其所有谈论该话题微博在每一个情感值上的数目归一化处理后获得：
 
-%Most previous opinion mining researches\cite{liu2012sentiment} represent opinion with a porlarity label in a binary sentiment space (0, 1): 1 means opinion agreement or positive sentiment, 0 means opinion disagreement or negative sentiment. However, such approach cannot fully distinguish user's detail opinion. 
-Considering the example in Figure~\ref{fig00}, both Tony and Jane held an overall positive opinion on the movie ``Frozen'', but maybe they liked the movie for different reasons. Jane maybe mainly liked the romantic story of this movie but was a little disappointed at its animation picture, while Tony liked this movie perhaps because he was mostly convinced by its animation technology although he disliked the prince and princess genre. Previous works usually represent opinion with a simple binary polarity, without differentiating opinions on different aspects, thus they may not satisfy the information discovery needs of different users. Therefore, it is better to describe opinion for a topic as a probability distribution over the sentiment space. Furthermore, a more fine-grained sentiment space is preferred if we want to distinguish subjectivities of users more precisely.
-
-Researches on sentiment analysis of social media have provided many effective state-of-the-art techniques and tools\cite{thelwall2010sentiment,hu2013unsupervised}, with which sentiment of a tweet $ t $ can be identified as $ s_t $. The opinion distribution $ O_k $ toward a topic $ k $ can be integrated as:
 \begin{eqnarray}
 O_k &= & \{ d_{u,k,s}|s \in S \} \nonumber \\
   &=& \{ \dfrac{|t:t \in M_u \wedge z_t=k \wedge s_t=s|}{|M_u|}|s \in S\}
 \end{eqnarray}
 
-\subsection{Subjectivity Similarity}
+\subsection{主观相似性}
 \label{similarity}
 
-With the subjectivity model established, a subjectivity similarity measurement needs to be calculated to analyze various subjective decision-making processes such as retweeting behavior. 
-Firstly we should define the opinion similarity on a common topic. 
+得到用户的主观模型后，需要定义一个相似性度量方法来计算用户之间或用户与微博之间主观性上的距离，以量化“物以类据（like attracts like）”效应。首先我们定义在同一话题上观点的相似性计算方法。
  
-\subsubsection{Opinion Similarity}
+\subsubsection{观点相似性}
 \label{opsim}
 
-Opinion in the subjectivity model is treated  as a distribution over sentiment space with each dimension of the distribution representing the proportion of the corresponding sentiment value. 
-In fact, values of the sentiment space are not independent. 
-They are sequential in magnitude and quantified to measure the strength of sentiment. Therefore, normal distribution similarity measurements such as KL-divergence and cosine similarity are not suitable for such kind of opinion distribution. As illustrated in Table~\ref{tab1}, in a $ S=[0,8 ] $ integer sentiment space, opinion $ O_{k}^{1} $ is most negative (100\% of value 0), opinion $ O_{k}^{2} $ (50\% of value 6 and 50\% of value 7) is positive, and $ O_{k}^{3} $ (100\% of value 8) is most positive.
-If the cosine similarity measurement is adopted, all similarities among them are 0.
-In fact $ O_{k}^{2} $ is more similar to $ O_{k}^{3} $ than $O_{k}^{1} $ because they both are positive and their strength distance is much less than $ O_{k}^{1} $.  
-Therefore, opinion similarity can't be calculated simply as normal probabilistic distributions, or just as strength distance. 
-To accurately catch opinion similarity, we propose a novel method by combining strength distance and distribution similarity.
-The opinion similarity between two opinions $O_{k}^{u},O_{k}^{v} $on the same topic $ k $ can be calculated as: 
-\begin{equation}
-\label{opinionsim}
-Sim(O_{k}^{u},O_{k}^{v})=\dfrac{|S|-|\sum_{i=0}^{|S|}d_{i}^{u}v_{i}-\sum_{i=0}^{|S|}d_{i}^{v}v_{i}|}{|S|}
-\end{equation}
-where $ d_{i} $ denotes the $ i^{th} $ dimension of opinion distribution, and $ v_{i} $ denotes corresponding sentiment value. 
+在主观模型中观点是定义在情感空间上的分布，其每一维都代表着在对应情感值上的情感比重。实际上，为了区分观点，情感空间中的情感值并不是独立的，情感值之间有一定的顺序和大小来表示情感的强度。比如情感值为8的观点比情感值为5的观点持更正面的观点。因此常用的一些计算分布相似性的方法，比余弦相似性（cosine similarity）以及KL距离（KL-divergence），对于主观模型中观点分布相似性的计算就不适合了。如表~\ref{tab6-1}所示，假设在一个$ S=[0,8 ] $情感空间中表示的三个观点：观点$ O_{k}^{1} $是最负面（100\%分布在情感值0上。），观点$ O_{k}^{2} $是正面的（50\%分布在情感值6，50\%分布在情感值7上。），观点$ O_{k}^{3} $最正面（100\%分布在情感值8上）。
+
 \begin{table}[htb]
-\scriptsize
+%\scriptsize
 \centering
-\caption{Illustration of opinion similarity}
-\label{tab1}
+\caption{观点相似性示例}
+\label{tab6-1}
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
 \hline
  & 0 & 1& 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
@@ -139,76 +96,136 @@ $O_{k}^{3}$ & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 1.0 \\
 \hline
 \end{tabular}
 \end{table} 
-The similarities of opinions in Table~\ref{tab1} calculated with Equation~\ref{opinionsim} are $ Sim(O_{k}^{1},O_{k}^{3})=0 $, $ Sim(O_{k}^{2},O_{k}^{3})=6/8 $ and $ Sim(O_{k}^{1},O_{k}^{2})=2/8 $, which are consistent with our intuitive understanding. 
 
-\subsubsection{Subjectivity Similarity}
+假设使用常规的分布的相似性计算方法余弦相似性，就会发现三个观点之间的相似性都是0，因而出现了相似性计算方法失效，这是与事实不相符的，因为观点$ O_{k}^{2} $与观点$ O_{k}^{3} $比观点$ O_{k}^{1} $与观点$ O_{k}^{3} $更相似，它们都是持正面观点。因此观点的相似性计算不能简单将观点视为一般的概率分布来计算，或者只是观点空间的一个距离值。为了准确计算观点之间的相似性，我们将观点在情感空间的距离和分布上的相似性结合起来，提出了如下的计算观点$O_{k}^{u},O_{k}^{v} $之间相似性方法：
 
-As the subjectivity model indicates, a user's topics of interest is represented as a weight distribution over topic space $ T $. Therefore, the subjectivity similarity between two subjecctivity models $SM_u$ and $SM_v$ should be integrated by combining the topic weight and the opinion similarity on each common topic:
+\begin{equation}
+\label{opinionsim}
+Sim(O_{k}^{u},O_{k}^{v})=\dfrac{|S|-|\sum_{i=0}^{|S|}d_{i}^{u}v_{i}-\sum_{i=0}^{|S|}d_{i}^{v}v_{i}|}{|S|}
+\end{equation}
+其中$ d_{i} $是第$ i^{th} $维的情感分布，$ v_{i} $是相应的情感值。
+
+使用方法~\ref{opinionsim}计算表~\ref{tab6-1}中观点之间相似性为：
+$$ Sim(O_{k}^{1},O_{k}^{3})=0 $$ $$ Sim(O_{k}^{2},O_{k}^{3})=6/8$$ $$ Sim(O_{k}^{1},O_{k}^{2})=2/8 $$。
+这与我们对观点相似性的直觉理解是一致的。
+
+\subsubsection{主观相似性}
+在主观模型中，用户感兴趣的话题表示为在话题空间$ T $上不同话题的兴趣度分布，因此两个主观模型$SM_u$和$SM_v$之间的主观相似性可以将话题上的权重与对应的观点分布相似性结合起来进行集成计算：
+
 \begin{equation}
 \label{subsim}
 Sim(SM_{u},SM_{v})=\sum_{k=1}^{|T_{u,v}|}\theta_{u}(k)\* Sim(O_{k}^{u},O_{k}^{v})
 \end{equation}
-Where $ T_{u,v} $ denotes the common topics between two users, which can be regarded as the intersection of their topics of interest; $ \theta_{u}(k) $ denotes the weight of topic $ k $ of user $ u $.
+其中$ T_{u,v} $表示两个用户之间的共同话题，可以通过对他们之间感兴趣话题的交集来获得；$ \theta_{u}(k) $代表用户$ u $在话题$ k $上的兴趣度权重。
 
-Note that, when we measure how similar user $ u $ is to user $ v $, we use the topic weight of user $ u $, thus the subjectivity similarity is asymmetric. The intuition lies in that subjectivity of a user is a personal inner taste, and it is also one-way judgement about how like-minded a friend is. Therefore, for the measurement of subjectivity similarity, $ Sim(SM_u,SM_v)\neq Sim(SM_v,SM_u)$.
+值得注意的是，当我们测量用户$ u $在主观性上与用户$ v $有多相似性时，话题权重我们使用的是用户$ u $的话题权重，因此这个主观相似性度量方法是不对称的。之所以这么做，我们的直觉是因为用户的主观性是个人的内在感觉，因此对于另一个用户与自己主观想法上有多相似也是一个单向的感知，无需对称性的考虑。因此在度量主观相似性时，$ Sim(SM_u,SM_v)\neq Sim(SM_v,SM_u)$。
 
-\section{Retweeting Analysis}
+\subsection{转发行为分析}
 \label{retweet}
+用户的转发行为收到多种因素的影响，但是从用户的角度来讲，三种情形下会引发用户的转发：
 
-Whether a user retweets a message may be affected by various factors. 
-%As a user mainly uses Twitter as source of information, a tweet is more likely to be retweeted because the user finds its content worth to. 
-From the point of a user, three situations usually make him rewteet: 1) the content of the tweet is attractive for the user, and his retweeting behavior is in accordance with subjective evaluation; 2) the tweet is posted by the user's close friend, and his retweeting behavior is due to social needs; and 3) the content is popular, and his retweeting behavior is a result of conformity needs\cite{cialdini2004social}. These situations exhibit different types of reasons of rewteeting behavior, and we quantify them with three subjectivity similarities for the motivation analysis in our work. 
-For a target tweet $ t $, let $ F $ denote the followers who receive $ t $ by following its author $ u_{a} $. 
-For each follower $ f \in F $, we can define a quadruple $ <f, u_{a}, t, r_{f}>  $, where $ r_{f} $ is a binary label indicating if $ t $ is retweeted by $ f $, which needs to be predicted.
+\begin{enumerate}
+\item 微博的内容对用户具有吸引力，因此用户的转发行为是根据自己的主观判断引发的；
+\item 微博是由关系密切的好朋友发出的，因此用户的转发行为是因为社交需要；
+\item 微薄内容是突发新闻或有趣段子而具有流行性，因此用户的转发行为是趋同需求（conformity needs）\upcite{Cialdini2004}的结果。
+\end{enumerate}
+这些情形是用户转发行为的不同原因，从主观动机角度分析，我们使用三个主观相似性来量化这三个因素进行转发行为的分析。
 
-\subsection{Attractiveness}
+在以下的分析中，对于一条微博$ t $，假设$ F $表示该微博作者$ u_{a} $的关注者，当作者$ u_{a} $发布微博$ t $后，所有用户$ F $都会看到$ t $，至于哪个用户会转发$ t $，我们需要分析其主观动机。对于每一个关注者$ f \in F $，可以定义一个四元组$ <f, u_{a}, t, r_{f}>  $，其中$ r_{f} $是一个二值标签用以表示微博$ t $是否会被用户$ f $转发，需要我们通过分析进行预测。
 
-A user is likely to repost a tweet if the user finds the content is attractive according to his subjective judgement. We can measure such attractiveness quantitatively by calculating the subjectivity similarity between the tweet $ t $ and user $ f $. For a tweet $ t $, its topic $ z_t $ can be identified with Equation~\ref{twtopic}, and let $ s_t $ be its sentiment. The content of $ t $ can also be modeled using subjectivity model definition with a single topic of interest and a 100\% opinion distribution on sentiment value $s_t$. Thus the attractiveness of tweet $t$ to user $f$ can be measured with subjectivity similarity using Equation~\ref{subsim}, which is marked as $ Sim(f,t) $.
+\subsubsection{吸引力度量}
+一般来讲，用户根据自己的主观判断，看到一个有吸引力的微博就会转发。因此我们可以通过计算微博$ t $与微博关注者$ f $之间的主观相似性来定量地度量这种吸引力。对于一条微博，它所讨论的话题$ z_t $可以使用公式~\ref{twtopic}指定，对其进行情感分析可以得到情感值$ s_t $，因此微博也能够使用主观模型进行建模，它的话题分布和观点分布都是一个100\%的单一分布。于是微博$t$对于用户$f$的吸引力就可以使用我们定义的主观相似性计算方法~\ref{subsim}进行度量：
+\begin{equation}
+Sim(f,t)=\theta_{f}(z_t)\* Sim(O_{z_t}^{f},O_{z_t}^{t})
+\end{equation}
 
-\subsection{Sociality}
+\subsubsection{社交性度量}
+这种情形下，转发行为是基于用户的社交交互需要。由于微博是由志同道合（like-minded）的好朋友发的，转发行为是因为友谊触发而不一定是微博内容。这种情况下可以通过计算用户$ f $与微博作者$ u_a $之间的主观相似性来度量二者之间友谊的亲密程度：
 
-In this case, the retweeting behavior is based on the needs of social interaction. That is, the behavior is triggered because the tweet is sent by a like-minded friend, instead of the information it contains. We can measure how like-minded the user $ f $ and his friend $ u_a $ are with their subjectivity similarity $ Sim(f,u_a) $.  However, different kinds of friends may have a different influence on the user $ f $. For example, $ f $ may follow many friends, but only frequently interacts with a few. Furthermore, not all tweets of a friend may be of interest to $ f $. For example, in Figure~\ref{fig00}, Jane may be interested in the tweets from Tony about movie, but not interested in his tweets about cellphone. We therefore assign a weight to $ Sim(f,u_a) $ to reflect the influence of different kinds of friend, which
-is composed of four factors:
-\subsubsection{Expert Factor $ w_E(u_a) $:} It represents the relative expertise of the author $ u_a $ among his followers including $ f $. The expert user imposes more influence on others. We simply calculate it as the ratio of user $ u_a $'s tweets count over all tweets of $ u_a $ and his followers by $ w_E(u_a)=|M_{u_a}|/|\{M_u|u \in u_a \cup F \}|  $.
-\subsubsection{Leadership Factor $ w_L(u_a) $:} In our work, the leadership of a user $ u_a $ is determined by his followers. The leadership weight is calculated by $ w_L(u_a)=\log (|F|)/\log(\max) $, where $ \max $ is the maximum popularity of a user in Twitter\footnote{\url{http://twittercounter.com/pages/100}}.
-\subsubsection{Similarity Factor $ w_S(u_a,f) $:} The similarity of interests between $ u_a $ and $ f $ is measured as the inverse KL-divergence between their topic weight distribution in their subjectivity model: $ w_S(u_a,f)= 1/KL(\theta_{u_a},\theta_f)$.
-\subsubsection{Interaction Factor $ w_I(u_a,f) $:} All the interactions $ Interation_{u_a,f} $ between $ u_a $ and $ f $ are analyzed, which include the conversations between them, mentions of each other, and retweets from each other. The factor weight is calculated by normalizing $Interation_{u_a,f}$ with all tweets of $ u_a $ and $ f $: $ w_I(u_a,f)=|Interation_{u_a,f}| /|\{ M_{u_a}, M_f \}| $.
+\begin{equation}
+Sim(f,u_a)=\sum_{k=1}^{|T_{u,v}|}\theta_{f}(k)\* Sim(O_{k}^{f},O_{k}^{u_a})
+\end{equation}
+同时也应该考虑到，不同类型的朋友对用户$ f $的影响力（influence）是不同的，比如用户$ f $可能会关注很多人，但是可能只会与少数几个互动频繁（转发等互动）。而且用户$ f $并不是对朋友的每条微博都感兴趣，例如在图~\ref{fig6-0}中的例子中，Jane可能会对Tony所发的关于电影“冰雪奇缘”的微博，但是对他的关于苹果手机微博不感兴趣。因此我们对用户之间的主观相似性$ Sim(f,u_a) $附加一个权重以反映不同类型朋友对用户$ f $的影响力，该权重有四部分因子组合而成。
 
-Above all, the influence weight is the combination of four factors:
+\paragraph{专家指数因子（Expert Factor） $ w_E(u_a) $：} 
+该因子代表着微博作者$ u_a $在微博接收朋友圈中相对的专家指数，专家指数越高的用户就会对其他用户有更多的影响力。本章中我们简单的根据用户$ u_a $的发帖数量在所有朋友圈中发帖总数的比例来计算专家指数。
+\begin{equation}
+w_E(u_a)=|M_{u_a}|/|\{M_u|u \in u_a \cup F \}|
+\end{equation}
+
+\paragraph{领导力因子（Leadership Factor） $ w_L(u_a) $:} 
+我们将用户的领导力为该用户拥有的粉丝（followers）数。因此领导力因子可以通过归一化计算为：
+\begin{equation}
+w_L(u_a)=\log (|F|)/\log(\max)
+\end{equation}
+其中$ \max $是Twitter中用户的最大流行度（maximum popularity）\footnote{\url{http://twittercounter.com/pages/100}}。
+
+\paragraph{相似性因子（Similarity Factor） $ w_S(u_a,f) $:} 
+用户$ u_a $和$ f $之间的兴趣的相似性可以通过他们主观模型中话题分布之间的反KL距离（inverse KL-divergence）来度量：
+\begin{equation}
+w_S(u_a,f)= 1/KL(\theta_{u_a},\theta_f)
+\end{equation}
+
+\paragraph{交互因子（Interaction Factor） $ w_I(u_a,f) $:} 
+用户$ u_a $和$ f $之间的交互数量$ Interation_{u_a,f} $包括他们之间的对话，相互之间的提及以及相互之间的转发等。该因子可以通过将$Interation_{u_a,f}$用用户$ u_a $和$ f $所有的微博数目归一化计算获得：
+\begin{equation}
+w_I(u_a,f)=|Interation_{u_a,f}| /|\{ M_{u_a}, M_f \}|
+\end{equation}
+
+总体上，将以上四个因子组合后可以得到影响权重：
 \begin{equation}
 \begin{split}
-w_{u_a,f}=& \lambda_1*w_E(u_a)+\lambda_2*w_L(u_a)+\\
-   &\lambda_3*w_S(u_a,f)+\lambda_4*w_I(u_a,f). 
+w_{u_a,f}= \lambda_1*w_E(u_a)+\lambda_2*w_L(u_a)+
+  \lambda_3*w_S(u_a,f)+\lambda_4*w_I(u_a,f)
 \end{split}
 \end{equation}
-where $ \lambda_i $ is an optional weight vector to enable different influence of the factors,  subject to $ \sum_{i=1}^{4}\lambda_i=1 $. We set them uniformly as 0.25 in our work.
+其中$ \lambda_i $是一个可选权重向量以反映不同因子的影响，并且$ \sum_{i=1}^{4}\lambda_i=1 $。本章中我们将其均衡设为$ \lambda_i=0.25 $。
 
-\subsection{Popularity}
+\subsubsection{流行性度量}
+用户在使用Twitter时，如果发现一条微博是非常流行的（具有新颖性或传染性），在趋同（conformity）效应的作用下，用户就会很有可能对其进行转发。这种情形下，微博$ t $的内容一般在话题和观点上与其作者$ u_a $的主观性不太一致，因此微博$ t $与其作者$ u_a $之间的主观相似性$ Sim(u_a,t) $会相对较低：
+\begin{equation}
+Sim(u_a,t)=\theta_{u_a}(z_t)\* Sim(O_{z_t}^{u_a},O_{z_t}^{t})
+\end{equation}
+用户的转发行为是由于微博$ t $的流行性而不是其因为内容具有吸引力或者是好朋友发布的，为了度量其流行性影响，我们对$ Sim(u_a,t) $增加一个流行性系数，该系数可以通过计算接收微博$ t $的用户$ f $所关注朋友中转发微博$ t $的比例来确定。
 
-If a tweet is popular(novel or epidemic), it will be very probable to be retweeted. In this situation, the tweet $ t $ is often inconsistent with the interests and opinions of its author $ u_a $. Thus the similarity between $ t $ and $ u_a $ in terms of subjectivity is relatively low, which is marked as $ Sim(u_a,t) $. The retweeting behavior is highly related to the popularity of $ t $ rather than the content or the friend who post it. We assign a popularity weight to $ Sim(u_a,t) $, which is the proportion of user $ f $'s followees who have retweeted the tweet $ t $.
-
-From the point of motivation, a user might retweet a message if its content is approximate to his subjectivity, its author is a like-minded friend or it is popular among his friends. 
-%In next section a set of experiments are carried out to verify the impact of such motivation on retweeting behavior. 
-
-\section{Experiments}
+\section{实验}
 \label{experiments}
 
-\subsection{Dataset and Settings}
-Our method has been evaluated on the Twitter dataset from \cite{Luo:2013RMF}, in which 500 target English tweets were monitored to find who would retweet it in the future. 
-Each target tweet was set as starting point to collect recent tweets for its author and followers.
-Overall, there are 45,531 users who have posted at least 6,277,736 tweets. 5214 users have retweeted at least one target tweet during the monitored period. To avoid the bias introduced by dataset imbalance, an evaluation dataset is constructed by taking 5,214 retweeters as positive instances, and randomly sampling 5,214 non-retweeters as negative instances. 
+\subsection{数据集与实验设置}
+实验中我们使用了论文\upcite{Luo2013}提供的Twitter数据集\footnote{下载地址：\url{https://sourceforge.net/projects/retweeter/}}，在构建数据集时，他们使用Twitter Streaming API随机选取了500条目标微博，每条微博至少被其作者的粉丝转发过一次，对这500条微博进行连续几个小时的监控找到转发微博的那些用户。同时以这500条微博为入口，收集了微博作者及其粉丝的最近发布的200条微博。获得的数据集总共有45,531个用户，共6,277,736条微博，在监控期间有5,214个用户转发了500条微博中的至少一条。为了避免数据不平衡带来的偏置，我们从数据集中采样抽取了5,214个没有转发的用户作为反例，与转发者一起构成平衡测试数据集。数据集的统计如表~\ref{tab6-2}所示：
 
-For the topic model, we use Gensim\cite{rehurek_lrec}, which adopts an efficient batch-based online inference algorithm. All parameters are set as defaults and the number of topic traverses from 50 to 200. For sentiment analysis, we just make use of an off-the-shelf work, i.e. SentiStrength\cite{thelwall2010sentiment}. In order to catch the sentiment of tweets, we use the sentiment lexicon created based on AFINN by Nielsen\cite{MohammadKZ2013}. The sentiment space is formed by mapping the positive and negative sentiment values to range $ [0,8] $.
+\begin{table}[htb]
+\centering
+\caption{数据集统计分析}
+\label{tab6-2}
+\begin{tabular}{|l|c|}
+\hline
+Total tweets which have been monitored & 500 \\
+\hline
+Average number of followers per tweet & 89 \\
+\hline
+All followers & 45,531 \\
+\hline
+All historical tweets & 6,277,736 \\
+\hline
+Total retweeters & 5,214 \\
+\hline
+Total non-retweeters & 40,317  \\
+\hline
+\end{tabular}
+\end{table}
 
-\subsection{Correlation Test}
+在构建主观模型时与上一章一样，使用了Gensim\upcite{vRehruvrek2010}进行话题模型训练，话题数目设为50,100,150和200；使用SentiStrength\upcite{Thelwall2010}对每条微博进行情感分析，并且为了更好的适应于微博情感表达方式，我们使用了Nielsen等\upcite{Mohammad2013}为Twitter构建的情感词典。
 
-First of all we assess the correlation between subjectivity similarity and retweeting behavior with a statistical hypothesis test Analysis of Variance (ANOVA)\cite{fisher1970statistical}, which tests the \textit{null hypothesis} that the retweeters and non-retweeters have the same subjectivity similarity means. 
-The results are listed in Table~\ref{tab2}. The bold-faced entries mean that the \textit{p-value} is lower than significance level.
+\subsection{相关性检验}
+首先，为了验证主观相似性会影响转发行为，我们采用了一个ANOVA（Analysis of Variance）\upcite{Fisher1970}假设性检验方法对我们提出的用主观相似性表示的三个因素与转发行为之间的相关性进行分析，使用该检验方法我们对“\textbf{转发者（retweeters）和非转发者（non-retweeters）具有相同的主观相似性均值}”这一零假设（null hypothesis）进行检验。
+结果如表~\ref{tab6-3}所示，表中加黑部分表示\textit{p-value}低于显著性水平。
+
 \begin{table}[htb]
 \scriptsize
 \centering
-\caption{ANOVA results for subjectivity similarities. If the difference is due to chance, \textit{F-ratio}=1.00, otherwise \textit{F-ratio} \textgreater 1.00 (\textit{p-value} \textless 0.01).}
-\label{tab2}
+\caption{主观相似性ANOVA检验结果} 
+\label{tab6-3}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 \multicolumn{2}{|c|}{Similarity}& $ Sim(f,t) $ & $ Sim(f,u_a)  $ & $ Sim(u_a,t)  $\\
@@ -230,12 +247,16 @@ The results are listed in Table~\ref{tab2}. The bold-faced entries mean that the
   & \textit{p} &  $\mathbf{4.22e^{-06}}$  & $\mathbf{2.92e^{-05}}$ & 0.26\\
 \hline
 \end{tabular}
+\begin{tablenotes}
+\footnotesize
+表中如果平均值差异是偶然，\textit{F-ratio}=1.00，否则\textit{F-ratio} \textgreater 1.00 (\textit{p-value} \textless 0.01)。
+\end{tablenotes}
 \end{table}
-Note that for the topic numbers of 100 and 150, all similarities yield \textit{p-values} below significance level with \textit{F-ratio} above 1.00. This suggests that the subjectivity similarities could be useful features for modeling retweeting behavior. 
-For the rest experiments, we set the topic number as 100 for LDA. 
+从表中可以看出，当话题数是100和150时，所有的主观相似性检验都是\textit{F-ratio}大于1.00，且\textit{p-values}低于显著性水平。这表示所有的主观相似性与转发行为具有相关性，能够作为转发行为的有用特征。后续实验我们将话题数目固定为100来进行讨论。
 
-\subsection{Case Study}
+\subsection{样例分析}
 \label{example}
+
 In this section, we give an vivid example to illustrate the subjectivity model and its ability in explaining the retweeting behavior. 
 The subjectivity models of one of the 500 target tweets, its author, and two followers (one retweeter, the other non-retweeter) are shown in Figure~\ref{fig5}. 
 The right part of each sub-figure illustrates topic distribution and the left part illustrates opinions on each topic. 
@@ -278,8 +299,8 @@ They have common interest (the $ 14^{th} $ topic), and furthermore the non-retwe
 
 \subsection{Performance Evaluation}
 
-We carried out the retweeting prediction experiments in three stages. Firstly we compared our model against other topic-based models including TF-IDF model (modeling user interests using bag-of-words), entity-based model (using entities extracted from the UGC) and hashtag-based model (using hashtags used in the UGC)\cite{abel2011analyzing}.
-Secondly, our model was compared with two generative topic-sentiment models (TSM model\cite{mei2007topic} and JST model\upcite{lin2009joint}). TSM and JST can also model topic and topic related sentiment simultaneously. We also use Equation~\ref{subsim} to calculate three  subjectivity similarities for bith TSM and JST as our method in section~\ref{retweet}, and combine them together in the predction.
+We carried out the retweeting prediction experiments in three stages. Firstly we compared our model against other topic-based models including TF-IDF model (modeling user interests using bag-of-words), entity-based model (using entities extracted from the UGC) and hashtag-based model (using hashtags used in the UGC)\upcite{abel2011analyzing}.
+Secondly, our model was compared with two generative topic-sentiment models (TSM model\upcite{mei2007topic} and JST model\upcite{lin2009joint}). TSM and JST can also model topic and topic related sentiment simultaneously. We also use Equation~\ref{subsim} to calculate three  subjectivity similarities for bith TSM and JST as our method in section~\ref{retweet}, and combine them together in the predction.
 
 The subjectivity model has been proposed to catch the subjective motivation of users based on UGC, whereas other important factors associated with retweeting behavior are not considered, such as network topology and meta-data of users. 
 Therefore, our model is also compared with the method of Luo \emph{et al.}~\upcite{Luo:2013RMF}(marked as ``LUO''), in which different factors that might affect rewteeting behaviors are considered.

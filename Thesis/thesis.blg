@@ -4,28 +4,22 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 15620 items from 5000.
+Reallocated field_info (elt_size=4) to 15485 items from 5000.
 Database file #1: ref/refs.bib
 Warning--I didn't find a database entry for "agichtein2008finding"
 Warning--I didn't find a database entry for "macskassy2011people"
+Warning--I didn't find a database entry for "Liu2012b"
 Warning--I didn't find a database entry for "jiang2011target"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "liu2012sentiment"
-Warning--I didn't find a database entry for "mei2007topic"
-Warning--I didn't find a database entry for "lin2009joint"
-Warning--I didn't find a database entry for "thelwall2010sentiment"
+Warning--I didn't find a database entry for "Feng2013"
 Warning--I didn't find a database entry for "Luo:2013RMF"
-Warning--I didn't find a database entry for "pfitzner2012emotional"
-Warning--I didn't find a database entry for "lek2013aspect"
-Warning--I didn't find a database entry for "chen2010short"
-Warning--I didn't find a database entry for "abel2011analyzing"
-Warning--I didn't find a database entry for "hong2010empirical"
-Warning--I didn't find a database entry for "blei2003latent"
-Warning--I didn't find a database entry for "hu2013unsupervised"
-Warning--I didn't find a database entry for "cialdini2004social"
 Warning--I didn't find a database entry for "rehurek_lrec"
+Warning--I didn't find a database entry for "thelwall2010sentiment"
 Warning--I didn't find a database entry for "MohammadKZ2013"
 Warning--I didn't find a database entry for "fisher1970statistical"
+Warning--I didn't find a database entry for "abel2011analyzing"
+Warning--I didn't find a database entry for "mei2007topic"
+Warning--I didn't find a database entry for "lin2009joint"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
 -- See the "userguide.pdf" manual for usage information.
@@ -198,7 +192,6 @@ Warning--empty pages in l2013Luo_POR
 Warning--The editor in Luo:2013:RMF:2484028.2484158 is missing.
 Warning--empty editor in Luo:2013:RMF:2484028.2484158
 Warning--empty pages in Yuan2013
-Warning--there's a publisher but no address in Liu2012b
 Warning--The editor in Wilson2005d is missing.
 Warning--empty editor in Wilson2005d
 Warning--empty editor in Taboada2004
@@ -308,14 +301,23 @@ Warning--The editor in Kempe2003 is missing.
 Warning--empty editor in Kempe2003
 Warning--The editor in Cheng2014 is missing.
 Warning--empty editor in Cheng2014
-Warning--The editor in Feng2013 is missing.
-Warning--empty editor in Feng2013
-Warning--The editor in Guerra2014 is missing.
-Warning--empty editor in Guerra2014
-Warning--The editor in Bian2014 is missing.
-Warning--empty editor in Bian2014
 Warning--The editor in suh2010want is missing.
 Warning--empty editor in suh2010want
+Warning--The editor in petrovic2011rt is missing.
+Warning--empty editor in petrovic2011rt
+Warning--empty pages in petrovic2011rt
+Warning--The editor in NaveedGKC2011 is missing.
+Warning--empty editor in NaveedGKC2011
+Warning--empty pages in NaveedGKC2011
+Warning--The editor in naveed2011searching is missing.
+Warning--empty editor in naveed2011searching
+Warning--The editor in feng2013retweet is missing.
+Warning--empty editor in feng2013retweet
+Warning--The editor in Pfitzner2012 is missing.
+Warning--empty editor in Pfitzner2012
+Warning--empty pages in Pfitzner2012
+Warning--The editor in Lek2013 is missing.
+Warning--empty editor in Lek2013
 Warning--The editor in petrovic2010streaming is missing.
 Warning--empty editor in petrovic2010streaming
 Warning--The editor in becker2011beyond is missing.
@@ -374,45 +376,45 @@ Warning--empty editor in petrovic2013can
 Warning--empty pages in petrovic2013can
 
 Done.
-You've used 216 entries,
+You've used 219 entries,
             4554 wiz_defined-function locations,
-            2171 strings with 47040 characters,
-and the built_in function-call counts, 135901 in all, are:
-= -- 15292
-> -- 2223
-< -- 171
-+ -- 1333
-- -- 671
-* -- 11157
-:= -- 15241
-add.period$ -- 846
-call.type$ -- 216
+            2176 strings with 47365 characters,
+and the built_in function-call counts, 137975 in all, are:
+= -- 15512
+> -- 2259
+< -- 172
++ -- 1355
+- -- 682
+* -- 11344
+:= -- 15485
+add.period$ -- 857
+call.type$ -- 219
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 547
-duplicate$ -- 8992
-empty$ -- 14431
-format.name$ -- 669
-if$ -- 32974
+cite$ -- 558
+duplicate$ -- 9151
+empty$ -- 14657
+format.name$ -- 680
+if$ -- 33455
 int.to.chr$ -- 0
-int.to.str$ -- 216
+int.to.str$ -- 219
 missing$ -- 7
-newline$ -- 1282
-num.names$ -- 221
-pop$ -- 1102
+newline$ -- 1299
+num.names$ -- 224
+pop$ -- 1125
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3673
+skip$ -- 3709
 stack$ -- 0
-substring$ -- 16094
-swap$ -- 2721
-text.length$ -- 176
+substring$ -- 16362
+swap$ -- 2743
+text.length$ -- 177
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1809
-warning$ -- 331
-while$ -- 1385
-width$ -- 219
-write$ -- 1894
+type$ -- 1837
+warning$ -- 339
+while$ -- 1402
+width$ -- 222
+write$ -- 1916
 (There were 6 error messages)

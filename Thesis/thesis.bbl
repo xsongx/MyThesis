@@ -675,11 +675,6 @@ Computing Research Repository.
 国防科技大学学报.
 2013, 35~(2):  127--131.
 
-\bibitem{Liu2012b}
-Liu~B.
-Sentiment Analysis and Opinion Mining~[M].
-Morgan \& Claypool Publishers, 2012.
-
 \bibitem{黄萱菁2011}
 黄萱菁, 张奇, 吴苑斌.
 文本情感倾向分析~[J].
@@ -1196,34 +1191,58 @@ Three Fallacies about Action~[J].
 Behavioral and Brain Sciences.
 2000, 23:  665--666.
 
-\bibitem{Feng2013}
-Feng~W, Wang~J.
-Retweet or not?: personalized tweet re-ranking~[C].
-In Proc. of the 6th WSDM.
-2013:  577--586.
-
-\bibitem{Guerra2014}
-Guerra~P~C, Meira~W, Jr, Cardie~C.
-Sentiment Analysis on Evolving Social Streams: How Self-report Imbalances Can
-  Help~[C/OL].
-In Proc. of the 7th WSDM.
-New York, NY, USA, 2014:  443--452.
-\url{http://doi.acm.org/10.1145/2556195.2556261}.
-
-\bibitem{Bian2014}
-Bian~J, Yang~Y, Chua~T-S.
-Predicting Trending Messages and Diffusion Participants in Microblogging
-  Network~[C/OL].
-In Proc. of SIGIR '14.
-New York, NY, USA, 2014:  537--546.
-\url{http://doi.acm.org/10.1145/2600428.2609616}.
-
 \bibitem{suh2010want}
 Suh~B, Hong~L, Pirolli~P, et~al.
 Want to be retweeted? large scale analytics on factors impacting retweet in
   twitter network~[C].
 In Social Computing (SocialCom), 2010 IEEE Second International Conference on.
 2010:  177--184.
+
+\bibitem{petrovic2011rt}
+Petrovic~S, Osborne~M, Lavrenko~V.
+RT to Win! Predicting Message Propagation in Twitter.~[C].
+In ICWSM.
+2011.
+
+\bibitem{NaveedGKC2011}
+Naveed~N, Gottron~T, Kunegis~J, et~al.
+Bad News Travel Fast: A Content-based Analysis of Interestingness on
+  Twitter~[C].
+In WebSci '11: Proceedings of the 3rd International Conference on WebScience.
+2011.
+
+\bibitem{naveed2011searching}
+Naveed~N, Gottron~T, Kunegis~J, et~al.
+Searching microblogs: coping with sparsity and document quality~[C].
+In Proceedings of the 20th ACM international conference on Information and
+  knowledge management.
+2011:  183--188.
+
+\bibitem{feng2013retweet}
+Feng~W, Wang~J.
+Retweet or not?: personalized tweet re-ranking~[C].
+In Proceedings of the sixth ACM international conference on Web search and data
+  mining.
+2013:  577--586.
+
+\bibitem{Pfitzner2012}
+Pfitzner~R, Garas~A, Schweitzer~F.
+Emotional Divergence Influences Information Spreading in Twitter.~[C].
+In ICWSM.
+2012.
+
+\bibitem{Lek2013}
+Lek~H~H, Poo~D~C.
+Aspect-Based Twitter Sentiment Classification~[C].
+In Tools with Artificial Intelligence (ICTAI), 2013 IEEE 25th International
+  Conference.
+2013:  366--373.
+
+\bibitem{Cialdini2004}
+Cialdini~R~B, Goldstein~N~J.
+Social influence: Compliance and conformity~[J].
+Annu. Rev. Psychol.
+2004, 55:  591--621.
 
 \bibitem{petrovic2010streaming}
 Petrovi{\'c}~S, Osborne~M, Lavrenko~V.
