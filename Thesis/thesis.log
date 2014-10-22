@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  22 OCT 2014 01:02
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  22 OCT 2014 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 12 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -2017,12 +2017,7 @@ File: figures/socialmedia.png Graphic file (type QTm)
 
 
 
-] [2]
-
-Package natbib Warning: Citation `agichtein2008finding' on page 3 undefined on 
-input line 77.
-
-[3]
+] [2] [3]
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
 [][][]\EU1/AdobeSongStd(0)/m/n/10 来 源：| []$[][][][] [] [] [] [][][] [] [][][][]
 [][][][][][] [] [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][
@@ -2242,14 +2237,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
 [99]
-Underfull \hbox (badness 3907) in paragraph at lines 1076--1080
+Underfull \hbox (badness 3907) in paragraph at lines 1083--1087
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stein D, Wright S. Subjectivity and Subjecti
 visation: Linguistic Perspec-
  []
 
-[100] [101] [102] [103]) (./data/resume.tex [104] [105
+[100] [101] [102]) (./data/resume.tex [103]) [104
 
-]) [106]
+]
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
@@ -2275,12 +2270,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 32230 strings out of 493918
- 596926 string characters out of 6150564
- 672274 words of memory out of 5000000
- 35004 multiletter control sequences out of 15000+600000
- 84290 words of font info for 313 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 51i,20n,66p,10456b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32203 strings out of 495484
+ 596220 string characters out of 6183322
+ 668193 words of memory out of 5000000
+ 34869 multiletter control sequences out of 15000+600000
+ 84282 words of font info for 312 fonts, out of 8000000 for 9000
+ 102 hyphenation exceptions out of 8191
+ 51i,20n,66p,10456b,1337s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (119 pages).
+Output written on thesis.pdf (117 pages).

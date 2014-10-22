@@ -28,6 +28,13 @@ In Proceedings of the IJCAI Workshop on Learning Statistical Models from
   Relational Data.
 2003.
 
+\bibitem{Agichtein2008}
+Agichtein~E, Castillo~C, Donato~D, et~al.
+Finding high-quality content in social media~[C].
+In Proceedings of the international conference on Web search and web data
+  mining.
+2008:  183--194.
+
 \bibitem{stringhini2010detecting}
 Stringhini~G, Kruegel~C, Vigna~G.
 Detecting spammers on social networks~[C].
@@ -1376,65 +1383,5 @@ Combining recency and topic-dependent temporal variation for microblog
   search~[M]~//~Miyanishi~T, Seki~K, Uehara~K.
  Advances in Information Retrieval.
 Springer, 2013: 2013: 331--343.
-
-\bibitem{meij2012adding}
-Meij~E, Weerkamp~W, de~Rijke~M.
-Adding semantics to microblog posts~[C].
-In Proceedings of the fifth ACM international conference on Web search and data
-  mining.
-2012:  563--572.
-
-\bibitem{cassidy2012analysis}
-Cassidy~T, Ji~H, Ratinov~L-A, et~al.
-Analysis and Enhancement of Wikification for Microblogs with Context
-  Expansion.~[C].
-In COLING.
-2012:  441--456.
-
-\bibitem{osborne2012bieber}
-Osborne~M, Petrovic~S, McCreadie~R, et~al.
-Bieber no more: First story detection using Twitter and Wikipedia~[C].
-In Proceedings of the SIGIR Workshop on Time-aware Information Access.
-2012.
-
-\bibitem{dong2010time}
-Dong~A, Zhang~R, Kolari~P, et~al.
-Time is of the essence: improving recency ranking using twitter data~[C].
-In Proceedings of the 19th international conference on World wide web.
-2010:  331--340.
-
-\bibitem{phelan2011using}
-Phelan~O, McCarthy~K, Bennett~M, et~al.
-On using the real-time web for news recommendation \& discovery~[C].
-In Proceedings of the 20th international conference companion on World wide
-  web.
-2011:  103--104.
-
-\bibitem{tsagkias2011linking}
-Tsagkias~M, de~Rijke~M, Weerkamp~W.
-Linking online news and social media~[C].
-In Proceedings of the fourth ACM international conference on Web search and
-  data mining.
-2011:  565--574.
-
-\bibitem{becker2012identifying}
-Becker~H, Iter~D, Naaman~M, et~al.
-Identifying content for planned events across social media sites~[C].
-In Proceedings of the fifth ACM international conference on Web search and data
-  mining.
-2012:  533--542.
-
-\bibitem{petrovic2013can}
-Petrovic~S, Osborne~M, McCreadie~R, et~al.
-Can Twitter replace Newswire for breaking news?~[C].
-In Proceedings of the 7th International AAAI Conference on Weblogs and Social
-  Media.
-2013.
-
-\bibitem{chang2013improving}
-Chang~Y, Dong~A, Kolari~P, et~al.
-Improving recency ranking using twitter data~[J].
-ACM Transactions on Intelligent Systems and Technology (TIST).
-2013, 4~(1): ~4.
 
 \end{thebibliography}

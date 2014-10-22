@@ -4,9 +4,8 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 15215 items from 5000.
+Reallocated field_info (elt_size=4) to 14810 items from 5000.
 Database file #1: ref/refs.bib
-Warning--I didn't find a database entry for "agichtein2008finding"
 Warning--I didn't find a database entry for "macskassy2011people"
 Warning--I didn't find a database entry for "Luo:2013:RMF:2484028.2484158"
 Warning--I didn't find a database entry for "Liu2012b"
@@ -23,6 +22,8 @@ Warning--empty editor in jensen2002linkage
 Warning--The editor in taskar2003label is missing.
 Warning--empty editor in taskar2003label
 Warning--empty pages in taskar2003label
+Warning--The editor in Agichtein2008 is missing.
+Warning--empty editor in Agichtein2008
 Warning--The editor in stringhini2010detecting is missing.
 Warning--empty editor in stringhini2010detecting
 Warning--The editor in xiang2010modeling is missing.
@@ -350,65 +351,47 @@ Warning--empty editor in amati2012survival
 `editor' is a missing field, not a string, for entry miyanishi2013combining
 while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in miyanishi2013combining
-Warning--The editor in meij2012adding is missing.
-Warning--empty editor in meij2012adding
-Warning--The editor in cassidy2012analysis is missing.
-Warning--empty editor in cassidy2012analysis
-Warning--The editor in osborne2012bieber is missing.
-Warning--empty editor in osborne2012bieber
-Warning--empty pages in osborne2012bieber
-Warning--The editor in dong2010time is missing.
-Warning--empty editor in dong2010time
-Warning--The editor in phelan2011using is missing.
-Warning--empty editor in phelan2011using
-Warning--The editor in tsagkias2011linking is missing.
-Warning--empty editor in tsagkias2011linking
-Warning--The editor in becker2012identifying is missing.
-Warning--empty editor in becker2012identifying
-Warning--The editor in petrovic2013can is missing.
-Warning--empty editor in petrovic2013can
-Warning--empty pages in petrovic2013can
 
 Done.
-You've used 220 entries,
+You've used 212 entries,
             4554 wiz_defined-function locations,
-            2174 strings with 47512 characters,
-and the built_in function-call counts, 138653 in all, are:
-= -- 15580
-> -- 2272
-< -- 172
-+ -- 1363
-- -- 686
-* -- 11406
-:= -- 15564
-add.period$ -- 860
-call.type$ -- 220
+            2141 strings with 45912 characters,
+and the built_in function-call counts, 133172 in all, are:
+= -- 14982
+> -- 2174
+< -- 166
++ -- 1303
+- -- 656
+* -- 10927
+:= -- 14930
+add.period$ -- 828
+call.type$ -- 212
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 560
-duplicate$ -- 9206
-empty$ -- 14737
-format.name$ -- 684
-if$ -- 33612
+cite$ -- 536
+duplicate$ -- 8825
+empty$ -- 14151
+format.name$ -- 654
+if$ -- 32304
 int.to.chr$ -- 0
-int.to.str$ -- 220
+int.to.str$ -- 212
 missing$ -- 7
-newline$ -- 1304
-num.names$ -- 225
-pop$ -- 1133
+newline$ -- 1256
+num.names$ -- 217
+pop$ -- 1091
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3716
+skip$ -- 3595
 stack$ -- 0
-substring$ -- 16458
-swap$ -- 2747
-text.length$ -- 177
+substring$ -- 15788
+swap$ -- 2653
+text.length$ -- 171
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1843
-warning$ -- 340
-while$ -- 1407
-width$ -- 223
-write$ -- 1923
+type$ -- 1781
+warning$ -- 324
+while$ -- 1353
+width$ -- 215
+write$ -- 1853
 (There were 6 error messages)
