@@ -68,6 +68,19 @@ In Proceedings of the third ACM international conference on Web search and data
   mining.
 2010:  251--260.
 
+\bibitem{Liu2005}
+Liu~B, Hu~M, Cheng~J.
+Opinion Observer: Analyzing and Comparing Opinions on the Web~[C/OL].
+In Proceedings of the 14th International Conference on World Wide Web.
+New York, NY, USA, 2005:  342--351.
+\url{http://doi.acm.org/10.1145/1060745.1060797}.
+
+\bibitem{Liu2012}
+Liu~B.
+Sentiment analysis and opinion mining~[J].
+Synthesis Lectures on Human Language Technologies.
+2012, 5~(1):  1--167.
+
 \bibitem{Lyons1977}
 Lyons~J.
 Semantics. 2 vols.
@@ -95,12 +108,6 @@ Cambria~E, White~B.
 Jumping NLP curves: A review of natural language processing research~[J].
 IEEE Computational Intelligence Magazine.
 2014, 9~(2):  48--57.
-
-\bibitem{Liu2012}
-Liu~B.
-Sentiment analysis and opinion mining~[J].
-Synthesis Lectures on Human Language Technologies.
-2012, 5~(1):  1--167.
 
 \bibitem{Kim2004}
 Kim~S-M, Hovy~E.

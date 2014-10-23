@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  22 OCT 2014 15:08
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  23 OCT 2014 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 12 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -2011,44 +2011,49 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 . * 'normal' with NFSS spec.:
 . <->"Adobe Kaiti Std/ICU:script=hani;language=DFLT;mapping=tex-text;"
 .................................................
-File: figures/socialmedia.png Graphic file (type QTm)
+File: figures/1-1.png Graphic file (type QTm)
 
-<use  "figures/socialmedia.png" > [1
+<use  "figures/1-1.png" >
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'AdobeKaitiStd(0)' created for font 'Adobe Kaiti Std' with
+. options [Mapping=tex-text,Script={CJK}].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [1
 
 
 
-] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+]
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 45.
+ [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 [][][]\EU1/AdobeSongStd(0)/m/n/10 来 源：| []$[][][][] [] [] [] [][][] [] [][][][]
 [][][][][][] [] [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][
 ] [] [][][] [] [][][][] []
  []
 
-[4]
-Underfull \vbox (badness 6364) has occurred while \output is active []
-
- [5]
-[6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8] [9] [10] [11] [12]
+[4] [5] [6] [7] [8] [9] [10] [11] [12]
 
 Package natbib Warning: Citation `macskassy2011people' on page 13 undefined on 
-input line 177.
+input line 196.
 
+[13]
 
-LaTeX Warning: Reference `rel_retweet' on page 13 undefined on input line 185.
+LaTeX Warning: Reference `rel_retweet' on page 14 undefined on input line 204.
 
 File: figures/Research_Framwork.png Graphic file (type QTm)
-<use  "figures/Research_Framwork.png" > [13] [14] [15] [16]
+<use  "figures/Research_Framwork.png" > [14] [15] [16] [17]
 
-Package natbib Warning: Citation `Luo:2013:RMF:2484028.2484158' on page 17 unde
-fined on input line 245.
+Package natbib Warning: Citation `Luo:2013:RMF:2484028.2484158' on page 18 unde
+fined on input line 264.
 
 File: figures/Paper_Framwork.png Graphic file (type QTm)
-<use  "figures/Paper_Framwork.png" > [17]
-Underfull \vbox (badness 2393) has occurred while \output is active []
+<use  "figures/Paper_Framwork.png" >
+Underfull \vbox (badness 1478) has occurred while \output is active []
 
  [18])
 (./data/chap02.tex [19]
@@ -2136,14 +2141,6 @@ Package natbib Warning: Citation `jiang2011target' on page 41 undefined on inpu
 t line 16.
 
 [41] [42]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'AdobeKaitiStd(0)' created for font 'Adobe Kaiti Std' with
-. options [Mapping=tex-text,Script={CJK}].
-. 
-. This font family consists of the following shapes:
-.................................................
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
 t line 37.
 
@@ -2151,8 +2148,6 @@ t line 37.
 LaTeX Font Warning: Font shape `EU1/AdobeKaitiStd(0)/bx/n' undefined
 (Font)              using `EU1/AdobeKaitiStd(0)/m/n' instead on input line 38.
 
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 59.
 [43] [44] [45] [46]
 File: figures/4-1.png Graphic file (type QTm)
  <use  "figures/4-1.png" > [47
@@ -2237,12 +2232,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
 [99]
-Underfull \hbox (badness 3907) in paragraph at lines 1083--1087
+Underfull \hbox (badness 3907) in paragraph at lines 1090--1094
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stein D, Wright S. Subjectivity and Subjecti
 visation: Linguistic Perspec-
  []
 
-[100] [101] [102]) (./data/resume.tex [103]) [104
+[100] [101] [102] [103]) (./data/resume.tex [104]) [105
 
 ]
 \tf@thm=\write8
@@ -2270,12 +2265,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 32203 strings out of 495484
- 596220 string characters out of 6183322
- 668193 words of memory out of 5000000
- 34869 multiletter control sequences out of 15000+600000
- 84282 words of font info for 312 fonts, out of 8000000 for 9000
- 102 hyphenation exceptions out of 8191
- 51i,20n,66p,10456b,1337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32213 strings out of 493918
+ 596402 string characters out of 6150564
+ 669151 words of memory out of 5000000
+ 34987 multiletter control sequences out of 15000+600000
+ 84290 words of font info for 313 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 51i,20n,66p,10456b,1371s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (117 pages).
+Output written on thesis.pdf (118 pages).
