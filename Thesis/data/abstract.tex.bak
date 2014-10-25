@@ -1,66 +1,34 @@
 \begin{cabstract}
-现在的互联网上社交媒体随处可见，这给信息检索和传播分析工作带来了机遇与挑战。本文主要围绕在社交媒体中如何找到重要的信息以及信息是如何传播的展开。我们将Twitter作为研究对象，因为它是目前最著名的社交媒体之一，并且数据是公开的。这样从隐私的角度考虑，获取研究数据变得容易且能很好的为研究任务（如信息检索）服务。
+随着社交媒体的日益普及，越来越多的人开始在网上实时地以各种方式表达自己的观点。这些观点覆盖各种话题，并且用户群体庞大，使得网络正变成挖掘有关各种主题的群众意见非常宝贵的资源。然而社交媒体中的观点通常是在非结构化的文本中表达的，人工就某一话题去阅读所有的文本并提取总结出其中的观点是很困难的，需要能够以计算手段自动分析、整合并总结出文本中的观点。本文主要研究观点的自动分析与整合集成，对用户在社交媒体上就所关注话题发表的大量观点进行综合建模，并对用户的网络交互行为进行分析。
 
-信息检索的主要任务是在文档集合中，找到与给定话题相关的客观文本或主观文本。Twitter是一个丰富的包含各种话题及其评论信息的资源库，本文将探讨如何在Twitter中找到相关的信息。但是tweet的短小化和非正式的文本特点，使得Twitter中的检索不同于以往的检索任务（如，网页检索）。本文将通过研究tweet文本特点和特有的Twitter社交媒体属性帮助Twitter检索。另外，Twitter中信息的传播是一种普遍现象且与消息的质量相关（帮助Twitter中检索高质量的信息）。因此，我们从tweet本身和用户的角度，研究哪些因素影响了tweet的转发和人的转发行为。
+为了对问题进行系统地研究，我们确定了观点分析的三个主要步骤：文本中情感知识的获取，文本情感倾向性分类，用户观点的集成表示。这三个步骤组成了一个观点集成汇总系统的三个关键组成部分。本文的主要贡献是对四个相互联系协同的观点分析任务提出了新的通用的计算方法：
+\begin{itemize}
+\item \textbf{中文情感词汇的抽取和情感词典的构建：}目前表示情感知识的词典中主要是针对英文构建的情感词典，这些词典在观点信息确定、情感分类特征选择等任务中具有重要作用，是进行观点分析的基础。中文情感词典研究相对较少，还没有形成比较全面可用的情感词典，而靠人工编辑的情感词典费时费力，覆盖度偏低，因此本文首先根据不同语言间情感知识的对映性，借鉴已有的英文情感词典，使用HowNet语义知识库的语义关系计算确定了一些情感词汇并计算出正负情感极性值。为了提高词典的覆盖度以及领域情感知识的适应性，通过实验验证了根据语言规则和统计特征的基于语料库的情感词典的扩展方法，并提出了基于混合特征的扩展方法。
+\item \textbf{基于特征空间划分的情感分类方法：}情感分类是按照文本中的特征共现将文本分类为特定的情感类别，是一种特殊的文本分类。情感分类用到的情感知识特征有不同的地位，有的特征就具有通用的情感表达能力，能在不同领域和语境中表示相同的情感倾向性，而有的特征只有在特定的领域和语境中才能表达特定的情感倾向性。因此本文提出了将情感分类的特征空间分为领域独立和领域依赖两部分，分别使用两部分特征训练分类器然后组合在一个框架中形成一个更强的情感分类器，这种框架从现成的无需标注的资源开始，使用自举式的机器学习方法，可以在无监督情况下达到有监督方法的性能。
+\item \textbf{用户观点的整合与集成：}社交媒体中用户产生的内容是短小而又分散的，因此用户针对某些话题的观点信息是碎片化在这些非结构化的短文本中。为了能够全面准确的了解用户的观点，本文提出了用户主观模型的概念，将用户产生内容中的话题信息以及用户针对话题的观点信息按照话题的不同方面进行整合集成，并提出一种通用的观点的表示方法，将同一话题的观点表示为在一个可扩展话题空间的情感分布，能够提供用户更详细和多视角下的观点信息。
+\item \textbf{用户转发行为分析：}作为用户主观模型的直接应用，本文对用户在使用社交媒体时的信息传播行为的主观动机进行建模分析。针对Twitter中通常用户转发信息的三种情形，也就是用户对感兴趣和有吸引力的信息转发，用户基于社交需要对好友的信息转发以及用户对流行度高的信息转发，提出计算三种计算主观相似性的方法。并在转发行为的分析中，三种主观相似性度量与转发行为具有相关性，能够作为转发行为预测的有用特征，并能显著提高现有预测模型的性能。
+\end{itemize}
 
-我们的工作主要有四个部分：（1）利用结构化信息的Twitter检索；（2）Twitter观点检索； （3）Twitter中传播观点的发现；（4）Twitter中信息传播者的发现。四个工作具体如下：
+在对以上四个问题的研究中，我们侧重于使用通用的鲁棒性好的无监督方法，使得我们的方法可以适用于话题广泛的大量观点的自动分析。这使得本文区别于一些针对特定领域精心进行特征设计并
+进行充分训练的一些工作，因为这些工作转换到其他新领域就不适用了。我们这么做的主要想法是尽可能使用自然可用的资源，比如一些现成的词典，可以为观点信息的综合提供一些间接信号和指导。按照这种思想，我们的工作证明是通用的和有效的，能够在多个领域的一些有趣的应用中（比如商业智能和政治学）发挥作用。
 
-\textbf{利用结构化信息的Twitter检索：} \emph{Twitter检索是在Twitter中找到与给定话题相关的tweet的任务}。绝大部分的Twitter检索系统在构造检索模型时一般都认为tweet是一个平面文本，但用户在编辑tweet时的一些习惯使得tweet文本呈现结构化的特点。这种结构化是通过一些不同的文本积木块组合而成，积木类型具体包括平面文本、主题词、链接、提及等。每一种积木都有自己独特的本质，一系列积木的排序组合又反映了一定的话语转换。以往的研究发现，通过开发文本的结构信息能够帮助结构化文本的检索（例如，网页检索）。本工作通过积木结构开发tweet的结构化信息，以此帮助Twitter检索。我们利用积木及其排列组合开发了一系列特征，并将其应用到排序学习的框架中。我们发现利用结构化tweet的方法进行检索能够达到目前最好的Twitter检索方法效果，将结构化tweet的方法和其他社交媒体特征一起使用能够进一步提高Twitter的检索效果。
-
-\textbf{Twitter观点检索：} \emph{观点检索是在数据中找到对指定话题表达正面或反面观点的tweet的任务}。人们几乎在Twitter中表达了任何话题的观点，使其成为一个丰富的观点资源库。但是Twitter中也存在大量的垃圾信息和各种不同类型的文本，使得Twitter中的观点检索充满挑战。我们提出了如何利用tweet的社交媒体信息和文本结构化信息的方法帮助Twitter的观点检索。特别的，基于排序学习，我们发现tweet的用户信息（如用户包含朋友的数目）、tweet文本本身的结构信息和观点化程度影响着tweet的排序结果。实验结果表明社交媒体信息能够帮助Twitter的观点检索。基于无监督学习评价tweet观点化程度，并以此开发特征形成的检索方法能够到达手工标注tweet的有监督方法的检索效果，且这种方法能够帮助观点检索中话题依赖问题的解决。最后，我们在重新标注的TREC Tweets2011数据集上进一步验证了我们Twitter观点检索方法的有效性。
-
-\textbf{Twitter中传播观点的发现：} Twitter已经变成人们收集观点做出决策的重要资源，但是数量众多且差异巨大的观点严重影响了人们使用这些资源的效果。本文我们考虑了\emph{如何在Twitter中找到传播观点的任务---tweet不仅表达了对某些话题的观点，且这个tweet在未来会被转发}。利用排序学习模型，我们开发了一系列特征，具体包括tweet的传播度特征、观点化特征和文本质量特征。实验结果证明了我们开发的特征对于Twitter中传播观点的发现是有效的，并且将所有特征整合的方法在发现效果上能够显著优于BM25方法和Twitter观点检索方法。最后，我们发现我们的方法在预测观点传播上可以达到人预测的水平。
-
-\textbf{Twitter中信息传播者的发现：} Twitter和其它社交网络中一个重要的交流机制就是消息传播---人们分享其他人创建的消息。虽然目前有许多工作研究了Twitter中的tweet是如何传播的（转发），但是一个未解决的问题是到底\textbf{谁}会转发给定的tweet。这里我们考虑了\emph{在Twitter中给定一条tweet，发现作者的粉丝中谁会转发}。利用排序学习模型的框架，我们设计了一些特征，包括用户历史的转发信息，用户自身的社交媒体特征，用户使用 Twitter的活跃时间，以及用户的个人兴趣 。我们发现经常转发和提及作者的粉丝和与作者有相同兴趣爱好的人最有可能成为信息传播者。
-
-通过以上四个问题的研究，我们发现tweet的文本信息和Twitter的社交媒体特征能够帮助Twitter信息检索和传播分析。
 
 \end{cabstract}
-\ckeywords{Twitter; 信息检索; 观点检索; 传播观点; 信息传播者}
+\ckeywords{社交媒体; 情感词典; 情感分类; 观点集成; 信息传播}
 
 \begin{eabstract}
-Social Media is now ubiquitous on the internet, generating both new possibilities and new challenges in information retrieval and propagation analysis. This thesis focus on finding important information and propagated information analysis in Social Media. We take Twitter as our research subject, since it is one of the most Social Media and  public by default, which makes the data less problematic from a privacy standpoint, far easier to obtain
-and more amenable to target applications (such as information retrieval). 
 
-The main tasks in information retrieval are finding related objective or subjective documents about some topics in collection. Twitter is rich resource which contains information about various topics and opinions. Here we investigate how to find these information in Twitter. However, Twitter retrieval is different from traditional retrieval tasks (e.g, web search), since the text of tweet is short and informal. In this study we exploit textual features of tweet and the social media features to improve Twitter retrieval. Additionally, information dissemination is a prevalent phenomenon in Twitter and is related to the quality of message (which can help finding high quality information in Twitter). Therefore, from the point of view of tweets and users, we study the factors which affect tweet retweeting and users' retweeting behavior.
- 
-Our work can be divided into four parts: (1) improving Twitter retrieval by exploiting structural information, (2) opinion retrieval in Twitter, (3) finding propagated opinion in Twitter, (4) finding retweeters in Twitter. We introduce the four work in detail as follows:
+As Social Media becomes increasingly popular, more and more people express their opinions on the Web in various ways in real time. Such wide coverage of topics and abundance of users make the Web an extremely valuable source for mining people's opinions about all kinds of topics. However, since the opinions are usually expressed as unstructured text scattered in different sources, it is difficult for the users to digest all opinions relevant to a specific topic within a large amount of text pieces, which needs the computational methods to automatically analyze, integrate and summarize the opinions articulated in the text. This thesis focuses on the problem of opinion integration and summarization whose goal is to better support digestion of huge amounts of opinions for an arbitrary topic and model the interaction behavior of users. To systematically study this problem, we have identified three important steps of opinion analysis: extraction of sentiment knowledge, sentiment classification of text, and integration of opinions. These steps form three key components in an integrated opinion summarization system. Accordingly, this thesis makes contributions in proposing novel and general computational techniques for four synergistic tasks: 
+\begin{itemize}
+\item \textbf{Extraction and construction of Chinese sentiment lexicon:}Current sentiment lexicons are built mainly for English sentiment knowledge, which are basis of opinion analusis and play important roles in such tasks as subjectivity analysis, feature selection of sentiment classification, etc. There are relatively few studies on construction of Chinese sentiment lexicon, and there is no comprehensive lexicon available yet. However the sentiment lexicon compiled by human is time-consuming and laborious, while has a low coverage. Therefore based on the sentiment knowledge mapping between different languages and current English lexicons, we proposed a novel method to identify a number of positive and negative words and calculate their sentiment strength value using semantic relationships of HowNet semantic knowledge dictionary. In order to improve coverage and domain adaptability of sentiment lexicon, we verified language rules based and corpus based statistical extension methods with experiments, and proposed a hybrid features method.
+\item \textbf{Sentiment classification based feature space division:}Sentiment classification classifies the text into predefined categories according to feature co-occurence, and can be regarded as special text classification. The features of sentiment classification are used in different position: some features represent the same general sentiment  polarity across different domains and context, while others represent specific sentiment polarity only in specific domain and context. Therefore, we proposed to divide the feature space of sentiment classification into separate parts, which are domain-dependent part and domain-independent part. Two different classifiers are learned using two feature parts, and then combined together to form a stronger sentiment classifier in a bootstrapping machine learning frame, which started training on an off-the-shelf resources without annotation in an unsupervised bootstrapping way. The bootstrapping method can achieve the performance of supervised methods in an unsupervised situations.
+\item \textbf{Integration of opinions of users}User-generated content of social media is short and dispersed, so that the opinions of users about certain topic are scattered in the unstructured fragmented short text. To be able to understand comprehensively and accurately the users' opinions, we proposes a subjectivity model to combine the topics and the opinions integrated according to the different aspects of the same topic articulated in UGC. We also put forward a general representation of opinion, which defined opinion as sentiment distribution over a scalable sentiment space, and provided a more detailed and informed multiperspective view of the opinions.
+\item \textbf{Retweeting analysis of users:}As a direct application of subjectivity model, we analyzes the subjective motivation of the information dissemination behaviors for the social media users. For three scenarios a Twitter user retweeted a message, that is, the user retweeted for he is interested and attracted by message content, the user retweeted a message of a close friend based on the social needs and the user retweeted because the message is popular, we proposed three subjectivity similarity measurements. For retweeting behavior analysis, the three subjectivity similarities correlated to the behavior, and could serve as a useful features for retweeting behavior prediction, which could significantly improve the performance of existing prediction models.
+\end{itemize
 
-\textbf{Improving Twitter retrieval by Exploiting structural information}. \emph{Twitter retrieval deals with finding related tweets about some topics in Twitter.} Most Twitter search systems generally treat a tweet as a plain text when modeling relevance. However, a series of conventions allows users to tweet in structural ways using combination of different blocks of texts. These blocks include plain texts, hashtags, links, mentions, etc. Each block encodes a variety of communicative intent and sequence of these blocks captures changing discourse. Previous work shows that exploiting the structural information can improve the structured document (e.g., web pages) retrieval. In this study we utilize the structure of tweets, induced by these blocks, for Twitter retrieval. A set of features, derived from the blocks of text and their combinations, is used into a learning-to-rank scenario. We show that structuring tweets can achieve state-of-the-art performance. Our approach does not rely upon social media features, but when we do add this additional information, performance improves significantly. 
 
-\textbf{Opinion retrieval in Twitter}. \emph{Opinion retrieval deals with finding relevant documents that
-express either a negative or positive opinion about some topics}.  
-Social Networks such as Twitter, where people routinely post
-opinions about almost any topic, are rich environments for opinions. 
-However, spam and wildly varying documents makes opinion retrieval
-within Twitter challenging. Here we demonstrate how we can exploit 
-social  and structural textual information of tweets and 
-improve Twitter-based opinion retrieval.  In particular, within 
- a learning-to-rank
-technique, we explore the question of whether aspects of an author
-(such as the number of friends they have), information derived from
-the body of tweets and opinionatedness ratings of tweets can improve performance.
- Experimental results show that social features can improve retrieval
- performance.  Retrieval using a novel unsupervised opinionatedness
-feature achieves comparable
-performance with a supervised method using manually tagged
-Tweets. Topic-related specific structured Tweet
-sets are shown to help with query-dependent opinion retrieval. Finally, we
-further verify the  effectiveness of our approach for opinion retrieval in re-tagged TREC Tweets2011 corpus.
-
-\textbf{Finding Propagated opinions in Twitter}. Twitter has become an important source for people to collect opinions to make decisions. However the amount and the variety of opinions constitute the major challenge to using them effectively. Here we consider the problem of \emph{finding propagated opinions -- tweets that express an opinion about some topics, but will be retweeted}. Within a learning-to-rank framework, we explore a wide spectrum of features, such as retweetability, opinionatedness and textual quality of a tweet. The experimental results show the effectiveness of our features for this task. Moreover the best ranking model with all features can outperform a BM25 baseline and state-of-the-art for Twitter opinion retrieval approach. Finally, we show that our approach equals human performance on this task.
-
-\textbf{Finding retweeters in Twitter}. An important aspect of communication in Twitter (and other Social Networks) is
-message propagation -- people creating posts for others to share.
-Although there has been work on modelling how tweets
-in Twitter are propagated (retweeted), an
-untackled problem has been \textbf{who} will retweet a message. Here 
-we consider the task of \emph{finding who will retweet a message posted on Twitter}. Within a learning-to-rank framework, we explore 
-a wide range of features, such as retweet history, followers status, followers active time and followers interests. We find that 
-followers who retweeted or mentioned the author's tweets frequently before and have common interests are more likely to be 
-retweeters.
-
-Based on the study of four work above, we find the textual information of tweet and social media features in Twitter can help Twitter retrieval and propagation analysis.
+We focus on general and robust methods which require minimal human supervision so as
+to make the automated methods applicable to a wide range of topics and scalable to large amounts of opinions. This focus differentiates this thesis from work that is fine-tuned or well- trained for particular domains but are not easily adaptable to new domains. Our main idea is to exploit many naturally available resources, such as structured ontologies and social networks, which serve as indirect signals and guidance for generating opinion summaries. Along this line, our proposed techniques have been shown to be effective and general enough to be applied for potentially many interesting applications in multiple domains, such as business intelligence and political science.
 \end{eabstract}
 \ekeywords{Twitter; Information Retrieval; Opinion Retrieval; Propagated Opinion; Retweeter}
 
