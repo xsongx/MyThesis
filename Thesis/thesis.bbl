@@ -212,6 +212,72 @@ Predicting elections from biographical information about candidates: A test of
 Journal of Business Research.
 2011, 64~(7):  699--706.
 
+\bibitem{Pang2004}
+Pang~B, Lee~L.
+A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization
+  Based on Minimum Cuts~[C/OL].
+In Proceedings of the 42Nd Annual Meeting on Association for Computational
+  Linguistics.
+Stroudsburg, PA, USA, 2004.
+\url{http://dx.doi.org/10.3115/1218955.1218990}.
+
+\bibitem{Ding2009}
+Ding~X, Liu~B, Zhang~L.
+Entity Discovery and Assignment for Opinion Mining Applications~[C/OL].
+In Proceedings of the 15th ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining.
+New York, NY, USA, 2009:  1125--1134.
+\url{http://doi.acm.org/10.1145/1557019.1557141}.
+
+\bibitem{Zhao2010}
+Zhao~W~X, Jiang~J, Yan~H, et~al.
+Jointly Modeling Aspects and Opinions with a MaxEnt-LDA Hybrid~[C/OL].
+In Proceedings of the 2010 Conference on Empirical Methods in Natural Language
+  Processing.
+Stroudsburg, PA, USA, 2010:  56--65.
+\url{http://dl.acm.org/citation.cfm?id=1870658.1870664}.
+
+\bibitem{朱嫣岚2006}
+朱嫣岚, 闵锦, 周雅倩, et~al.
+基于HowNet的词汇语义倾向计算~[J].
+中文信息学报.
+2006, 20~(1):  14--20.
+
+\bibitem{Guo2011}
+Guo~Z, Li~Z, Tu~H.
+Sina Microblog: An Information-Driven Online Social Network~[C].
+In Cyberworlds (CW), 2011 International Conference on.
+Oct 2011:  160--167.
+
+\bibitem{Yu2011}
+Yu~L~L, Asur~S, Huberman~B~A.
+What Trends in Chinese Social Media~[J/OL].
+CoRR.
+2011, abs/1107.3522.
+\url{http://arxiv.org/abs/1107.3522}.
+
+\bibitem{Tian2012}
+Tian~D, Zheng~W-M.
+Chinese Microblogger character analysis using SVM~[C].
+In Wavelet Active Media Technology and Information Processing (ICWAMTIP), 2012
+  International Conference on.
+Dec 2012:  385--389.
+
+\bibitem{Gao2012}
+Gao~Q，Abel~F，Houben~G-J，等．
+A Comparative Study of Users’ Microblogging Behavior on Sina Weibo and
+  Twitter~[M]~//~Masthoff~J，Mobasher~B，Desmarais~M，等．
+ User Modeling, Adaptation, and Personalization：第7379卷．
+Springer Berlin Heidelberg，2012：2012: 88--101．
+
+\bibitem{zhang2008review}
+Zi-qiong~Z, Yi-jun~L, Qiang~Y, et~al.
+Sentiment classification for Chinese product reviews using an unsupervised
+  Internet-based method~[C].
+In Management Science and Engineering, 2008. ICMSE 2008. 15th Annual Conference
+  Proceedings., International Conference on.
+Sept 2008:  3--9.
+
 \bibitem{hong2011predicting}
 Hong~L, Dan~O, Davison~B~D.
 Predicting popular messages in twitter~[C].
@@ -715,12 +781,6 @@ Agerri~R, Garc I A-Serrano~A.
 Q-WordNet: Extracting Polarity from WordNet Senses.~[C].
 Valletta, Malta, 2010.
 
-\bibitem{朱嫣岚2006}
-朱嫣岚, 闵锦, 周雅倩, et~al.
-基于HowNet的词汇语义倾向计算~[J].
-中文信息学报.
-2006, 20~(1):  14--20.
-
 \bibitem{朱征宇2013}
 朱征宇, 孙俊华.
 改进的基于《知网》的词汇语义相似度计算~[J].
@@ -1197,6 +1257,12 @@ Hyman~J.
 Three Fallacies about Action~[J].
 Behavioral and Brain Sciences.
 2000, 23:  665--666.
+
+\bibitem{Feng2013}
+Feng~S, Zhang~L, Li~B, et~al.
+Is Twitter A Better Corpus for Measuring Sentiment Similarity?~[C].
+In EMNLP'13.
+2013:  897--902.
 
 \bibitem{suh2010want}
 Suh~B, Hong~L, Pirolli~P, et~al.
