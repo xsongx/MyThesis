@@ -68,19 +68,6 @@ In Proceedings of the third ACM international conference on Web search and data
   mining.
 2010:  251--260.
 
-\bibitem{Liu2005}
-Liu~B, Hu~M, Cheng~J.
-Opinion Observer: Analyzing and Comparing Opinions on the Web~[C/OL].
-In Proceedings of the 14th International Conference on World Wide Web.
-New York, NY, USA, 2005:  342--351.
-\url{http://doi.acm.org/10.1145/1060745.1060797}.
-
-\bibitem{Liu2012}
-Liu~B.
-Sentiment analysis and opinion mining~[J].
-Synthesis Lectures on Human Language Technologies.
-2012, 5~(1):  1--167.
-
 \bibitem{Lyons1977}
 Lyons~J.
 Semantics. 2 vols.
@@ -97,84 +84,47 @@ Rachels~J, Rachels~S.
 The elements of moral philosophy~[M].
 Random House New York, 1986.
 
-\bibitem{Pang2008OMS}
-Pang~B, Lee~L.
-Opinion Mining and Sentiment Analysis~[J].
-Found. Trends Inf. Retr.
-2008, 2~(1-2):  1--135.
+\bibitem{Hoffman2008}
+Hoffman~T.
+Online reputation management is hot -- but is it ethical?~[EB/OL].
+2008.
+\url{http://www.computerworld.com/article/2537007/networking/online-reputation-management-is-hot----but-is-it-ethical-.html}.
 
-\bibitem{cambria2014jumping}
-Cambria~E, White~B.
-Jumping NLP curves: A review of natural language processing research~[J].
-IEEE Computational Intelligence Magazine.
-2014, 9~(2):  48--57.
+\bibitem{Horrigan2008}
+HORRIGAN~J.
+Online Shopping~[EB/OL].
+2008.
+\url{http://www.pewinternet.org/2008/02/13/online-shopping/}.
 
-\bibitem{Kim2004}
-Kim~S-M, Hovy~E.
-Determining the sentiment of opinions~[C].
-In Proceedings of the 20th international conference on Computational
-  Linguistics.
-2004:  1367.
+\bibitem{Mullen2006}
+Mullen~T, Malouf~R.
+A preliminary investigation into sentiment analysis of informal political
+  discourse~[C/OL].
+In {AAAI} symposium on computational approaches to analysing weblogs
+  ({AAAI}-{CAAW}).
+2006:  159--162.
+\url{http://www.aaai.org/Papers/Symposia/Spring/2006/SS-06-03/SS06-03-031.pdf}.
 
-\bibitem{Wiebe1994}
-Wiebe~J~M.
-Tracking point of view in narrative~[J].
-Computational Linguistics.
-1994, 20~(2):  233--287.
+\bibitem{Antweiler2004}
+Antweiler~W, Frank~M~Z.
+Is all that talk just noise? The information content of internet stock message
+  boards~[J].
+The Journal of Finance.
+2004, 59~(3):  1259--1294.
 
-\bibitem{Dave2003}
-Dave~K, Lawrence~S, Pennock~D~M.
-Mining the peanut gallery: Opinion extraction and semantic classification of
-  product reviews~[C].
-In Proceedings of the 12th international conference on World Wide Web.
-2003:  519--528.
+\bibitem{Archak2007}
+Archak~N, Ghose~A, Ipeirotis~P~G.
+Show me the money!: deriving the pricing power of product features by mining
+  consumer reviews~[C].
+In Proceedings of the 13th ACM SIGKDD international conference on Knowledge
+  discovery and data mining.
+2007:  56--65.
 
-\bibitem{Liu2007}
-Liu~Y, Huang~X, An~A, et~al.
-ARSA: a sentiment-aware model for predicting sales performance using blogs~[C].
-In Proceedings of the 30th annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2007:  607--614.
-
-\bibitem{Oghina2012}
-Oghina~A, Breuss~M, Tsagkias~M, et~al.
-Predicting imdb movie ratings using social media~[M]~//~Oghina~A, Breuss~M,
-  Tsagkias~M, et~al.
- Advances in information retrieval.
-Springer, 2012: 2012: 503--507.
-
-\bibitem{Joshi2010}
-Joshi~M, Das~D, Gimpel~K, et~al.
-Movie reviews and revenues: An experiment in text regression~[C].
-In Human Language Technologies: The 2010 Annual Conference of the North
-  American Chapter of the Association for Computational Linguistics.
-2010:  293--296.
-
-\bibitem{Sadikov2009}
-Sadikov~E, Parameswaran~A~G, Venetis~P.
-Blogs as Predictors of Movie Success.~[C].
-In ICWSM.
-2009.
-
-\bibitem{Asur2010}
-Asur~S, Huberman~B~A.
-Predicting the future with social media~[C].
-In Web Intelligence and Intelligent Agent Technology (WI-IAT), 2010
-  IEEE/WIC/ACM International Conference on.
-2010:  492--499.
-
-\bibitem{Zhang2011}
-Zhang~X, Fuehres~H, Gloor~P~A.
-Predicting stock market indicators through twitter “I hope it is not as bad
-  as I fear”~[J].
-Procedia-Social and Behavioral Sciences.
-2011, 26:  55--62.
-
-\bibitem{bollen2011twitter}
-Bollen~J, Mao~H, Zeng~X.
-Twitter mood predicts the stock market~[J].
-Journal of Computational Science.
-2011, 2~(1):  1--8.
+\bibitem{Chevalier2006}
+Chevalier~J, Mayzlin~D.
+The effect of word of mouth on sales: Online book reviews~[J].
+J. Marketing Res.
+2006:  345--354.
 
 \bibitem{Tumasjan2010}
 Tumasjan~A, Sprenger~T~O, Sandner~P~G, et~al.
@@ -183,100 +133,30 @@ Predicting Elections with Twitter: What 140 Characters Reveal about Political
 ICWSM.
 2010, 10:  178--185.
 
-\bibitem{Chen2012}
-Chen~L, Wang~W, Sheth~A~P.
-Are Twitter users equal in predicting elections? A study of user groups in
-  predicting 2012 US Republican Presidential Primaries~[M]~//~Chen~L, Wang~W,
-  Sheth~A~P.
- Social informatics.
-Springer, 2012: 2012: 379--392.
+\bibitem{bollen2011twitter}
+Bollen~J, Mao~H, Zeng~X.
+Twitter mood predicts the stock market~[J].
+Journal of Computational Science.
+2011, 2~(1):  1--8.
 
-\bibitem{Metaxas2011}
-Metaxas~P~T, Mustafaraj~E, Gayo-Avello~D.
-How (not) to predict elections~[C].
-In Privacy, security, risk and trust (PASSAT), 2011 IEEE third international
-  conference on and 2011 IEEE third international conference on social
-  computing (SocialCom).
-2011:  165--171.
-
-\bibitem{Gayo-Avello2011}
-Gayo-Avello~D, Metaxas~P~T, Mustafaraj~E.
-Limits of electoral predictions using twitter.~[C].
-In ICWSM.
-2011.
-
-\bibitem{Armstrong2011}
-Armstrong~J~S, Graefe~A.
-Predicting elections from biographical information about candidates: A test of
-  the index method~[J].
-Journal of Business Research.
-2011, 64~(7):  699--706.
-
-\bibitem{Pang2004}
+\bibitem{Pang2008OMS}
 Pang~B, Lee~L.
-A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization
-  Based on Minimum Cuts~[C/OL].
-In Proceedings of the 42Nd Annual Meeting on Association for Computational
+Opinion Mining and Sentiment Analysis~[J].
+Found. Trends Inf. Retr.
+2008, 2~(1-2):  1--135.
+
+\bibitem{Liu2012}
+Liu~B.
+Sentiment analysis and opinion mining~[J].
+Synthesis Lectures on Human Language Technologies.
+2012, 5~(1):  1--167.
+
+\bibitem{Kim2004}
+Kim~S-M, Hovy~E.
+Determining the sentiment of opinions~[C].
+In Proceedings of the 20th international conference on Computational
   Linguistics.
-Stroudsburg, PA, USA, 2004.
-\url{http://dx.doi.org/10.3115/1218955.1218990}.
-
-\bibitem{Ding2009}
-Ding~X, Liu~B, Zhang~L.
-Entity Discovery and Assignment for Opinion Mining Applications~[C/OL].
-In Proceedings of the 15th ACM SIGKDD International Conference on Knowledge
-  Discovery and Data Mining.
-New York, NY, USA, 2009:  1125--1134.
-\url{http://doi.acm.org/10.1145/1557019.1557141}.
-
-\bibitem{Zhao2010}
-Zhao~W~X, Jiang~J, Yan~H, et~al.
-Jointly Modeling Aspects and Opinions with a MaxEnt-LDA Hybrid~[C/OL].
-In Proceedings of the 2010 Conference on Empirical Methods in Natural Language
-  Processing.
-Stroudsburg, PA, USA, 2010:  56--65.
-\url{http://dl.acm.org/citation.cfm?id=1870658.1870664}.
-
-\bibitem{朱嫣岚2006}
-朱嫣岚, 闵锦, 周雅倩, et~al.
-基于HowNet的词汇语义倾向计算~[J].
-中文信息学报.
-2006, 20~(1):  14--20.
-
-\bibitem{Guo2011}
-Guo~Z, Li~Z, Tu~H.
-Sina Microblog: An Information-Driven Online Social Network~[C].
-In Cyberworlds (CW), 2011 International Conference on.
-Oct 2011:  160--167.
-
-\bibitem{Yu2011}
-Yu~L~L, Asur~S, Huberman~B~A.
-What Trends in Chinese Social Media~[J/OL].
-CoRR.
-2011, abs/1107.3522.
-\url{http://arxiv.org/abs/1107.3522}.
-
-\bibitem{Tian2012}
-Tian~D, Zheng~W-M.
-Chinese Microblogger character analysis using SVM~[C].
-In Wavelet Active Media Technology and Information Processing (ICWAMTIP), 2012
-  International Conference on.
-Dec 2012:  385--389.
-
-\bibitem{Gao2012}
-Gao~Q，Abel~F，Houben~G-J，等．
-A Comparative Study of Users’ Microblogging Behavior on Sina Weibo and
-  Twitter~[M]~//~Masthoff~J，Mobasher~B，Desmarais~M，等．
- User Modeling, Adaptation, and Personalization：第7379卷．
-Springer Berlin Heidelberg，2012：2012: 88--101．
-
-\bibitem{zhang2008review}
-Zi-qiong~Z, Yi-jun~L, Qiang~Y, et~al.
-Sentiment classification for Chinese product reviews using an unsupervised
-  Internet-based method~[C].
-In Management Science and Engineering, 2008. ICMSE 2008. 15th Annual Conference
-  Proceedings., International Conference on.
-Sept 2008:  3--9.
+2004:  1367.
 
 \bibitem{hong2011predicting}
 Hong~L, Dan~O, Davison~B~D.
@@ -781,6 +661,12 @@ Agerri~R, Garc I A-Serrano~A.
 Q-WordNet: Extracting Polarity from WordNet Senses.~[C].
 Valletta, Malta, 2010.
 
+\bibitem{朱嫣岚2006}
+朱嫣岚, 闵锦, 周雅倩, et~al.
+基于HowNet的词汇语义倾向计算~[J].
+中文信息学报.
+2006, 20~(1):  14--20.
+
 \bibitem{朱征宇2013}
 朱征宇, 孙俊华.
 改进的基于《知网》的词汇语义相似度计算~[J].
@@ -1151,6 +1037,12 @@ Stein~D, Wright~S.
 Subjectivity and Subjectivisation: Linguistic Perspectives~[M/OL].
 Cambridge University Press, 2005.
 \url{http://books.google.com.hk/books?id=mWlS5Q8uBYcC}.
+
+\bibitem{cambria2014jumping}
+Cambria~E, White~B.
+Jumping NLP curves: A review of natural language processing research~[J].
+IEEE Computational Intelligence Magazine.
+2014, 9~(2):  48--57.
 
 \bibitem{Lin2010}
 Lin~C, He~Y, Everson~R.

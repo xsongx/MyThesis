@@ -108,8 +108,6 @@
   Year                     = {2008},
   Month                    = {Sept},
   Pages                    = {3-9},
-
-  __markedentry            = {[xsongx:6]},
   Doi                      = {10.1109/ICMSE.2008.4668885},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
@@ -297,6 +295,19 @@
   Pages                    = {2483--2486}
 }
 
+@Article{Antweiler2004,
+  Title                    = {Is all that talk just noise? The information content of internet stock message boards},
+  Author                   = {Antweiler, Werner and Frank, Murray Z},
+  Journal                  = {The Journal of Finance},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {1259--1294},
+  Volume                   = {59},
+  Owner                    = {xsongx},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2014.10.26}
+}
+
 @InProceedings{aramaki2011twitter,
   Title                    = {Twitter catches the flu: Detecting influenza epidemics using twitter},
   Author                   = {Aramaki, Eiji and Maskawa, Sachiko and Morita, Mizuki},
@@ -304,6 +315,17 @@
   Year                     = {2011},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {1568--1576}
+}
+
+@InProceedings{Archak2007,
+  Title                    = {Show me the money!: deriving the pricing power of product features by mining consumer reviews},
+  Author                   = {Archak, Nikolay and Ghose, Anindya and Ipeirotis, Panagiotis G},
+  Booktitle                = {Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining},
+  Year                     = {2007},
+  Organization             = {ACM},
+  Pages                    = {56--65},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.26}
 }
 
 @InProceedings{Ardon2013,
@@ -953,6 +975,18 @@
   Timestamp                = {2014.10.09}
 }
 
+@Article{Chevalier2006,
+  Title                    = {The effect of word of mouth on sales: Online book reviews},
+  Author                   = {Judith Chevalier and Dina Mayzlin},
+  Journal                  = {J. Marketing Res},
+  Year                     = {2006},
+  Pages                    = {345--354},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.26}
+}
+
 @InProceedings{choi2012temporal,
   Title                    = {Temporal models for microblogs},
   Author                   = {Choi, Jaeho and Croft, W Bruce},
@@ -1144,6 +1178,7 @@
   Year                     = {2014},
   Organization             = {ACM},
   Pages                    = {403--412},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
 }
@@ -1365,6 +1400,7 @@
   Booktitle                = {EMNLP'13},
   Year                     = {2013},
   Pages                    = {897-902},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
 }
@@ -1478,8 +1514,6 @@
   Pages                    = {88-101},
   Series                   = {Lecture Notes in Computer Science},
   Volume                   = {7379},
-
-  __markedentry            = {[xsongx:]},
   Doi                      = {10.1007/978-3-642-31454-4_8},
   ISBN                     = {978-3-642-31453-7},
   Keywords                 = {user modeling; microblogging; comparative usage analysis},
@@ -1741,6 +1775,7 @@
   Year                     = {2011},
   Month                    = {Oct},
   Pages                    = {160-167},
+
   Doi                      = {10.1109/CW.2011.12},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
@@ -1889,6 +1924,18 @@
   Pages                    = {688--689}
 }
 
+@Electronic{Hoffman2008,
+  Title                    = {Online reputation management is hot -- but is it ethical?},
+  Author                   = {Thomas Hoffman},
+  Month                    = {Feb 12},
+  Organization             = {Computer world},
+  Url                      = {http://www.computerworld.com/article/2537007/networking/online-reputation-management-is-hot----but-is-it-ethical-.html},
+  Year                     = {2008},
+
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.26}
+}
+
 @InProceedings{honey2009beyond,
   Title                    = {Beyond microblogging: Conversation and collaboration via Twitter},
   Author                   = {Honey, C and Herring, Susan C},
@@ -1964,6 +2011,18 @@
   Year                     = {2013},
   Organization             = {ACM},
   Pages                    = {557--566}
+}
+
+@Electronic{Horrigan2008,
+  Title                    = {Online Shopping},
+  Author                   = {JOHN HORRIGAN},
+  Month                    = {FEBRUARY},
+  Organization             = {Pew Internet and American Life Project Report},
+  Url                      = {http://www.pewinternet.org/2008/02/13/online-shopping/},
+  Year                     = {2008},
+
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.26}
 }
 
 @InProceedings{Hu2013,
@@ -2626,6 +2685,7 @@
   Pages                    = {342--351},
   Publisher                = {ACM},
   Series                   = {WWW '05},
+
   Acmid                    = {1060797},
   Doi                      = {10.1145/1060745.1060797},
   ISBN                     = {1-59593-046-9},
@@ -3328,6 +3388,18 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {2531--2534}
+}
+
+@InProceedings{Mullen2006,
+  Title                    = {A preliminary investigation into sentiment analysis of informal political discourse},
+  Author                   = {Mullen, Tony and Malouf, Robert},
+  Booktitle                = {{AAAI} symposium on computational approaches to analysing weblogs ({AAAI}-{CAAW})},
+  Year                     = {2006},
+  Pages                    = {159--162},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.26},
+  Url                      = {http://www.aaai.org/Papers/Symposia/Spring/2006/SS-06-03/SS06-03-031.pdf},
+  Urldate                  = {2013-05-22TZ}
 }
 
 @InCollection{na2009improving,
@@ -4482,6 +4554,7 @@
   Year                     = {2012},
   Month                    = {Dec},
   Pages                    = {385-389},
+
   Doi                      = {10.1109/ICWAMTIP.2012.6413519},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
@@ -4905,6 +4978,7 @@
   Number                   = {4},
   Pages                    = {1376-1384},
   Volume                   = {21},
+
   Doi                      = {10.1007/s11771-014-2075-4},
   ISSN                     = {2095-2899},
   Keywords                 = {sentiment analysis; sentiment classification; bootstrapping; idioms; general classifier; domain-specific classifier},
@@ -5083,6 +5157,7 @@
   Journal                  = {CoRR},
   Year                     = {2011},
   Volume                   = {abs/1107.3522},
+
   Bibsource                = {dblp computer science bibliography, http://dblp.org},
   Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1107-3522},
   Owner                    = {xsongx},
@@ -5108,6 +5183,7 @@
   Year                     = {2014},
   Number                   = {4},
   Volume                   = {29},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
 }
@@ -5264,6 +5340,7 @@
   Pages                    = {56--65},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {EMNLP '10},
+
   Acmid                    = {1870664},
   Location                 = {Cambridge, Massachusetts},
   Numpages                 = {10},
