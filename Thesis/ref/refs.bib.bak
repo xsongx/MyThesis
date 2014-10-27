@@ -108,6 +108,7 @@
   Year                     = {2008},
   Month                    = {Sept},
   Pages                    = {3-9},
+
   Doi                      = {10.1109/ICMSE.2008.4668885},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
@@ -303,6 +304,7 @@
   Number                   = {3},
   Pages                    = {1259--1294},
   Volume                   = {59},
+
   Owner                    = {xsongx},
   Publisher                = {Wiley Online Library},
   Timestamp                = {2014.10.26}
@@ -324,6 +326,7 @@
   Year                     = {2007},
   Organization             = {ACM},
   Pages                    = {56--65},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.26}
 }
@@ -981,8 +984,6 @@
   Journal                  = {J. Marketing Res},
   Year                     = {2006},
   Pages                    = {345--354},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.26}
 }
@@ -1514,6 +1515,7 @@
   Pages                    = {88-101},
   Series                   = {Lecture Notes in Computer Science},
   Volume                   = {7379},
+
   Doi                      = {10.1007/978-3-642-31454-4_8},
   ISBN                     = {978-3-642-31453-7},
   Keywords                 = {user modeling; microblogging; comparative usage analysis},
@@ -3146,6 +3148,18 @@
   Pages                    = {563--572}
 }
 
+@InProceedings{Melville2009,
+  Title                    = {Sentiment analysis of blogs by combining lexical knowledge with text classification},
+  Author                   = {Prem Melville and Wojciech Gryc and Wolfson Bldg and Parks Rd and Richard D. Lawrence},
+  Booktitle                = {In KDD},
+  Year                     = {2009},
+  Pages                    = {1275--1284},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
+}
+
 @InProceedings{meng2012entity,
   Title                    = {Entity-centric topic-oriented opinion summarization in twitter},
   Author                   = {Meng, Xinfan and Wei, Furu and Liu, Xiaohua and Zhou, Ming and Li, Sujian and Wang, Houfeng},
@@ -3396,6 +3410,7 @@
   Booktitle                = {{AAAI} symposium on computational approaches to analysing weblogs ({AAAI}-{CAAW})},
   Year                     = {2006},
   Pages                    = {159--162},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.26},
   Url                      = {http://www.aaai.org/Papers/Symposia/Spring/2006/SS-06-03/SS06-03-031.pdf},
@@ -4140,6 +4155,17 @@
   Pages                    = {325--336}
 }
 
+@InProceedings{Schler2005,
+  Title                    = {The importance of neutral examples for learning sentiment},
+  Author                   = {Jonathan Schler and Jonathan Schler},
+  Booktitle                = {In Workshop on the Analysis of Informal and Formal Information Exchange during Negotiations (FINEXIN},
+  Year                     = {2005},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
+}
+
 @InProceedings{seki2009adaptive,
   Title                    = {Adaptive subjective triggers for opinionated document retrieval},
   Author                   = {Seki, Kazuhiro and Uehara, Kuniaki},
@@ -4875,6 +4901,37 @@
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@InProceedings{Wiebe2005,
+  Title                    = {Creating Subjective and Objective Sentence Classifiers from Unannotated Texts},
+  Author                   = {Wiebe, Janyce and Riloff, Ellen},
+  Booktitle                = {Proceedings of the 6th International Conference on Computational Linguistics and Intelligent Text Processing},
+  Year                     = {2005},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {486--497},
+  Publisher                = {Springer-Verlag},
+  Series                   = {CICLing'05},
+
+  Acmid                    = {2132112},
+  Doi                      = {10.1007/978-3-540-30586-6_53},
+  ISBN                     = {3-540-24523-5, 978-3-540-24523-0},
+  Location                 = {Mexico City, Mexico},
+  Numpages                 = {12},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-30586-6_53}
+}
+
+@InProceedings{Wiebe2001,
+  Title                    = {Identifying Collocations for Recognizing Opinions},
+  Author                   = {Janyce Wiebe and Theresa Wilson and Matthew Bell},
+  Booktitle                = {In Proc. ACL-01 Workshop on Collocation: Computational Extraction, Analysis, and Exploitation},
+  Year                     = {2001},
+  Pages                    = {24--31},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
 }
 
 @Article{Wiebe2004,

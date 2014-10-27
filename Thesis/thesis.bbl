@@ -158,12 +158,24 @@ In Proceedings of the 20th international conference on Computational
   Linguistics.
 2004:  1367.
 
-\bibitem{hong2011predicting}
-Hong~L, Dan~O, Davison~B~D.
-Predicting popular messages in twitter~[C].
-In Proceedings of the 20th international conference companion on World wide
-  web.
-2011:  57--58.
+\bibitem{he2008effective}
+He~B, Macdonald~C, He~J, et~al.
+An effective statistical approach to blog post opinion retrieval~[C].
+In Proceedings of the 17th ACM conference on Information and knowledge
+  management.
+2008:  1063--1072.
+
+\bibitem{macdonald2007overview}
+Macdonald~C, Ounis~I, Soboroff~I.
+Overview of the TREC 2007 Blog Track.~[C].
+In TREC.
+2007:  31--43.
+
+\bibitem{ounis2011overview}
+Ounis~I, Macdonald~C, Lin~J, et~al.
+Overview of the trec-2011 microblog track~[C].
+In Proceeddings of the 20th Text REtrieval Conference (TREC 2011).
+2011.
 
 \bibitem{toutanova2003feature}
 Toutanova~K, Klein~D, Manning~C~D, et~al.

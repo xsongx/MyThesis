@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  27 OCT 2014 00:13
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  27 OCT 2014 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 12 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -2036,26 +2036,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 ] [] [][][] [] [][][][] []
  []
 
-[4] [5] [6] [7] [8] [9] [10] [11] [12]
+[4] [5] [6] [7] [8] [9] [10] [11]
 
-Package natbib Warning: Citation `macskassy2011people' on page 13 undefined on 
-input line 235.
+Package natbib Warning: Citation `macskassy2011people' on page 12 undefined on 
+input line 239.
 
+[12]
 
-LaTeX Warning: Reference `rel_retweet' on page 13 undefined on input line 243.
+LaTeX Warning: Reference `rel_retweet' on page 13 undefined on input line 247.
 
 File: figures/Research_Framwork.png Graphic file (type QTm)
 <use  "figures/Research_Framwork.png" > [13] [14] [15] [16]
 
 Package natbib Warning: Citation `Luo:2013:RMF:2484028.2484158' on page 17 unde
-fined on input line 303.
+fined on input line 307.
 
 File: figures/Paper_Framwork.png Graphic file (type QTm)
-<use  "figures/Paper_Framwork.png" > [17]
-Underfull \vbox (badness 2393) has occurred while \output is active []
+<use  "figures/Paper_Framwork.png" > [17]) (./data/chap02.tex
+Underfull \vbox (badness 2401) has occurred while \output is active []
 
- [18])
-(./data/chap02.tex [19]
+ [18]
+[19]
 
 Package natbib Warning: Citation `Liu2012b' on page 20 undefined on input line 
 12.
@@ -2283,7 +2284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--107
  []
 
 [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
-Underfull \hbox (badness 3907) in paragraph at lines 1036--1040
+Underfull \hbox (badness 3907) in paragraph at lines 1048--1052
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stein D, Wright S. Subjectivity and Subjecti
 visation: Linguistic Perspec-
  []
@@ -2316,12 +2317,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 32220 strings out of 493918
- 597085 string characters out of 6150564
- 655054 words of memory out of 5000000
- 34994 multiletter control sequences out of 15000+600000
+ 32225 strings out of 495484
+ 597230 string characters out of 6183322
+ 654143 words of memory out of 5000000
+ 34890 multiletter control sequences out of 15000+600000
  84290 words of font info for 313 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 102 hyphenation exceptions out of 8191
  51i,20n,66p,10456b,1331s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (117 pages).
