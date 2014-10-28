@@ -4,10 +4,8 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 14990 items from 5000.
+Reallocated field_info (elt_size=4) to 14585 items from 5000.
 Database file #1: ref/refs.bib
-Warning--I didn't find a database entry for "macskassy2011people"
-Warning--I didn't find a database entry for "Luo:2013:RMF:2484028.2484158"
 Warning--I didn't find a database entry for "Liu2012b"
 Warning--I didn't find a database entry for "jiang2011target"
 Warning--I didn't find a database entry for ""
@@ -173,6 +171,9 @@ Warning--The editor in boyd2010tweet is missing.
 Warning--empty editor in boyd2010tweet
 Warning--The editor in yang2010understanding is missing.
 Warning--empty editor in yang2010understanding
+Warning--The editor in Macskassy2011 is missing.
+Warning--empty editor in Macskassy2011
+Warning--empty pages in Macskassy2011
 Warning--The editor in starbird2012will is missing.
 Warning--empty editor in starbird2012will
 Warning--The editor in comarela2012understanding is missing.
@@ -186,22 +187,6 @@ Warning--The editor in ahmed2013peek is missing.
 Warning--empty editor in ahmed2013peek
 Warning--The editor in bao2013popularity is missing.
 Warning--empty editor in bao2013popularity
-Warning--empty pages in stajner2013automatic
-Warning--empty pages in kothari2013detecting
-Warning--The editor in li2013exploiting is missing.
-Warning--empty editor in li2013exploiting
-`editor' is a missing field, not a string, for entry zhang2013personalized
-while executing---line 5059 of file bstutf8.bst
-Warning--there's a publisher but no address in zhang2013personalized
-Warning--The editor in luo2012improving is missing.
-Warning--empty editor in luo2012improving
-Warning--empty pages in luo2012improving
-Warning--The editor in luo2012opinion is missing.
-Warning--empty editor in luo2012opinion
-Warning--empty pages in luo2012opinion
-Warning--The editor in l2013Luo_POR is missing.
-Warning--empty editor in l2013Luo_POR
-Warning--empty pages in l2013Luo_POR
 Warning--empty pages in Yuan2013
 Warning--The editor in Wilson2005d is missing.
 Warning--empty editor in Wilson2005d
@@ -275,9 +260,6 @@ Warning--The editor in Lin2009 is missing.
 Warning--empty editor in Lin2009
 Warning--The editor in Hannon2010 is missing.
 Warning--empty editor in Hannon2010
-Warning--The editor in Macskassy2011 is missing.
-Warning--empty editor in Macskassy2011
-Warning--empty pages in Macskassy2011
 Warning--The editor in Ramage2010 is missing.
 Warning--empty editor in Ramage2010
 Warning--empty pages in Ramage2010
@@ -368,45 +350,45 @@ while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in miyanishi2013combining
 
 Done.
-You've used 216 entries,
+You've used 209 entries,
             4554 wiz_defined-function locations,
-            2230 strings with 48200 characters,
-and the built_in function-call counts, 132907 in all, are:
-= -- 14951
-> -- 2154
-< -- 161
-+ -- 1287
-- -- 656
-* -- 10972
-:= -- 14872
-add.period$ -- 858
-call.type$ -- 216
+            2199 strings with 47119 characters,
+and the built_in function-call counts, 128571 in all, are:
+= -- 14500
+> -- 2060
+< -- 159
++ -- 1230
+- -- 627
+* -- 10586
+:= -- 14353
+add.period$ -- 830
+call.type$ -- 209
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 559
-duplicate$ -- 8810
-empty$ -- 14150
-format.name$ -- 646
-if$ -- 32225
+cite$ -- 538
+duplicate$ -- 8505
+empty$ -- 13666
+format.name$ -- 617
+if$ -- 31206
 int.to.chr$ -- 0
-int.to.str$ -- 216
-missing$ -- 7
-newline$ -- 1294
-num.names$ -- 221
-pop$ -- 1083
+int.to.str$ -- 209
+missing$ -- 6
+newline$ -- 1252
+num.names$ -- 213
+pop$ -- 1046
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3543
+skip$ -- 3464
 stack$ -- 0
-substring$ -- 15561
-swap$ -- 2662
-text.length$ -- 174
+substring$ -- 15063
+swap$ -- 2610
+text.length$ -- 172
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1823
-warning$ -- 343
-while$ -- 1329
-width$ -- 219
-write$ -- 1907
-(There were 4 error messages)
+type$ -- 1766
+warning$ -- 329
+while$ -- 1286
+width$ -- 212
+write$ -- 1849
+(There were 3 error messages)

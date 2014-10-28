@@ -625,6 +625,12 @@ In Proceedings of the 19th ACM international conference on Information and
   knowledge management.
 2010:  1633--1636.
 
+\bibitem{Macskassy2011}
+Macskassy~S~A, Michelson~M.
+Why do people retweet? anti-homophily wins the day!~[C].
+In ICWSM.
+2011.
+
 \bibitem{starbird2012will}
 Starbird~K, Palen~L.
 (How) will the revolution be retweeted?: information diffusion and the 2011
@@ -666,50 +672,6 @@ Popularity prediction in microblogging network: a case study on sina weibo~[C].
 In Proceedings of the 22nd international conference on World Wide Web
   companion.
 2013:  177--178.
-
-\bibitem{stajner2013automatic}
-Stajner~T, Thomee~B, Popescu~A, et~al.
-Automatic selection of social media responses to news~[J].
-ACM WSDM.
-2013.
-
-\bibitem{kothari2013detecting}
-Kothari~A, Magdy~W, Kareem~Darwish~A~M, et~al.
-Detecting Comments on News Articles in Microblogs~[J].
-ICWSM 2013.
-2013.
-
-\bibitem{li2013exploiting}
-Li~C, Sun~A, Weng~J, et~al.
-Exploiting hybrid contexts for Tweet segmentation~[C].
-In Proceedings of the 36th international ACM SIGIR conference on Research and
-  development in information retrieval.
-2013:  523--532.
-
-\bibitem{zhang2013personalized}
-Zhang~J, Minami~K, Kawai~Y, et~al.
-Personalized Web Search Using Emotional Features~[M]~//~Zhang~J, Minami~K,
-  Kawai~Y, et~al.
- Availability, Reliability, and Security in Information Systems and HCI.
-Springer, 2013: 2013: 69--83.
-
-\bibitem{luo2012improving}
-Luo~Z, Osborne~M, Petrovic~S, et~al.
-Improving Twitter Retrieval by Exploiting Structural Information.~[C].
-In AAAI.
-2012.
-
-\bibitem{luo2012opinion}
-Luo~Z, Osborne~M, Wang~T.
-Opinion Retrieval in Twitter.~[C].
-In ICWSM.
-2012.
-
-\bibitem{l2013Luo_POR}
-Luo~Z, Wang~T.
-Propagated Opinion Retrieval in Twitter.~[C].
-In WISE.
-2013.
 
 \bibitem{Yuan2013}
 Yuan~S, Wang~J, van~der Meer~M.
@@ -1077,12 +1039,6 @@ Recommending twitter users to follow using content and collaborative filtering
   approaches~[C].
 In Proc. of the 4th ACM ReSys.
 2010:  199--206.
-
-\bibitem{Macskassy2011}
-Macskassy~S~A, Michelson~M.
-Why do people retweet? anti-homophily wins the day!~[C].
-In ICWSM.
-2011.
 
 \bibitem{Ramage2010}
 Ramage~D, Dumais~S, Liebling~D.
