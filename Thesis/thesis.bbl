@@ -224,12 +224,6 @@ Lexical Normalisation of Short Text Messages: Makn Sens a\# twitter.~[C].
 In ACL.
 2011:  368--378.
 
-\bibitem{han2013lexical}
-Han~B, Cook~P, Baldwin~T.
-Lexical normalization for social media text~[J].
-ACM Transactions on Intelligent Systems and Technology (TIST).
-2013, 4~(1): ~5.
-
 \bibitem{han2012automatically}
 Han~B, Cook~P, Baldwin~T.
 Automatically constructing a normalisation dictionary for microblogs~[C].
@@ -237,12 +231,11 @@ In Proceedings of the 2012 Joint Conference on Empirical Methods in Natural
   Language Processing and Computational Natural Language Learning.
 2012:  421--432.
 
-\bibitem{liu2011insertion}
-Liu~F, Weng~F, Wang~B, et~al.
-Insertion, Deletion, or Substitution? Normalizing Text Messages without
-  Pre-categorization nor Supervision.~[J].
-ACL (Short Papers).
-2011, 11:  71--76.
+\bibitem{han2013lexical}
+Han~B, Cook~P, Baldwin~T.
+Lexical normalization for social media text~[J].
+ACM Transactions on Intelligent Systems and Technology (TIST).
+2013, 4~(1): ~5.
 
 \bibitem{liu2012joint}
 Liu~X, Zhou~M, Wei~F, et~al.
@@ -296,13 +289,6 @@ Liu~X, Zhou~M.
 Two-stage NER for tweets with clustering~[J].
 Information Processing \& Management.
 2012.
-
-\bibitem{ritter2010unsupervised}
-Ritter~A, Cherry~C, Dolan~B.
-Unsupervised modeling of Twitter conversations~[C].
-In Human Language Technologies: The 2010 Annual Conference of the North
-  American Chapter of the Association for Computational Linguistics.
-2010:  172--180.
 
 \bibitem{sharifi2010summarizing}
 Sharifi~B, Hutton~M-A, Kalita~J.
@@ -363,163 +349,268 @@ In Proceedings of the sixth ACM international conference on Web search and data
   mining.
 2013:  527--536.
 
-\bibitem{brody2011cooooooooooooooollllllllllllll}
-Brody~S, Diakopoulos~N.
-Cooooooooooooooollllllllllllll!!!!!!!!!!!!!!: using word lengthening to detect
-  sentiment in microblogs~[C].
-In Proceedings of the Conference on Empirical Methods in Natural Language
-  Processing.
-2011:  562--570.
+\bibitem{Schler2005}
+Schler~J, Schler~J.
+The importance of neutral examples for learning sentiment~[C].
+In In Workshop on the Analysis of Informal and Formal Information Exchange
+  during Negotiations (FINEXIN.
+2005.
 
-\bibitem{rocchio1971relevance}
-Rocchio~J~J.
-Relevance feedback in information retrieval~[J].
-1971.
+\bibitem{Wiebe2001}
+Wiebe~J, Wilson~T, Bell~M.
+Identifying Collocations for Recognizing Opinions~[C].
+In In Proc. ACL-01 Workshop on Collocation: Computational Extraction, Analysis,
+  and Exploitation.
+2001:  24--31.
 
-\bibitem{joachims2002optimizing}
-Joachims~T.
-Optimizing search engines using clickthrough data~[C].
-In Proceedings of the eighth ACM SIGKDD international conference on Knowledge
-  discovery and data mining.
-2002:  133--142.
+\bibitem{Wiebe2005}
+Wiebe~J, Riloff~E.
+Creating Subjective and Objective Sentence Classifiers from Unannotated
+  Texts~[C/OL].
+In Proceedings of the 6th International Conference on Computational Linguistics
+  and Intelligent Text Processing.
+Berlin, Heidelberg, 2005:  486--497.
+\url{http://dx.doi.org/10.1007/978-3-540-30586-6_53}.
 
-\bibitem{xue2004optimizing}
-Xue~G-R, Zeng~H-J, Chen~Z, et~al.
-Optimizing web search using web click-through data~[C].
-In Proceedings of the thirteenth ACM international conference on Information
-  and knowledge management.
-2004:  118--126.
+\bibitem{Dave2003}
+Dave~K, Lawrence~S, Pennock~D~M.
+Mining the peanut gallery: Opinion extraction and semantic classification of
+  product reviews~[C].
+In Proceedings of the 12th international conference on World Wide Web.
+2003:  519--528.
 
-\bibitem{joachims2005accurately}
-Joachims~T, Granka~L, Pan~B, et~al.
-Accurately interpreting clickthrough data as implicit feedback~[C].
-In Proceedings of the 28th annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2005:  154--161.
+\bibitem{Pang2004}
+Pang~B, Lee~L.
+A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization
+  Based on Minimum Cuts~[C/OL].
+In Proceedings of the 42Nd Annual Meeting on Association for Computational
+  Linguistics.
+Stroudsburg, PA, USA, 2004.
+\url{http://dx.doi.org/10.3115/1218955.1218990}.
 
-\bibitem{radlinski2005query}
-Radlinski~F, Joachims~T.
-Query chains: learning to rank from implicit feedback~[C].
-In Proceedings of the eleventh ACM SIGKDD international conference on Knowledge
-  discovery in data mining.
-2005:  239--248.
+\bibitem{Riloff2005}
+Riloff~E, Wiebe~J, Phillips~W.
+Exploiting subjectivity classification to improve information extraction~[C].
+In Proceedings of the National Conference On Artificial Intelligence.
+2005:  1106.
 
-\bibitem{agichtein2006improving}
-Agichtein~E, Brill~E, Dumais~S.
-Improving web search ranking by incorporating user behavior information~[C].
-In Proceedings of the 29th annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2006:  19--26.
+\bibitem{Wilson2009}
+Wilson~T, Wiebe~J, Hoffmann~P.
+Recognizing contextual polarity: An exploration of features for phrase-level
+  sentiment analysis~[J].
+Computational linguistics.
+2009, 35~(3):  399--433.
 
-\bibitem{agichtein2006learning}
-Agichtein~E, Brill~E, Dumais~S, et~al.
-Learning user interaction models for predicting web search result
-  preferences~[C].
-In Proceedings of the 29th annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2006:  3--10.
+\bibitem{Pang2002}
+Pang~B, Lee~L, Vaithyanathan~S.
+Thumbs up?: sentiment classification using machine learning techniques~[C/OL].
+In Proceedings of the ACL-02 conference on Empirical methods in natural
+  language processing - Volume 10.
+Stroudsburg, PA, USA, 2002:  79--86.
+\url{http://dx.doi.org/10.3115/1118693.1118704}.
 
-\bibitem{radlinski2007active}
-Radlinski~F, Joachims~T.
-Active exploration for learning rankings from clickthrough data~[C].
-In Proceedings of the 13th ACM SIGKDD international conference on Knowledge
-  discovery and data mining.
-2007:  570--579.
+\bibitem{Melville2009}
+Melville~P, Gryc~W, Bldg~W, et~al.
+Sentiment analysis of blogs by combining lexical knowledge with text
+  classification~[C].
+In In KDD.
+2009:  1275--1284.
 
-\bibitem{bao2007optimizing}
-Bao~S, Xue~G, Wu~X, et~al.
-Optimizing web search using social annotations~[C].
-In Proceedings of the 16th international conference on World Wide Web.
-2007:  501--510.
+\bibitem{Vegnaduzzo2004}
+Vegnaduzzo~S.
+Acquisition of subjective adjectives with limited resources~[C].
+In Proceedings of the AAAI Spring Symposium on Exploring Attitude and Affect in
+  Text: Theories and Applications.
+2004.
 
-\bibitem{duh2008learning}
-Duh~K, Kirchhoff~K.
-Learning to rank with partially-labeled data~[C].
-In Proceedings of the 31st annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2008:  251--258.
+\bibitem{Devitt2007}
+Devitt~A, Ahmad~K.
+Sentiment Polarity Identification in Financial News: A Cohesion-based
+  Approach~[C].
+In Proceedings of the 45th Annual Meeting of the Association of Computational
+  Linguistics.
+2007.
 
-\bibitem{aslam2009document}
-Aslam~J~A, Kanoulas~E, Pavlu~V, et~al.
-Document selection methodologies for efficient and effective
-  learning-to-rank~[C].
-In Proceedings of the 32nd international ACM SIGIR conference on Research and
+\bibitem{Osherenko2007}
+Osherenko~A, Andr{\'e}~E.
+Lexical Affect Sensing: Are Affect Dictionaries Necessary to Analyze
+  Affect?~[C/OL].
+In Proceedings of the 2Nd International Conference on Affective Computing and
+  Intelligent Interaction.
+Berlin, Heidelberg, 2007:  230--241.
+\url{http://dx.doi.org/10.1007/978-3-540-74889-2_21}.
+
+\bibitem{Goldberg2006}
+Goldberg~A~B, Zhu~X.
+Seeing Stars when There Aren'T Many Stars: Graph-based Semi-supervised Learning
+  for Sentiment Categorization~[C/OL].
+In Proceedings of the First Workshop on Graph Based Methods for Natural
+  Language Processing.
+Stroudsburg, PA, USA, 2006:  45--52.
+\url{http://dl.acm.org/citation.cfm?id=1654758.1654769}.
+
+\bibitem{Taeckstroem2011}
+T\"{a}ckstr\"{o}m~O, McDonald~R.
+Discovering Fine-grained Sentiment with Latent Variable Structured Prediction
+  Models~[C/OL].
+In Proceedings of the 33rd European Conference on Advances in Information
+  Retrieval.
+Berlin, Heidelberg, 2011:  368--374.
+\url{http://dl.acm.org/citation.cfm?id=1996889.1996937}.
+
+\bibitem{Mcdonald2007}
+Mcdonald~R, Hannan~K, Neylon~T, et~al.
+Structured Models for Fine-to-Coarse Sentiment Analysis~[C].
+In Proceedings of the 45th Annual Meeting of the Association of Computational
+  Linguistics.
+2007.
+
+\bibitem{Baccianella2010}
+Baccianella~S, Esuli~A, Sebastiani~F.
+SentiWordNet 3.0: An Enhanced Lexical Resource for Sentiment Analysis and
+  Opinion Mining.~[C].
+2010:  2200--2204.
+
+\bibitem{Angel}
+Angela.
+Old Wine or Warm Beer: Target-Specific Sentiment Analysis of Adjectives~[J/OL].
+\url{http://www.aisb.org.uk/convention/aisb08/proc/proceedings/02\%20Affective\%20Language/11.pdf}.
+
+\bibitem{Tsytsarau2010}
+Tsytsarau~M, Palpanas~T, Denecke~K.
+Scalable Discovery of Contradictions on the Web~[C/OL].
+In Proceedings of the 19th International Conference on World Wide Web.
+New York, NY, USA, 2010:  1195--1196.
+\url{http://doi.acm.org/10.1145/1772690.1772871}.
+
+\bibitem{Missen2009}
+Missen~M，Boughanem~M．
+Using WordNet’s Semantic Relations for Opinion Detection in
+  Blogs~[M]~//~Boughanem~M，Berrut~C，Mothe~J，等．
+ Advances in Information Retrieval：第5478卷．
+Springer Berlin Heidelberg，2009：2009: 729--733．
+
+\bibitem{Zhu2009}
+Zhu~J, Zhu~M, Wang~H, et~al.
+Aspect-based Sentence Segmentation for Sentiment Summarization~[C/OL].
+In Proceedings of the 1st International CIKM Workshop on Topic-sentiment
+  Analysis for Mass Opinion.
+New York, NY, USA, 2009:  65--72.
+\url{http://doi.acm.org/10.1145/1651461.1651474}.
+
+\bibitem{Yi2003}
+Yi~J, Nasukawa~T, Bunescu~R, et~al.
+Sentiment Analyzer: Extracting Sentiments About a Given Topic Using Natural
+  Language Processing Techniques~[C/OL].
+In Proceedings of the Third IEEE International Conference on Data Mining.
+Washington, DC, USA, 2003:  427--.
+\url{http://dl.acm.org/citation.cfm?id=951949.952133}.
+
+\bibitem{Thet2009}
+Thet~T~T, Na~J-C, Khoo~C~S, et~al.
+Sentiment Analysis of Movie Reviews on Discussion Boards Using a Linguistic
+  Approach~[C/OL].
+In Proceedings of the 1st International CIKM Workshop on Topic-sentiment
+  Analysis for Mass Opinion.
+New York, NY, USA, 2009:  81--84.
+\url{http://doi.acm.org/10.1145/1651461.1651476}.
+
+\bibitem{Turney2002}
+Turney~P~D.
+Thumbs up or thumbs down?: semantic orientation applied to unsupervised
+  classification of reviews~[C].
+2002:  417--424.
+
+\bibitem{Turney2003}
+Turney~P~D, Littman~M~L.
+Measuring praise and criticism: Inference of semantic orientation from
+  association~[J].
+ACM Transactions on Information Systems (TOIS).
+2003, 21~(4):  315--346.
+
+\bibitem{Church1990}
+Church~K~W, Hanks~P.
+Word Association Norms, Mutual Information, and Lexicography~[J/OL].
+Comput. Linguist.
+1990, 16~(1):  22--29.
+\url{http://dl.acm.org/citation.cfm?id=89086.89095}.
+
+\bibitem{Chaovalit2005}
+Chaovalit~P, Zhou~L.
+Movie review mining: A comparison between supervised and unsupervised
+  classification approaches~[C].
+In Proceedings of the Hawaii International Conference on System Sciences
+  (HICSS).
+2005.
+
+\bibitem{Read2009}
+Read~J, Carroll~J.
+Weakly Supervised Techniques for Domain-independent Sentiment
+  Classification~[C/OL].
+In Proceedings of the 1st International CIKM Workshop on Topic-sentiment
+  Analysis for Mass Opinion.
+New York, NY, USA, 2009:  45--52.
+\url{http://doi.acm.org/10.1145/1651461.1651470}.
+
+\bibitem{Taboada2006}
+Taboada~M, Anthony~C, Voll~K.
+Methods for Creating Semantic Orientation Dictionaries~[C].
+In Conference on Language Resources and Evaluation (LREC).
+2006:  427--432.
+
+\bibitem{Tang2009}
+Tang~H, Tan~S, Cheng~X.
+A Survey on Sentiment Detection of Reviews~[J/OL].
+Expert Syst. Appl.
+2009, 36~(7):  10760--10773.
+\url{http://dx.doi.org/10.1016/j.eswa.2009.02.063}.
+
+\bibitem{Liu2005}
+Liu~B, Hu~M, Cheng~J.
+Opinion Observer: Analyzing and Comparing Opinions on the Web~[C/OL].
+In Proceedings of the 14th International Conference on World Wide Web.
+New York, NY, USA, 2005:  342--351.
+\url{http://doi.acm.org/10.1145/1060745.1060797}.
+
+\bibitem{Ng2006}
+Ng~R, Pauls~A.
+Multi-document summarization of evaluative text~[C].
+In In Proceedings of the 11st Conference of the European Chapter of the
+  Association for Computational Linguistics.
+2006:  3--7.
+
+\bibitem{Leouski1996}
+Leouski~A, Croft~W.
+An evaluation of techniques for clustering search results~[J].
+1996.
+
+\bibitem{Zeng2004}
+Zeng~H~J, He~Q~C, Chen~Z, et~al.
+Learning to cluster web search results~[C].
+In Proceedings of the 27th annual international conference on Research and
   development in information retrieval.
-2009:  468--475.
+Sheffield, United Kingdom, 2004:  210--217.
 
-\bibitem{qin2010letor}
-Qin~T, Liu~T-Y, Xu~J, et~al.
-LETOR: A benchmark collection for research on learning to rank for information
-  retrieval~[J].
-Information Retrieval.
-2010, 13~(4):  346--374.
+\bibitem{Su2006}
+Su~H, Mei~Q, Zhai~C.
+A probabilistic approach to spatiotemporal theme pattern mining on
+  Weblogs.~[C].
+In Proceedings of the 15th International Conference on World Wide Web.
+2006.
 
-\bibitem{xu2010improving}
-Xu~J, Chen~C, Xu~G, et~al.
-Improving quality of training data for learning to rank using click-through
-  data~[C].
-In Proceedings of the third ACM international conference on Web search and data
-  mining.
-2010:  171--180.
+\bibitem{Titov2008}
+Titov~I, McDonald~R.
+Modeling Online Reviews with Multi-grain Topic Models~[C/OL].
+In Proceedings of the 17th International Conference on World Wide Web.
+New York, NY, USA, 2008:  111--120.
+\url{http://doi.acm.org/10.1145/1367497.1367513}.
 
-\bibitem{burges2005learning}
-Burges~C, Shaked~T, Renshaw~E, et~al.
-Learning to rank using gradient descent~[C].
-In Proceedings of the 22nd international conference on Machine learning.
-2005:  89--96.
-
-\bibitem{cao2006adapting}
-Cao~Y, Xu~J, Liu~T-Y, et~al.
-Adapting ranking SVM to document retrieval~[C].
-In Proceedings of the 29th annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2006:  186--193.
-
-\bibitem{xu2007adarank}
-Xu~J, Li~H.
-Adarank: a boosting algorithm for information retrieval~[C].
-In Proceedings of the 30th annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2007:  391--398.
-
-\bibitem{quoc2007learning}
-Quoc~C, Le~V.
-Learning to rank with nonsmooth cost functions~[J].
-Proceedings of the Advances in Neural Information Processing Systems.
-2007, 19:  193--200.
-
-\bibitem{xu2008directly}
-Xu~J, Liu~T-Y, Lu~M, et~al.
-Directly optimizing evaluation measures in learning to rank~[C].
-In Proceedings of the 31st annual international ACM SIGIR conference on
-  Research and development in information retrieval.
-2008:  107--114.
-
-\bibitem{valizadegan2009learning}
-Valizadegan~H, Jin~R, Zhang~R, et~al.
-Learning to rank by optimizing ndcg measure~[C].
-In Advances in neural information processing systems.
-2009:  1883--1891.
-
-\bibitem{wang2010learning}
-Wang~L, Lin~J, Metzler~D.
-Learning to efficiently rank~[C].
-In Proceedings of the 33rd international ACM SIGIR conference on Research and
-  development in information retrieval.
-2010:  138--145.
-
-\bibitem{dai2011learning}
-Dai~N, Shokouhi~M, Davison~B~D.
-Learning to rank for freshness and relevance~[C].
-In Proceedings of the 34th international ACM SIGIR conference on Research and
-  development in Information Retrieval.
-2011:  95--104.
-
-\bibitem{chapelle2011future}
-Chapelle~O, Chang~Y, Liu~T-Y.
-Future directions in learning to rank.~[J].
-Journal of Machine Learning Research-Proceedings Track.
-2011, 14:  91--100.
+\bibitem{Popescu2007}
+Popescu~A-M，Etzioni~O．
+Extracting Product Features and Opinions from
+  Reviews~[M]~//~Kao~A，Poteet~S．
+ Natural Language Processing and Text Mining．
+Springer London，2007：2007: 9--28．
 
 \bibitem{boyd2010tweet}
 boyd~d, Golder~S, Lotan~G.
@@ -662,12 +753,6 @@ Taboada~M, Grieve~J.
 Analyzing Appraisal Automatically~[C].
 Stanford University, Stanford California, 2004.
 
-\bibitem{Baccianella2010}
-Baccianella~S, Esuli~A, Sebastiani~F.
-SentiWordNet 3.0: An Enhanced Lexical Resource for Sentiment Analysis and
-  Opinion Mining.~[C].
-2010:  2200--2204.
-
 \bibitem{Agerri2010}
 Agerri~R, Garc I A-Serrano~A.
 Q-WordNet: Extracting Polarity from WordNet Senses.~[C].
@@ -725,13 +810,6 @@ Predicting the semantic orientation of adjectives~[C].
 Wilson~T, Wiebe~J, Hoffmann~P.
 Recognizing contextual polarity in phrase-level sentiment analysis~[C].
 2005:  347--354.
-
-\bibitem{Wilson2009}
-Wilson~T, Wiebe~J, Hoffmann~P.
-Recognizing contextual polarity: An exploration of features for phrase-level
-  sentiment analysis~[J].
-Computational linguistics.
-2009, 35~(3):  399--433.
 
 \bibitem{Bradley1999}
 Bradley~M~M, Lang~P~J.
@@ -798,12 +876,6 @@ In Twenty-Eighth AAAI Conference on Artificial Intelligence.
 国防科技大学学报.
 2014, 36~(3):  111--115.
 
-\bibitem{Turney2002}
-Turney~P~D.
-Thumbs up or thumbs down?: semantic orientation applied to unsupervised
-  classification of reviews~[C].
-2002:  417--424.
-
 \bibitem{Lin2012}
 Lin~Z, Tan~S, Cheng~X, et~al.
 Effective and efficient?: bilingual sentiment lexicon extraction using
@@ -829,14 +901,6 @@ Economically-efficient sentiment stream analysis~[C].
 In Proceedings of the 37th international ACM SIGIR conference on Research \&
   development in information retrieval.
 2014:  637--646.
-
-\bibitem{Pang2002}
-Pang~B, Lee~L, Vaithyanathan~S.
-Thumbs up?: sentiment classification using machine learning techniques~[C/OL].
-In Proceedings of the ACL-02 conference on Empirical methods in natural
-  language processing - Volume 10.
-Stroudsburg, PA, USA, 2002:  79--86.
-\url{http://dx.doi.org/10.3115/1118693.1118704}.
 
 \bibitem{Barbosa2010}
 Barbosa~L, Feng~J.

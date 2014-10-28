@@ -296,6 +296,19 @@
   Pages                    = {2483--2486}
 }
 
+@Article{Angel,
+  Title                    = {Old Wine or Warm Beer:
+Target-Specific Sentiment Analysis of Adjectives},
+  Author                   = {Angela},
+  Citeulike-article-id     = {5032021},
+  Citeulike-linkout-0      = {http://www.aisb.org.uk/convention/aisb08/proc/proceedings/02\%20Affective\%20Language/11.pdf},
+  Owner                    = {xsongx},
+  Posted-at                = {2009-07-01 12:57:54},
+  Priority                 = {2},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://www.aisb.org.uk/convention/aisb08/proc/proceedings/02\%20Affective\%20Language/11.pdf}
+}
+
 @Article{Antweiler2004,
   Title                    = {Is all that talk just noise? The information content of internet stock message boards},
   Author                   = {Antweiler, Werner and Frank, Murray Z},
@@ -409,29 +422,6 @@
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.12}
-}
-
-@InProceedings{Baccianella2010a,
-  Title                    = {SentiWordNet 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining},
-  Author                   = {Baccianella, Andrea Esuli Stefano and Sebastiani, Fabrizio},
-  Booktitle                = {Proceedings of the Seventh conference on International Language Resources and Evaluation (LREC'10)},
-  Year                     = {2010},
-
-  Address                  = {Valletta, Malta},
-  Month                    = may,
-  Publisher                = {European Language Resources Association (ELRA)},
-
-  Added-at                 = {2010-06-01T10:23:44.000+0200},
-  Biburl                   = {http://www.bibsonomy.org/bibtex/21f8e3308736d8f4500f5bd221bad8aef/frederik},
-  Date                     = {19-21},
-  Interhash                = {7c7680b9bccad4c4b73dfc024c0e8edc},
-  Intrahash                = {1f8e3308736d8f4500f5bd221bad8aef},
-  ISBN                     = {2-9517408-6-7},
-  Keywords                 = {imported},
-  Language                 = {english},
-  Owner                    = {xsongx},
-  Timestamp                = {2010-06-01T10:23:44.000+0200},
-  Url                      = {http://www.lrec-conf.org/proceedings/lrec2010/pdf/769_Paper.pdf}
 }
 
 @InProceedings{Baccianella2010,
@@ -900,6 +890,20 @@
   Pages                    = {527--536}
 }
 
+@InProceedings{Chaovalit2005,
+  Title                    = {Movie review mining: A comparison between supervised and unsupervised classification approaches},
+  Author                   = {Chaovalit, Pimwadee and Zhou, Lina},
+  Booktitle                = {Proceedings of the Hawaii International Conference on System Sciences (HICSS)},
+  Year                     = {2005},
+  Added-at                 = {2009-03-18T13:40:43.000+0100},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2f720489157cb3258555afede6104e6cb/om},
+  Interhash                = {35773239dd195206b3b2f9cd398db18b},
+  Intrahash                = {f720489157cb3258555afede6104e6cb},
+  Keywords                 = {analysis mining opinion sentiment},
+  Owner                    = {xsongx},
+  Timestamp                = {2009-03-18T13:40:43.000+0100}
+}
+
 @Article{chapelle2011future,
   Title                    = {Future directions in learning to rank.},
   Author                   = {Chapelle, Olivier and Chang, Yi and Liu, Tie-Yan},
@@ -984,6 +988,7 @@
   Journal                  = {J. Marketing Res},
   Year                     = {2006},
   Pages                    = {345--354},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.26}
 }
@@ -1047,6 +1052,27 @@
   Author                   = {Chung, Jessica Elan and Mustafaraj, Eni},
   Booktitle                = {AAAI},
   Year                     = {2011}
+}
+
+@Article{Church1990,
+  Title                    = {Word Association Norms, Mutual Information, and Lexicography},
+  Author                   = {Church, Kenneth Ward and Hanks, Patrick},
+  Journal                  = {Comput. Linguist.},
+  Year                     = {1990},
+
+  Month                    = mar,
+  Number                   = {1},
+  Pages                    = {22--29},
+  Volume                   = {16},
+  Acmid                    = {89095},
+  Address                  = {Cambridge, MA, USA},
+  ISSN                     = {0891-2017},
+  Issue_date               = {March 1990},
+  Numpages                 = {8},
+  Owner                    = {xsongx},
+  Publisher                = {MIT Press},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dl.acm.org/citation.cfm?id=89086.89095}
 }
 
 @Article{Cialdini2004,
@@ -1206,6 +1232,16 @@
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
+}
+
+@InProceedings{Devitt2007,
+  Title                    = {Sentiment Polarity Identification in Financial News: A Cohesion-based Approach},
+  Author                   = {Ann Devitt and Khurshid Ahmad},
+  Booktitle                = {Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics},
+  Year                     = {2007},
+
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
 }
 
 @InProceedings{Ding2009,
@@ -1633,6 +1669,24 @@
   Intrahash                = {7b69035cfbcccab96a665f33678c49bd},
   Keywords                 = {2011 analysis semantic seminar talk twitter winter},
   Timestamp                = {2011-11-16T13:47:43.000+0100}
+}
+
+@InProceedings{Goldberg2006,
+  Title                    = {Seeing Stars when There Aren'T Many Stars: Graph-based Semi-supervised Learning for Sentiment Categorization},
+  Author                   = {Goldberg, Andrew B. and Zhu, Xiaojin},
+  Booktitle                = {Proceedings of the First Workshop on Graph Based Methods for Natural Language Processing},
+  Year                     = {2006},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {45--52},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {TextGraphs-1},
+
+  Acmid                    = {1654769},
+  Numpages                 = {8},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1654758.1654769}
 }
 
 @Article{Goldenberg2001,
@@ -2518,6 +2572,23 @@
   Timestamp                = {2014.10.13}
 }
 
+@Article{Leouski1996,
+  Title                    = {An evaluation of techniques for clustering search results},
+  Author                   = {Leouski, A.V. and Croft, W.B.},
+  Year                     = {1996},
+
+  __markedentry            = {[xsongx:6]},
+  Added-at                 = {2010-09-10T06:31:37.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2b3cf22b8e066208254be828b8e37335b/cdevries},
+  File                     = {paper:./evaluation/Leouski1996.pdf:PDF},
+  Interhash                = {19eb47cfe4358100e7fe30b7dc75dd77},
+  Intrahash                = {b3cf22b8e066208254be828b8e37335b},
+  Keywords                 = {clusterhypothesis search evaluation clustering},
+  Owner                    = {xsongx},
+  Publisher                = {Citeseer},
+  Timestamp                = {2010-09-10T06:31:37.000+0200}
+}
+
 @InProceedings{li2010unified,
   Title                    = {A unified graph model for sentence-based opinion retrieval},
   Author                   = {Li, Binyang and Zhou, Lanjun and Feng, Shi and Wong, Kam-Fai},
@@ -3103,6 +3174,15 @@
   Timestamp                = {2014.10.13}
 }
 
+@InProceedings{Mcdonald2007,
+  Title                    = {Structured Models for Fine-to-Coarse Sentiment Analysis},
+  Author                   = {Ryan Mcdonald and Kerry Hannan and Tyler Neylon and Mike Wells and Jeff Reynar},
+  Booktitle                = {Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics},
+  Year                     = {2007},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
+}
+
 @Article{McPherson2001,
   Title                    = {Birds of a feather: Homophily in social networks},
   Author                   = {McPherson, Miller and Smith-Lovin, Lynn and Cook, James M},
@@ -3155,7 +3235,6 @@
   Year                     = {2009},
   Pages                    = {1275--1284},
 
-  __markedentry            = {[xsongx:6]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
 }
@@ -3288,6 +3367,25 @@
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {251--260}
+}
+
+@InCollection{Missen2009,
+  Title                    = {Using WordNet’s Semantic Relations for Opinion Detection in Blogs},
+  Author                   = {Missen, MalikMuhammadSaad and Boughanem, Mohand},
+  Booktitle                = {Advances in Information Retrieval},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2009},
+  Editor                   = {Boughanem, Mohand and Berrut, Catherine and Mothe, Josiane and Soule-Dupuy, Chantal},
+  Pages                    = {729-733},
+  Series                   = {Lecture Notes in Computer Science},
+  Volume                   = {5478},
+  Doi                      = {10.1007/978-3-642-00958-7_75},
+  ISBN                     = {978-3-642-00957-0},
+  Keywords                 = {Opinion Detection; Blogs; WordNet; Semantic Relatedness},
+  Language                 = {English},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-00958-7_75}
 }
 
 @InProceedings{miyanishi2011trec,
@@ -3489,6 +3587,18 @@
   Url                      = {http://dblp.uni-trier.de/db/conf/acii/acii2007.html\#NeviarouskayaPI07}
 }
 
+@InProceedings{Ng2006,
+  Title                    = {Multi-document summarization of evaluative text},
+  Author                   = {Raymond Ng and Adam Pauls},
+  Booktitle                = {In Proceedings of the 11st Conference of the European Chapter of the Association for Computational Linguistics},
+  Year                     = {2006},
+  Pages                    = {3--7},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
+}
+
 @Article{Nielsen2011,
   Title                    = {A new ANEW: Evaluation of a word list for sentiment analysis in microblogs},
   Author                   = {Nielsen, Finn AA Rup},
@@ -3581,6 +3691,28 @@
   Author                   = {Osborne, Miles and Petrovic, Sasa and McCreadie, Richard and Macdonald, Craig and Ounis, Iadh},
   Booktitle                = {Proceedings of the SIGIR Workshop on Time-aware Information Access},
   Year                     = {2012}
+}
+
+@InProceedings{Osherenko2007,
+  Title                    = {Lexical Affect Sensing: Are Affect Dictionaries Necessary to Analyze Affect?},
+  Author                   = {Osherenko, Alexander and Andr{\'e}, Elisabeth},
+  Booktitle                = {Proceedings of the 2Nd International Conference on Affective Computing and Intelligent Interaction},
+  Year                     = {2007},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {230--241},
+  Publisher                = {Springer-Verlag},
+  Series                   = {ACII '07},
+
+  Acmid                    = {1422193},
+  Doi                      = {10.1007/978-3-540-74889-2_21},
+  ISBN                     = {978-3-540-74888-5},
+  Keywords                 = {Affect Dictionaries, Emotion Detection, Lexical Affect Sensing, Lexical Modality, Spontaneous Dialogues},
+  Location                 = {Lisbon, Portugal},
+  Numpages                 = {12},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-74889-2_21}
 }
 
 @InProceedings{ounis2011overview,
@@ -3945,6 +4077,27 @@
   Timestamp                = {2014.10.13}
 }
 
+@InProceedings{Read2009,
+  Title                    = {Weakly Supervised Techniques for Domain-independent Sentiment Classification},
+  Author                   = {Read, Jonathon and Carroll, John},
+  Booktitle                = {Proceedings of the 1st International CIKM Workshop on Topic-sentiment Analysis for Mass Opinion},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {45--52},
+  Publisher                = {ACM},
+  Series                   = {TSA '09},
+  Acmid                    = {1651470},
+  Doi                      = {10.1145/1651461.1651470},
+  ISBN                     = {978-1-60558-805-6},
+  Keywords                 = {distributional similarity, lexical association, semantic spaces, sentiment analysis},
+  Location                 = {Hong Kong, China},
+  Numpages                 = {8},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://doi.acm.org/10.1145/1651461.1651470}
+}
+
 @InProceedings{Ren:2013:PTT:2484028.2484052,
   Title                    = {Personalized time-aware tweets summarization},
   Author                   = {Ren, Zhaochun and Liang, Shangsong and Meij, Edgar and de Rijke, Maarten},
@@ -4161,7 +4314,6 @@
   Booktitle                = {In Workshop on the Analysis of Informal and Formal Information Exchange during Negotiations (FINEXIN},
   Year                     = {2005},
 
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
 }
@@ -4409,6 +4561,40 @@
   Url                      = {http://books.google.com/books?id=OBoIBIk2qacC}
 }
 
+@InProceedings{Taeckstroem2011,
+  Title                    = {Discovering Fine-grained Sentiment with Latent Variable Structured Prediction Models},
+  Author                   = {T\"{a}ckstr\"{o}m, Oscar and McDonald, Ryan},
+  Booktitle                = {Proceedings of the 33rd European Conference on Advances in Information Retrieval},
+  Year                     = {2011},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {368--374},
+  Publisher                = {Springer-Verlag},
+  Series                   = {ECIR'11},
+  Acmid                    = {1996937},
+  ISBN                     = {978-3-642-20160-8},
+  Location                 = {Dublin, Ireland},
+  Numpages                 = {7},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1996889.1996937}
+}
+
+@InProceedings{Taboada2006,
+  Title                    = {Methods for Creating Semantic Orientation Dictionaries},
+  Author                   = {Taboada, Maite and Anthony, Caroline and Voll, Kimberly},
+  Booktitle                = {Conference on Language Resources and Evaluation (LREC)},
+  Year                     = {2006},
+  Pages                    = {427--432},
+  Added-at                 = {2009-03-18T13:40:43.000+0100},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/294bcb90f7eb61581f006eda02e91f6a6/om},
+  Interhash                = {f16250f17fea4a5f5f7e2a454710b628},
+  Intrahash                = {94bcb90f7eb61581f006eda02e91f6a6},
+  Keywords                 = {analysis mining opinion sentiment},
+  Owner                    = {xsongx},
+  Timestamp                = {2009-03-18T13:40:43.000+0100}
+}
+
 @InProceedings{Taboada2004,
   Title                    = {Analyzing Appraisal Automatically},
   Author                   = {Taboada, Maite and Grieve, Jack},
@@ -4477,6 +4663,29 @@
   Priority                 = {2},
   Timestamp                = {2014.10.14},
   Url                      = {http://dx.doi.org/10.1145/1321440.1321590}
+}
+
+@Article{Tang2009,
+  Title                    = {A Survey on Sentiment Detection of Reviews},
+  Author                   = {Tang, Huifeng and Tan, Songbo and Cheng, Xueqi},
+  Journal                  = {Expert Syst. Appl.},
+  Year                     = {2009},
+
+  Month                    = sep,
+  Number                   = {7},
+  Pages                    = {10760--10773},
+  Volume                   = {36},
+  Acmid                    = {1539436},
+  Address                  = {Tarrytown, NY, USA},
+  Doi                      = {10.1016/j.eswa.2009.02.063},
+  ISSN                     = {0957-4174},
+  Issue_date               = {September, 2009},
+  Keywords                 = {Opinion extraction, Sentiment classification, Sentiment detection},
+  Numpages                 = {14},
+  Owner                    = {xsongx},
+  Publisher                = {Pergamon Press, Inc.},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dx.doi.org/10.1016/j.eswa.2009.02.063}
 }
 
 @InProceedings{Tang2013,
@@ -4573,6 +4782,27 @@
   Timestamp                = {2014.10.09}
 }
 
+@InProceedings{Thet2009,
+  Title                    = {Sentiment Analysis of Movie Reviews on Discussion Boards Using a Linguistic Approach},
+  Author                   = {Thet, Tun Thura and Na, Jin-Cheon and Khoo, Christopher S.G. and Shakthikumar, Subbaraj},
+  Booktitle                = {Proceedings of the 1st International CIKM Workshop on Topic-sentiment Analysis for Mass Opinion},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {81--84},
+  Publisher                = {ACM},
+  Series                   = {TSA '09},
+  Acmid                    = {1651476},
+  Doi                      = {10.1145/1651461.1651476},
+  ISBN                     = {978-1-60558-805-6},
+  Keywords                 = {dependency tree, discussion board, movie reviews, sentiment analysis},
+  Location                 = {Hong Kong, China},
+  Numpages                 = {4},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://doi.acm.org/10.1145/1651461.1651476}
+}
+
 @InProceedings{Tian2012,
   Title                    = {Chinese Microblogger character analysis using SVM},
   Author                   = {Dan Tian and Wei-Min Zheng},
@@ -4642,6 +4872,27 @@
   Year                     = {2009}
 }
 
+@InProceedings{Tsytsarau2010,
+  Title                    = {Scalable Discovery of Contradictions on the Web},
+  Author                   = {Tsytsarau, Mikalai and Palpanas, Themis and Denecke, Kerstin},
+  Booktitle                = {Proceedings of the 19th International Conference on World Wide Web},
+  Year                     = {2010},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {1195--1196},
+  Publisher                = {ACM},
+  Series                   = {WWW '10},
+  Acmid                    = {1772871},
+  Doi                      = {10.1145/1772690.1772871},
+  ISBN                     = {978-1-60558-799-8},
+  Keywords                 = {contradiction analysis, opinion mining},
+  Location                 = {Raleigh, North Carolina, USA},
+  Numpages                 = {2},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://doi.acm.org/10.1145/1772690.1772871}
+}
+
 @Article{Tumasjan2010,
   Title                    = {Predicting Elections with Twitter: What 140 Characters Reveal about Political Sentiment.},
   Author                   = {Tumasjan, Andranik and Sprenger, Timm Oliver and Sandner, Philipp G and Welpe, Isabell M},
@@ -4704,6 +4955,16 @@
   Author                   = {Vechtomova, Olga},
   Booktitle                = {TREC},
   Year                     = {2007}
+}
+
+@InProceedings{Vegnaduzzo2004,
+  Title                    = {Acquisition of subjective adjectives with limited resources},
+  Author                   = {Stefano Vegnaduzzo},
+  Booktitle                = {Proceedings of the AAAI Spring Symposium on Exploring Attitude and Affect in Text: Theories and Applications},
+  Year                     = {2004},
+
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27}
 }
 
 @Article{voorhees2000variations,
@@ -4930,6 +5191,7 @@
   Booktitle                = {In Proc. ACL-01 Workshop on Collocation: Computational Extraction, Analysis, and Exploitation},
   Year                     = {2001},
   Pages                    = {24--31},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
 }
@@ -5183,6 +5445,23 @@
   Url                      = {http://www.aclweb.org/anthology-new/D/D10/D10-1102.bib}
 }
 
+@InProceedings{Yi2003,
+  Title                    = {Sentiment Analyzer: Extracting Sentiments About a Given Topic Using Natural Language Processing Techniques},
+  Author                   = {Yi, Jeonghee and Nasukawa, Tetsuya and Bunescu, Razvan and Niblack, Wayne},
+  Booktitle                = {Proceedings of the Third IEEE International Conference on Data Mining},
+  Year                     = {2003},
+
+  Address                  = {Washington, DC, USA},
+  Pages                    = {427--},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {ICDM '03},
+  Acmid                    = {952133},
+  ISBN                     = {0-7695-1978-4},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://dl.acm.org/citation.cfm?id=951949.952133}
+}
+
 @InProceedings{yin2012esa,
   Title                    = {ESA: emergency situation awareness via microbloggers},
   Author                   = {Yin, Jie and Karimi, Sarvnaz and Robinson, Bella and Cameron, Mark},
@@ -5426,6 +5705,27 @@
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@InProceedings{Zhu2009,
+  Title                    = {Aspect-based Sentence Segmentation for Sentiment Summarization},
+  Author                   = {Zhu, Jingbo and Zhu, Muhua and Wang, Huizhen and Tsou, Benjamin K.},
+  Booktitle                = {Proceedings of the 1st International CIKM Workshop on Topic-sentiment Analysis for Mass Opinion},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {65--72},
+  Publisher                = {ACM},
+  Series                   = {TSA '09},
+  Acmid                    = {1651474},
+  Doi                      = {10.1145/1651461.1651474},
+  ISBN                     = {978-1-60558-805-6},
+  Keywords                 = {aspect-based sentiment summarization, sentence segmentation, text segmentation},
+  Location                 = {Hong Kong, China},
+  Numpages                 = {8},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.27},
+  Url                      = {http://doi.acm.org/10.1145/1651461.1651474}
 }
 
 @InProceedings{Zhu2003,

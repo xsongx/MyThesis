@@ -23,7 +23,7 @@
 \label{tab1-1}
 \begin{threeparttable}
  \begin{tabular}{|l|l|l|l|}
- \hline这里要强调的是，
+ \hline
  排名&网站&排名&网站\\
  \hline
  1& Google.com& 6&\textbf{ Wikipedia.org\tnote{1}}\\
@@ -203,9 +203,11 @@ finin2010annotating,ritter2011named}。
 \label{ch_mining}
 观点挖掘研究识别文档中针对一主题表达出的观点以及这观点的极性（例如，是积极还是消极）。观点挖掘通过对文档中深入分析得到文档中表达的观点信息，是观点分析后续任务的基础，观点挖掘的结果影响着后续分析任务。一般观点挖掘包含观点识别（identify）和极性分类（classify）两个步骤。观点识别主要是从文档中识别出话题以及与话题相关的带有观点的文本片段。识别带有观点的文本片段（一般是文档中的句子）也称为主客观分析（subjectivity analysis），是将文档中的带有观点的句子与描述客观事实的句子区分开，研究表明将文档中的客观文本过滤有助于提高观点挖掘的准确性\upcite{Schler2005}，目前主客观分析主要采用机器学习方法进行主客观分类\upcite{Wiebe2001,Wiebe2005,Dave2003,Pang2004,Riloff2005,Wilson2009}。极性分类是将文档就话题表达出的情感倾向进行极性分类，一般是分为积极与消极，也可以是多种类别（当类别为积极、消极以及中性时，与主客观分类一致）。
 
-观点挖掘研究方法一般可以分为基于词典、基于统计以及机器学习三类。在观点挖掘研究早期，机器学习方法和标注数据集的使用加速了研究的进展，目前最常使用的仍然是机器学习方法。机器学习方法是对分类问题的比较成熟的解决方案，一般经过训练和预测两个过程，可以进行如下形式化表示：假设训练数据集是经过极性标注的文档集$D$，每个文档都可以用特征（词语，二元组等等）向量表示，文档都被标注了情感极性（在极性空间$S$中的一个值）机器学习的训练过程为：
+观点挖掘研究方法一般可以分为基于词典、基于统计以及机器学习三类。
+\subsubsection{基于机器学习观点分析}
+在观点挖掘研究早期，机器学习方法和标注数据集的使用加速了研究的进展，目前最常使用的仍然是机器学习方法。机器学习方法是对分类问题的比较成熟的解决方案，一般经过训练和预测两个过程，可以进行如下形式化表示：假设训练数据集是经过极性标注的文档集$D$，每个文档都可以用特征（词语，二元组等等）向量表示，文档都被标注了情感极性（在极性空间$S$中的一个值）机器学习的训练过程为：
 \begin{description}
-给定训练数据集：$ \{(d,s)|d \in D,s \in S\} $，找到映射：
+\item 给定训练数据集：$ \{(d,s)|d \in D,s \in S\} $，找到映射：
 \begin{equation}
 g:D \rightarrow S,\quad g(d)=\arg max_S f(d,s)
 \end{equation}
@@ -216,23 +218,56 @@ g:D \rightarrow S,\quad g(d)=\arg max_S f(d,s)
 （3）通过分析相关特征训练分类器区分文档的极性标签；
 （4）最后使用训练得到的分类器对新文档预测给出极性概率值。
 
-Pang和Lee\upcite{Pang2002}最先将机器学习方法引入了观点挖掘领域，作者提出了使用三种有监督的分类器（Naive Bayes (NB)，maximum entropy (ME)和support vector machines (SVM)）进行电影评论的情感分类，三种分类器都能超过随机选择的基准，平均准确率达到80\%，其中SVM表现出最好的性能。Dave等\upcite{Dave2003}扩展了Pang的工作，强调使用特征选择对情感表示特征进行过滤，可以将准确率提高到87\%。Pang和Lee使用主客观分析对文档进行预处理过滤掉其中的描述客观信息的句子，发现可以提高极性分类的准确性。后续的一些工作主要集中于研究如何扩充有用的分类特征（比如，词语的选择与表示、词性信息使用情感词或短语等等）\upcite{Melville2009,Vegnaduzzo2004,Devitt2007,Osherenko2007}，训练数据的构建\upcite{Goldberg2006,Taeckstroem2011}以及机器学习方法的选择\upcite{Mcdonald2007}。当然，文档的观点也可以表示为
+Pang和Lee\upcite{Pang2002}最先将机器学习方法引入了观点挖掘领域，作者提出了使用三种有监督的分类器（Naive Bayes (NB)，maximum entropy (ME)和support vector machines (SVM)）进行电影评论的情感分类，三种分类器都能超过随机选择的基准，平均准确率达到80\%，其中SVM表现出最好的性能。Dave等\upcite{Dave2003}扩展了Pang的工作，强调使用特征选择对情感表示特征进行过滤，可以将准确率提高到87\%。Pang和Lee使用主客观分析对文档进行预处理过滤掉其中的描述客观信息的句子，发现可以提高极性分类的准确性。后续的一些工作主要集中于研究如何扩充有用的分类特征（比如，词语的选择与表示、词性信息使用情感词或短语等等）\upcite{Melville2009,Vegnaduzzo2004,Devitt2007,Osherenko2007}，训练数据的构建\upcite{Goldberg2006,Taeckstroem2011}以及机器学习方法的选择\upcite{Mcdonald2007}。
+
+\subsubsection{基于词典的观点分析}
+基于词典的观点分析依赖于预先构建好的情感词典，词典里的词语都设定好了代表的情感极性。常用的英文情感词典有General Inquirer\footnote{\url{http://www.wjh.harvard.edu/~inquirer/}}，DAL（Dictionary of Affect of Language）\footnote{\url{http://www.hdcus.com/}}，WordNet-Affect\footnote{\url{http://wndomains.fbk.eu/wnaffect.html}}以及SentiWordNet\upcite{Baccianella2010}。
+基于情感词典的方法一般是用词典确定文本中的带有观点的词语用以确定文本是否主观文本。最近的一些研究显示可以使用情感词典词语的情感极性值来计算文本的观点极性\upcite{Angel,Tsytsarau2010,Missen2009},一个句子或文档的极性值可以通过将每个词语的极性值取平均来确定，常用的计算方法可以使用公式~\ref{eq1-5}来表示：
+\begin{equation}
+\label{eq1-5}
+S（D）=\dfrac{\sum_{w \in D}S_w \ast weight(w) \ast modifier(w)}{\sum weight(w)}
+\end{equation}
+其中$ S_w $是文档中的词语在情感词典中的极性值，$ weight(w) $是权重函数，可以根据词语相对于话题词的位置进行权重调整，$ modifier(w) $是专门处理否定、增强或其他改变词语情感值的一些修饰操作。
+典型工作如Zhu等\upcite{Zhu2009}首先将文档或句子中词语的极性值累积在一起，然后使用简单的基于规则算法计算整个文档或句子的极性值。一些比较成熟的工具，比如Sentiment Analyzer\upcite{Yi2003}，或Linguistic Approach\upcite{Thet2009}针对话题挖掘一些领域相关特征，观点句的模式或词性标签等作为规则加入到文档极性值的计算中，可以得到精确的极性值，但是需要增加计算复杂性。
+
+\subsubsection{基于统计的观点分析}
+这种方法是基于语料中表达相似观点的词语经常会出现在一起这一观察基础上的，以此推理，如果两个词语频繁在同一上下文中同时出现，它们就很有可能有相同的极性。因此一个词语的极性可以根据它与一个极性恒定的词语（比如“good”）共现的频率来确定。Turney\upcite{Turney2002,Turney2003}提出使用点对点互信息（point-wise mutual information (PMI)）\upcite{Church1990}作为统计依据来计算词语的共现：
+\begin{equation}
+PMI(x,y)=\log_2\dfrac{F(x,y)}{F(x)F(y)}
+\end{equation}
+其中$ F(x,y) $表示两个词语的共现频率，$ F(x) $表示词语的出现频率。词语$ x $的极性值可以通过计算该词语与两个相反极性词语的互信息差值来确定：
+\begin{equation}
+PMI-IR(x)=\sum_{p \in pWords}PMI(x,p)-\sum_{n \in nWords}PMI(x,n)
+\end{equation}
+其中$ pWords $表示积极极性的基准词集合，$ nWords $表示消极极性基准词集合。为了统计词语出现频率，Turney使用AltaVista搜索引擎检索词语返回的条目数作为词语出现频率。Chaovalit和Zhou\upcite{Chaovalit2005}扩展了Turney方法，通过谷歌搜索引擎确定词语共现频率，提高了准确性。Read和Carroll\upcite{Read2009}使用语义空间和分布相似性作为替代方法进一步扩展了Turney方法。这种方法更细致的研究是Taboada等\upcite{Taboada2006}，他们提及了使用搜索引擎确定共现频率的一些问题。Ben等\upcite{he2008effective}提出使用统计方法构建情感词典与信息检索相结合的方法获取主观性的博客文档。
 
 \subsection{观点集成}
 \label{ch_integrate}
+通过观点分析得到的是单个文档中的观点信息，实际使用的时候，我们关注的是更高层次的观点，而不是单独一篇文档的观点，因此需要对文档观点分析结果进行整合集成。这种整合集成可以按照不同的维度进行，比如为了了解一群人的观点分布，需要将每个人发表的所有文档中的观点进行集成。最需要观点集成的研究领域是产品评论，需要从大量用户发表的评论中抽取出产品的特征，并计算不同用户针对相同特征的观点或打分的平均值，以便进行观点集成形成对产品总体的评价。以图~\ref{fig1-2}所示产品评论的观点集成为例，观点集成一般包括信息收集，观点识别，观点点分类以及推理集成三个步骤\upcite{Tang2009,Liu2005,Ng2006}。
+\begin{figure}[htp]
+\centering
+\includegraphics[height=170pt]{1-2.png}
+\caption{产品评论的观点集成框架}
+\label{fig1-2}
+\end{figure}
 
+对于文档集$ D $中的针对某话题的观点进行集成形式化表示为：
+\begin{equation}
+\{(f,s_f)|rep(f,D)>\rho_f,s_f=agg(S,f)\}
+\end{equation}
+其中$ f $表示根据某种表示度量方法$ rep(f,D) $确定的描述话题的不同方面，$ s_f $是针对$ f $根据集成函数$ agg(S,f) $计算出的针对$ f $的观点。
 
-
+观点集成一个主要的挑战就是如何确定描述话题的多个不同方面。Leouski等\upcite{Leouski1996}评测了各种文本聚类方法对检索结果中信息的集成效果，发现聚类方法对于文本的交互式检索是有用的。Zeng等\upcite{Zeng2004}使用监督学习方法从文本中抽取主要短语并将其聚类表示话题的方面。还有一些工作使用生成模型发现文档中的隐性方面话题\upcite{Su2006,Titov2008}，还有一些工作使用数据挖掘中的联合规则方法对产品的相关方面进行挖掘\upcite{Liu2005,Popescu2007}。
 
 \subsection{传播行为分析}
 \label{rel3}
-Twitter中一个重要的机制就是转发，即重新发布其他人发布过的tweet。这种简单的机制可以使得作者的全部粉丝看到转发的信息，使得信息迅速、广泛的传播。我们本节将介绍Twitter中已有的对于转发行为的研究，以此分析涉及影响转发行为的因素，包括tweet的文本内容与转发的关系，用户的属性如何决定其他人的转发；Twitter中信息的一般传播路径与规律。这些研究成果可以帮助本文具体的传播分析任务。
+社交媒体中信息传播具有重要的应用价值，信息传播的主体是人，也就是社交网络的用户，研究人的传播行为是研究信息传播的重要组成部分。社交媒体中最具影响力的是微博上的信息传播，因为用户在微博的转发行为会使得信息在短时间内形成大规模的传播，因此本文主要从微博的转发行为来阐述相关工作。微博的典型代表是Twitter，Twitter转发机制，即重新发布其他人发布过的微博，使得作者的全部粉丝看到转发的信息，使得信息迅速形成病毒式传播（viral propogation）。很多对于转发行为的研究分析涉及影响转发行为的因素，包括tweet的文本内容与转发的关系，用户的属性如何决定其他人的转发；Twitter中信息的一般传播路径与规律等等。
 
 boyd等人\footnote{Danah Boyd因为家庭的原因一般使用小写拼写姓名，这里并不是拼写错误。}研究了Twitter中转发的各种类型以及转发的原因，他们分析了不同用户，用户属性，用户交流方式对于转发的影响，同时也分析了人们在Twitter中喜欢转发的内容\upcite{boyd2010tweet}。他们发现18\%的转发tweet包含hashtag，52\%的转发tweet包含链接，11\%的转发tweet包含连续的转发符号串（如，“RT @user1 RT @user2 ”），另外，9\%的转发tweet都包含回复原tweet作者的回复字符串（“@reply”）。这说明tweet文本中的hashtag，链接、回复、提交和转发符号都与tweet的转发存在着一定的对应关系。
 
 Yang和Counts通过Twitter中的提及（“@username”）抽取了用户之间的关系，并在此基础上构造了用户关系的复杂网络。他们研究了信息在这个复杂网络上是如何传播的，包括信息传播的速度，规模，以及范围\upcite{yang2010understanding}。他们发现大约只有25\%的tweet是被信息作者的朋友转发，大部分是被粉丝但非朋友转发。这说明Twitter中用户形成的复杂网络，影响着人们的转发行为，因此信息在传播路径上具有一定的规律可循。
 
-Macskassy和Michelson分析了一个月用户的Twitter数据，他们解释了各种信息传播的方式，尤其是转发的行为模式，他们发现tweet的内容是tweet被转发的决定因素，因此他们构建了基于内容的转发模型\upcite{macskassy2011people}。
+Macskassy和Michelson分析了一个月用户的Twitter数据，他们解释了各种信息传播的方式，尤其是转发的行为模式，他们发现tweet的内容是tweet被转发的决定因素，因此他们构建了基于内容的转发模型\upcite{Macskassy2011}。
 
 Starbird等人对具体事件在Twitter上的传播进行了深入研究，他们分析了2011年埃及的政治事件，演示了这个事件的相关信息在Twitter上是如何生成，发展，传播的\upcite{starbird2012will}。
 
@@ -240,11 +275,9 @@ Comarela等人研究了影响用户回复或转发的因素，他们发现以前
 
 除了以上的工作，最新的研究还从不同角度对Twitter中的转发行为进行了深入的研究\upcite{kupavskii2013predicting,jenders2013analyzing,ahmed2013peek,bao2013popularity}。
 
-综上所述，我们发现影响人们转发行为的因素主要包括tweet文本的内容、tweet文本的社交媒体属性（如，是否包含链接、hashtag、提及等）、tweet作者的用户属性，tweet作者的朋友圈子，当然以上的研究都是从宏观上大规模分析Twitter转发数据得出的研究结论。从微观的角度则可以考虑给定一个tweet，未来这个tweet是否会被转发，我们将在~\ref{rel_retweet}介绍相关工作。
+综上所述，影响用户转发行为的因素主要包括tweet文本的内容、tweet文本的社交媒体属性（如，是否包含链接、hashtag、提及等）、tweet作者的用户属性，tweet作者的朋友圈子，当然以上的研究都是从宏观上大规模分析Twitter转发数据得出的研究结论。从微观的角度则可以考虑给定一个tweet，未来这个tweet是否会被转发，是一个值得研究的问题。
 
-虽然已有的Twitter转发研究从许多不同的角度进行了考虑，但是仍然有许多问题与因素被忽视，例如tweet的转发预测针对的一般是普遍tweet，并未细粒度的划分类型，本文我们将针对特定类型tweet进行转发研究。另外，目前的转发大多都是从tweet本身进行考虑，并未从受众的角度进行分析，本文将对tweet，作者、受众三个方面在转发过程中的相互关系进行探讨。
-
-
+虽然已有的Twitter转发研究从许多不同的角度进行了考虑，但是还没有工作从用户的主观动机角度进行研究，本文我们将结合用户观点分析研究的结果对转发行为进行分析。另外，目前的转发大多都是从tweet本身进行考虑，并未从受众的角度进行分析，本文将对tweet、作者、受众三个方面在转发过程中的相互关系进行探讨。
 
 \section{研究内容与方法}
 

@@ -4,7 +4,7 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 14675 items from 5000.
+Reallocated field_info (elt_size=4) to 14990 items from 5000.
 Database file #1: ref/refs.bib
 Warning--I didn't find a database entry for "macskassy2011people"
 Warning--I didn't find a database entry for "Luo:2013:RMF:2484028.2484158"
@@ -77,8 +77,6 @@ Warning--empty editor in liu2011recognizing
 Warning--The editor in li2012twiner is missing.
 Warning--empty editor in li2012twiner
 Warning--empty pages in liu2012two
-Warning--The editor in ritter2010unsupervised is missing.
-Warning--empty editor in ritter2010unsupervised
 Warning--The editor in sharifi2010summarizing is missing.
 Warning--empty editor in sharifi2010summarizing
 Warning--The editor in chakrabarti2011event is missing.
@@ -99,46 +97,78 @@ Warning--The editor in judd2013better is missing.
 Warning--empty editor in judd2013better
 Warning--The editor in chang2013towards is missing.
 Warning--empty editor in chang2013towards
-Warning--The editor in brody2011cooooooooooooooollllllllllllll is missing.
-Warning--empty editor in brody2011cooooooooooooooollllllllllllll
-Warning--empty journal in rocchio1971relevance
-Warning--empty pages in rocchio1971relevance
-Warning--The editor in joachims2002optimizing is missing.
-Warning--empty editor in joachims2002optimizing
-Warning--The editor in xue2004optimizing is missing.
-Warning--empty editor in xue2004optimizing
-Warning--The editor in joachims2005accurately is missing.
-Warning--empty editor in joachims2005accurately
-Warning--The editor in radlinski2005query is missing.
-Warning--empty editor in radlinski2005query
-Warning--The editor in agichtein2006improving is missing.
-Warning--empty editor in agichtein2006improving
-Warning--The editor in agichtein2006learning is missing.
-Warning--empty editor in agichtein2006learning
-Warning--The editor in radlinski2007active is missing.
-Warning--empty editor in radlinski2007active
-Warning--The editor in bao2007optimizing is missing.
-Warning--empty editor in bao2007optimizing
-Warning--The editor in duh2008learning is missing.
-Warning--empty editor in duh2008learning
-Warning--The editor in aslam2009document is missing.
-Warning--empty editor in aslam2009document
-Warning--The editor in xu2010improving is missing.
-Warning--empty editor in xu2010improving
-Warning--The editor in burges2005learning is missing.
-Warning--empty editor in burges2005learning
-Warning--The editor in cao2006adapting is missing.
-Warning--empty editor in cao2006adapting
-Warning--The editor in xu2007adarank is missing.
-Warning--empty editor in xu2007adarank
-Warning--The editor in xu2008directly is missing.
-Warning--empty editor in xu2008directly
-Warning--The editor in valizadegan2009learning is missing.
-Warning--empty editor in valizadegan2009learning
-Warning--The editor in wang2010learning is missing.
-Warning--empty editor in wang2010learning
-Warning--The editor in dai2011learning is missing.
-Warning--empty editor in dai2011learning
+Warning--The editor in Schler2005 is missing.
+Warning--empty editor in Schler2005
+Warning--empty pages in Schler2005
+Warning--The editor in Wiebe2001 is missing.
+Warning--empty editor in Wiebe2001
+Warning--The editor in Wiebe2005 is missing.
+Warning--empty editor in Wiebe2005
+Warning--The editor in Dave2003 is missing.
+Warning--empty editor in Dave2003
+Warning--The editor in Pang2004 is missing.
+Warning--empty editor in Pang2004
+Warning--empty pages in Pang2004
+Warning--The editor in Riloff2005 is missing.
+Warning--empty editor in Riloff2005
+Warning--The editor in Pang2002 is missing.
+Warning--empty editor in Pang2002
+Warning--The editor in Melville2009 is missing.
+Warning--empty editor in Melville2009
+Warning--The editor in Vegnaduzzo2004 is missing.
+Warning--empty editor in Vegnaduzzo2004
+Warning--empty pages in Vegnaduzzo2004
+Warning--The editor in Devitt2007 is missing.
+Warning--empty editor in Devitt2007
+Warning--empty pages in Devitt2007
+Warning--The editor in Osherenko2007 is missing.
+Warning--empty editor in Osherenko2007
+Warning--The editor in Goldberg2006 is missing.
+Warning--empty editor in Goldberg2006
+Warning--The editor in Taeckstroem2011 is missing.
+Warning--empty editor in Taeckstroem2011
+Warning--The editor in Mcdonald2007 is missing.
+Warning--empty editor in Mcdonald2007
+Warning--empty pages in Mcdonald2007
+Warning--empty editor in Baccianella2010
+Warning--empty booktitle in Baccianella2010
+Warning--empty journal in Angel
+Warning--empty pages in Angel
+Warning--The refdate in Angel is missing.
+Warning--The editor in Tsytsarau2010 is missing.
+Warning--empty editor in Tsytsarau2010
+Warning--there's a publisher but no address in Missen2009
+Warning--The editor in Zhu2009 is missing.
+Warning--empty editor in Zhu2009
+Warning--The editor in Yi2003 is missing.
+Warning--empty editor in Yi2003
+Warning--The editor in Thet2009 is missing.
+Warning--empty editor in Thet2009
+Warning--empty editor in Turney2002
+Warning--empty booktitle in Turney2002
+Warning--The refdate in Church1990 is missing.
+Warning--The editor in Chaovalit2005 is missing.
+Warning--empty editor in Chaovalit2005
+Warning--empty pages in Chaovalit2005
+Warning--The editor in Read2009 is missing.
+Warning--empty editor in Read2009
+Warning--The editor in Taboada2006 is missing.
+Warning--empty editor in Taboada2006
+Warning--The refdate in Tang2009 is missing.
+Warning--The editor in Liu2005 is missing.
+Warning--empty editor in Liu2005
+Warning--The editor in Ng2006 is missing.
+Warning--empty editor in Ng2006
+Warning--empty journal in Leouski1996
+Warning--empty pages in Leouski1996
+Warning--The editor in Zeng2004 is missing.
+Warning--empty editor in Zeng2004
+Warning--The editor in Su2006 is missing.
+Warning--empty editor in Su2006
+Warning--empty pages in Su2006
+Warning--The editor in Titov2008 is missing.
+Warning--empty editor in Titov2008
+Warning--there's a publisher but no address in Popescu2007
 Warning--The editor in boyd2010tweet is missing.
 Warning--empty editor in boyd2010tweet
 Warning--The editor in yang2010understanding is missing.
@@ -178,8 +208,6 @@ Warning--empty editor in Wilson2005d
 Warning--empty editor in Taboada2004
 Warning--empty booktitle in Taboada2004
 Warning--empty pages in Taboada2004
-Warning--empty editor in Baccianella2010
-Warning--empty booktitle in Baccianella2010
 Warning--empty editor in Agerri2010
 Warning--empty booktitle in Agerri2010
 Warning--empty pages in Agerri2010
@@ -205,14 +233,10 @@ Warning--empty pages in Kiritchenko2014
 Warning--The editor in Cambria2014 is missing.
 Warning--empty editor in Cambria2014
 Warning--empty pages in Cambria2014
-Warning--empty editor in Turney2002
-Warning--empty booktitle in Turney2002
 Warning--The editor in Lin2012 is missing.
 Warning--empty editor in Lin2012
 Warning--The editor in LourencoJr2014 is missing.
 Warning--empty editor in LourencoJr2014
-Warning--The editor in Pang2002 is missing.
-Warning--empty editor in Pang2002
 Warning--The editor in Barbosa2010 is missing.
 Warning--empty editor in Barbosa2010
 Warning--The editor in Hu2013 is missing.
@@ -344,45 +368,45 @@ while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in miyanishi2013combining
 
 Done.
-You've used 209 entries,
+You've used 216 entries,
             4554 wiz_defined-function locations,
-            2126 strings with 45428 characters,
-and the built_in function-call counts, 129822 in all, are:
-= -- 14630
-> -- 2114
-< -- 162
-+ -- 1267
-- -- 637
-* -- 10637
-:= -- 14527
-add.period$ -- 817
-call.type$ -- 209
+            2230 strings with 48200 characters,
+and the built_in function-call counts, 132907 in all, are:
+= -- 14951
+> -- 2154
+< -- 161
++ -- 1287
+- -- 656
+* -- 10972
+:= -- 14872
+add.period$ -- 858
+call.type$ -- 216
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 528
-duplicate$ -- 8570
-empty$ -- 13787
-format.name$ -- 635
-if$ -- 31512
+cite$ -- 559
+duplicate$ -- 8810
+empty$ -- 14150
+format.name$ -- 646
+if$ -- 32225
 int.to.chr$ -- 0
-int.to.str$ -- 209
-missing$ -- 5
-newline$ -- 1239
-num.names$ -- 212
-pop$ -- 1062
+int.to.str$ -- 216
+missing$ -- 7
+newline$ -- 1294
+num.names$ -- 221
+pop$ -- 1083
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3532
+skip$ -- 3543
 stack$ -- 0
-substring$ -- 15296
-swap$ -- 2605
-text.length$ -- 167
+substring$ -- 15561
+swap$ -- 2662
+text.length$ -- 174
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1782
-warning$ -- 319
-while$ -- 1316
-width$ -- 212
-write$ -- 1826
+type$ -- 1823
+warning$ -- 343
+while$ -- 1329
+width$ -- 219
+write$ -- 1907
 (There were 4 error messages)
