@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  29 OCT 2014 00:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  29 OCT 2014 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2056,12 +2056,7 @@ File: figures/1-4.png Graphic file (type QTm)
 ]
 File: figures/2-1.png Graphic file (type QTm)
 
-<use  "figures/2-1.png" >
-Overfull \hbox (123.20865pt too wide) in paragraph at lines 24--25
- [][] 
- []
-
-[21] [22]
+<use  "figures/2-1.png" > [21] [22]
 File: figures/2-2.png Graphic file (type QTm)
  <use  "figures/2-2.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2312,10 +2307,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 32209 strings out of 493918
- 595432 string characters out of 6150564
- 654180 words of memory out of 5000000
- 34982 multiletter control sequences out of 15000+600000
+ 32200 strings out of 493918
+ 594997 string characters out of 6150564
+ 653942 words of memory out of 5000000
+ 34973 multiletter control sequences out of 15000+600000
  84290 words of font info for 313 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  51i,20n,66p,10456b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s

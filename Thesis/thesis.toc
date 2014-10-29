@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {2.2.1}HowNet语义词典}{20}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}WordNet语义词典}{21}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}SentiWordNet情感词典}{21}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}基于语义关系的情感词典构建方法}{22}{section.2.3}
+\contentsline {section}{\numberline {2.3}基于语义关系的情感词典构建方法}{21}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}词语抽取和义原抽取及语义分析}{24}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}情感极性值的查询与计算}{24}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}词语倾向性值查询与计算}{25}{subsubsection.2.3.2.1}
