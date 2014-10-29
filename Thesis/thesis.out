@@ -22,8 +22,8 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{SentiWordNet情感词典}{section.2.2}% 22
 \BOOKMARK [1][-]{section.2.3}{基于语义关系的情感词典构建方法}{chapter.2}% 23
 \BOOKMARK [2][-]{subsection.2.3.1}{词语抽取和义原抽取及语义分析}{section.2.3}% 24
-\BOOKMARK [2][-]{subsection.2.3.2}{情感值的查询与计算}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.3}{词语情感值计算}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{情感极性值的查询与计算}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.3}{词语情感极性值计算}{section.2.3}% 26
 \BOOKMARK [1][-]{section.2.4}{实验及结果}{chapter.2}% 27
 \BOOKMARK [2][-]{subsection.2.4.1}{评价指标}{section.2.4}% 28
 \BOOKMARK [2][-]{subsection.2.4.2}{性能评测结果}{section.2.4}% 29

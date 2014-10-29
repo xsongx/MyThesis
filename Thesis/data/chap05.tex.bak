@@ -10,7 +10,7 @@
 \begin{landscape}
 \begin{figure*}[htb]
 \centering
-\includegraphics[height=280pt]{5-1.png}
+\includegraphics[height=350pt]{5-1.png}
 \caption{主观模型总体框架.}
 \label{fig5-1}
 \end{figure*}

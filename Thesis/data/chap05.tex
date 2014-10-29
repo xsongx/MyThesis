@@ -10,7 +10,7 @@
 \begin{landscape}
 \begin{figure*}[htb]
 \centering
-\includegraphics[height=280pt]{5-1.png}
+\includegraphics[height=350pt]{5-1.png}
 \caption{主观模型总体框架.}
 \label{fig5-1}
 \end{figure*}
@@ -82,7 +82,7 @@ P \left( u \right) = \lbrace \left( t, w_{u} \left( t \right), \lbrace d_{u,t} \
 
 \begin{figure}[htb]
 \centering
-\includegraphics[height=80pt]{5-0.eps}
+\includegraphics[height=120pt]{5-0.eps}
 \caption{用户层面LDA话题模型}
 \label{fig5-1}
 \end{figure}
@@ -93,8 +93,8 @@ P \left( u \right) = \lbrace \left( t, w_{u} \left( t \right), \lbrace d_{u,t} \
 \item 对用户微博中的每个词语$ w_{u,n} $，$ n \in \left\lbrace 1, \cdots, N \right\rbrace $：
 \begin{itemize}
 \item 获取一个话题$ z_{u,n} \sim Multinomial \left( \theta_{u}  \right) $；
-\item 基于话题$ z_{u,n} $，从话题的多项分布中获取词语$ w_{u,n} $:\\ 
-$$  p \left( w_{u,n} \vert z_{u,n}, \beta_{k}  \right) $$；
+\item 基于话题$ z_{u,n} $，从话题的多项分布中获取词语$ w_{u,n} $：\\ 
+$ p \left( w_{u,n} \vert z_{u,n}, \beta_{k}  \right) $。
 \end{itemize}
 \end{itemize}
 
@@ -241,10 +241,10 @@ Igraph\footnote{\url{http://igraph.org/}}工具包，最后将用户划分为106
 \begin{figure}[htb]
 \centering
 \includegraphics[height=200pt]{5-3.png}
-\caption{主观模型。主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $。}
+\caption{主观模型样例}
 \label{fig5:b}
 \end{figure}
-
+\footnotetext{主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $。}
 图~\ref{fig5:b}是用户在$ [0,100] $话题空间和$ [0,8] $情感强度空间的可视化的主观模型。很明显，从词云图上可以看到该用户讨论了三个话题（话题2：``\#Obamacare''，话题32：``\#libya''以及话题83：``\#occupywallst''），子图~\ref{fig5:b}左侧展示了用户在每个话题上的兴趣权重。子图~\ref{fig5:b}右侧是用户对这三个话题所持观点分布，总体来看，对于话题``\#libya''情感分布100\%在强度4上，属于中性，对话题``\#Obamacare''和``\#occupywallst''情感分部都是50\%在强度4以及50\%在强度5上，属于中性偏正面倾向。从这个样例可以看出，我们的主观模型对用户的主观性进行了详细的建模，不但有用户的兴趣分布，也有细粒度的观点分部信息。
 
 \subsection{观点预测性能}
