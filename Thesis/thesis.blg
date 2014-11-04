@@ -4,11 +4,8 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 14585 items from 5000.
+Reallocated field_info (elt_size=4) to 14450 items from 5000.
 Database file #1: ref/refs.bib
-Warning--I didn't find a database entry for "Liu2012b"
-Warning--I didn't find a database entry for "jiang2011target"
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Das2014，Guerra2014"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
@@ -109,25 +106,6 @@ Warning--empty editor in Pang2004
 Warning--empty pages in Pang2004
 Warning--The editor in Riloff2005 is missing.
 Warning--empty editor in Riloff2005
-Warning--The editor in Pang2002 is missing.
-Warning--empty editor in Pang2002
-Warning--The editor in Melville2009 is missing.
-Warning--empty editor in Melville2009
-Warning--The editor in Vegnaduzzo2004 is missing.
-Warning--empty editor in Vegnaduzzo2004
-Warning--empty pages in Vegnaduzzo2004
-Warning--The editor in Devitt2007 is missing.
-Warning--empty editor in Devitt2007
-Warning--empty pages in Devitt2007
-Warning--The editor in Osherenko2007 is missing.
-Warning--empty editor in Osherenko2007
-Warning--The editor in Goldberg2006 is missing.
-Warning--empty editor in Goldberg2006
-Warning--The editor in Taeckstroem2011 is missing.
-Warning--empty editor in Taeckstroem2011
-Warning--The editor in Mcdonald2007 is missing.
-Warning--empty editor in Mcdonald2007
-Warning--empty pages in Mcdonald2007
 Warning--empty editor in Baccianella2010
 Warning--empty booktitle in Baccianella2010
 Warning--empty journal in Angel
@@ -152,6 +130,25 @@ Warning--The editor in Read2009 is missing.
 Warning--empty editor in Read2009
 Warning--The editor in Taboada2006 is missing.
 Warning--empty editor in Taboada2006
+Warning--The editor in Pang2002 is missing.
+Warning--empty editor in Pang2002
+Warning--The editor in Melville2009 is missing.
+Warning--empty editor in Melville2009
+Warning--The editor in Vegnaduzzo2004 is missing.
+Warning--empty editor in Vegnaduzzo2004
+Warning--empty pages in Vegnaduzzo2004
+Warning--The editor in Devitt2007 is missing.
+Warning--empty editor in Devitt2007
+Warning--empty pages in Devitt2007
+Warning--The editor in Osherenko2007 is missing.
+Warning--empty editor in Osherenko2007
+Warning--The editor in Goldberg2006 is missing.
+Warning--empty editor in Goldberg2006
+Warning--The editor in Taeckstroem2011 is missing.
+Warning--empty editor in Taeckstroem2011
+Warning--The editor in Mcdonald2007 is missing.
+Warning--empty editor in Mcdonald2007
+Warning--empty pages in Mcdonald2007
 Warning--The refdate in Tang2009 is missing.
 Warning--The editor in Liu2005 is missing.
 Warning--empty editor in Liu2005
@@ -222,6 +219,8 @@ Warning--The editor in Lin2012 is missing.
 Warning--empty editor in Lin2012
 Warning--The editor in LourencoJr2014 is missing.
 Warning--empty editor in LourencoJr2014
+Warning--The editor in Jiang2011 is missing.
+Warning--empty editor in Jiang2011
 Warning--The editor in Barbosa2010 is missing.
 Warning--empty editor in Barbosa2010
 Warning--The editor in Hu2013 is missing.
@@ -241,8 +240,6 @@ Warning--The editor in Lu2008 is missing.
 Warning--empty editor in Lu2008
 Warning--The editor in Davidov2010 is missing.
 Warning--empty editor in Davidov2010
-Warning--The editor in Jiang2011 is missing.
-Warning--empty editor in Jiang2011
 Warning--The editor in Li2010 is missing.
 Warning--empty editor in Li2010
 Warning--The editor in tan2011user is missing.
@@ -352,7 +349,7 @@ Warning--there's a publisher but no address in miyanishi2013combining
 Done.
 You've used 209 entries,
             4554 wiz_defined-function locations,
-            2199 strings with 47119 characters,
+            2196 strings with 47088 characters,
 and the built_in function-call counts, 128571 in all, are:
 = -- 14500
 > -- 2060

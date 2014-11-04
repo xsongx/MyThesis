@@ -6,16 +6,17 @@
 \subsection{社交媒体}
 \label{ch1_social}
 作为划时代的创新，互联网20年以来已深刻影响和改变着我们的生活，思维和行为方式。尤其现在，我们可以通过手机、各种穿戴式智能设备，随时随地保持与互联网不间断联系。根据中国互联网络信息中心的权威报告，截至2014年7月，我国网民规模达6.41亿，手机网民规模已超过5亿，互联网普及率为47.4\%\footnote{\url{http://www.cnnic.cn/hlwfzyj/hlwfzzx/qwfb/201408/t20140825\_47878.htm}}。
-随着互联网技术的迅猛发展，出现了形形色色吸引用户参与的社交媒体（Social Media）平台，并且已经成为人类工作、学习、生活必不可少的重要部分。图~\ref{fig1-1}展示了各种国内外的在线社交媒体平台。
+随着互联网技术的迅猛发展，出现了形形色色吸引用户参与的社交媒体（Social Media）平台，并且已经成为人类工作、学习、生活必不可少的重要部分。
+%图~\ref{fig1-1}展示了各种国内外的在线社交媒体平台。
 
-\begin{figure}[htp]
-\centering
-\includegraphics[height=340pt]{1-1.png}
-\caption{国内外社交媒体}
-\label{fig1-1}
-\end{figure}
+%\begin{figure}[htp]
+%\centering
+%\includegraphics[height=340pt]{1-1.png}
+%\caption{国内外社交媒体}
+%\label{fig1-1}
+%\end{figure}
 
-社交媒体中的互联网用户不再是单纯的信息接收者，同时也是网络内容的制造者，人们通过社交媒体进行交流而获取和产生信息。以中国为例，目前拥有12亿手机用户、5亿微博用户、5亿微信用户，每天信息发送量超过200亿条，交流无处不在，无时不有。表~\ref{tab1-1}是互联网网站信息统计公司Alexa\footnote{网站地址：\url{www.alexa.com}，访问时间：2014年9月。}统计的网络访问统计，从表中可以看出，根据统计，流量前十的互联网网站中社交媒体占了绝大部分。
+社交媒体中的互联网用户不再是单纯的信息接收者，同时也是网络内容的产生者，人们通过社交媒体进行交流而获取和产生信息。以中国为例，目前拥有12亿手机用户、5亿微博用户、5亿微信用户，每天信息发送量超过200亿条，交流无处不在，无时不有。表~\ref{tab1-1}是互联网网站信息统计公司Alexa\footnote{网站地址：\url{www.alexa.com}，访问时间：2014年9月。}统计的网络访问统计，从表中可以看出，根据统计，流量前十的互联网网站中社交媒体占了绝大部分。
 
 \begin{table}[htp]
 \centering
@@ -201,19 +202,6 @@ finin2010annotating,ritter2011named}。
 观点挖掘研究识别文档中针对一主题表达出的观点以及这观点的极性（例如，是积极还是消极）。观点挖掘通过对文档深入分析得到文档中表达的观点信息，是观点分析后续任务的基础，观点挖掘的结果影响着后续分析任务。一般观点挖掘包含观点识别（identify）和极性分类（classify）两个步骤。观点识别主要是从文档中识别出话题以及与话题相关的带有观点的文本片段。识别带有观点的文本片段（一般是文档中的句子）也称为主客观分析（subjectivity analysis），是将文档中的带有观点的句子与描述客观事实的句子区分开，研究表明将文档中的客观文本过滤有助于提高观点挖掘的准确性\upcite{Schler2005}，目前主客观分析主要采用机器学习方法进行主客观分类\upcite{Wiebe2001,Wiebe2005,Dave2003,Pang2004,Riloff2005,Wilson2009}。极性分类是将文档就话题表达出的情感倾向进行极性分类，一般是分为积极与消极，也可以是多种类别（当类别为积极、消极以及中性时，与主客观分类一致）。
 观点挖掘研究方法一般可以分为基于词典、基于统计以及机器学习三类。
 
-\subsubsection{基于机器学习观点挖掘}
-在观点挖掘研究早期，机器学习方法和标注数据集的使用加速了研究的进展，目前最常使用的仍然是机器学习方法。机器学习方法是对分类问题的比较成熟的解决方案，一般经过训练和预测两个过程，可以进行如下形式化表示：假设训练数据集是经过极性标注的文档集$D$，每个文档都可以用特征（词语，二元组等等）向量表示，文档都被标注了情感极性（在极性空间$S$中的一个值），机器学习的训练过程可以形式化为，给定训练数据集：$ \{(d,s)|d \in D,s \in S\} $，找到映射：
-\begin{equation}
-g:D \rightarrow S,\quad g(d)=\arg max_S f(d,s)
-\end{equation}
-极性分类也就是找到映射$ g $，将文档根据打分函数$ f $映射到情感极性空间，函数$ f $以文档向量和标注的极性作为输入，对未标注的文档给出极性预测的概率值（使用条件概率或联合概率），训练的过程就是对打分函数$ f $的估计过程。一般训练过程有以下几个步骤：
-（1）首先获取训练数据集，数据集可以是带标注的（有监督），也可以是无标注的（无监督）；
-（2）在文档集中发现有用特征，将文档使用特征向量表示；
-（3）通过分析相关特征共现规律，训练分类器区分文档极性标签；
-（4）最后使用训练得到的分类器对新文档预测给出极性概率值。
-
-Pang和Lee\upcite{Pang2002}最先将机器学习方法引入了观点挖掘领域，作者提出了使用三种有监督的分类器（Naive Bayes (NB)，maximum entropy (ME)和support vector machines (SVM)）进行电影评论的情感分类，三种分类器都能超过随机选择的基准分类器，平均准确率达到80\%，其中SVM表现出最好的性能。Dave等\upcite{Dave2003}扩展了Pang的工作，强调使用特征选择对情感表示特征进行过滤，可以将准确率提高到87\%。Pang和Lee使用主客观分析对文档进行预处理，过滤掉其中的描述客观信息的句子，发现可以提高极性分类的准确性。后续的一些工作主要集中于研究如何扩充有用的分类特征\upcite{Melville2009,Vegnaduzzo2004,Devitt2007,Osherenko2007}，训练数据的构建\upcite{Goldberg2006,Taeckstroem2011}以及机器学习方法的选择\upcite{Mcdonald2007}。
-
 \subsubsection{基于词典的观点挖掘}
 基于词典的观点挖掘依赖于预先构建好的情感词典，词典里的词语都标注了情感极性值。常用的英文情感词典有General Inquirer\footnote{\url{http://www.wjh.harvard.edu/~inquirer/}}，DAL（Dictionary of Affect of Language）\footnote{\url{http://www.hdcus.com/}}，WordNet-Affect\footnote{\url{http://wndomains.fbk.eu/wnaffect.html}}以及SentiWordNet\upcite{Baccianella2010}。
 基于情感词典的方法一般是用词典确定文本中的带有观情感极性的词语，用以判断文本是否主观文本。也有一些研究使用情感词典词语的情感极性值来计算文本的观点极性\upcite{Angel,Tsytsarau2010,Missen2009},一个句子或文档的极性值可以通过将每个词语的极性值取平均来确定，常用的计算方法可以使用公式~\ref{eq1-5}来表示：
@@ -235,12 +223,25 @@ PMI-IR(x)=\sum_{p \in pWords}PMI(x,p)-\sum_{n \in nWords}PMI(x,n)
 \end{equation}
 其中$ pWords $表示积极极性的基准词集合，$ nWords $表示消极极性基准词集合。为了统计词语出现频率，Turney使用AltaVista搜索引擎检索词语返回的条目数作为词语出现频率。Chaovalit和Zhou\upcite{Chaovalit2005}扩展了Turney方法，通过谷歌搜索引擎确定词语共现频率，提高了准确性。Read和Carroll\upcite{Read2009}使用语义空间和分布相似性作为替代方法进一步扩展了Turney方法。这种方法更细致的全面的研究是Taboada等\upcite{Taboada2006}，他们提出了使用搜索引擎确定共现频率的一些问题。Ben等\upcite{he2008effective}提出使用统计方法构建情感词典与信息检索相结合的方法获取主观性的博客文档。
 
+\subsubsection{基于机器学习观点挖掘}
+在观点挖掘研究早期，机器学习方法和标注数据集的使用加速了研究的进展，目前最常使用的仍然是机器学习方法。机器学习方法是对分类问题的比较成熟的解决方案，一般经过训练和预测两个过程，可以进行如下形式化表示：假设训练数据集是经过极性标注的文档集$D$，每个文档都可以用特征（词语，二元组等等）向量表示，文档都被标注了情感极性（在极性空间$S$中的一个值），机器学习的训练过程可以形式化为，给定训练数据集：$ \{(d,s)|d \in D,s \in S\} $，找到映射：
+\begin{equation}
+g:D \rightarrow S,\quad g(d)=\arg max_S f(d,s)
+\end{equation}
+极性分类也就是找到映射$ g $，将文档根据打分函数$ f $映射到情感极性空间，函数$ f $以文档向量和标注的极性作为输入，对未标注的文档给出极性预测的概率值（使用条件概率或联合概率），训练的过程就是对打分函数$ f $的估计过程。一般训练过程有以下几个步骤：
+（1）首先获取训练数据集，数据集可以是带标注的（有监督），也可以是无标注的（无监督）；
+（2）在文档集中发现有用特征，将文档使用特征向量表示；
+（3）通过分析相关特征共现规律，训练分类器区分文档极性标签；
+（4）最后使用训练得到的分类器对新文档预测给出极性概率值。
+
+Pang和Lee\upcite{Pang2002}最先将机器学习方法引入了观点挖掘领域，作者提出了使用三种有监督的分类器（Naive Bayes (NB)，maximum entropy (ME)和support vector machines (SVM)）进行电影评论的情感分类，三种分类器都能超过随机选择的基准分类器，平均准确率达到80\%，其中SVM表现出最好的性能。Dave等\upcite{Dave2003}扩展了Pang的工作，强调使用特征选择对情感表示特征进行过滤，可以将准确率提高到87\%。Pang和Lee使用主客观分析对文档进行预处理，过滤掉其中的描述客观信息的句子，发现可以提高极性分类的准确性。后续的一些工作主要集中于研究如何扩充有用的分类特征\upcite{Melville2009,Vegnaduzzo2004,Devitt2007,Osherenko2007}，训练数据的构建\upcite{Goldberg2006,Taeckstroem2011}以及机器学习方法的选择\upcite{Mcdonald2007}。
+
 \subsection{观点集成}
 \label{ch_integrate}
 通过观点分析得到的是单个文档中的观点信息，实际使用的时候，我们关注的是更高层次的观点，而不是单独一篇文档的观点，因此需要对文档观点分析结果进行整合集成。这种整合集成可以按照不同的维度进行，比如为了了解一群人的观点分布，需要将每个人发表的所有文档中的观点进行集成。最需要观点集成的研究领域是产品评论，需要从大量用户发表的评论中抽取出产品的特征，并计算不同用户针对相同特征的观点或打分的平均值，以便进行观点集成形成对产品总体的评价。以图~\ref{fig1-2}所示产品评论的观点集成为例，观点集成一般包括信息收集，观点识别，观点分类以及推理集成三个步骤\upcite{Tang2009,Liu2005,Ng2006}。
 \begin{figure}[htp]
 \centering
-\includegraphics[height=220pt]{1-2.png}
+\includegraphics[height=220pt]{1-2.jpg}
 \caption{产品评论的观点集成框架}
 \label{fig1-2}
 \end{figure}
@@ -280,7 +281,7 @@ Comarela等人研究了影响用户回复或转发的因素，他们发现以前
 
 \begin{figure}[htp]
 \centering
-\includegraphics[height=230pt]{1-3.png}
+\includegraphics[height=230pt]{1-3.jpg}
 \caption{本文研究框架}
 \label{fig1-3}
 \end{figure}
@@ -337,7 +338,7 @@ Comarela等人研究了影响用户回复或转发的因素，他们发现以前
 
 \begin{figure}[htp]
 \centering
-\includegraphics[height=350pt]{1-4.png}
+\includegraphics[height=250pt]{1-4.jpg}
 \caption{论文整体结构图}
 \label{fig1-4}
 \end{figure}

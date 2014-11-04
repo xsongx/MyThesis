@@ -401,70 +401,6 @@ Recognizing contextual polarity: An exploration of features for phrase-level
 Computational linguistics.
 2009, 35~(3):  399--433.
 
-\bibitem{Pang2002}
-Pang~B, Lee~L, Vaithyanathan~S.
-Thumbs up?: sentiment classification using machine learning techniques~[C/OL].
-In Proceedings of the ACL-02 conference on Empirical methods in natural
-  language processing - Volume 10.
-Stroudsburg, PA, USA, 2002:  79--86.
-\url{http://dx.doi.org/10.3115/1118693.1118704}.
-
-\bibitem{Melville2009}
-Melville~P, Gryc~W, Bldg~W, et~al.
-Sentiment analysis of blogs by combining lexical knowledge with text
-  classification~[C].
-In In KDD.
-2009:  1275--1284.
-
-\bibitem{Vegnaduzzo2004}
-Vegnaduzzo~S.
-Acquisition of subjective adjectives with limited resources~[C].
-In Proceedings of the AAAI Spring Symposium on Exploring Attitude and Affect in
-  Text: Theories and Applications.
-2004.
-
-\bibitem{Devitt2007}
-Devitt~A, Ahmad~K.
-Sentiment Polarity Identification in Financial News: A Cohesion-based
-  Approach~[C].
-In Proceedings of the 45th Annual Meeting of the Association of Computational
-  Linguistics.
-2007.
-
-\bibitem{Osherenko2007}
-Osherenko~A, Andr{\'e}~E.
-Lexical Affect Sensing: Are Affect Dictionaries Necessary to Analyze
-  Affect?~[C/OL].
-In Proceedings of the 2Nd International Conference on Affective Computing and
-  Intelligent Interaction.
-Berlin, Heidelberg, 2007:  230--241.
-\url{http://dx.doi.org/10.1007/978-3-540-74889-2_21}.
-
-\bibitem{Goldberg2006}
-Goldberg~A~B, Zhu~X.
-Seeing Stars when There Aren'T Many Stars: Graph-based Semi-supervised Learning
-  for Sentiment Categorization~[C/OL].
-In Proceedings of the First Workshop on Graph Based Methods for Natural
-  Language Processing.
-Stroudsburg, PA, USA, 2006:  45--52.
-\url{http://dl.acm.org/citation.cfm?id=1654758.1654769}.
-
-\bibitem{Taeckstroem2011}
-T\"{a}ckstr\"{o}m~O, McDonald~R.
-Discovering Fine-grained Sentiment with Latent Variable Structured Prediction
-  Models~[C/OL].
-In Proceedings of the 33rd European Conference on Advances in Information
-  Retrieval.
-Berlin, Heidelberg, 2011:  368--374.
-\url{http://dl.acm.org/citation.cfm?id=1996889.1996937}.
-
-\bibitem{Mcdonald2007}
-Mcdonald~R, Hannan~K, Neylon~T, et~al.
-Structured Models for Fine-to-Coarse Sentiment Analysis~[C].
-In Proceedings of the 45th Annual Meeting of the Association of Computational
-  Linguistics.
-2007.
-
 \bibitem{Baccianella2010}
 Baccianella~S, Esuli~A, Sebastiani~F.
 SentiWordNet 3.0: An Enhanced Lexical Resource for Sentiment Analysis and
@@ -557,6 +493,70 @@ Taboada~M, Anthony~C, Voll~K.
 Methods for Creating Semantic Orientation Dictionaries~[C].
 In Conference on Language Resources and Evaluation (LREC).
 2006:  427--432.
+
+\bibitem{Pang2002}
+Pang~B, Lee~L, Vaithyanathan~S.
+Thumbs up?: sentiment classification using machine learning techniques~[C/OL].
+In Proceedings of the ACL-02 conference on Empirical methods in natural
+  language processing - Volume 10.
+Stroudsburg, PA, USA, 2002:  79--86.
+\url{http://dx.doi.org/10.3115/1118693.1118704}.
+
+\bibitem{Melville2009}
+Melville~P, Gryc~W, Bldg~W, et~al.
+Sentiment analysis of blogs by combining lexical knowledge with text
+  classification~[C].
+In In KDD.
+2009:  1275--1284.
+
+\bibitem{Vegnaduzzo2004}
+Vegnaduzzo~S.
+Acquisition of subjective adjectives with limited resources~[C].
+In Proceedings of the AAAI Spring Symposium on Exploring Attitude and Affect in
+  Text: Theories and Applications.
+2004.
+
+\bibitem{Devitt2007}
+Devitt~A, Ahmad~K.
+Sentiment Polarity Identification in Financial News: A Cohesion-based
+  Approach~[C].
+In Proceedings of the 45th Annual Meeting of the Association of Computational
+  Linguistics.
+2007.
+
+\bibitem{Osherenko2007}
+Osherenko~A, Andr{\'e}~E.
+Lexical Affect Sensing: Are Affect Dictionaries Necessary to Analyze
+  Affect?~[C/OL].
+In Proceedings of the 2Nd International Conference on Affective Computing and
+  Intelligent Interaction.
+Berlin, Heidelberg, 2007:  230--241.
+\url{http://dx.doi.org/10.1007/978-3-540-74889-2_21}.
+
+\bibitem{Goldberg2006}
+Goldberg~A~B, Zhu~X.
+Seeing Stars when There Aren'T Many Stars: Graph-based Semi-supervised Learning
+  for Sentiment Categorization~[C/OL].
+In Proceedings of the First Workshop on Graph Based Methods for Natural
+  Language Processing.
+Stroudsburg, PA, USA, 2006:  45--52.
+\url{http://dl.acm.org/citation.cfm?id=1654758.1654769}.
+
+\bibitem{Taeckstroem2011}
+T\"{a}ckstr\"{o}m~O, McDonald~R.
+Discovering Fine-grained Sentiment with Latent Variable Structured Prediction
+  Models~[C/OL].
+In Proceedings of the 33rd European Conference on Advances in Information
+  Retrieval.
+Berlin, Heidelberg, 2011:  368--374.
+\url{http://dl.acm.org/citation.cfm?id=1996889.1996937}.
+
+\bibitem{Mcdonald2007}
+Mcdonald~R, Hannan~K, Neylon~T, et~al.
+Structured Models for Fine-to-Coarse Sentiment Analysis~[C].
+In Proceedings of the 45th Annual Meeting of the Association of Computational
+  Linguistics.
+2007.
 
 \bibitem{Tang2009}
 Tang~H, Tan~S, Cheng~X.
@@ -864,6 +864,13 @@ In Proceedings of the 37th international ACM SIGIR conference on Research \&
   development in information retrieval.
 2014:  637--646.
 
+\bibitem{Jiang2011}
+Jiang~L, Yu~M, Zhou~M, et~al.
+Target-dependent twitter sentiment classification~[C].
+In Proceedings of the 49th Annual Meeting of the Association for Computational
+  Linguistics: Human Language Technologies-Volume 1.
+2011:  151--160.
+
 \bibitem{Barbosa2010}
 Barbosa~L, Feng~J.
 Robust sentiment detection on twitter from biased and noisy data~[C].
@@ -952,13 +959,6 @@ Enhanced sentiment learning using twitter hashtags and smileys~[C].
 In Proceedings of the 23rd International Conference on Computational
   Linguistics: Posters.
 2010:  241--249.
-
-\bibitem{Jiang2011}
-Jiang~L, Yu~M, Zhou~M, et~al.
-Target-dependent twitter sentiment classification~[C].
-In Proceedings of the 49th Annual Meeting of the Association for Computational
-  Linguistics: Human Language Technologies-Volume 1.
-2011:  151--160.
 
 \bibitem{Li2010}
 Li~G, Hoi~S~C, Chang~K, et~al.
