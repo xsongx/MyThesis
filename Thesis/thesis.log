@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  4 NOV 2014 00:50
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  4 NOV 2014 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 12 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -1641,9 +1641,13 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box60
 )
+\c@currhypothesisctr=\count321
+\c@endhypothesisctr=\count322
+\c@hypothesis=\count323
+
 (/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2013/12/08 v3.2.9 xeCJK patch file for listings
-\l__xeCJK_listings_flag_int=\count321
+\l__xeCJK_listings_flag_int=\count324
 )
 (./thesis.aux
 
@@ -1652,53 +1656,53 @@ LaTeX Warning: Label `fig5-1' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 72.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 72.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 73.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 73.
 
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 73.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 73.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 73.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1746,7 +1750,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1754,18 +1758,18 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count322
+\c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-\c@lstlisting=\count323
-\g_fontspec_family_Adobe Fangsong Std_int=\count324
+\c@lstlisting=\count326
+\g_fontspec_family_Adobe Fangsong Std_int=\count327
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1792,40 +1796,40 @@ LaTeX Info: Redefining \nameref on input line 72.
 . * 'normal' with NFSS spec.:
 . <->"Adobe Fangsong Std/ICU:script=hani;language=DFLT;mapping=tex-text;"
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 79
+LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 80
 .
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 79.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 79.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 79.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 79.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 9.48535pt on input line 79.
+(Font)              scaled to size 9.48535pt on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 6.63971pt on input line 79.
+(Font)              scaled to size 6.63971pt on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 4.74268pt on input line 79.
-\g_fontspec_family_Adobe Heiti Std_int=\count325
+(Font)              scaled to size 4.74268pt on input line 80.
+\g_fontspec_family_Adobe Heiti Std_int=\count328
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1852,7 +1856,7 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 . * 'normal' with NFSS spec.:
 . <->"Adobe Heiti Std/ICU:script=hani;language=DFLT;mapping=tex-text;"
 .................................................
-\g_fontspec_family_STZhongsong_int=\count326
+\g_fontspec_family_STZhongsong_int=\count329
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1879,14 +1883,14 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 . * 'normal' with NFSS spec.:
 . <->"STZhongsong/ICU:script=hani;language=DFLT;mapping=tex-text;"
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 79
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 80
 .
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 12.64714pt on input line 79.
+(Font)              scaled to size 12.64714pt on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 8.85295pt on input line 79.
+(Font)              scaled to size 8.85295pt on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 6.32356pt on input line 79.
+(Font)              scaled to size 6.32356pt on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1895,13 +1899,13 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <16.06> on input line 79.
+LaTeX Font Info:    Calculating math sizes for size <16.06> on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 14.45389pt on input line 79.
+(Font)              scaled to size 14.45389pt on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.11768pt on input line 79.
+(Font)              scaled to size 10.11768pt on input line 80.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 7.22694pt on input line 79.
+(Font)              scaled to size 7.22694pt on input line 80.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1974,17 +1978,21 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 
 
 
-] [2] [3
+] [2] [3] [4
 
 
-] [4]) [5] (./data/chap01.tex
+]
+Underfull \vbox (badness 6380) has occurred while \output is active []
+
+ [5])
+[6] (./data/chap01.tex
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 8.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 6.29996pt on input line 8.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 8.
-\g_fontspec_family_Adobe Kaiti Std_int=\count327
+\g_fontspec_family_Adobe Kaiti Std_int=\count330
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2020,30 +2028,37 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 . This font family consists of the following shapes:
 .................................................
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 47.
+nput line 51.
  [1
 
 
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[][][]\EU1/AdobeSongStd(0)/m/n/10 来 源：| []$[][][][] [] [] [] [][][] [] [][][][]
-[][][][][][] [] [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][
-] [] [][][] [] [][][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[][][][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][] [] [][][][]
+[] [] [][][][][][][] [] [][][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][
+][][][] []
  []
 
-[3] [4] [5] [6] [7] [8]
+[3] [4]
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+ [5]
+[6] [7] [8]
 Missing character: There is no （ in font txr!
 Missing character: There is no ） in font txr!
  [9] [10]
 File: figures/1-2.jpg Graphic file (type QTm)
  <use  "figures/1-2.jpg" > [11] [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 File: figures/1-3.jpg Graphic file (type QTm)
 
-<use  "figures/1-3.jpg" > [13] [14] [15] [16]
+<use  "figures/1-3.jpg" > [14] [15] [16] [17]
 File: figures/1-4.jpg Graphic file (type QTm)
  <use  "figures/1-4.jpg" >
-[17] [18]) (./data/chap02.tex [19] [20
+[18]) (./data/chap02.tex [19] [20
 
 
 ]
@@ -2107,12 +2122,8 @@ File: figures/3-7.png Graphic file (type QTm)
 
 
 ] [42] [43]
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 37.
-
-
-LaTeX Font Warning: Font shape `EU1/AdobeKaitiStd(0)/bx/n' undefined
-(Font)              using `EU1/AdobeKaitiStd(0)/m/n' instead on input line 38.
+Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
+nput line 37.
 
 [44] [45] [46] [47]
 File: figures/4-1.png Graphic file (type QTm)
@@ -2285,27 +2296,24 @@ visation: Linguistic Perspec-
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 (./thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 112.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 32198 strings out of 493918
- 594971 string characters out of 6150564
- 658900 words of memory out of 5000000
- 34971 multiletter control sequences out of 15000+600000
+ 32232 strings out of 495484
+ 595687 string characters out of 6183322
+ 656477 words of memory out of 5000000
+ 34896 multiletter control sequences out of 15000+600000
  84290 words of font info for 313 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 102 hyphenation exceptions out of 8191
  51i,20n,66p,10456b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (119 pages).
+Output written on thesis.pdf (120 pages).
