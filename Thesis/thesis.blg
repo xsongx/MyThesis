@@ -4,7 +4,7 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 14450 items from 5000.
+Reallocated field_info (elt_size=4) to 14495 items from 5000.
 Database file #1: ref/refs.bib
 Warning--I didn't find a database entry for "Das2014，Guerra2014"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
@@ -347,45 +347,45 @@ while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in miyanishi2013combining
 
 Done.
-You've used 209 entries,
+You've used 210 entries,
             4554 wiz_defined-function locations,
-            2196 strings with 47088 characters,
-and the built_in function-call counts, 128571 in all, are:
-= -- 14500
-> -- 2060
-< -- 159
-+ -- 1230
-- -- 627
-* -- 10586
-:= -- 14353
-add.period$ -- 830
-call.type$ -- 209
+            2203 strings with 47265 characters,
+and the built_in function-call counts, 129193 in all, are:
+= -- 14577
+> -- 2067
+< -- 160
++ -- 1234
+- -- 629
+* -- 10633
+:= -- 14417
+add.period$ -- 834
+call.type$ -- 210
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 538
-duplicate$ -- 8505
-empty$ -- 13666
-format.name$ -- 617
-if$ -- 31206
+cite$ -- 539
+duplicate$ -- 8544
+empty$ -- 13730
+format.name$ -- 619
+if$ -- 31362
 int.to.chr$ -- 0
-int.to.str$ -- 209
+int.to.str$ -- 210
 missing$ -- 6
-newline$ -- 1252
-num.names$ -- 213
-pop$ -- 1046
+newline$ -- 1258
+num.names$ -- 214
+pop$ -- 1049
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3464
+skip$ -- 3487
 stack$ -- 0
-substring$ -- 15063
-swap$ -- 2610
-text.length$ -- 172
+substring$ -- 15137
+swap$ -- 2625
+text.length$ -- 173
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1766
+type$ -- 1779
 warning$ -- 329
-while$ -- 1286
-width$ -- 212
-write$ -- 1849
+while$ -- 1292
+width$ -- 213
+write$ -- 1858
 (There were 3 error messages)

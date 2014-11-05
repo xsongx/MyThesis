@@ -2576,8 +2576,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Title                    = {An evaluation of techniques for clustering search results},
   Author                   = {Leouski, A.V. and Croft, W.B.},
   Year                     = {1996},
-
-  __markedentry            = {[xsongx:6]},
   Added-at                 = {2010-09-10T06:31:37.000+0200},
   Biburl                   = {http://www.bibsonomy.org/bibtex/2b3cf22b8e066208254be828b8e37335b/cdevries},
   File                     = {paper:./evaluation/Leouski1996.pdf:PDF},
@@ -3593,8 +3591,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Booktitle                = {In Proceedings of the 11st Conference of the European Chapter of the Association for Computational Linguistics},
   Year                     = {2006},
   Pages                    = {3--7},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
 }
@@ -3982,6 +3978,24 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {1998},
   Organization             = {ACM},
   Pages                    = {275--281}
+}
+
+@InCollection{Popescu2007,
+  Title                    = {Extracting Product Features and Opinions from Reviews},
+  Author                   = {Popescu, Ana-Maria and Etzioni, Orena},
+  Booktitle                = {Natural Language Processing and Text Mining},
+  Publisher                = {Springer London},
+  Year                     = {2007},
+  Editor                   = {Kao, Anne and Poteet, StephenR.},
+  Pages                    = {9-28},
+
+  __markedentry            = {[xsongx:6]},
+  Doi                      = {10.1007/978-1-84628-754-1_2},
+  ISBN                     = {978-1-84628-175-4},
+  Language                 = {English},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.28},
+  Url                      = {http://dx.doi.org/10.1007/978-1-84628-754-1_2}
 }
 
 @Article{Purushotham2012,
@@ -4530,6 +4544,20 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {1--9}
 }
 
+@InProceedings{Su2006,
+  Title                    = {A probabilistic approach to spatiotemporal theme pattern mining on Weblogs.},
+  Author                   = {Su, H. and Mei, Q. and Zhai, C.},
+  Booktitle                = {Proceedings of the 15th International Conference on World Wide Web},
+  Year                     = {2006},
+  Added-at                 = {2006-07-12T15:46:56.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/23f54067f6061ff03da0a32eda52be486/claudia},
+  Interhash                = {625d3f6756a195792a2823c174115e9a},
+  Intrahash                = {3f54067f6061ff03da0a32eda52be486},
+  Keywords                 = {spatiotemperal blog_mining},
+  Owner                    = {xsongx},
+  Timestamp                = {2006-07-12T15:46:56.000+0200}
+}
+
 @InProceedings{suh2010want,
   Title                    = {Want to be retweeted? large scale analytics on factors impacting retweet in twitter network},
   Author                   = {Suh, Bongwon and Hong, Lichan and Pirolli, Peter and Chi, Ed H},
@@ -4814,6 +4842,29 @@ Target-Specific Sentiment Analysis of Adjectives},
   Doi                      = {10.1109/ICWAMTIP.2012.6413519},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.25}
+}
+
+@InProceedings{Titov2008,
+  Title                    = {Modeling Online Reviews with Multi-grain Topic Models},
+  Author                   = {Titov, Ivan and McDonald, Ryan},
+  Booktitle                = {Proceedings of the 17th International Conference on World Wide Web},
+  Year                     = {2008},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {111--120},
+  Publisher                = {ACM},
+  Series                   = {WWW '08},
+
+  __markedentry            = {[xsongx:]},
+  Acmid                    = {1367513},
+  Doi                      = {10.1145/1367497.1367513},
+  ISBN                     = {978-1-60558-085-2},
+  Keywords                 = {clustering, opinion mining, topic models},
+  Location                 = {Beijing, China},
+  Numpages                 = {10},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.10.28},
+  Url                      = {http://doi.acm.org/10.1145/1367497.1367513}
 }
 
 @InProceedings{tjong2003introduction,
@@ -5545,6 +5596,28 @@ Target-Specific Sentiment Analysis of Adjectives},
   Organization             = {Citeseer},
   Pages                    = {17599--601},
   Volume                   = {104}
+}
+
+@InProceedings{Zeng2004,
+  Title                    = {Learning to cluster web search results},
+  Author                   = {Zeng, Hua J. and He, Qi C. and Chen, Zheng and Ma, Wei Y. and Ma, Jinwen},
+  Booktitle                = {Proceedings of the 27th annual international conference on Research and development in information retrieval},
+  Year                     = {2004},
+
+  Address                  = {Sheffield, United Kingdom},
+  Pages                    = {210--217},
+  Publisher                = {ACM Press},
+  Added-at                 = {2009-08-06T15:16:38.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/26ecea6a4a4ceff3c308fae7226626e24/chato},
+  Citeulike-article-id     = {240857},
+  Doi                      = {10.1145/1008992.1009030},
+  Interhash                = {0081a783aa69274d1ba30c4d67a04201},
+  Intrahash                = {6ecea6a4a4ceff3c308fae7226626e24},
+  Keywords                 = {clustering, search},
+  Owner                    = {xsongx},
+  Posted-at                = {2005-06-30 11:33:52},
+  Priority                 = {0},
+  Timestamp                = {2009-08-06T15:16:38.000+0200}
 }
 
 @InProceedings{zhai2001study,
