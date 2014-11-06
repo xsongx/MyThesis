@@ -101,6 +101,15 @@
   Pages                    = {1--10}
 }
 
+@InProceedings{Sasha2008,
+  Title                    = {Building a sentiment summarizer for local service reviews},
+  Author                   = {Sasha Blair-goldensohn and Tyler Neylon and Kerry Hannan and George A. Reis and Ryan Mcdonald and Jeff Reynar},
+  Booktitle                = {In NLP in the Information Explosion Era},
+  Year                     = {2008},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{zhang2008review,
   Title                    = {Sentiment classification for Chinese product reviews using an unsupervised Internet-based method},
   Author                   = {Zhang Zi-qiong and Li Yi-jun and Ye Qiang and Law, R.},
@@ -260,6 +269,19 @@
   Pages                    = {402--419}
 }
 
+@InProceedings{Ahsaee2010,
+  Title                    = {Using WordNet to determine semantic similarity of words},
+  Author                   = {Ahsaee, M.G. and Naghibzadeh, M. and Yasrebi, S.E.},
+  Booktitle                = {Telecommunications (IST), 2010 5th International Symposium on},
+  Year                     = {2010},
+  Month                    = {Dec},
+  Pages                    = {1019-1027},
+  Doi                      = {10.1109/ISTEL.2010.5734170},
+  Keywords                 = {natural language processing;particle swarm optimisation;transfer functions;WordNet;concept similarity assessment;human similarity judgment;information retrieval;knowledge retrieval;natural language processing;particle swarm optimization;semantic similarity measure;transfer function;Atmospheric measurements;Humans;Natural language processing;Particle measurements;Semantics;Taxonomy;Transfer functions;Semantic similarity;WordNet;information and knowledge retrieval;natural language processing},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{aisopos2012content,
   Title                    = {Content vs. context for sentiment analysis: a comparative analysis over microblogs},
   Author                   = {Aisopos, Fotis and Papadakis, George and Tserpes, Konstantinos and Varvarigou, Theodora},
@@ -300,6 +322,7 @@
   Title                    = {Old Wine or Warm Beer:
 Target-Specific Sentiment Analysis of Adjectives},
   Author                   = {Angela},
+
   Citeulike-article-id     = {5032021},
   Citeulike-linkout-0      = {http://www.aisb.org.uk/convention/aisb08/proc/proceedings/02\%20Affective\%20Language/11.pdf},
   Owner                    = {xsongx},
@@ -687,6 +710,17 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {562--570}
 }
 
+@InProceedings{Budanitsky2001,
+  Title                    = {Semantic distance in WordNet: An experimental, application-oriented evaluation of five measures},
+  Author                   = {Alexander Budanitsky and Graeme Hirst},
+  Booktitle                = {IN WORKSHOP ON WORDNET AND OTHER LEXICAL RESOURCES, SECOND MEETING OF THE NORTH AMERICAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS},
+  Year                     = {2001},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{burges2005learning,
   Title                    = {Learning to rank using gradient descent},
   Author                   = {Burges, Chris and Shaked, Tal and Renshaw, Erin and Lazier, Ari and Deeds, Matt and Hamilton, Nicole and Hullender, Greg},
@@ -794,6 +828,24 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {186--193}
 }
 
+@InProceedings{CarmenBanea2008,
+  Title                    = {A Bootstrapping Method for Building Subjectivity Lexicons for Languages with Scarce Resources},
+  Author                   = {Carmen Banea, Rada Mihalcea and Janyce Wiebe},
+  Booktitle                = {Proceedings of the Sixth International Conference on Language Resources and Evaluation (LREC'08)},
+  Year                     = {2008},
+
+  Address                  = {Marrakech, Morocco},
+  Editor                   = {Nicoletta Calzolari (Conference Chair), Khalid Choukri, Bente Maegaard, Joseph Mariani, Jan Odijk, Stelios Piperidis, Daniel Tapias},
+  Month                    = {may},
+  Note                     = {http://www.lrec-conf.org/proceedings/lrec2008/},
+  Publisher                = {European Language Resources Association (ELRA)},
+  Date                     = {28-30},
+  ISBN                     = {2-9517408-4-0},
+  Language                 = {english},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{cassidy2012analysis,
   Title                    = {Analysis and Enhancement of Wikification for Microblogs with Context Expansion.},
   Author                   = {Cassidy, Taylor and Ji, Heng and Ratinov, Lev-Arie and Zubiaga, Arkaitz and Huang, Hongzhao},
@@ -895,6 +947,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Author                   = {Chaovalit, Pimwadee and Zhou, Lina},
   Booktitle                = {Proceedings of the Hawaii International Conference on System Sciences (HICSS)},
   Year                     = {2005},
+
   Added-at                 = {2009-03-18T13:40:43.000+0100},
   Biburl                   = {http://www.bibsonomy.org/bibtex/2f720489157cb3258555afede6104e6cb/om},
   Interhash                = {35773239dd195206b3b2f9cd398db18b},
@@ -1011,6 +1064,25 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {1834--1838}
 }
 
+@InProceedings{Choi2009,
+  Title                    = {Adapting a Polarity Lexicon Using Integer Linear Programming for Domain-specific Sentiment Classification},
+  Author                   = {Choi, Yejin and Cardie, Claire},
+  Booktitle                = {Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing: Volume 2 - Volume 2},
+  Year                     = {2009},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {590--598},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {EMNLP '09},
+  Acmid                    = {1699590},
+  ISBN                     = {978-1-932432-62-6},
+  Location                 = {Singapore},
+  Numpages                 = {9},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1699571.1699590}
+}
+
 @Article{Chua2013,
   Title                    = {Generative models for item adoptions using social correlation},
   Author                   = {Chua, Freddy Chong Tat and Lauw, Hady W and Lim, Ee-Peng},
@@ -1064,6 +1136,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Number                   = {1},
   Pages                    = {22--29},
   Volume                   = {16},
+
   Acmid                    = {89095},
   Address                  = {Cambridge, MA, USA},
   ISSN                     = {0891-2017},
@@ -1273,6 +1346,17 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {331--340}
+}
+
+@InProceedings{Du2010,
+  Title                    = {Adapting information bottleneck method for automatic construction of domain-oriented sentiment lexicon},
+  Author                   = {Du, Weifu and Tan, Songbo and Cheng, Xueqi and Yun, Xiaochun},
+  Booktitle                = {Proceedings of the third ACM international conference on Web search and data mining},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {111--120},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @InProceedings{duan2010empirical,
@@ -1561,6 +1645,19 @@ Target-Specific Sentiment Analysis of Adjectives},
   Url                      = {http://dx.doi.org/10.1007/978-3-642-31454-4_8}
 }
 
+@InProceedings{Garcia2011,
+  Title                    = {Emotions in Product Reviews--Empirics and Models},
+  Author                   = {Garcia, D. and Schweitzer, F.},
+  Booktitle                = {Privacy, Security, Risk and Trust (PASSAT) and 2011 IEEE Third Inernational Conference on Social Computing (SocialCom), 2011 IEEE Third International Conference on},
+  Year                     = {2011},
+  Month                    = {Oct},
+  Pages                    = {483-488},
+  Doi                      = {10.1109/PASSAT/SocialCom.2011.219},
+  Keywords                 = {Internet;Web sites;customer satisfaction;electronic commerce;information retrieval;multi-agent systems;purchasing;statistical analysis;Amazon.com;Internet users;agent-based model;customer satisfaction;data reviews;emotional impact;emotional information extraction;independent information;information barriers;information constraints;marketing campaigns;modeling framework;negative emotions;online community;online emotions;polemic reviews;positive emotions;product purchase;product review community;product reviews;sentiment detection tools;statistical analysis;time dynamics;word of mouth effects;Biological system modeling;Communities;Correlation;Equations;Internet;Mathematical model;Media;agent-based modeling;emotions;product reviews},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{Gayo-Avello2011,
   Title                    = {Limits of electoral predictions using twitter.},
   Author                   = {Gayo-Avello, Daniel and Metaxas, Panagiotis Takis and Mustafaraj, Eni},
@@ -1669,6 +1766,16 @@ Target-Specific Sentiment Analysis of Adjectives},
   Intrahash                = {7b69035cfbcccab96a665f33678c49bd},
   Keywords                 = {2011 analysis semantic seminar talk twitter winter},
   Timestamp                = {2011-11-16T13:47:43.000+0100}
+}
+
+@Article{Godbole2007,
+  Title                    = {Large-Scale Sentiment Analysis for News and Blogs.},
+  Author                   = {Godbole, Namrata and Srinivasaiah, Manja and Skiena, Steven},
+  Journal                  = {ICWSM},
+  Year                     = {2007},
+  Volume                   = {7},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @InProceedings{Goldberg2006,
@@ -1847,6 +1954,25 @@ Target-Specific Sentiment Analysis of Adjectives},
   Volume                   = {49},
 
   Publisher                = {Wiley Online Library}
+}
+
+@InProceedings{Gyamfi2009,
+  Title                    = {Integrating Knowledge for Subjectivity Sense Labeling},
+  Author                   = {Gyamfi, Yaw and Wiebe, Janyce and Mihalcea, Rada and Akkaya, Cem},
+  Booktitle                = {Proceedings of Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  Year                     = {2009},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {10--18},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {NAACL '09},
+  Acmid                    = {1620757},
+  ISBN                     = {978-1-932432-41-1},
+  Location                 = {Boulder, Colorado},
+  Numpages                 = {9},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1620754.1620757}
 }
 
 @InCollection{Haggard2002a,
@@ -2081,6 +2207,27 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.26}
 }
 
+@InProceedings{Hu2004,
+  Title                    = {Mining and Summarizing Customer Reviews},
+  Author                   = {Hu, Minqing and Liu, Bing},
+  Booktitle                = {Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  Year                     = {2004},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {168--177},
+  Publisher                = {ACM},
+  Series                   = {KDD '04},
+  Acmid                    = {1014073},
+  Doi                      = {10.1145/1014052.1014073},
+  ISBN                     = {1-58113-888-1},
+  Keywords                 = {reviews, sentiment classification, summarization, text mining},
+  Location                 = {Seattle, WA, USA},
+  Numpages                 = {10},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://doi.acm.org/10.1145/1014052.1014073}
+}
+
 @InProceedings{Hu2013,
   Title                    = {Unsupervised sentiment analysis with emotional signals},
   Author                   = {Hu, Xia and Tang, Jiliang and Gao, Huiji and Liu, Huan},
@@ -2124,6 +2271,26 @@ Target-Specific Sentiment Analysis of Adjectives},
   ISSN                     = {0140525X},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
+}
+
+@InCollection{Ide2006,
+  Title                    = {Making Senses: Bootstrapping Sense-Tagged Lists of Semantically-Related Words},
+  Author                   = {Ide, Nancy},
+  Booktitle                = {Computational Linguistics and Intelligent Text Processing},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2006},
+  Editor                   = {Gelbukh, Alexander},
+  Pages                    = {13-27},
+  Series                   = {Lecture Notes in Computer Science},
+  Volume                   = {3878},
+
+  __markedentry            = {[xsongx:]},
+  Doi                      = {10.1007/11671299_2},
+  ISBN                     = {978-3-540-32205-4},
+  Language                 = {English},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dx.doi.org/10.1007/11671299_2}
 }
 
 @InProceedings{Ikegami2013,
@@ -2396,6 +2563,25 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.09}
 }
 
+@InProceedings{Kim2006,
+  Title                    = {Identifying and Analyzing Judgment Opinions},
+  Author                   = {Kim, Soo-Min and Hovy, Eduard},
+  Booktitle                = {Proceedings of the Main Conference on Human Language Technology Conference of the North American Chapter of the Association of Computational Linguistics},
+  Year                     = {2006},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {200--207},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {HLT-NAACL '06},
+  Acmid                    = {1220861},
+  Doi                      = {10.3115/1220835.1220861},
+  Location                 = {New York, New York},
+  Numpages                 = {8},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dx.doi.org/10.3115/1220835.1220861}
+}
+
 @InProceedings{Kim2004,
   Title                    = {Determining the sentiment of opinions},
   Author                   = {Kim, Soo-Min and Hovy, Eduard},
@@ -2425,6 +2611,17 @@ Target-Specific Sentiment Analysis of Adjectives},
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@InProceedings{Klenner2009,
+  Title                    = {PolArt: A robust tool for sentiment analysis},
+  Author                   = {Klenner, Manfred and Fahrni, Angela and Petrakis, Stefanos},
+  Booktitle                = {Proceedings of the 17th Nordic Conference of Computational Linguistics},
+  Year                     = {2009},
+  Pages                    = {235--238},
+  Volume                   = {4},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @InProceedings{kong2012predicting,
@@ -2576,6 +2773,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Title                    = {An evaluation of techniques for clustering search results},
   Author                   = {Leouski, A.V. and Croft, W.B.},
   Year                     = {1996},
+
   Added-at                 = {2010-09-10T06:31:37.000+0200},
   Biburl                   = {http://www.bibsonomy.org/bibtex/2b3cf22b8e066208254be828b8e37335b/cdevries},
   File                     = {paper:./evaluation/Leouski1996.pdf:PDF},
@@ -3090,6 +3288,19 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {6--15}
 }
 
+@Proceedings{Maks2012,
+  Title                    = {Building a fine-grained subjectivity lexicon from a web corpus},
+  Year                     = {2012},
+  Publisher                = {European Language Resources Association (ELRA)},
+  Series                   = {Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC-2012)},
+  Author                   = {Maks, Isa
+and Vossen, Piek},
+  Location                 = {Istanbul, Turkey},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://www.lrec-conf.org/proceedings/lrec2012/pdf/1018_Paper.pdf}
+}
+
 @Article{Malouf2008,
   Title                    = {Taking sides: User classification for informal online political discourse},
   Author                   = {Malouf, Robert and Mullen, Tony},
@@ -3177,6 +3388,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Author                   = {Ryan Mcdonald and Kerry Hannan and Tyler Neylon and Mike Wells and Jeff Reynar},
   Booktitle                = {Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics},
   Year                     = {2007},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
 }
@@ -3286,6 +3498,28 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.13}
 }
 
+@Article{Miller1995,
+  Title                    = {WordNet: A Lexical Database for English},
+  Author                   = {Miller, George A.},
+  Journal                  = {Commun. ACM},
+  Year                     = {1995},
+
+  Month                    = nov,
+  Number                   = {11},
+  Pages                    = {39--41},
+  Volume                   = {38},
+  Acmid                    = {219748},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/219717.219748},
+  ISSN                     = {0001-0782},
+  Issue_date               = {Nov. 1995},
+  Numpages                 = {3},
+  Owner                    = {xsongx},
+  Publisher                = {ACM},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://doi.acm.org/10.1145/219717.219748}
+}
+
 @InProceedings{Miller2011,
   Title                    = {{Sentiment Flow Through Hyperlink Networks}},
   Author                   = {Miller, Mahalia and Sathi, Conal and Wiesenthal, Daniel and Leskovec, Jure and Potts, Christopher},
@@ -3377,6 +3611,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {729-733},
   Series                   = {Lecture Notes in Computer Science},
   Volume                   = {5478},
+
   Doi                      = {10.1007/978-3-642-00958-7_75},
   ISBN                     = {978-3-642-00957-0},
   Keywords                 = {Opinion Detection; Blogs; WordNet; Semantic Relatedness},
@@ -3591,6 +3826,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Booktitle                = {In Proceedings of the 11st Conference of the European Chapter of the Association for Computational Linguistics},
   Year                     = {2006},
   Pages                    = {3--7},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
 }
@@ -3988,8 +4224,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2007},
   Editor                   = {Kao, Anne and Poteet, StephenR.},
   Pages                    = {9-28},
-
-  __markedentry            = {[xsongx:6]},
   Doi                      = {10.1007/978-1-84628-754-1_2},
   ISBN                     = {978-1-84628-175-4},
   Language                 = {English},
@@ -4079,6 +4313,24 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.09}
 }
 
+@InProceedings{Rao2009,
+  Title                    = {Semi-supervised Polarity Lexicon Induction},
+  Author                   = {Rao, Delip and Ravichandran, Deepak},
+  Booktitle                = {Proceedings of the 12th Conference of the European Chapter of the Association for Computational Linguistics},
+  Year                     = {2009},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {675--682},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {EACL '09},
+  Acmid                    = {1609142},
+  Location                 = {Athens, Greece},
+  Numpages                 = {8},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1609067.1609142}
+}
+
 @InProceedings{Read2005,
   Title                    = {Using emoticons to reduce dependency in machine learning techniques for sentiment classification},
   Author                   = {Read, Jonathon},
@@ -4101,6 +4353,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {45--52},
   Publisher                = {ACM},
   Series                   = {TSA '09},
+
   Acmid                    = {1651470},
   Doi                      = {10.1145/1651461.1651470},
   ISBN                     = {978-1-60558-805-6},
@@ -4110,6 +4363,16 @@ Target-Specific Sentiment Analysis of Adjectives},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27},
   Url                      = {http://doi.acm.org/10.1145/1651461.1651470}
+}
+
+@InProceedings{Remus2010,
+  Title                    = {SentiWS -- a Publicly Available German-language Resource for Sentiment Analysis},
+  Author                   = {Remus, R. and Quasthoff, U. and Heyer, G.},
+  Booktitle                = {Proceedings of the 7th International Language Resources and Evaluation (LREC'10)},
+  Year                     = {2010},
+  Pages                    = {1168--1171},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @InProceedings{Ren:2013:PTT:2484028.2484052,
@@ -4535,6 +4798,27 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.13}
 }
 
+@InProceedings{Strapparava2008,
+  Title                    = {Learning to Identify Emotions in Text},
+  Author                   = {Strapparava, Carlo and Mihalcea, Rada},
+  Booktitle                = {Proceedings of the 2008 ACM Symposium on Applied Computing},
+  Year                     = {2008},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {1556--1560},
+  Publisher                = {ACM},
+  Series                   = {SAC '08},
+  Acmid                    = {1364052},
+  Doi                      = {10.1145/1363686.1364052},
+  ISBN                     = {978-1-59593-753-7},
+  Keywords                 = {emotion analysis, emotion annotation, sentiment analysis},
+  Location                 = {Fortaleza, Ceara, Brazil},
+  Numpages                 = {5},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://doi.acm.org/10.1145/1363686.1364052}
+}
+
 @InProceedings{stringhini2010detecting,
   Title                    = {Detecting spammers on social networks},
   Author                   = {Stringhini, Gianluca and Kruegel, Christopher and Vigna, Giovanni},
@@ -4549,6 +4833,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Author                   = {Su, H. and Mei, Q. and Zhai, C.},
   Booktitle                = {Proceedings of the 15th International Conference on World Wide Web},
   Year                     = {2006},
+
   Added-at                 = {2006-07-12T15:46:56.000+0200},
   Biburl                   = {http://www.bibsonomy.org/bibtex/23f54067f6061ff03da0a32eda52be486/claudia},
   Interhash                = {625d3f6756a195792a2823c174115e9a},
@@ -4599,6 +4884,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {368--374},
   Publisher                = {Springer-Verlag},
   Series                   = {ECIR'11},
+
   Acmid                    = {1996937},
   ISBN                     = {978-3-642-20160-8},
   Location                 = {Dublin, Ireland},
@@ -4614,6 +4900,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Booktitle                = {Conference on Language Resources and Evaluation (LREC)},
   Year                     = {2006},
   Pages                    = {427--432},
+
   Added-at                 = {2009-03-18T13:40:43.000+0100},
   Biburl                   = {http://www.bibsonomy.org/bibtex/294bcb90f7eb61581f006eda02e91f6a6/om},
   Interhash                = {f16250f17fea4a5f5f7e2a454710b628},
@@ -4703,6 +4990,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Number                   = {7},
   Pages                    = {10760--10773},
   Volume                   = {36},
+
   Acmid                    = {1539436},
   Address                  = {Tarrytown, NY, USA},
   Doi                      = {10.1016/j.eswa.2009.02.063},
@@ -4820,6 +5108,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {81--84},
   Publisher                = {ACM},
   Series                   = {TSA '09},
+
   Acmid                    = {1651476},
   Doi                      = {10.1145/1651461.1651476},
   ISBN                     = {978-1-60558-805-6},
@@ -4855,7 +5144,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Publisher                = {ACM},
   Series                   = {WWW '08},
 
-  __markedentry            = {[xsongx:]},
   Acmid                    = {1367513},
   Doi                      = {10.1145/1367497.1367513},
   ISBN                     = {978-1-60558-085-2},
@@ -4923,6 +5211,19 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2009}
 }
 
+@Article{Tsytsarau2012,
+  Title                    = {Survey on mining subjective data on the web},
+  Author                   = {Tsytsarau, Mikalai and Palpanas, Themis},
+  Journal                  = {Data Mining and Knowledge Discovery},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {478--514},
+  Volume                   = {24},
+  Owner                    = {xsongx},
+  Publisher                = {Kluwer Academic Publishers},
+  Timestamp                = {2014.11.05}
+}
+
 @InProceedings{Tsytsarau2010,
   Title                    = {Scalable Discovery of Contradictions on the Web},
   Author                   = {Tsytsarau, Mikalai and Palpanas, Themis and Denecke, Kerstin},
@@ -4933,6 +5234,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {1195--1196},
   Publisher                = {ACM},
   Series                   = {WWW '10},
+
   Acmid                    = {1772871},
   Doi                      = {10.1145/1772690.1772871},
   ISBN                     = {978-1-60558-799-8},
@@ -4981,6 +5283,26 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.13}
 }
 
+@Article{Valitutti2004a,
+  Title                    = {Developing Affective Lexical Resources},
+  Author                   = {Alessandro Valitutti and Carlo Strapparava and Oliviero Stock},
+  Journal                  = {PSYCHNOLOGY JOURNAL},
+  Year                     = {2004},
+  Pages                    = {61--83},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
+@InProceedings{Valitutti2004,
+  Title                    = {WordNet-Affect: an Affective Extension of WordNet},
+  Author                   = {Ro Valitutti},
+  Booktitle                = {In Proceedings of the 4th International Conference on Language Resources and Evaluation},
+  Year                     = {2004},
+  Pages                    = {1083--1086},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{valizadegan2009learning,
   Title                    = {Learning to rank by optimizing ndcg measure},
   Author                   = {Valizadegan, Hamed and Jin, Rong and Zhang, Ruofei and Mao, Jianchang},
@@ -5016,6 +5338,25 @@ Target-Specific Sentiment Analysis of Adjectives},
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27}
+}
+
+@InProceedings{Velikovich2010,
+  Title                    = {The Viability of Web-derived Polarity Lexicons},
+  Author                   = {Velikovich, Leonid and Blair-Goldensohn, Sasha and Hannan, Kerry and McDonald, Ryan},
+  Booktitle                = {Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  Year                     = {2010},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {777--785},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {HLT '10},
+  Acmid                    = {1858118},
+  ISBN                     = {1-932432-65-5},
+  Location                 = {Los Angeles, California},
+  Numpages                 = {9},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1857999.1858118}
 }
 
 @Article{voorhees2000variations,
@@ -5204,6 +5545,19 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2003}
 }
 
+@Article{Whissell1989,
+  Title                    = {The dictionary of affect in language},
+  Author                   = {Whissell, Cynthia},
+  Journal                  = {Emotion: Theory, research, and experience},
+  Year                     = {1989},
+  Number                   = {113-131},
+  Pages                    = {94},
+  Volume                   = {4},
+  Owner                    = {xsongx},
+  Publisher                = {New York, NY: Academic Press},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{Wiebe2000,
   Title                    = {Learning Subjective Adjectives from Corpora},
   Author                   = {Wiebe, Janyce},
@@ -5213,6 +5567,17 @@ Target-Specific Sentiment Analysis of Adjectives},
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@InProceedings{Wiebe2006,
+  Title                    = {Word sense and subjectivity},
+  Author                   = {Wiebe, Janyce and Mihalcea, Rada},
+  Booktitle                = {Proceedings of the 21st International Conference on Computational Linguistics and the 44th annual meeting of the Association for Computational Linguistics},
+  Year                     = {2006},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {1065--1072},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @InProceedings{Wiebe2005,
@@ -5474,6 +5839,25 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {1633--1636}
 }
 
+@InProceedings{Yessenalina2011,
+  Title                    = {Compositional Matrix-space Models for Sentiment Analysis},
+  Author                   = {Yessenalina, Ainur and Cardie, Claire},
+  Booktitle                = {Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  Year                     = {2011},
+
+  Address                  = {Stroudsburg, PA, USA},
+  Pages                    = {172--182},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {EMNLP '11},
+  Acmid                    = {2145452},
+  ISBN                     = {978-1-937284-11-4},
+  Location                 = {Edinburgh, United Kingdom},
+  Numpages                 = {11},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2145432.2145452}
+}
+
 @InProceedings{Yessenalina2010,
   Title                    = {{Multi-Level Structured Models for Document-Level Sentiment Classification}},
   Author                   = {Yessenalina, Ainur and Yue, Yisong and Cardie, Claire},
@@ -5506,6 +5890,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {427--},
   Publisher                = {IEEE Computer Society},
   Series                   = {ICDM '03},
+
   Acmid                    = {952133},
   ISBN                     = {0-7695-1978-4},
   Owner                    = {xsongx},
@@ -5607,6 +5992,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Address                  = {Sheffield, United Kingdom},
   Pages                    = {210--217},
   Publisher                = {ACM Press},
+
   Added-at                 = {2009-08-06T15:16:38.000+0200},
   Biburl                   = {http://www.bibsonomy.org/bibtex/26ecea6a4a4ceff3c308fae7226626e24/chato},
   Citeulike-article-id     = {240857},
@@ -5790,6 +6176,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {65--72},
   Publisher                = {ACM},
   Series                   = {TSA '09},
+
   Acmid                    = {1651474},
   Doi                      = {10.1145/1651461.1651474},
   ISBN                     = {978-1-60558-805-6},

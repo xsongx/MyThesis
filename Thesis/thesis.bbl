@@ -679,36 +679,120 @@ In Proceedings of the 22nd international conference on World Wide Web
   companion.
 2013:  177--178.
 
-\bibitem{Yuan2013}
-Yuan~S, Wang~J, van~der Meer~M.
-Adaptive Keywords Extraction with Contextual Bandits for Advertising on Parked
-  Domains~[J].
-Computing Research Repository.
-2013, abs/1307.3573.
+\bibitem{Choi2009}
+Choi~Y, Cardie~C.
+Adapting a Polarity Lexicon Using Integer Linear Programming for
+  Domain-specific Sentiment Classification~[C/OL].
+In Proceedings of the 2009 Conference on Empirical Methods in Natural Language
+  Processing: Volume 2 - Volume 2.
+Stroudsburg, PA, USA, 2009:  590--598.
+\url{http://dl.acm.org/citation.cfm?id=1699571.1699590}.
 
-\bibitem{张辉2013}
-张辉, 李国辉, 贾立, et~al.
-一种基于 TF{\textperiodcentered} IEF
-  模型的在线新闻事件探测方法~[J].
-国防科技大学学报.
-2013, 35~(3):  55--60.
+\bibitem{Du2010}
+Du~W, Tan~S, Cheng~X, et~al.
+Adapting information bottleneck method for automatic construction of
+  domain-oriented sentiment lexicon~[C].
+In Proceedings of the third ACM international conference on Web search and data
+  mining.
+2010:  111--120.
 
-\bibitem{刘健2013}
-刘健, 李绮, 刘宝宏, et~al.
-基于话题模型的专家发现方法~[J].
-国防科技大学学报.
-2013, 35~(2):  127--131.
+\bibitem{Klenner2009}
+Klenner~M, Fahrni~A, Petrakis~S.
+PolArt: A robust tool for sentiment analysis~[C].
+In Proceedings of the 17th Nordic Conference of Computational Linguistics.
+2009:  235--238.
 
-\bibitem{黄萱菁2011}
-黄萱菁, 张奇, 吴苑斌.
-文本情感倾向分析~[J].
-中文信息学报.
-2011, 25~(6):  118--126.
+\bibitem{CarmenBanea2008}
+Carmen~Banea~R~M，Wiebe~J．
+A Bootstrapping Method for Building Subjectivity Lexicons for Languages with
+  Scarce Resources~[C]~//~Nicoletta Calzolari (Conference~Chair)~B M J M J O S
+  P D~T, Khalid~Choukri．
+In Proceedings of the Sixth International Conference on Language Resources and
+  Evaluation (LREC'08)．
+Marrakech, Morocco，may 2008．
+http://www.lrec-conf.org/proceedings/lrec2008/．
 
-\bibitem{Stone1966}
-Stone~P~J, Dunphy~D~C, Smith~M~S.
-The General Inquirer: A Computer Approach to Content Analysis.~[M].
-Cambridge, Massachusetts: MIT press, 1966.
+\bibitem{Gyamfi2009}
+Gyamfi~Y, Wiebe~J, Mihalcea~R, et~al.
+Integrating Knowledge for Subjectivity Sense Labeling~[C/OL].
+In Proceedings of Human Language Technologies: The 2009 Annual Conference of
+  the North American Chapter of the Association for Computational Linguistics.
+Stroudsburg, PA, USA, 2009:  10--18.
+\url{http://dl.acm.org/citation.cfm?id=1620754.1620757}.
+
+\bibitem{Maks2012}
+Building a fine-grained subjectivity lexicon from a web corpus~[C/OL].
+European Language Resources Association (ELRA), 2012.
+
+\bibitem{Wiebe2000}
+Wiebe~J.
+Learning Subjective Adjectives from Corpora~[C].
+2000:  735--740.
+
+\bibitem{Wiebe2006}
+Wiebe~J, Mihalcea~R.
+Word sense and subjectivity~[C].
+In Proceedings of the 21st International Conference on Computational
+  Linguistics and the 44th annual meeting of the Association for Computational
+  Linguistics.
+2006:  1065--1072.
+
+\bibitem{Godbole2007}
+Godbole~N, Srinivasaiah~M, Skiena~S.
+Large-Scale Sentiment Analysis for News and Blogs.~[J].
+ICWSM.
+2007, 7.
+
+\bibitem{Hatzivassiloglou1997}
+Hatzivassiloglou~V, McKeown~K~R.
+Predicting the semantic orientation of adjectives~[C].
+1997:  174--181.
+
+\bibitem{Hu2004}
+Hu~M, Liu~B.
+Mining and Summarizing Customer Reviews~[C/OL].
+In Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining.
+New York, NY, USA, 2004:  168--177.
+\url{http://doi.acm.org/10.1145/1014052.1014073}.
+
+\bibitem{Rao2009}
+Rao~D, Ravichandran~D.
+Semi-supervised Polarity Lexicon Induction~[C/OL].
+In Proceedings of the 12th Conference of the European Chapter of the
+  Association for Computational Linguistics.
+Stroudsburg, PA, USA, 2009:  675--682.
+\url{http://dl.acm.org/citation.cfm?id=1609067.1609142}.
+
+\bibitem{Yessenalina2011}
+Yessenalina~A, Cardie~C.
+Compositional Matrix-space Models for Sentiment Analysis~[C/OL].
+In Proceedings of the Conference on Empirical Methods in Natural Language
+  Processing.
+Stroudsburg, PA, USA, 2011:  172--182.
+\url{http://dl.acm.org/citation.cfm?id=2145432.2145452}.
+
+\bibitem{Sasha2008}
+Blair-goldensohn~S, Neylon~T, Hannan~K, et~al.
+Building a sentiment summarizer for local service reviews~[C].
+In In NLP in the Information Explosion Era.
+2008.
+
+\bibitem{Velikovich2010}
+Velikovich~L, Blair-Goldensohn~S, Hannan~K, et~al.
+The Viability of Web-derived Polarity Lexicons~[C/OL].
+In Human Language Technologies: The 2010 Annual Conference of the North
+  American Chapter of the Association for Computational Linguistics.
+Stroudsburg, PA, USA, 2010:  777--785.
+\url{http://dl.acm.org/citation.cfm?id=1857999.1858118}.
+
+\bibitem{Remus2010}
+Remus~R, Quasthoff~U, Heyer~G.
+SentiWS -- a Publicly Available German-language Resource for Sentiment
+  Analysis~[C].
+In Proceedings of the 7th International Language Resources and Evaluation
+  (LREC'10).
+2010:  1168--1171.
 
 \bibitem{Wilson2005d}
 Wilson~T, Hoffmann~P, Somasundaran~S, et~al.
@@ -725,6 +809,33 @@ Stanford University, Stanford California, 2004.
 Agerri~R, Garc I A-Serrano~A.
 Q-WordNet: Extracting Polarity from WordNet Senses.~[C].
 Valletta, Malta, 2010.
+
+\bibitem{Garcia2011}
+Garcia~D, Schweitzer~F.
+Emotions in Product Reviews--Empirics and Models~[C].
+In Privacy, Security, Risk and Trust (PASSAT) and 2011 IEEE Third Inernational
+  Conference on Social Computing (SocialCom), 2011 IEEE Third International
+  Conference on.
+Oct 2011:  483--488.
+
+\bibitem{Davidov2010}
+Davidov~D, Tsur~O, Rappoport~A.
+Enhanced sentiment learning using twitter hashtags and smileys~[C].
+In Proceedings of the 23rd International Conference on Computational
+  Linguistics: Posters.
+2010:  241--249.
+
+\bibitem{Strapparava2008}
+Strapparava~C, Mihalcea~R.
+Learning to Identify Emotions in Text~[C/OL].
+In Proceedings of the 2008 ACM Symposium on Applied Computing.
+New York, NY, USA, 2008:  1556--1560.
+\url{http://doi.acm.org/10.1145/1363686.1364052}.
+
+\bibitem{Stone1966}
+Stone~P~J, Dunphy~D~C, Smith~M~S.
+The General Inquirer: A Computer Approach to Content Analysis.~[M].
+Cambridge, Massachusetts: MIT press, 1966.
 
 \bibitem{朱嫣岚2006}
 朱嫣岚, 闵锦, 周雅倩, et~al.
@@ -768,11 +879,6 @@ Journal of the American Society for Information Science and Technology.
 Fellbaum~C.
 WordNet: An Electronic Lexical Database~[M].
 Cambridge, Massachusetts: MIT Press, 1998.
-
-\bibitem{Hatzivassiloglou1997}
-Hatzivassiloglou~V, McKeown~K~R.
-Predicting the semantic orientation of adjectives~[C].
-1997:  174--181.
 
 \bibitem{Wilson2005}
 Wilson~T, Wiebe~J, Hoffmann~P.
@@ -958,13 +1064,6 @@ Lu~Y, Zhai~C.
 Opinion integration through semi-supervised topic modeling~[C].
 In Proceedings of the 17th international conference on World Wide Web.
 2008:  121--130.
-
-\bibitem{Davidov2010}
-Davidov~D, Tsur~O, Rappoport~A.
-Enhanced sentiment learning using twitter hashtags and smileys~[C].
-In Proceedings of the 23rd International Conference on Computational
-  Linguistics: Posters.
-2010:  241--249.
 
 \bibitem{Li2010}
 Li~G, Hoi~S~C, Chang~K, et~al.

@@ -1,16 +1,16 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces Alexa统计访问量前十名网站\relax }}{1}{table.caption.7}
 \contentsline {table}{\numberline {1.2}{\ignorespaces 社交媒体的类型\relax }}{2}{table.caption.9}
-\contentsline {table}{\numberline {2.1}{\ignorespaces T=0.05时的性能对比\relax }}{28}{table.caption.19}
-\contentsline {table}{\numberline {3.1}{\ignorespaces 数据集及词典资源\relax }}{31}{table.caption.21}
-\contentsline {table}{\numberline {3.2}{\ignorespaces 各个领域性能评测结果\relax }}{33}{table.caption.23}
-\contentsline {table}{\numberline {3.3}{\ignorespaces 各个领域性能评测结果\relax }}{38}{table.caption.27}
-\contentsline {table}{\numberline {4.1}{\ignorespaces 结果对比表\relax }}{53}{table.caption.34}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Twitter数据集统计\relax }}{64}{table.caption.39}
-\contentsline {table}{\numberline {5.2}{\ignorespaces 评价结果。相对于OF显著的性能提升使用$ \ast $标记。\relax }}{67}{table.caption.42}
-\contentsline {table}{\numberline {6.1}{\ignorespaces 观点相似性示例\relax }}{73}{table.caption.46}
-\contentsline {table}{\numberline {6.2}{\ignorespaces 数据集统计分析\relax }}{77}{table.caption.51}
-\contentsline {table}{\numberline {6.3}{\ignorespaces ANOVA检验结果\relax }}{78}{table.caption.52}
-\contentsline {table}{\numberline {6.4}{\ignorespaces 主观相似性比较\relax }}{79}{table.caption.55}
-\contentsline {table}{\numberline {6.5}{\ignorespaces LUO方法使用特征\relax }}{81}{table.caption.56}
-\contentsline {table}{\numberline {6.6}{\ignorespaces 准确率评测结果\relax }}{82}{table.caption.57}
+\contentsline {table}{\numberline {2.1}{\ignorespaces T=0.05时的性能对比\relax }}{30}{table.caption.22}
+\contentsline {table}{\numberline {3.1}{\ignorespaces 数据集及词典资源\relax }}{33}{table.caption.24}
+\contentsline {table}{\numberline {3.2}{\ignorespaces 各个领域性能评测结果\relax }}{35}{table.caption.26}
+\contentsline {table}{\numberline {3.3}{\ignorespaces 各个领域性能评测结果\relax }}{40}{table.caption.30}
+\contentsline {table}{\numberline {4.1}{\ignorespaces 结果对比表\relax }}{55}{table.caption.37}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Twitter数据集统计\relax }}{66}{table.caption.42}
+\contentsline {table}{\numberline {5.2}{\ignorespaces 评价结果。相对于OF显著的性能提升使用$ \ast $标记。\relax }}{69}{table.caption.45}
+\contentsline {table}{\numberline {6.1}{\ignorespaces 观点相似性示例\relax }}{75}{table.caption.49}
+\contentsline {table}{\numberline {6.2}{\ignorespaces 数据集统计分析\relax }}{79}{table.caption.54}
+\contentsline {table}{\numberline {6.3}{\ignorespaces ANOVA检验结果\relax }}{80}{table.caption.55}
+\contentsline {table}{\numberline {6.4}{\ignorespaces 主观相似性比较\relax }}{81}{table.caption.58}
+\contentsline {table}{\numberline {6.5}{\ignorespaces LUO方法使用特征\relax }}{83}{table.caption.59}
+\contentsline {table}{\numberline {6.6}{\ignorespaces 准确率评测结果\relax }}{84}{table.caption.60}
 \contentsfinish 
