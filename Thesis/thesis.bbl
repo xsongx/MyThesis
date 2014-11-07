@@ -679,6 +679,39 @@ In Proceedings of the 22nd international conference on World Wide Web
   companion.
 2013:  177--178.
 
+\bibitem{朱嫣岚2006}
+朱嫣岚, 闵锦, 周雅倩, et~al.
+基于HowNet的词汇语义倾向计算~[J].
+中文信息学报.
+2006, 20~(1):  14--20.
+
+\bibitem{朱征宇2013}
+朱征宇, 孙俊华.
+改进的基于《知网》的词汇语义相似度计算~[J].
+计算机应用.
+2013~(08):  2276--2279+2288.
+页数: 5.
+
+\bibitem{黄硕2013}
+黄硕, 周延泉.
+基于知网和同义词词林的词汇语义倾向计算~[J].
+软件.
+2013, 34~(2):  73--74,94.
+
+\bibitem{2013}
+知网HowNet评价词词典.
+2013.
+
+\bibitem{Ku2007}
+Ku~L~W, Chen~H~H.
+Mining opinions from the Web: Beyond relevance retrieval~[J].
+Journal of the American Society for Information Science and Technology.
+2007, 58~(12):  1838--1850.
+
+\bibitem{2013a}
+情感词汇本体库.
+2013.
+
 \bibitem{Choi2009}
 Choi~Y, Cardie~C.
 Adapting a Polarity Lexicon Using Integer Linear Programming for
@@ -837,38 +870,137 @@ Stone~P~J, Dunphy~D~C, Smith~M~S.
 The General Inquirer: A Computer Approach to Content Analysis.~[M].
 Cambridge, Massachusetts: MIT press, 1966.
 
-\bibitem{朱嫣岚2006}
-朱嫣岚, 闵锦, 周雅倩, et~al.
-基于HowNet的词汇语义倾向计算~[J].
-中文信息学报.
-2006, 20~(1):  14--20.
+\bibitem{Miller1995}
+Miller~G~A.
+WordNet: A Lexical Database for English~[J/OL].
+Commun. ACM.
+1995, 38~(11):  39--41.
+\url{http://doi.acm.org/10.1145/219717.219748}.
 
-\bibitem{朱征宇2013}
-朱征宇, 孙俊华.
-改进的基于《知网》的词汇语义相似度计算~[J].
-计算机应用.
-2013~(08):  2276--2279+2288.
-页数: 5.
+\bibitem{Kim2006}
+Kim~S-M, Hovy~E.
+Identifying and Analyzing Judgment Opinions~[C/OL].
+In Proceedings of the Main Conference on Human Language Technology Conference
+  of the North American Chapter of the Association of Computational
+  Linguistics.
+Stroudsburg, PA, USA, 2006:  200--207.
+\url{http://dx.doi.org/10.3115/1220835.1220861}.
 
-\bibitem{黄硕2013}
-黄硕, 周延泉.
-基于知网和同义词词林的词汇语义倾向计算~[J].
-软件.
-2013, 34~(2):  73--74,94.
+\bibitem{Ahsaee2010}
+Ahsaee~M, Naghibzadeh~M, Yasrebi~S.
+Using WordNet to determine semantic similarity of words~[C].
+In Telecommunications (IST), 2010 5th International Symposium on.
+Dec 2010:  1019--1027.
 
-\bibitem{2013}
-知网HowNet评价词词典.
-2013.
+\bibitem{Ide2006}
+Ide~N．
+Making Senses: Bootstrapping Sense-Tagged Lists of Semantically-Related
+  Words~[M]~//~Gelbukh~A．
+ Computational Linguistics and Intelligent Text Processing：第3878卷．
+Springer Berlin Heidelberg，2006：2006: 13--27．
 
-\bibitem{Ku2007}
-Ku~L~W, Chen~H~H.
-Mining opinions from the Web: Beyond relevance retrieval~[J].
-Journal of the American Society for Information Science and Technology.
-2007, 58~(12):  1838--1850.
+\bibitem{Budanitsky2001}
+Budanitsky~A, Hirst~G.
+Semantic distance in WordNet: An experimental, application-oriented evaluation
+  of five measures~[C].
+In IN WORKSHOP ON WORDNET AND OTHER LEXICAL RESOURCES, SECOND MEETING OF THE
+  NORTH AMERICAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS.
+2001.
 
-\bibitem{2013a}
-情感词汇本体库.
-2013.
+\bibitem{Esuli2006}
+Esuli~A, Sebastiani~F.
+Sentiwordnet: A publicly available lexical resource for opinion mining~[C].
+2006:  417--422.
+
+\bibitem{Valitutti2004a}
+Valitutti~A, Strapparava~C, Stock~O.
+Developing Affective Lexical Resources~[J].
+PSYCHNOLOGY JOURNAL.
+2004:  61--83.
+
+\bibitem{Takamura2005}
+Takamura~H, Inui~T, Okumura~M.
+Extracting semantic orientations of words using spin model~[C].
+In ACL '05.
+Stroudsburg, PA, USA, 2005:  133--140.
+
+\bibitem{Andreevskaia2006}
+Andreevskaia~A, Bergler~S.
+Mining WordNet for a Fuzzy Sentiment: Sentiment Tag Extraction from WordNet
+  Glosses~[C].
+In EACL'06.
+2006:  --1--1.
+
+\bibitem{Takamura2007}
+Takamura~H, Inui~T, Okumura~M.
+Extracting Semantic Orientations of Phrases from Dictionary~[C/OL].
+In Human Language Technologies 2007: The Conference of the North American
+  Chapter of the Association for Computational Linguistics; Proceedings of the
+  Main Conference.
+Rochester, New York, April 2007:  292--299.
+\url{http://www.aclweb.org/anthology/N/N07/N07-1037}.
+
+\bibitem{Firth1957}
+Firth~J.
+A Synopsis of Linguistic Theory, 1930-1955~[J].
+Studies in Linguistic Analysis.
+1957:  1--32.
+Cited by 0956.
+
+\bibitem{Baron2003}
+Baron~F, Hirst~G.
+Collocations as Cues to Semantic Orientation.
+2003.
+
+\bibitem{Stepinski2007}
+Stepinski~A, Mittal~V.
+A Fact/Opinion Classifier for News Articles~[C/OL].
+In Proceedings of the 30th Annual International ACM SIGIR Conference on
+  Research and Development in Information Retrieval.
+New York, NY, USA, 2007:  807--808.
+\url{http://doi.acm.org/10.1145/1277741.1277919}.
+
+\bibitem{Ding2008}
+Ding~X, Liu~B, Yu~P~S.
+A holistic lexicon-based approach to opinion mining~[C].
+In Proceedings of the 2008 International Conference on Web Search and Data
+  Mining.
+2008:  231--240.
+
+\bibitem{Kanayama2006}
+Kanayama~H, Nasukawa~T.
+Fully automatic lexicon expansion for domain-oriented sentiment analysis~[C].
+In Proceedings of the 2006 Conference on Empirical Methods in Natural Language
+  Processing.
+2006:  355--363.
+
+\bibitem{Kaji2006}
+Kaji~N, Kitsuregawa~M.
+Automatic construction of polarity-tagged corpus from HTML documents~[C].
+In Proceedings of the COLING/ACL on Main conference poster sessions.
+2006:  452--459.
+
+\bibitem{Kaji2007}
+Kaji~N, Kitsuregawa~M.
+Building Lexicon for Sentiment Analysis from Massive Collection of HTML
+  Documents.~[C].
+In EMNLP-CoNLL.
+2007:  1075--1083.
+
+\bibitem{Qiu2009}
+Qiu~G, Liu~B, Bu~J, et~al.
+Expanding Domain Sentiment Lexicon Through Double Propagation~[C/OL].
+In Proceedings of the 21st International Jont Conference on Artifical
+  Intelligence.
+San Francisco, CA, USA, 2009:  1199--1204.
+\url{http://dl.acm.org/citation.cfm?id=1661445.1661637}.
+
+\bibitem{Banea2008}
+Banea~C, Mihalcea~R, Wiebe~J, et~al.
+Multilingual subjectivity analysis using machine translation~[C].
+In Proceedings of the Conference on Empirical Methods in Natural Language
+  Processing.
+2008:  127--135.
 
 \bibitem{刘群2002}
 刘群, 李素建.
@@ -896,11 +1028,6 @@ Nielsen~F A~R.
 A new ANEW: Evaluation of a word list for sentiment analysis in microblogs~[J].
 arXiv preprint arXiv:1103.2903.
 2011.
-
-\bibitem{Esuli2006}
-Esuli~A, Sebastiani~F.
-Sentiwordnet: A publicly available lexical resource for opinion mining~[C].
-2006:  417--422.
 
 \bibitem{Thelwall2012}
 Thelwall~M, Buckley~K, Paltoglou~G.

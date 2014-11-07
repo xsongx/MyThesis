@@ -4,8 +4,9 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 15080 items from 5000.
+Reallocated field_info (elt_size=4) to 15935 items from 5000.
 Database file #1: ref/refs.bib
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Das2014，Guerra2014"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
@@ -184,6 +185,8 @@ Warning--The editor in ahmed2013peek is missing.
 Warning--empty editor in ahmed2013peek
 Warning--The editor in bao2013popularity is missing.
 Warning--empty editor in bao2013popularity
+Warning--The author in 2013 is missing.
+Warning--The author in 2013a is missing.
 Warning--The editor in Choi2009 is missing.
 Warning--empty editor in Choi2009
 Warning--The editor in Du2010 is missing.
@@ -237,8 +240,37 @@ Warning--The editor in Davidov2010 is missing.
 Warning--empty editor in Davidov2010
 Warning--The editor in Strapparava2008 is missing.
 Warning--empty editor in Strapparava2008
-Warning--The author in 2013 is missing.
-Warning--The author in 2013a is missing.
+Warning--The refdate in Miller1995 is missing.
+Warning--The editor in Kim2006 is missing.
+Warning--empty editor in Kim2006
+Warning--The editor in Ahsaee2010 is missing.
+Warning--empty editor in Ahsaee2010
+Warning--there's a publisher but no address in Ide2006
+Warning--The editor in Budanitsky2001 is missing.
+Warning--empty editor in Budanitsky2001
+Warning--empty pages in Budanitsky2001
+Warning--empty editor in Esuli2006
+Warning--empty booktitle in Esuli2006
+Warning--The editor in Takamura2005 is missing.
+Warning--empty editor in Takamura2005
+Warning--The editor in Andreevskaia2006 is missing.
+Warning--empty editor in Andreevskaia2006
+Warning--The editor in Takamura2007 is missing.
+Warning--empty editor in Takamura2007
+Warning--The editor in Stepinski2007 is missing.
+Warning--empty editor in Stepinski2007
+Warning--The editor in Ding2008 is missing.
+Warning--empty editor in Ding2008
+Warning--The editor in Kanayama2006 is missing.
+Warning--empty editor in Kanayama2006
+Warning--The editor in Kaji2006 is missing.
+Warning--empty editor in Kaji2006
+Warning--The editor in Kaji2007 is missing.
+Warning--empty editor in Kaji2007
+Warning--The editor in Qiu2009 is missing.
+Warning--empty editor in Qiu2009
+Warning--The editor in Banea2008 is missing.
+Warning--empty editor in Banea2008
 Warning--empty editor in 刘群2002
 Warning--empty booktitle in 刘群2002
 Warning--empty pages in 刘群2002
@@ -246,8 +278,6 @@ Warning--empty editor in Wilson2005
 Warning--empty booktitle in Wilson2005
 Warning--there's neither address nor publisher in Bradley1999
 Warning--empty pages in Nielsen2011
-Warning--empty editor in Esuli2006
-Warning--empty booktitle in Esuli2006
 Warning--empty editor in Mohammad2013
 Warning--empty booktitle in Mohammad2013
 Warning--empty pages in Mohammad2013
@@ -387,45 +417,45 @@ while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in miyanishi2013combining
 
 Done.
-You've used 223 entries,
+You've used 241 entries,
             4554 wiz_defined-function locations,
-            2298 strings with 50889 characters,
-and the built_in function-call counts, 137626 in all, are:
-= -- 15535
-> -- 2167
-< -- 170
-+ -- 1292
-- -- 663
-* -- 11360
-:= -- 15351
-add.period$ -- 891
-call.type$ -- 223
+            2419 strings with 54523 characters,
+and the built_in function-call counts, 148176 in all, are:
+= -- 16749
+> -- 2314
+< -- 186
++ -- 1377
+- -- 710
+* -- 12205
+:= -- 16512
+add.period$ -- 968
+call.type$ -- 241
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 584
-duplicate$ -- 9136
-empty$ -- 14619
-format.name$ -- 648
-if$ -- 33386
+cite$ -- 631
+duplicate$ -- 9811
+empty$ -- 15734
+format.name$ -- 691
+if$ -- 35977
 int.to.chr$ -- 0
-int.to.str$ -- 223
-missing$ -- 6
-newline$ -- 1341
-num.names$ -- 227
-pop$ -- 1114
+int.to.str$ -- 241
+missing$ -- 7
+newline$ -- 1454
+num.names$ -- 246
+pop$ -- 1194
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3680
+skip$ -- 3983
 stack$ -- 0
-substring$ -- 16207
-swap$ -- 2815
-text.length$ -- 188
+substring$ -- 17411
+swap$ -- 3068
+text.length$ -- 208
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1855
-warning$ -- 361
-while$ -- 1364
-width$ -- 226
-write$ -- 1986
+type$ -- 1988
+warning$ -- 390
+while$ -- 1472
+width$ -- 244
+write$ -- 2156
 (There were 7 error messages)

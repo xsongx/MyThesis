@@ -26,101 +26,103 @@
 \contentsline {subsubsection}{\numberline {2.2.3.1}构建方法}{22}{subsubsection.2.2.3.1}
 \contentsline {paragraph}{基于词典方法：}{22}{paragraph*.15}
 \contentsline {paragraph}{基于语料方法：}{23}{paragraph*.16}
-\contentsline {section}{\numberline {2.3}词典资源简介}{23}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}HowNet语义词典}{23}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}WordNet语义词典}{24}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}SentiWordNet情感词典}{24}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}基于语义关系的情感词典构建方法}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}词语抽取和义原抽取及语义分析}{26}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}情感极性值的查询与计算}{26}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1}词语倾向性值查询与计算}{27}{subsubsection.2.4.2.1}
-\contentsline {subsubsection}{\numberline {2.4.2.2}义原倾向性值查询与计算}{27}{subsubsection.2.4.2.2}
-\contentsline {subsection}{\numberline {2.4.3}词语情感极性值计算}{27}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}实验及结果}{29}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}评价指标}{29}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}性能评测结果}{29}{subsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.2.1}阈值T的设定}{29}{subsubsection.2.5.2.1}
-\contentsline {subsubsection}{\numberline {2.5.2.2}与其他词典性能对比}{30}{subsubsection.2.5.2.2}
-\contentsline {section}{\numberline {2.6}小结}{30}{section.2.6}
-\contentsline {chapter}{\numberline {3}基于语料资源的中文情感词典扩展}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}引言}{32}{section.3.1}
-\contentsline {section}{\numberline {3.2}问题描述}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}数据集及预处理}{33}{section.3.3}
-\contentsline {section}{\numberline {3.4}基于语言特征的情感词典扩展}{34}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}连词选择}{34}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}基于连词的极性计算}{35}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}实验}{35}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}基于统计特征的情感词典扩展}{36}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}统计特征选择}{37}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}基于上下文的情感词极性计算}{37}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}实验}{37}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}基于混合特征的情感词典扩展}{39}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}基于混合特征的情感词极性计算}{39}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}实验}{40}{subsection.3.6.2}
-\contentsline {section}{\numberline {3.7}小结}{40}{section.3.7}
-\contentsline {chapter}{\numberline {4}无监督的自举式情感分类}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}引言}{43}{section.4.1}
-\contentsline {section}{\numberline {4.2}相关工作}{44}{section.4.2}
-\contentsline {section}{\numberline {4.3}问题的形式化}{45}{section.4.3}
-\contentsline {section}{\numberline {4.4}无监督的情感分类框架}{47}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}通用情感分类器}{48}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}微博情感分类器}{48}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}分类器的组合}{49}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}分类器算法}{51}{subsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.1}Na\"\i ve Bayes分类器.}{51}{subsubsection.4.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.4.2}最大熵分类器.}{52}{subsubsection.4.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.4.3}支持向量机分类器.}{52}{subsubsection.4.4.4.3}
-\contentsline {section}{\numberline {4.5}实验}{52}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}实验描述}{53}{subsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.1.1}数据集}{53}{subsubsection.4.5.1.1}
-\contentsline {subsubsection}{\numberline {4.5.1.2}实验配置}{53}{subsubsection.4.5.1.2}
-\contentsline {subsubsection}{\numberline {4.5.1.3}评价基准}{53}{subsubsection.4.5.1.3}
-\contentsline {subsubsection}{\numberline {4.5.1.4}数据预处理}{54}{subsubsection.4.5.1.4}
-\contentsline {subsection}{\numberline {4.5.2}实验结果}{54}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}小结}{55}{section.4.6}
-\contentsline {chapter}{\numberline {5}用户主观性建模}{56}{chapter.5}
-\contentsline {section}{\numberline {5.1}引言}{56}{section.5.1}
-\contentsline {section}{\numberline {5.2}相关工作}{58}{section.5.2}
-\contentsline {section}{\numberline {5.3}观点集成问题}{58}{section.5.3}
-\contentsline {section}{\numberline {5.4}主观模型}{60}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}模型定义}{60}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}主观模型的构建}{61}{subsection.5.4.2}
-\contentsline {subsubsection}{\numberline {5.4.2.1}话题分析}{61}{subsubsection.5.4.2.1}
-\contentsline {subsubsection}{\numberline {5.4.2.2}观点分析}{62}{subsubsection.5.4.2.2}
-\contentsline {subsubsection}{\numberline {5.4.2.3}构建主观模型}{63}{subsubsection.5.4.2.3}
-\contentsline {subsection}{\numberline {5.4.3}与生成模型比较}{63}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}主观模型的应用}{65}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}实验}{66}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}数据集及设置}{66}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}样例分析}{67}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}观点预测性能}{68}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}小结}{69}{section.5.6}
-\contentsline {chapter}{\numberline {6}转发分析}{70}{chapter.6}
-\contentsline {section}{\numberline {6.1}引言}{70}{section.6.1}
-\contentsline {section}{\numberline {6.2}相关工作}{72}{section.6.2}
-\contentsline {section}{\numberline {6.3}基于主观模型的转发分析}{72}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}主观模型}{73}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}主观相似性}{75}{subsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.2.1}观点相似性}{75}{subsubsection.6.3.2.1}
-\contentsline {subsubsection}{\numberline {6.3.2.2}主观相似性}{76}{subsubsection.6.3.2.2}
-\contentsline {subsection}{\numberline {6.3.3}转发行为分析}{76}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}吸引力度量}{77}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}社交性度量}{77}{subsubsection.6.3.3.2}
-\contentsline {paragraph}{专家指数因子（Expert Factor） $ w_E(u_a) $：}{78}{paragraph*.50}
-\contentsline {paragraph}{领导力因子（Leadership Factor） $ w_L(u_a) $:}{78}{paragraph*.51}
-\contentsline {paragraph}{相似性因子（Similarity Factor） $ w_S(u_a,f) $:}{78}{paragraph*.52}
-\contentsline {paragraph}{交互因子（Interaction Factor） $ w_I(u_a,f) $:}{78}{paragraph*.53}
-\contentsline {subsubsection}{\numberline {6.3.3.3}流行性度量}{78}{subsubsection.6.3.3.3}
-\contentsline {section}{\numberline {6.4}实验}{79}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}数据集与实验设置}{79}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}相关性检验}{79}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}样例分析}{80}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}转发预测}{82}{subsection.6.4.4}
-\contentsline {section}{\numberline {6.5}小结}{85}{section.6.5}
-\contentsline {chapter}{\numberline {7}总结与展望}{86}{chapter.7}
-\contentsline {section}{\numberline {7.1}工作总结}{86}{section.7.1}
-\contentsline {section}{\numberline {7.2}工作展望}{87}{section.7.2}
-\contentsline {chapter}{致谢}{89}{chapter*.62}
-\contentsline {chapter}{参考文献}{90}{section*.63}
-\contentsline {chapter}{作者在学期间取得的学术成果}{110}{chapter*.65}
+\contentsline {subsection}{\numberline {2.2.4}词典转化}{24}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}混合方法}{24}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}词典资源简介}{25}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}HowNet语义词典}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}WordNet语义词典}{25}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}SentiWordNet情感词典}{26}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}基于语义关系的情感词典构建方法}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}词语抽取和义原抽取及语义分析}{28}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}情感极性值的查询与计算}{28}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}词语倾向性值查询与计算}{29}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}义原倾向性值查询与计算}{29}{subsubsection.2.4.2.2}
+\contentsline {subsection}{\numberline {2.4.3}词语情感极性值计算}{29}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}实验及结果}{31}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}评价指标}{31}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}性能评测结果}{31}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}阈值T的设定}{31}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}与其他词典性能对比}{32}{subsubsection.2.5.2.2}
+\contentsline {section}{\numberline {2.6}小结}{32}{section.2.6}
+\contentsline {chapter}{\numberline {3}基于语料资源的中文情感词典扩展}{34}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}问题描述}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}数据集及预处理}{35}{section.3.3}
+\contentsline {section}{\numberline {3.4}基于语言特征的情感词典扩展}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}连词选择}{36}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}基于连词的极性计算}{37}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}实验}{37}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}基于统计特征的情感词典扩展}{38}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}统计特征选择}{39}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}基于上下文的情感词极性计算}{39}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}实验}{39}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}基于混合特征的情感词典扩展}{41}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}基于混合特征的情感词极性计算}{41}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}实验}{42}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}小结}{42}{section.3.7}
+\contentsline {chapter}{\numberline {4}无监督的自举式情感分类}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}相关工作}{46}{section.4.2}
+\contentsline {section}{\numberline {4.3}问题的形式化}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}无监督的情感分类框架}{49}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}通用情感分类器}{50}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}微博情感分类器}{50}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}分类器的组合}{51}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}分类器算法}{53}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}Na\"\i ve Bayes分类器.}{53}{subsubsection.4.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.4.2}最大熵分类器.}{54}{subsubsection.4.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.4.3}支持向量机分类器.}{54}{subsubsection.4.4.4.3}
+\contentsline {section}{\numberline {4.5}实验}{54}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}实验描述}{55}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}数据集}{55}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1.2}实验配置}{55}{subsubsection.4.5.1.2}
+\contentsline {subsubsection}{\numberline {4.5.1.3}评价基准}{55}{subsubsection.4.5.1.3}
+\contentsline {subsubsection}{\numberline {4.5.1.4}数据预处理}{56}{subsubsection.4.5.1.4}
+\contentsline {subsection}{\numberline {4.5.2}实验结果}{56}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}小结}{57}{section.4.6}
+\contentsline {chapter}{\numberline {5}用户主观性建模}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{58}{section.5.1}
+\contentsline {section}{\numberline {5.2}相关工作}{60}{section.5.2}
+\contentsline {section}{\numberline {5.3}观点集成问题}{60}{section.5.3}
+\contentsline {section}{\numberline {5.4}主观模型}{62}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}模型定义}{62}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}主观模型的构建}{63}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}话题分析}{63}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}观点分析}{64}{subsubsection.5.4.2.2}
+\contentsline {subsubsection}{\numberline {5.4.2.3}构建主观模型}{65}{subsubsection.5.4.2.3}
+\contentsline {subsection}{\numberline {5.4.3}与生成模型比较}{65}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}主观模型的应用}{67}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}实验}{68}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}数据集及设置}{68}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}样例分析}{69}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}观点预测性能}{70}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}小结}{71}{section.5.6}
+\contentsline {chapter}{\numberline {6}转发分析}{72}{chapter.6}
+\contentsline {section}{\numberline {6.1}引言}{72}{section.6.1}
+\contentsline {section}{\numberline {6.2}相关工作}{74}{section.6.2}
+\contentsline {section}{\numberline {6.3}基于主观模型的转发分析}{74}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}主观模型}{75}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}主观相似性}{77}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}观点相似性}{77}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}主观相似性}{78}{subsubsection.6.3.2.2}
+\contentsline {subsection}{\numberline {6.3.3}转发行为分析}{78}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}吸引力度量}{79}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}社交性度量}{79}{subsubsection.6.3.3.2}
+\contentsline {paragraph}{专家指数因子（Expert Factor） $ w_E(u_a) $：}{80}{paragraph*.50}
+\contentsline {paragraph}{领导力因子（Leadership Factor） $ w_L(u_a) $:}{80}{paragraph*.51}
+\contentsline {paragraph}{相似性因子（Similarity Factor） $ w_S(u_a,f) $:}{80}{paragraph*.52}
+\contentsline {paragraph}{交互因子（Interaction Factor） $ w_I(u_a,f) $:}{80}{paragraph*.53}
+\contentsline {subsubsection}{\numberline {6.3.3.3}流行性度量}{80}{subsubsection.6.3.3.3}
+\contentsline {section}{\numberline {6.4}实验}{81}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}数据集与实验设置}{81}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}相关性检验}{81}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}样例分析}{82}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}转发预测}{84}{subsection.6.4.4}
+\contentsline {section}{\numberline {6.5}小结}{87}{section.6.5}
+\contentsline {chapter}{\numberline {7}总结与展望}{88}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{88}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{89}{section.7.2}
+\contentsline {chapter}{致谢}{91}{chapter*.62}
+\contentsline {chapter}{参考文献}{92}{section*.63}
+\contentsline {chapter}{作者在学期间取得的学术成果}{113}{chapter*.65}
 \contentsfinish 

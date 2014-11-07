@@ -106,6 +106,7 @@
   Author                   = {Sasha Blair-goldensohn and Tyler Neylon and Kerry Hannan and George A. Reis and Ryan Mcdonald and Jeff Reynar},
   Booktitle                = {In NLP in the Information Explosion Era},
   Year                     = {2008},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -276,6 +277,7 @@
   Year                     = {2010},
   Month                    = {Dec},
   Pages                    = {1019-1027},
+
   Doi                      = {10.1109/ISTEL.2010.5734170},
   Keywords                 = {natural language processing;particle swarm optimisation;transfer functions;WordNet;concept similarity assessment;human similarity judgment;information retrieval;knowledge retrieval;natural language processing;particle swarm optimization;semantic similarity measure;transfer function;Atmospheric measurements;Humans;Natural language processing;Particle measurements;Semantics;Taxonomy;Transfer functions;Semantic similarity;WordNet;information and knowledge retrieval;natural language processing},
   Owner                    = {xsongx},
@@ -316,6 +318,16 @@
   Year                     = {2012},
   Organization             = {ACM},
   Pages                    = {2483--2486}
+}
+
+@InProceedings{Andreevskaia2006,
+  Title                    = {Mining WordNet for a Fuzzy Sentiment: Sentiment Tag Extraction from WordNet Glosses},
+  Author                   = {Alina Andreevskaia and Sabine Bergler},
+  Booktitle                = {EACL'06},
+  Year                     = {2006},
+  Pages                    = {-1--1},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @Article{Angel,
@@ -458,6 +470,19 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.13}
 }
 
+@InProceedings{Banea2008,
+  Title                    = {Multilingual subjectivity analysis using machine translation},
+  Author                   = {Banea, Carmen and Mihalcea, Rada and Wiebe, Janyce and Hassan, Samer},
+  Booktitle                = {Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  Year                     = {2008},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {127--135},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{bao2013popularity,
   Title                    = {Popularity prediction in microblogging network: a case study on sina weibo},
   Author                   = {Bao, Peng and Shen, Hua-Wei and Huang, Junming and Cheng, Xue-Qi},
@@ -486,6 +511,15 @@ Target-Specific Sentiment Analysis of Adjectives},
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.09}
+}
+
+@Misc{Baron2003,
+  Title                    = {Collocations as Cues to Semantic Orientation},
+
+  Author                   = {Faye Baron and Graeme Hirst},
+  Year                     = {2003},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @Other{Bastos2012,
@@ -716,7 +750,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Booktitle                = {IN WORKSHOP ON WORDNET AND OTHER LEXICAL RESOURCES, SECOND MEETING OF THE NORTH AMERICAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS},
   Year                     = {2001},
 
-  __markedentry            = {[xsongx:6]},
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -839,6 +872,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Month                    = {may},
   Note                     = {http://www.lrec-conf.org/proceedings/lrec2008/},
   Publisher                = {European Language Resources Association (ELRA)},
+
   Date                     = {28-30},
   ISBN                     = {2-9517408-4-0},
   Language                 = {english},
@@ -1074,6 +1108,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {590--598},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {EMNLP '09},
+
   Acmid                    = {1699590},
   ISBN                     = {978-1-932432-62-6},
   Location                 = {Singapore},
@@ -1317,6 +1352,17 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.27}
 }
 
+@InProceedings{Ding2008,
+  Title                    = {A holistic lexicon-based approach to opinion mining},
+  Author                   = {Ding, Xiaowen and Liu, Bing and Yu, Philip S},
+  Booktitle                = {Proceedings of the 2008 International Conference on Web Search and Data Mining},
+  Year                     = {2008},
+  Organization             = {ACM},
+  Pages                    = {231--240},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{Ding2009,
   Title                    = {Entity Discovery and Assignment for Opinion Mining Applications},
   Author                   = {Ding, Xiaowen and Liu, Bing and Zhang, Lei},
@@ -1355,6 +1401,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2010},
   Organization             = {ACM},
   Pages                    = {111--120},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -1571,6 +1618,17 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {363--370}
 }
 
+@Article{Firth1957,
+  Title                    = {A Synopsis of Linguistic Theory, 1930-1955},
+  Author                   = {Firth, John},
+  Journal                  = {Studies in Linguistic Analysis},
+  Year                     = {1957},
+  Note                     = {Cited by 0956},
+  Pages                    = {1--32},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @Book{Fisher1970,
   Title                    = {Statistical methods for research workers},
   Author                   = {Fisher, Sir Ronald Aylmer and Genetiker, Statistiker and Fisher, Ronald Aylmer and Genetician, Statistician and Britain, Great and Fisher, Ronald Aylmer and G{\'e}n{\'e}ticien, Statisticien},
@@ -1652,6 +1710,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2011},
   Month                    = {Oct},
   Pages                    = {483-488},
+
   Doi                      = {10.1109/PASSAT/SocialCom.2011.219},
   Keywords                 = {Internet;Web sites;customer satisfaction;electronic commerce;information retrieval;multi-agent systems;purchasing;statistical analysis;Amazon.com;Internet users;agent-based model;customer satisfaction;data reviews;emotional impact;emotional information extraction;independent information;information barriers;information constraints;marketing campaigns;modeling framework;negative emotions;online community;online emotions;polemic reviews;positive emotions;product purchase;product review community;product reviews;sentiment detection tools;statistical analysis;time dynamics;word of mouth effects;Biological system modeling;Communities;Correlation;Equations;Internet;Mathematical model;Media;agent-based modeling;emotions;product reviews},
   Owner                    = {xsongx},
@@ -1774,6 +1833,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Journal                  = {ICWSM},
   Year                     = {2007},
   Volume                   = {7},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -1966,6 +2026,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {10--18},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {NAACL '09},
+
   Acmid                    = {1620757},
   ISBN                     = {978-1-932432-41-1},
   Location                 = {Boulder, Colorado},
@@ -2217,6 +2278,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {168--177},
   Publisher                = {ACM},
   Series                   = {KDD '04},
+
   Acmid                    = {1014073},
   Doi                      = {10.1145/1014052.1014073},
   ISBN                     = {1-58113-888-1},
@@ -2284,7 +2346,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Series                   = {Lecture Notes in Computer Science},
   Volume                   = {3878},
 
-  __markedentry            = {[xsongx:]},
   Doi                      = {10.1007/11671299_2},
   ISBN                     = {978-3-540-32205-4},
   Language                 = {English},
@@ -2471,6 +2532,28 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {445--449}
 }
 
+@InProceedings{Kaji2007,
+  Title                    = {Building Lexicon for Sentiment Analysis from Massive Collection of HTML Documents.},
+  Author                   = {Kaji, Nobuhiro and Kitsuregawa, Masaru},
+  Booktitle                = {EMNLP-CoNLL},
+  Year                     = {2007},
+  Organization             = {Citeseer},
+  Pages                    = {1075--1083},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
+@InProceedings{Kaji2006,
+  Title                    = {Automatic construction of polarity-tagged corpus from HTML documents},
+  Author                   = {Kaji, Nobuhiro and Kitsuregawa, Masaru},
+  Booktitle                = {Proceedings of the COLING/ACL on Main conference poster sessions},
+  Year                     = {2006},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {452--459},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
+}
+
 @InProceedings{Kamps2004,
   Title                    = {Using WordNet to Measure Semantic Orientations of Adjectives},
   Author                   = {Kamps, Jaap and Marx, Maarten and Mokken, Robert J. and de Rijke, Maarten},
@@ -2480,6 +2563,17 @@ Target-Specific Sentiment Analysis of Adjectives},
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@InProceedings{Kanayama2006,
+  Title                    = {Fully automatic lexicon expansion for domain-oriented sentiment analysis},
+  Author                   = {Kanayama, Hiroshi and Nasukawa, Tetsuya},
+  Booktitle                = {Proceedings of the 2006 Conference on Empirical Methods in Natural Language Processing},
+  Year                     = {2006},
+  Organization             = {Association for Computational Linguistics},
+  Pages                    = {355--363},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @InCollection{Kang2013,
@@ -2573,6 +2667,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {200--207},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {HLT-NAACL '06},
+
   Acmid                    = {1220861},
   Doi                      = {10.3115/1220835.1220861},
   Location                 = {New York, New York},
@@ -2620,6 +2715,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2009},
   Pages                    = {235--238},
   Volume                   = {4},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -3293,6 +3389,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2012},
   Publisher                = {European Language Resources Association (ELRA)},
   Series                   = {Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC-2012)},
+
   Author                   = {Maks, Isa
 and Vossen, Piek},
   Location                 = {Istanbul, Turkey},
@@ -3498,6 +3595,23 @@ and Vossen, Piek},
   Timestamp                = {2014.10.13}
 }
 
+@Proceedings{Mihalcea2007,
+  Title                    = {Learning Multilingual Subjective Language via Cross-Lingual Projections},
+  Year                     = {2007},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics},
+
+  __markedentry            = {[xsongx:6]},
+  Author                   = {Mihalcea, Rada
+and Banea, Carmen
+and Wiebe, Janyce},
+  Location                 = {Prague, Czech Republic},
+  Owner                    = {xsongx},
+  Pages                    = {976--983},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://aclweb.org/anthology/P07-1123}
+}
+
 @Article{Miller1995,
   Title                    = {WordNet: A Lexical Database for English},
   Author                   = {Miller, George A.},
@@ -3508,6 +3622,7 @@ and Vossen, Piek},
   Number                   = {11},
   Pages                    = {39--41},
   Volume                   = {38},
+
   Acmid                    = {219748},
   Address                  = {New York, NY, USA},
   Doi                      = {10.1145/219717.219748},
@@ -4224,6 +4339,7 @@ and Vossen, Piek},
   Year                     = {2007},
   Editor                   = {Kao, Anne and Poteet, StephenR.},
   Pages                    = {9-28},
+
   Doi                      = {10.1007/978-1-84628-754-1_2},
   ISBN                     = {978-1-84628-175-4},
   Language                 = {English},
@@ -4252,6 +4368,24 @@ and Vossen, Piek},
   Volume                   = {13},
 
   Publisher                = {Springer}
+}
+
+@InProceedings{Qiu2009,
+  Title                    = {Expanding Domain Sentiment Lexicon Through Double Propagation},
+  Author                   = {Qiu, Guang and Liu, Bing and Bu, Jiajun and Chen, Chun},
+  Booktitle                = {Proceedings of the 21st International Jont Conference on Artifical Intelligence},
+  Year                     = {2009},
+
+  Address                  = {San Francisco, CA, USA},
+  Pages                    = {1199--1204},
+  Publisher                = {Morgan Kaufmann Publishers Inc.},
+  Series                   = {IJCAI'09},
+  Acmid                    = {1661637},
+  Location                 = {Pasadena, California, USA},
+  Numpages                 = {6},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1661445.1661637}
 }
 
 @Article{quoc2007learning,
@@ -4323,6 +4457,7 @@ and Vossen, Piek},
   Pages                    = {675--682},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {EACL '09},
+
   Acmid                    = {1609142},
   Location                 = {Athens, Greece},
   Numpages                 = {8},
@@ -4371,6 +4506,7 @@ and Vossen, Piek},
   Booktitle                = {Proceedings of the 7th International Language Resources and Evaluation (LREC'10)},
   Year                     = {2010},
   Pages                    = {1168--1171},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -4727,6 +4863,27 @@ and Vossen, Piek},
   Url                      = {http://books.google.com.hk/books?id=mWlS5Q8uBYcC}
 }
 
+@InProceedings{Stepinski2007,
+  Title                    = {A Fact/Opinion Classifier for News Articles},
+  Author                   = {Stepinski, Adam and Mittal, Vibhu},
+  Booktitle                = {Proceedings of the 30th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  Year                     = {2007},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {807--808},
+  Publisher                = {ACM},
+  Series                   = {SIGIR '07},
+  Acmid                    = {1277919},
+  Doi                      = {10.1145/1277741.1277919},
+  ISBN                     = {978-1-59593-597-7},
+  Keywords                 = {applications, interfaces, news aggregation, text classification},
+  Location                 = {Amsterdam, The Netherlands},
+  Numpages                 = {2},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://doi.acm.org/10.1145/1277741.1277919}
+}
+
 @InProceedings{Steyvers2004,
   Title                    = {Probabilistic author-topic models for information discovery},
   Author                   = {Steyvers, Mark and Smyth, Padhraic and Rosen-Zvi, Michal and Griffiths, Thomas},
@@ -4808,6 +4965,7 @@ and Vossen, Piek},
   Pages                    = {1556--1560},
   Publisher                = {ACM},
   Series                   = {SAC '08},
+
   Acmid                    = {1364052},
   Doi                      = {10.1145/1363686.1364052},
   ISBN                     = {978-1-59593-753-7},
@@ -4920,6 +5078,21 @@ and Vossen, Piek},
 
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@InProceedings{Takamura2007,
+  Title                    = {Extracting Semantic Orientations of Phrases from Dictionary},
+  Author                   = {Takamura, Hiroya and Inui, Takashi and Okumura, Manabu},
+  Booktitle                = {Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference},
+  Year                     = {2007},
+
+  Address                  = {Rochester, New York},
+  Month                    = {April},
+  Pages                    = {292--299},
+  Publisher                = {Association for Computational Linguistics},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://www.aclweb.org/anthology/N/N07/N07-1037}
 }
 
 @InProceedings{Takamura2005,
@@ -5219,6 +5392,7 @@ and Vossen, Piek},
   Number                   = {3},
   Pages                    = {478--514},
   Volume                   = {24},
+
   Owner                    = {xsongx},
   Publisher                = {Kluwer Academic Publishers},
   Timestamp                = {2014.11.05}
@@ -5289,6 +5463,7 @@ and Vossen, Piek},
   Journal                  = {PSYCHNOLOGY JOURNAL},
   Year                     = {2004},
   Pages                    = {61--83},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -5299,6 +5474,7 @@ and Vossen, Piek},
   Booktitle                = {In Proceedings of the 4th International Conference on Language Resources and Evaluation},
   Year                     = {2004},
   Pages                    = {1083--1086},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -5350,6 +5526,7 @@ and Vossen, Piek},
   Pages                    = {777--785},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {HLT '10},
+
   Acmid                    = {1858118},
   ISBN                     = {1-932432-65-5},
   Location                 = {Los Angeles, California},
@@ -5553,6 +5730,7 @@ and Vossen, Piek},
   Number                   = {113-131},
   Pages                    = {94},
   Volume                   = {4},
+
   Owner                    = {xsongx},
   Publisher                = {New York, NY: Academic Press},
   Timestamp                = {2014.11.06}
@@ -5576,6 +5754,7 @@ and Vossen, Piek},
   Year                     = {2006},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {1065--1072},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -5849,6 +6028,7 @@ and Vossen, Piek},
   Pages                    = {172--182},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {EMNLP '11},
+
   Acmid                    = {2145452},
   ISBN                     = {978-1-937284-11-4},
   Location                 = {Edinburgh, United Kingdom},
