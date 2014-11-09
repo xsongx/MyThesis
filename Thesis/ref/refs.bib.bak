@@ -320,12 +320,27 @@
   Pages                    = {2483--2486}
 }
 
+@Proceedings{Andreevskaia2008,
+  Title                    = {When Specialists and Generalists Work Together: Overcoming Domain Dependence in Sentiment Tagging},
+  Year                     = {2008},
+  Publisher                = {Association for Computational Linguistics},
+  Series                   = {Proceedings of ACL-08: HLT},
+  Author                   = {Andreevskaia, Alina
+and Bergler, Sabine},
+  Location                 = {Columbus, Ohio},
+  Owner                    = {xsongx},
+  Pages                    = {290--298},
+  Timestamp                = {2014.11.08},
+  Url                      = {http://aclweb.org/anthology/P08-1034}
+}
+
 @InProceedings{Andreevskaia2006,
   Title                    = {Mining WordNet for a Fuzzy Sentiment: Sentiment Tag Extraction from WordNet Glosses},
   Author                   = {Alina Andreevskaia and Sabine Bergler},
   Booktitle                = {EACL'06},
   Year                     = {2006},
   Pages                    = {-1--1},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -478,7 +493,6 @@ Target-Specific Sentiment Analysis of Adjectives},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {127--135},
 
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -518,6 +532,7 @@ Target-Specific Sentiment Analysis of Adjectives},
 
   Author                   = {Faye Baron and Graeme Hirst},
   Year                     = {2003},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -1359,6 +1374,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2008},
   Organization             = {ACM},
   Pages                    = {231--240},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -1625,6 +1641,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {1957},
   Note                     = {Cited by 0956},
   Pages                    = {1--32},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -2167,6 +2184,24 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {688--689}
 }
 
+@InCollection{Hoang2008,
+  Title                    = {Combining Local and Global Resources for Constructing an Error-Minimized Opinion Word Dictionary},
+  Author                   = {Hoang, Linh and Lee, Jung-Tae and Song, Young-In and Rim, Hae-Chang},
+  Booktitle                = {PRICAI 2008: Trends in Artificial Intelligence},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2008},
+  Editor                   = {Ho, Tu-Bao and Zhou, Zhi-Hua},
+  Pages                    = {688-697},
+  Series                   = {Lecture Notes in Computer Science},
+  Volume                   = {5351},
+  Doi                      = {10.1007/978-3-540-89197-0_63},
+  ISBN                     = {978-3-540-89196-3},
+  Language                 = {English},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-89197-0_63}
+}
+
 @Electronic{Hoffman2008,
   Title                    = {Online reputation management is hot -- but is it ethical?},
   Author                   = {Thomas Hoffman},
@@ -2539,6 +2574,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2007},
   Organization             = {Citeseer},
   Pages                    = {1075--1083},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -2550,6 +2586,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2006},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {452--459},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -2572,6 +2609,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Year                     = {2006},
   Organization             = {Association for Computational Linguistics},
   Pages                    = {355--363},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -3247,6 +3285,28 @@ Target-Specific Sentiment Analysis of Adjectives},
   Timestamp                = {2014.10.15}
 }
 
+@InProceedings{Lu2011,
+  Title                    = {Automatic Construction of a Context-aware Sentiment Lexicon: An Optimization Approach},
+  Author                   = {Lu, Yue and Castellanos, Malu and Dayal, Umeshwar and Zhai, ChengXiang},
+  Booktitle                = {Proceedings of the 20th International Conference on World Wide Web},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {347--356},
+  Publisher                = {ACM},
+  Series                   = {WWW '11},
+
+  Acmid                    = {1963456},
+  Doi                      = {10.1145/1963405.1963456},
+  ISBN                     = {978-1-4503-0632-4},
+  Keywords                 = {opinion mining, optimization, sentiment analysis, sentiment lexicon},
+  Location                 = {Hyderabad, India},
+  Numpages                 = {10},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06},
+  Url                      = {http://doi.acm.org/10.1145/1963405.1963456}
+}
+
 @InProceedings{Lu:2010:ESC:1772690.1772761,
   Title                    = {Exploiting social context for review quality prediction},
   Author                   = {Lu, Yue and Tsaparas, Panayiotis and Ntoulas, Alexandros and Polanyi, Livia},
@@ -3601,7 +3661,6 @@ and Vossen, Piek},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics},
 
-  __markedentry            = {[xsongx:6]},
   Author                   = {Mihalcea, Rada
 and Banea, Carmen
 and Wiebe, Janyce},
@@ -4380,6 +4439,7 @@ and Wiebe, Janyce},
   Pages                    = {1199--1204},
   Publisher                = {Morgan Kaufmann Publishers Inc.},
   Series                   = {IJCAI'09},
+
   Acmid                    = {1661637},
   Location                 = {Pasadena, California, USA},
   Numpages                 = {6},
@@ -4478,6 +4538,26 @@ and Wiebe, Janyce},
   Timestamp                = {2014.10.13}
 }
 
+@Article{Read2012,
+  Title                    = {Annotating expressions of Appraisal in English},
+  Author                   = {Read, Jonathon and Carroll, John},
+  Journal                  = {Language Resources and Evaluation},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {421-447},
+  Volume                   = {46},
+
+  __markedentry            = {[xsongx:]},
+  Doi                      = {10.1007/s10579-010-9135-7},
+  ISSN                     = {1574-020X},
+  Keywords                 = {Appraisal; Corpus annotation; Inter-annotator agreement; Opinion; Subjectivity; Systemic Functional Linguistics},
+  Language                 = {English},
+  Owner                    = {xsongx},
+  Publisher                = {Springer Netherlands},
+  Timestamp                = {2014.11.08},
+  Url                      = {http://dx.doi.org/10.1007/s10579-010-9135-7}
+}
+
 @InProceedings{Read2009,
   Title                    = {Weakly Supervised Techniques for Domain-independent Sentiment Classification},
   Author                   = {Read, Jonathon and Carroll, John},
@@ -4498,6 +4578,21 @@ and Wiebe, Janyce},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.27},
   Url                      = {http://doi.acm.org/10.1145/1651461.1651470}
+}
+
+@InBook{Read2007,
+  Title                    = {Proceedings of the Linguistic Annotation Workshop},
+  Author                   = {Read, Jonathon
+and Hope, David
+and Carroll, John},
+  Chapter                  = {Annotating Expressions of Appraisal in English},
+  Pages                    = {93--100},
+  Publisher                = {Association for Computational Linguistics},
+  Year                     = {2007},
+  Location                 = {Prague, Czech Republic},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.08},
+  Url                      = {http://aclweb.org/anthology/W07-1515}
 }
 
 @InProceedings{Remus2010,
@@ -4873,6 +4968,7 @@ and Wiebe, Janyce},
   Pages                    = {807--808},
   Publisher                = {ACM},
   Series                   = {SIGIR '07},
+
   Acmid                    = {1277919},
   Doi                      = {10.1145/1277741.1277919},
   ISBN                     = {978-1-59593-597-7},
@@ -5090,6 +5186,7 @@ and Wiebe, Janyce},
   Month                    = {April},
   Pages                    = {292--299},
   Publisher                = {Association for Computational Linguistics},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06},
   Url                      = {http://www.aclweb.org/anthology/N/N07/N07-1037}
@@ -6475,6 +6572,18 @@ and Wiebe, Janyce},
   Timestamp                = {2014.10.13}
 }
 
+@Article{徐琳宏2008,
+  Title                    = {情感词汇本体的构造},
+  Author                   = {徐琳宏 and 林鸿飞 and 潘宇 and 任惠 and 陈建美},
+  Journal                  = {情报学报},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {180--185},
+  Volume                   = {27},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.08}
+}
+
 @Article{朱嫣岚2006,
   Title                    = {基于HowNet的词汇语义倾向计算},
   Author                   = {朱嫣岚 and 闵锦 and 周雅倩 and 黄萱菁 and 吴立德},
@@ -6513,6 +6622,15 @@ and Wiebe, Janyce},
   Pages                    = {43--44},
 
   Publisher                = {万方数据资源系统}
+}
+
+@Article{杜飞龙2000,
+  Title                    = {知网辟蹊径共享新天地—董振东先生谈知网与知识共享},
+  Author                   = {杜飞龙},
+  Journal                  = {微电脑世界},
+  Year                     = {2000},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.06}
 }
 
 @Article{来亮2012,
@@ -6637,5 +6755,18 @@ and Wiebe, Janyce},
   ISBN                     = {978-0-7695-4525-7},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13}
+}
+
+@Misc{2010,
+  Title                    = {一种情感词倾向性的分析方法},
+  Month                    = jul # {~21},
+  Note                     = {CN Patent App. CN 201,010,133,149},
+  Year                     = {2010},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Publisher                = {Google Patents},
+  Timestamp                = {2014.11.08},
+  Url                      = {http://www.google.com/patents/CN101782898A?cl=zh}
 }
 

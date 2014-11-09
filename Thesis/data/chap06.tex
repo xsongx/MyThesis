@@ -248,8 +248,9 @@ Total non-retweeters & 40,317  \\
 \hline
 \end{tabular}
 \begin{tablenotes}
+  \centering
   \footnotesize
-\item 表中如果平均值差异是偶然，\textit{F-ratio}=1.00，否则\textit{F-ratio} \textgreater 1.00 (\textit{p-value} \textless 0.01)。
+\item 表中如果平均值差异是偶然，\textit{F-ratio}=1.00，\\否则\textit{F-ratio} \textgreater 1.00 (\textit{p-value} \textless 0.01)。
 \end{tablenotes}
 \end{table}
 从表中可以看出，当话题数是100和150时，所有的主观相似性检验都是\textit{F-ratio}大于1.00，且\textit{p-values}低于显著性水平。这表示所有的主观相似性与转发行为具有相关性，能够作为转发行为的有用特征。后续实验我们将话题数目固定为100来进行讨论。
@@ -374,9 +375,11 @@ $ sim_{all}  $ & \textbf{75.64}   $\ast \quad \ddagger $ & LUO+$ sim_{all}  $ & 
 \hline
 \end{tabular}
 \begin{tablenotes}
+  \centering
   \footnotesize
-\item 显著性水平($p < 0.05$)，使用$ \ast $标记性能显著超过基准，用$ \ddagger $标记性能显著超过LUO。
+\item 显著性水平($p < 0.05$)，使用$ \ast $标记性能显著超过基准，\\用$ \ddagger $标记性能显著超过LUO。
 \end{tablenotes}
+%\end{threeparttable}
 \end{table}
 
 首先，除了hashtag模型外，其他模型的准确率都显著超过了基准准确率（60.85\%），hashtag模型准确率为59.12\%，主要原因是微博中hashtag的使用率过低而造成的数据稀疏。

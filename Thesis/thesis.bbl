@@ -995,12 +995,30 @@ In Proceedings of the 21st International Jont Conference on Artifical
 San Francisco, CA, USA, 2009:  1199--1204.
 \url{http://dl.acm.org/citation.cfm?id=1661445.1661637}.
 
-\bibitem{Banea2008}
-Banea~C, Mihalcea~R, Wiebe~J, et~al.
-Multilingual subjectivity analysis using machine translation~[C].
-In Proceedings of the Conference on Empirical Methods in Natural Language
-  Processing.
-2008:  127--135.
+\bibitem{Mihalcea2007}
+Learning Multilingual Subjective Language via Cross-Lingual Projections~[C/OL].
+Association for Computational Linguistics, 2007.
+
+\bibitem{Hoang2008}
+Hoang~L，Lee~J-T，Song~Y-I，等．
+Combining Local and Global Resources for Constructing an Error-Minimized
+  Opinion Word Dictionary~[M]~//~Ho~T-B，Zhou~Z-H．
+ PRICAI 2008: Trends in Artificial Intelligence：第5351卷．
+Springer Berlin Heidelberg，2008：2008: 688--697．
+
+\bibitem{Lu2011}
+Lu~Y, Castellanos~M, Dayal~U, et~al.
+Automatic Construction of a Context-aware Sentiment Lexicon: An Optimization
+  Approach~[C/OL].
+In Proceedings of the 20th International Conference on World Wide Web.
+New York, NY, USA, 2011:  347--356.
+\url{http://doi.acm.org/10.1145/1963405.1963456}.
+
+\bibitem{杜飞龙2000}
+杜飞龙.
+知网辟蹊径共享新天地—董振东先生谈知网与知识共享~[J].
+微电脑世界.
+2000.
 
 \bibitem{刘群2002}
 刘群, 李素建.
@@ -1012,70 +1030,29 @@ Fellbaum~C.
 WordNet: An Electronic Lexical Database~[M].
 Cambridge, Massachusetts: MIT Press, 1998.
 
-\bibitem{Wilson2005}
-Wilson~T, Wiebe~J, Hoffmann~P.
-Recognizing contextual polarity in phrase-level sentiment analysis~[C].
-2005:  347--354.
-
-\bibitem{Bradley1999}
-Bradley~M~M, Lang~P~J.
-Affective norms for English words (ANEW): Instruction manual and affective
-  ratings~[R].
-1999.
-
-\bibitem{Nielsen2011}
-Nielsen~F A~R.
-A new ANEW: Evaluation of a word list for sentiment analysis in microblogs~[J].
-arXiv preprint arXiv:1103.2903.
-2011.
-
-\bibitem{Thelwall2012}
-Thelwall~M, Buckley~K, Paltoglou~G.
-Sentiment strength detection for the social web~[J].
-Journal of the American Society for Information Science and Technology.
-2012, 63~(1):  163--173.
-
-\bibitem{Plutchik2001}
-Plutchik~R.
-The nature of emotions~[J].
-American Scientist.
-2001, 89~(4):  344--350.
-
-\bibitem{Mohammad2013b}
-Mohammad~S~M, Turney~P~D.
-Crowdsourcing a word--emotion association lexicon~[J].
-Computational Intelligence.
-2013, 29~(3):  436--465.
-
-\bibitem{Mohammad2013}
-Mohammad~S~M, Kiritchenko~S, Zhu~X.
-NRC-Canada: building the state-of-the-art in sentiment analysis of tweets~[C].
-2013.
-
-\bibitem{Kiritchenko2014}
-Kiritchenko~S, Zhu~X, Cherry~C, et~al.
-NRC-Canada-2014: Detecting Aspects and Sentiment in Customer Reviews~[C].
-2014.
-
-\bibitem{Tsai2013}
-Tsai~A C-R, Wu~C-E, Tsai~R T-H, et~al.
-Building a concept-level sentiment dictionary based on commonsense
-  knowledge~[J].
-IEEE Intelligent Systems.
-2013, 28~(2):  22--30.
-
-\bibitem{Cambria2014}
-Cambria~E, Olsher~D, Rajagopal~D.
-SenticNet 3: A common and common-sense knowledge base for cognition-driven
-  sentiment analysis~[C].
-In Twenty-Eighth AAAI Conference on Artificial Intelligence.
-2014.
+\bibitem{徐琳宏2008}
+徐琳宏, 林鸿飞, 潘宇, et~al.
+情感词汇本体的构造~[J].
+情报学报.
+2008, 27~(2):  180--185.
 
 \bibitem{谢松县2014}
 谢松县, 刘博, 王挺.
 应用语义关系自动构建情感词典~[J].
 国防科技大学学报.
 2014, 36~(3):  111--115.
+
+\bibitem{Andreevskaia2008}
+When Specialists and Generalists Work Together: Overcoming Domain Dependence in
+  Sentiment Tagging~[C/OL].
+Association for Computational Linguistics, 2008.
+
+\bibitem{jijkoun2010generating}
+Jijkoun~V, de~Rijke~M, Weerkamp~W.
+Generating focused topic-specific sentiment lexicons~[C].
+In Proceedings of the 48th Annual Meeting of the Association for Computational
+  Linguistics.
+2010:  585--594.
 
 \bibitem{Lin2012}
 Lin~Z, Tan~S, Cheng~X, et~al.
@@ -1158,6 +1135,29 @@ Thelwall~M, Buckley~K, Paltoglou~G, et~al.
 Sentiment strength detection in short informal text~[J].
 Journal of the American Society for Information Science and Technology.
 2010, 61~(12):  2544--2558.
+
+\bibitem{Thelwall2012}
+Thelwall~M, Buckley~K, Paltoglou~G.
+Sentiment strength detection for the social web~[J].
+Journal of the American Society for Information Science and Technology.
+2012, 63~(1):  163--173.
+
+\bibitem{Wilson2005}
+Wilson~T, Wiebe~J, Hoffmann~P.
+Recognizing contextual polarity in phrase-level sentiment analysis~[C].
+2005:  347--354.
+
+\bibitem{Bradley1999}
+Bradley~M~M, Lang~P~J.
+Affective norms for English words (ANEW): Instruction manual and affective
+  ratings~[R].
+1999.
+
+\bibitem{Nielsen2011}
+Nielsen~F A~R.
+A new ANEW: Evaluation of a word list for sentiment analysis in microblogs~[J].
+arXiv preprint arXiv:1103.2903.
+2011.
 
 \bibitem{Go2009}
 Go~A, Bhayani~R, Huang~L.
@@ -1479,6 +1479,11 @@ Who will retweet me?: finding retweeters in twitter~[C].
 In Proceedings of the 36th international ACM SIGIR conference on Research and
   development in information retrieval.
 2013:  869--872.
+
+\bibitem{Mohammad2013}
+Mohammad~S~M, Kiritchenko~S, Zhu~X.
+NRC-Canada: building the state-of-the-art in sentiment analysis of tweets~[C].
+2013.
 
 \bibitem{Fisher1970}
 Fisher~S R~A, Genetiker~S, Fisher~R~A, et~al.
