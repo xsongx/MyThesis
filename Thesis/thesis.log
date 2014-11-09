@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  9 NOV 2014 02:23
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  10 NOV 2014 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 12 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -1651,9 +1651,6 @@ Package: xeCJK-listings 2013/12/08 v3.2.9 xeCJK patch file for listings
 )
 (./thesis.aux
 
-LaTeX Warning: Label `tab3-3' multiply defined.
-
-
 LaTeX Warning: Label `fig5-1' multiply defined.
 
 )
@@ -1957,13 +1954,13 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 \openout5 = `thesis.toc'.
 
  [3] (./thesis.lot
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 12.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 15.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.84042pt on input line 12.
+(Font)              scaled to size 10.84042pt on input line 15.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 7.58826pt on input line 12.
+(Font)              scaled to size 7.58826pt on input line 15.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 5.4202pt on input line 12.
+(Font)              scaled to size 5.4202pt on input line 15.
 )
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
@@ -2122,47 +2119,31 @@ Overfull \hbox (13.49115pt too wide) in paragraph at lines 355--363
 
 ] [40]
 File: figures/3-1.png Graphic file (type QTm)
- <use  "figures/3-1.png" >
-
-Package natbib Warning: Citation `2010' on page 41 undefined on input line 50.
-
-[41]
-Overfull \hbox (10.82693pt too wide) detected at line 73
+ <use  "figures/3-1.png" > [41]
+Overfull \hbox (10.82693pt too wide) detected at line 74
 [] []
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 87.
+put line 88.
 [42] [43]
-Overfull \hbox (25.49731pt too wide) in paragraph at lines 154--162
+Overfull \hbox (1.78374pt too wide) in paragraph at lines 155--163
  [][] 
  []
 
 [44]
 
-Package natbib Warning: Citation `Yarowsky1993' on page 45 undefined on input l
-ine 167.
+Package natbib Warning: Citation `Sinclair1991' on page 45 undefined on input l
+ine 170.
 
 
-Package natbib Warning: Citation `' on page 45 undefined on input line 167.
-
-
-Package natbib Warning: Citation `Yarowsky1993' on page 45 undefined on input l
-ine 169.
-
-
-Package natbib Warning: Citation `' on page 45 undefined on input line 169.
+Package natbib Warning: Citation `张猛2008' on page 45 undefined on input line 17
+0.
 
 
 Underfull \vbox (badness 1824) has occurred while \output is active []
 
  [45]
-
-LaTeX Warning: Reference `tab3-3-1' on page 46 undefined on input line 190.
-
-
-LaTeX Warning: Reference `eq3-2-1' on page 46 undefined on input line 190.
-
 [46]
 File: figures/3-2.png Graphic file (type QTm)
  <use  "figures/3-2.png" >
@@ -2170,76 +2151,91 @@ File: figures/3-3.png Graphic file (type QTm)
  <use  "figures/3-3.png" >
 File: figures/3-4.png Graphic file (type QTm)
 
-<use  "figures/3-4.png" > [47]
+<use  "figures/3-4.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+[48]
+Overfull \hbox (1.78374pt too wide) in paragraph at lines 354--362
+ [][] 
+ []
+
+[49]
 File: figures/3-5.png Graphic file (type QTm)
- <use  "figures/3-5.png" > [48]
+ <use  "figures/3-5.png" >
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [50]
 File: figures/3-6.png Graphic file (type QTm)
 
 <use  "figures/3-6.png" >
 File: figures/3-7.png Graphic file (type QTm)
  <use  "figures/3-7.png" >) (./data/chap04.tex
-[49] [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-[52
+[51] [52] [53
 
 
-] [53] [54]
+] [54] [55]
 Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
-nput line 37.
- [55] [56] [57] [58]
+nput line 45.
+
+Overfull \hbox (8.51923pt too wide) in paragraph at lines 65--67
+[]\EU1/AdobeKaitiStd(0)/m/n/12.045 情 感 分 类 问 题 空 间 可 以 表 示 为 $\OT1/txr/m/n/12.0
+45 (\OML/txmi/m/it/12.045 X[]; X[]; Y\OT1/txr/m/n/12.045 )$\EU1/AdobeKaitiStd(0
+)/m/n/12.045 ，|
+ []
+
+[56] [57] [58] [59] [60]
 File: figures/4-1.png Graphic file (type QTm)
- <use  "figures/4-1.png" > [59
+ <use  "figures/4-1.png" > [61
 
-] [60
+] [62
 
-] [61]
-[62]
+] [63] [64]
 File: figures/4-2.png Graphic file (type QTm)
- <use  "figures/4-2.png" >
-Overfull \hbox (11.7693pt too wide) in paragraph at lines 207--208
+
+<use  "figures/4-2.png" >
+Overfull \hbox (11.7693pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-[63]) (./data/chap05.tex [64] [65
+[65]) (./data/chap05.tex [66] [67
 
 
 ]
 File: figures/5-1.png Graphic file (type QTm)
- <use  "figures/5-1.png" > [66
+ <use  "figures/5-1.png" > [68
 
-] [67
+] [69
 
 ]
 File: figures/5-2.png Graphic file (type QTm)
 
-<use  "figures/5-2.png" > [68] [69]
+<use  "figures/5-2.png" > [70] [71]
 File: figures/5-0.eps Graphic file (type eps)
- <figures/5-0.eps> [70] [71] [72] [73]
-[74] [75]
+ <figures/5-0.eps> [72] [73] [74] [75]
+[76] [77]
 File: figures/5-4.png Graphic file (type QTm)
  <use  "figures/5-4.png" >
 File: figures/5-3.png Graphic file (type QTm)
  <use  "figures/5-3.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77]) (./data/chap06.tex [78]
+ [78]
+[79]) (./data/chap06.tex [80]
 File: figures/6-0.pdf Graphic file (type QTm)
  <use  "figures/6-0.pdf" >
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
- [79
+ [81
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
-[81]
+ [82]
+[83]
 File: figures/6-1.pdf Graphic file (type QTm)
- <use  "figures/6-1.pdf" > [82] [83] [84] [85] [86] [87] [88]
+ <use  "figures/6-1.pdf" > [84] [85] [86] [87] [88] [89] [90]
 File: figures/6-2.pdf Graphic file (type QTm)
 
 <use  "figures/6-2.pdf" >
@@ -2248,7 +2244,7 @@ Overfull \hbox (34.57765pt too wide) in paragraph at lines 270--271
  []
 
 File: figures/6-3.pdf Graphic file (type QTm)
-<use  "figures/6-3.pdf" > [89] [90] [91]
+<use  "figures/6-3.pdf" > [91] [92] [93]
 Underfull \hbox (badness 1515) in paragraph at lines 344--345
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
@@ -2257,16 +2253,16 @@ Underfull \hbox (badness 1515) in paragraph at lines 344--345
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
-[93]) (./data/chap07.tex [94] [95
+ [94]
+[95]) (./data/chap07.tex [96] [97
 
 
 ]
 
-Package natbib Warning: Citation `Das2014，Guerra2014' on page 96 undefined on i
+Package natbib Warning: Citation `Das2014，Guerra2014' on page 98 undefined on i
 nput line 26.
 
-[96]) (./data/ack.tex [97]) [98
+[98]) (./data/ack.tex [99]) [100
 
 ] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 88--92
@@ -2292,7 +2288,7 @@ Overfull \hbox (33.03238pt too wide) in paragraph at lines 88--92
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[99
+[101
 
 
 ]
@@ -2325,7 +2321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--107
 ] [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][] []
  []
 
-[100] [101] [102]
+[102] [103] [104]
 Underfull \hbox (badness 6094) in paragraph at lines 367--374
 []\EU1/TimesNewRoman(0)/m/n/12.045 Wiebe J, Riloff E. Creating Subjective and O
 bjective Sentence Classi-
@@ -2337,13 +2333,13 @@ Underfull \hbox (badness 2376) in paragraph at lines 367--374
 dings of the 6th Interna-
  []
 
-[103]
+[105]
 Underfull \hbox (badness 2762) in paragraph at lines 411--414
 []\EU1/TimesNewRoman(0)/m/n/12.045 Angela. Old Wine or Warm Beer: Target-Specif
 ic Sentiment Analysis of
  []
 
-[104] [105] [106] [107] [108] [109]
+[106] [107] [108] [109] [110] [111]
 Underfull \hbox (badness 2503) in paragraph at lines 862--867
 \EU1/TimesNewRoman(0)/m/n/12.045 York, NY, USA, 2008: 1556–1560. []$[][][][] []
  [] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] []
@@ -2361,25 +2357,25 @@ Underfull \hbox (badness 2617) in paragraph at lines 903--909
 WordNet: An experimental,
  []
 
-[110]
+[112]
 Underfull \hbox (badness 1077) in paragraph at lines 971--976
 []\EU1/TimesNewRoman(0)/m/n/12.045 Kanayama H, Nasukawa T. Fully automatic lexi
 con expansion for domain-
  []
 
-[111]
+[113]
 Underfull \hbox (badness 10000) in paragraph at lines 999--1001
 []\EU1/TimesNewRoman(0)/m/n/12.045 Learning Multilingual Subjective Language vi
 a Cross-Lingual Projec-
  []
 
-[112] [113] [114]
-Underfull \hbox (badness 3907) in paragraph at lines 1300--1304
+[114] [115] [116] [117]
+Underfull \hbox (badness 3907) in paragraph at lines 1318--1322
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stein D, Wright S. Subjectivity and Subjecti
 visation: Linguistic Perspec-
  []
 
-[115] [116] [117] [118]) (./data/resume.tex [119]) [120
+[118] [119] [120] [121]) (./data/resume.tex [122]) [123
 
 ]
 \tf@thm=\write8
@@ -2396,20 +2392,17 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 32394 strings out of 495484
- 598997 string characters out of 6183322
- 657625 words of memory out of 5000000
- 35052 multiletter control sequences out of 15000+600000
+ 32401 strings out of 493918
+ 598994 string characters out of 6150564
+ 661889 words of memory out of 5000000
+ 35168 multiletter control sequences out of 15000+600000
  84290 words of font info for 313 fonts, out of 8000000 for 9000
- 102 hyphenation exceptions out of 8191
- 51i,20n,66p,10456b,1459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1144 hyphenation exceptions out of 8191
+ 51i,20n,66p,10456b,1505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (134 pages).
+Output written on thesis.pdf (137 pages).

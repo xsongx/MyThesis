@@ -7,14 +7,16 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces 情感词典扩展统计\relax }}{44}{table.caption.34}
 \contentsline {table}{\numberline {3.3}{\ignorespaces 性能评测结果\relax }}{44}{table.caption.35}
 \contentsline {table}{\numberline {3.4}{\ignorespaces 计算示例\relax }}{46}{table.caption.36}
-\contentsline {table}{\numberline {3.5}{\ignorespaces 各个领域性能评测结果\relax }}{51}{table.caption.40}
-\contentsline {table}{\numberline {4.1}{\ignorespaces 结果对比表\relax }}{64}{table.caption.47}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Twitter数据集统计\relax }}{75}{table.caption.52}
-\contentsline {table}{\numberline {5.2}{\ignorespaces 评价结果。相对于OF显著的性能提升使用$ \ast $标记。\relax }}{78}{table.caption.55}
-\contentsline {table}{\numberline {6.1}{\ignorespaces 观点相似性示例\relax }}{84}{table.caption.59}
-\contentsline {table}{\numberline {6.2}{\ignorespaces 数据集统计分析\relax }}{88}{table.caption.64}
-\contentsline {table}{\numberline {6.3}{\ignorespaces ANOVA检验结果\relax }}{89}{table.caption.65}
-\contentsline {table}{\numberline {6.4}{\ignorespaces 主观相似性比较\relax }}{90}{table.caption.68}
-\contentsline {table}{\numberline {6.5}{\ignorespaces LUO方法使用特征\relax }}{92}{table.caption.69}
-\contentsline {table}{\numberline {6.6}{\ignorespaces 准确率评测结果\relax }}{93}{table.caption.70}
+\contentsline {table}{\numberline {3.5}{\ignorespaces 情感词典扩展统计\relax }}{49}{table.caption.40}
+\contentsline {table}{\numberline {3.6}{\ignorespaces 情感词典扩展统计\relax }}{50}{table.caption.41}
+\contentsline {table}{\numberline {3.7}{\ignorespaces 各个领域性能评测结果\relax }}{50}{table.caption.42}
+\contentsline {table}{\numberline {4.1}{\ignorespaces 结果对比表\relax }}{66}{table.caption.49}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Twitter数据集统计\relax }}{77}{table.caption.54}
+\contentsline {table}{\numberline {5.2}{\ignorespaces 评价结果。相对于OF显著的性能提升使用$ \ast $标记。\relax }}{80}{table.caption.57}
+\contentsline {table}{\numberline {6.1}{\ignorespaces 观点相似性示例\relax }}{86}{table.caption.61}
+\contentsline {table}{\numberline {6.2}{\ignorespaces 数据集统计分析\relax }}{90}{table.caption.66}
+\contentsline {table}{\numberline {6.3}{\ignorespaces ANOVA检验结果\relax }}{91}{table.caption.67}
+\contentsline {table}{\numberline {6.4}{\ignorespaces 主观相似性比较\relax }}{92}{table.caption.70}
+\contentsline {table}{\numberline {6.5}{\ignorespaces LUO方法使用特征\relax }}{94}{table.caption.71}
+\contentsline {table}{\numberline {6.6}{\ignorespaces 准确率评测结果\relax }}{95}{table.caption.72}
 \contentsfinish 

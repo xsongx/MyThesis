@@ -325,6 +325,7 @@
   Year                     = {2008},
   Publisher                = {Association for Computational Linguistics},
   Series                   = {Proceedings of ACL-08: HLT},
+
   Author                   = {Andreevskaia, Alina
 and Bergler, Sabine},
   Location                 = {Columbus, Ohio},
@@ -2194,6 +2195,7 @@ Target-Specific Sentiment Analysis of Adjectives},
   Pages                    = {688-697},
   Series                   = {Lecture Notes in Computer Science},
   Volume                   = {5351},
+
   Doi                      = {10.1007/978-3-540-89197-0_63},
   ISBN                     = {978-3-540-89196-3},
   Language                 = {English},
@@ -3520,6 +3522,17 @@ and Vossen, Piek},
   Publisher                = {Cambridge Univ Press}
 }
 
+@Article{Martin1983,
+  Title                    = {On the processing of a text corpus: From textual data to lexicographical information},
+  Author                   = {Martin, W and Al, B and Van Sterkenburg, P},
+  Year                     = {1983},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Publisher                = {Academic Press},
+  Timestamp                = {2014.11.09}
+}
+
 @InCollection{massoudi2011incorporating,
   Title                    = {Incorporating query expansion and quality indicators in searching microblog posts},
   Author                   = {Massoudi, Kamran and Tsagkias, Manos and de Rijke, Maarten and Weerkamp, Wouter},
@@ -4547,7 +4560,6 @@ and Wiebe, Janyce},
   Pages                    = {421-447},
   Volume                   = {46},
 
-  __markedentry            = {[xsongx:]},
   Doi                      = {10.1007/s10579-010-9135-7},
   ISSN                     = {1574-020X},
   Keywords                 = {Appraisal; Corpus annotation; Inter-annotator agreement; Opinion; Subjectivity; Systemic Functional Linguistics},
@@ -4589,6 +4601,7 @@ and Carroll, John},
   Pages                    = {93--100},
   Publisher                = {Association for Computational Linguistics},
   Year                     = {2007},
+
   Location                 = {Prague, Czech Republic},
   Owner                    = {xsongx},
   Timestamp                = {2014.11.08},
@@ -6115,6 +6128,18 @@ and Carroll, John},
   Pages                    = {1633--1636}
 }
 
+@InProceedings{Yarowsky1993,
+  Title                    = {One sense per collocation},
+  Author                   = {David Yarowsky},
+  Booktitle                = {In Proceedings of the ARPA Human Language Technology Workshop},
+  Year                     = {1993},
+  Pages                    = {266--271},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.09}
+}
+
 @InProceedings{Yessenalina2011,
   Title                    = {Compositional Matrix-space Models for Sentiment Analysis},
   Author                   = {Yessenalina, Ainur and Cardie, Claire},
@@ -6580,6 +6605,7 @@ and Carroll, John},
   Number                   = {2},
   Pages                    = {180--185},
   Volume                   = {27},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.08}
 }
@@ -6629,6 +6655,7 @@ and Carroll, John},
   Author                   = {杜飞龙},
   Journal                  = {微电脑世界},
   Year                     = {2000},
+
   Owner                    = {xsongx},
   Timestamp                = {2014.11.06}
 }
@@ -6762,8 +6789,6 @@ and Carroll, John},
   Month                    = jul # {~21},
   Note                     = {CN Patent App. CN 201,010,133,149},
   Year                     = {2010},
-
-  __markedentry            = {[xsongx:6]},
   Owner                    = {xsongx},
   Publisher                = {Google Patents},
   Timestamp                = {2014.11.08},

@@ -6,8 +6,8 @@
 \contentsline {definition}{{定义}{2.{1}}{情感极性值反转}}{34}{definition.2.1}
 \contentsline {definition}{{定义}{2.{2}}{情感极性值加权}}{34}{definition.2.2}
 \contentsline {definition}{{定义}{3.{1}}{词语$w$的特征向量$V(w)$和窗口$W$}}{45}{definition.3.1}
-\contentsline {hypothesis}{{假设}{1}{特征空间划分假设}}{55}{hypothesis.1}
-\contentsline {definition}{{定义}{4.{1}}{情感分类}}{55}{definition.4.1}
-\contentsline {definition}{{定义}{4.{2}}{假设}}{57}{definition.4.2}
-\contentsline {definition}{{定义}{5.{1}}{观点集成问题}}{68}{definition.5.1}
-\contentsline {definition}{{定义}{5.{2}}{主观模型}}{69}{definition.5.2}
+\contentsline {hypothesis}{{假设}{1}{特征空间划分假设}}{56}{hypothesis.1}
+\contentsline {definition}{{定义}{4.{1}}{基于特征空间划分的情感分类}}{57}{definition.4.1}
+\contentsline {hypothesis}{{假设}{2}{条目情感极性假设}}{59}{hypothesis.2}
+\contentsline {definition}{{定义}{5.{1}}{观点集成问题}}{70}{definition.5.1}
+\contentsline {definition}{{定义}{5.{2}}{主观模型}}{71}{definition.5.2}

@@ -1067,11 +1067,29 @@ New York, NY, USA, 2012:  1542--1546.
 NLPIR/ICTCLAS2014分词系统.
 08-01 2014.
 
+\bibitem{2010}
+一种情感词倾向性的分析方法.
+July~21 2010.
+\url{http://www.google.com/patents/CN101782898A?cl=zh}.
+CN Patent App. CN 201,010,133,149.
+
 \bibitem{鲁松2001}
 鲁松, 白硕.
 自然语言处理中词语上下文有效范围的定量描述~[J].
 计算机学报.
 2001, 24~(7):  742--747.
+
+\bibitem{Yarowsky1993}
+Yarowsky~D.
+One sense per collocation~[C].
+In In Proceedings of the ARPA Human Language Technology Workshop.
+1993:  266--271.
+
+\bibitem{Martin1983}
+Martin~W, Al~B, Van~Sterkenburg~P.
+On the processing of a text corpus: From textual data to lexicographical
+  information~[J].
+1983.
 
 \bibitem{LourencoJr2014}
 Lourenco~Jr~R, Veloso~A, Pereira~A, et~al.
