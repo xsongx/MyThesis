@@ -3,7 +3,6 @@
 社交媒体已经逐步发展完善，随着用户使用社交媒体的普及，带有用户观点信息的文本数据正爆炸式增长，本文主要围绕社交媒体中观点信息的挖掘、分析以及在行为分析中的应用展开研究。通过情感词典资源的建设、情感极性分类以及利用情感分析结果对社交媒体用户的主观性建模和应用等任务，我们充分利用了社交媒体作为媒体所产生的文本特点和社交媒体用户之间的社交功能来帮助解决这些问题。
 
 对社交媒体中文本数据中的观点信息分析研究能够从社交媒体海量数据中发现有借鉴意义的信息，无论对于其他研究还是商业应用都有价值。为了能够得到观点信息需要从文本中抽取分离出能够识别用户看法、态度、立场以及情感的表达方式，我们特别针对社交媒体的文本进行了情感知识辞典的构建和对社交媒体非规范化文本的情感分类研究，因此可以从数据中挖掘分析观点信息。
-
 在得到文本中的观点信息后，可以帮助我们来认识作为社交媒体使用主体的用户，对用户在社交媒体上表达的观点进行集成分析，对用户的主观性进行建模。得到的主观模型对于我们理解用户的在线行为分析提供帮助。
 
 \section{工作总结}
@@ -23,7 +22,7 @@
 \section{工作展望}
 展望未来，社交媒体中的观点信息的分析研究及其相关方向还有很多工作需要完成。这里总结以下亟待探索的研究方向和路线：
   \begin{enumerate}
-  \item 以Twitter为代表的社交媒体一个重要特点就是消息的实时性，许多研究工作都围绕在Twitter中发现实时信息展开，包括新事件发现\upcite{petrovic2010streaming,becker2011beyond,weng2011event,naaman2011hip,benson2011event,petrovic2012using,kanhabua2013understanding}、实时灾害报道（如地震、疾病、火灾等）\upcite{sakaki2010earthquake,paul2011you,aramaki2011twitter,abel2012twitcident,yin2012esa}，另外，TREC的Twitter检索\upcite{efron2011estimation,metzler2012structured,zhang2012query,soboroff2012evaluating,choi2012temporal,amati2012survival,miyanishi2013combining}也将实时性作为一个重要指标。本文的研究中，我们并未对观点挖掘与分析受到实时性的影响进行讨论研究。
+  \item 以Twitter为代表的社交媒体一个重要特点就是消息的实时性，许多研究工作都围绕在Twitter中发现实时信息展开，包括新事件发现\upcite{petrovic2010streaming,becker2011beyond,weng2011event,naaman2011hip,benson2011event,petrovic2012using,kanhabua2013understanding}、实时灾害报道（如地震、疾病、火灾等）\upcite{sakaki2010earthquake,paul2011you,aramaki2011twitter,abel2012twitcident,yin2012esa}，另外，TREC的Twitter检索\upcite{efron2011estimation,metzler2012structured,zhang2012query,soboroff2012evaluating,choi2012temporal,amati2012survival,miyanishi2013combining}也将实时性作为一个重要指标。本文的研究中，我们并未对观点挖掘与分析受到实时性的影响进行讨论研究\upcite{Das2014，Guerra2014}。
   
  \item 本文的社交媒体中观点信息的研究还是对比较常用的几个类型（比如评论和微博）进行的研究，实际上社交媒体还有很多类型，如Facebook\footnote{\url{https://www.facebook.com/}}、YouTube\footnote{\url{https://www.youtube.com/}}、 Flickr\footnote{\url{https://www.flickr.com/}}等等。这些社交媒体肯定有自己独特的特点，在其数据上进行观点的挖掘与分析需要研究其独特的情感表达方式；另外，多种社交媒体综合和跨媒体的信息交互与传播也会对观点信息的分析提出新课题，这就需要研究者在充分理解各种社交媒体的特点和人们对各种社交媒体不同使用习惯上，提出方法解决问题。
  

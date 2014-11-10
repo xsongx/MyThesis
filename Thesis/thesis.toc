@@ -100,32 +100,31 @@
 \contentsline {subsection}{\numberline {5.5.2}样例分析}{80}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}观点预测性能}{81}{subsection.5.5.3}
 \contentsline {section}{\numberline {5.6}小结}{82}{section.5.6}
-\contentsline {chapter}{\numberline {6}转发分析}{84}{chapter.6}
+\contentsline {chapter}{\numberline {6}用户转发行为分析}{84}{chapter.6}
 \contentsline {section}{\numberline {6.1}引言}{84}{section.6.1}
 \contentsline {section}{\numberline {6.2}相关工作}{86}{section.6.2}
 \contentsline {section}{\numberline {6.3}基于主观模型的转发分析}{86}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}主观模型}{87}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}主观相似性}{89}{subsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.2.1}观点相似性}{89}{subsubsection.6.3.2.1}
-\contentsline {subsubsection}{\numberline {6.3.2.2}主观相似性}{90}{subsubsection.6.3.2.2}
-\contentsline {subsection}{\numberline {6.3.3}转发行为分析}{90}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}吸引力度量}{91}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}社交性度量}{91}{subsubsection.6.3.3.2}
-\contentsline {paragraph}{专家指数因子（Expert Factor） $ w_E(u_a) $：}{92}{paragraph*.62}
-\contentsline {paragraph}{领导力因子（Leadership Factor） $ w_L(u_a) $:}{92}{paragraph*.63}
-\contentsline {paragraph}{相似性因子（Similarity Factor） $ w_S(u_a,f) $:}{92}{paragraph*.64}
-\contentsline {paragraph}{交互因子（Interaction Factor） $ w_I(u_a,f) $:}{92}{paragraph*.65}
-\contentsline {subsubsection}{\numberline {6.3.3.3}流行性度量}{92}{subsubsection.6.3.3.3}
-\contentsline {section}{\numberline {6.4}实验}{93}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}数据集与实验设置}{93}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}相关性检验}{93}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}样例分析}{94}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}转发预测}{96}{subsection.6.4.4}
-\contentsline {section}{\numberline {6.5}小结}{99}{section.6.5}
-\contentsline {chapter}{\numberline {7}总结与展望}{100}{chapter.7}
-\contentsline {section}{\numberline {7.1}工作总结}{100}{section.7.1}
-\contentsline {section}{\numberline {7.2}工作展望}{101}{section.7.2}
-\contentsline {chapter}{致谢}{103}{chapter*.74}
-\contentsline {chapter}{参考文献}{104}{section*.75}
-\contentsline {chapter}{作者在学期间取得的学术成果}{126}{chapter*.77}
+\contentsline {subsection}{\numberline {6.3.1}主观相似性}{87}{subsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.1.1}观点相似性}{88}{subsubsection.6.3.1.1}
+\contentsline {subsubsection}{\numberline {6.3.1.2}主观相似性}{89}{subsubsection.6.3.1.2}
+\contentsline {subsection}{\numberline {6.3.2}转发行为分析}{89}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}吸引力度量}{90}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}社交性度量}{90}{subsubsection.6.3.2.2}
+\contentsline {paragraph}{专家指数因子（Expert Factor） $ w_E(u_a) $}{90}{paragraph*.61}
+\contentsline {paragraph}{领导力因子（Leadership Factor） $ w_L(u_a) $}{91}{paragraph*.62}
+\contentsline {paragraph}{相似性因子（Similarity Factor） $ w_S(u_a,f) $}{91}{paragraph*.63}
+\contentsline {paragraph}{交互因子（Interaction Factor） $ w_I(u_a,f) $}{91}{paragraph*.64}
+\contentsline {subsubsection}{\numberline {6.3.2.3}流行性度量}{91}{subsubsection.6.3.2.3}
+\contentsline {section}{\numberline {6.4}实验}{92}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}数据集与实验设置}{92}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}相关性检验}{92}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}样例分析}{93}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}转发预测}{95}{subsection.6.4.4}
+\contentsline {section}{\numberline {6.5}小结}{98}{section.6.5}
+\contentsline {chapter}{\numberline {7}总结与展望}{99}{chapter.7}
+\contentsline {section}{\numberline {7.1}工作总结}{99}{section.7.1}
+\contentsline {section}{\numberline {7.2}工作展望}{100}{section.7.2}
+\contentsline {chapter}{致谢}{102}{chapter*.73}
+\contentsline {chapter}{参考文献}{103}{section*.74}
+\contentsline {chapter}{作者在学期间取得的学术成果}{125}{chapter*.76}
 \contentsfinish 

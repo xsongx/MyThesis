@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  10 NOV 2014 20:38
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  11 NOV 2014 02:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 12 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -2206,10 +2206,7 @@ File: figures/5-3.png Graphic file (type QTm)
  <use  "figures/5-3.png" > [80] [81])
 (./data/chap06.tex [82] [83]
 File: figures/6-0.pdf Graphic file (type QTm)
- <use  "figures/6-0.pdf" >
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
- [84
+ <use  "figures/6-0.pdf" > [84
 
 
 ]
@@ -2217,18 +2214,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85]
 [86]
-File: figures/6-1.pdf Graphic file (type QTm)
- <use  "figures/6-1.pdf" > [87] [88] [89] [90] [91] [92] [93]
-File: figures/6-2.pdf Graphic file (type QTm)
+Underfull \vbox (badness 3884) has occurred while \output is active []
 
-<use  "figures/6-2.pdf" >
-Overfull \hbox (34.57765pt too wide) in paragraph at lines 270--271
+ [87]
+[88] [89]
+
+LaTeX Warning: Reference `twtopic' on page 90 undefined on input line 137.
+
+[90] [91] [92]
+File: figures/6-2.pdf Graphic file (type QTm)
+ <use  "figures/6-2.pdf" >
+Overfull \hbox (34.57765pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
 File: figures/6-3.pdf Graphic file (type QTm)
-<use  "figures/6-3.pdf" > [94] [95] [96]
-Underfull \hbox (badness 1515) in paragraph at lines 344--345
+<use  "figures/6-3.pdf" > [93] [94] [95]
+Underfull \hbox (badness 1515) in paragraph at lines 348--349
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
  []
@@ -2236,16 +2238,16 @@ Underfull \hbox (badness 1515) in paragraph at lines 344--345
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
-[98]) (./data/chap07.tex [99] [100
+ [96]
+[97]) (./data/chap07.tex [98] [99
 
 
 ]
 
-Package natbib Warning: Citation `Das2014，Guerra2014' on page 101 undefined on 
-input line 26.
+Package natbib Warning: Citation `Das2014，Guerra2014' on page 100 undefined on 
+input line 25.
 
-[101]) (./data/ack.tex [102]) [103
+[100]) (./data/ack.tex [101]) [102
 
 ] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 88--92
@@ -2271,7 +2273,7 @@ Overfull \hbox (33.03238pt too wide) in paragraph at lines 88--92
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[104
+[103
 
 
 ]
@@ -2304,7 +2306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--107
 ] [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][] []
  []
 
-[105] [106] [107]
+[104] [105] [106]
 Underfull \hbox (badness 6094) in paragraph at lines 367--374
 []\EU1/TimesNewRoman(0)/m/n/12.045 Wiebe J, Riloff E. Creating Subjective and O
 bjective Sentence Classi-
@@ -2316,13 +2318,13 @@ Underfull \hbox (badness 2376) in paragraph at lines 367--374
 dings of the 6th Interna-
  []
 
-[108]
+[107]
 Underfull \hbox (badness 2762) in paragraph at lines 411--414
 []\EU1/TimesNewRoman(0)/m/n/12.045 Angela. Old Wine or Warm Beer: Target-Specif
 ic Sentiment Analysis of
  []
 
-[109] [110] [111] [112] [113] [114]
+[108] [109] [110] [111] [112] [113]
 Underfull \hbox (badness 2503) in paragraph at lines 862--867
 \EU1/TimesNewRoman(0)/m/n/12.045 York, NY, USA, 2008: 1556–1560. []$[][][][] []
  [] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] []
@@ -2340,25 +2342,25 @@ Underfull \hbox (badness 2617) in paragraph at lines 903--909
 WordNet: An experimental,
  []
 
-[115]
+[114]
 Underfull \hbox (badness 1077) in paragraph at lines 971--976
 []\EU1/TimesNewRoman(0)/m/n/12.045 Kanayama H, Nasukawa T. Fully automatic lexi
 con expansion for domain-
  []
 
-[116]
+[115]
 Underfull \hbox (badness 10000) in paragraph at lines 999--1001
 []\EU1/TimesNewRoman(0)/m/n/12.045 Learning Multilingual Subjective Language vi
 a Cross-Lingual Projec-
  []
 
-[117] [118] [119] [120]
+[116] [117] [118] [119]
 Underfull \hbox (badness 3907) in paragraph at lines 1329--1333
 []\EU1/TimesNewRoman(0)/m/n/12.045 Stein D, Wright S. Subjectivity and Subjecti
 visation: Linguistic Perspec-
  []
 
-[121] [122] [123] [124]) (./data/resume.tex [125]) [126
+[120] [121] [122] [123]) (./data/resume.tex [124]) [125
 
 ]
 \tf@thm=\write8
@@ -2375,17 +2377,20 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 32413 strings out of 495484
- 599028 string characters out of 6183322
- 658079 words of memory out of 5000000
- 35071 multiletter control sequences out of 15000+600000
+ 32389 strings out of 493918
+ 598136 string characters out of 6150564
+ 661884 words of memory out of 5000000
+ 35157 multiletter control sequences out of 15000+600000
  84290 words of font info for 313 fonts, out of 8000000 for 9000
- 102 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  51i,20n,66p,10456b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (140 pages).
+Output written on thesis.pdf (139 pages).
