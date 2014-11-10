@@ -20,14 +20,14 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Book语料评测结果综合比较\relax }}{51}{figure.caption.44}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces NoteBook语料评测结果综合比较\relax }}{52}{figure.caption.45}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 自举式学习框架\relax }}{61}{figure.caption.47}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces $ \lambda $值的确定。\relax }}{65}{figure.caption.48}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 主观模型总体框架.\relax }}{68}{figure.caption.51}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 观点集成问题示例。\relax }}{70}{figure.caption.52}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 用户层面LDA话题模型\relax }}{73}{figure.caption.53}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 微博词云\relax }}{78}{figure.caption.55}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 主观模型样例\relax }}{78}{figure.caption.56}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 问题图示\relax }}{81}{figure.caption.59}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 可视化主观模型示例\relax }}{85}{figure.caption.60}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 主观模型示意图\relax }}{92}{figure.caption.68}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces $ 14^{th} $号话题、微博作者与两个关注者词云图\relax }}{93}{figure.caption.69}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces $ \lambda $值的遍历。\relax }}{65}{figure.caption.48}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 主观模型总体框架\relax }}{69}{figure.caption.51}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 观点集成问题示例。\relax }}{71}{figure.caption.52}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 用户层面LDA话题模型\relax }}{74}{figure.caption.53}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 微博词云\relax }}{80}{figure.caption.55}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 主观模型样例\relax }}{81}{figure.caption.56}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 问题图示\relax }}{84}{figure.caption.59}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 可视化主观模型示例\relax }}{88}{figure.caption.60}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 主观模型示意图\relax }}{95}{figure.caption.68}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces $ 14^{th} $号话题、微博作者与两个关注者词云图\relax }}{96}{figure.caption.69}
 \contentsfinish 

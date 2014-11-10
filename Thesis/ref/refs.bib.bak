@@ -3526,8 +3526,6 @@ and Vossen, Piek},
   Title                    = {On the processing of a text corpus: From textual data to lexicographical information},
   Author                   = {Martin, W and Al, B and Van Sterkenburg, P},
   Year                     = {1983},
-
-  __markedentry            = {[xsongx:6]},
   Owner                    = {xsongx},
   Publisher                = {Academic Press},
   Timestamp                = {2014.11.09}
@@ -4890,6 +4888,17 @@ and Carroll, John},
   Pages                    = {891--900}
 }
 
+@Book{Sinclair1991,
+  Title                    = {Corpus, concordance, collocation},
+  Author                   = {Sinclair, John},
+  Publisher                = {Oxford University Press},
+  Year                     = {1991},
+
+  __markedentry            = {[xsongx:]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.09}
+}
+
 @InProceedings{Sindhwani2008,
   Title                    = {Document-word co-regularization for semi-supervised sentiment analysis},
   Author                   = {Sindhwani, Vikas and Melville, Prem},
@@ -6134,8 +6143,6 @@ and Carroll, John},
   Booktitle                = {In Proceedings of the ARPA Human Language Technology Workshop},
   Year                     = {1993},
   Pages                    = {266--271},
-
-  __markedentry            = {[xsongx:]},
   Owner                    = {xsongx},
   Timestamp                = {2014.11.09}
 }
@@ -6582,6 +6589,18 @@ and Carroll, John},
   Owner                    = {xsongx},
   Timestamp                = {2014.10.13},
   Volume                   = {2014}
+}
+
+@Article{张猛2008,
+  Title                    = {中文倾向性分析的研究},
+  Author                   = {张猛 and 彭一凡 and 樊扬 and 李丹 and 林小俊 and 吴玺宏},
+  Journal                  = {第一届中文倾向性分析评测研讨会},
+  Year                     = {2008},
+  Pages                    = {38--45},
+
+  __markedentry            = {[xsongx:6]},
+  Owner                    = {xsongx},
+  Timestamp                = {2014.11.09}
 }
 
 @Article{张辉2013,

@@ -1091,6 +1091,17 @@ On the processing of a text corpus: From textual data to lexicographical
   information~[J].
 1983.
 
+\bibitem{Sinclair1991}
+Sinclair~J.
+Corpus, concordance, collocation~[M].
+Oxford University Press, 1991.
+
+\bibitem{张猛2008}
+张猛, 彭一凡, 樊扬, et~al.
+中文倾向性分析的研究~[J].
+第一届中文倾向性分析评测研讨会.
+2008:  38--45.
+
 \bibitem{LourencoJr2014}
 Lourenco~Jr~R, Veloso~A, Pereira~A, et~al.
 Economically-efficient sentiment stream analysis~[C].
@@ -1359,6 +1370,12 @@ Weng~J, Lim~E-P, Jiang~J, et~al.
 Twitterrank: finding topic-sensitive influential twitterers~[C].
 In Proc. of the third ACM WSDM.
 2010:  261--270.
+
+\bibitem{Hong2010}
+Hong~L, Davison~B~D.
+Empirical study of topic modeling in twitter~[C].
+In Proc. of the First Workshop on Social Media Analytics.
+2010:  80--88.
 
 \bibitem{vRehruvrek2010}
 {\v R}eh{\r u}{\v r}ek~R，Sojka~P.

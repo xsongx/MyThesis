@@ -4,10 +4,8 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 16160 items from 5000.
+Reallocated field_info (elt_size=4) to 16205 items from 5000.
 Database file #1: ref/refs.bib
-Warning--I didn't find a database entry for "Sinclair1991"
-Warning--I didn't find a database entry for "张猛2008"
 Warning--I didn't find a database entry for "Das2014，Guerra2014"
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
@@ -290,6 +288,7 @@ Warning--The editor in Yarowsky1993 is missing.
 Warning--empty editor in Yarowsky1993
 Warning--empty journal in Martin1983
 Warning--empty pages in Martin1983
+Warning--there's a publisher but no address in Sinclair1991
 Warning--The editor in LourencoJr2014 is missing.
 Warning--empty editor in LourencoJr2014
 Warning--The editor in Jiang2011 is missing.
@@ -351,6 +350,8 @@ while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in Abel2011
 Warning--The editor in Weng2010 is missing.
 Warning--empty editor in Weng2010
+Warning--The editor in Hong2010 is missing.
+Warning--empty editor in Hong2010
 Warning--The editor in vRehruvrek2010 is missing.
 Warning--empty editor in vRehruvrek2010
 Warning--The editor in Li2012a is missing.
@@ -425,45 +426,45 @@ while executing---line 5059 of file bstutf8.bst
 Warning--there's a publisher but no address in miyanishi2013combining
 
 Done.
-You've used 245 entries,
+You've used 248 entries,
             4554 wiz_defined-function locations,
-            2451 strings with 55477 characters,
-and the built_in function-call counts, 149260 in all, are:
-= -- 16867
-> -- 2330
-< -- 187
-+ -- 1387
-- -- 718
-* -- 12285
-:= -- 16613
-add.period$ -- 981
-call.type$ -- 245
+            2463 strings with 55845 characters,
+and the built_in function-call counts, 150747 in all, are:
+= -- 17036
+> -- 2354
+< -- 189
++ -- 1401
+- -- 725
+* -- 12399
+:= -- 16777
+add.period$ -- 992
+call.type$ -- 248
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 642
-duplicate$ -- 9866
-empty$ -- 15865
-format.name$ -- 695
-if$ -- 36254
+cite$ -- 648
+duplicate$ -- 9961
+empty$ -- 16028
+format.name$ -- 702
+if$ -- 36619
 int.to.chr$ -- 0
-int.to.str$ -- 245
+int.to.str$ -- 248
 missing$ -- 8
-newline$ -- 1475
-num.names$ -- 248
-pop$ -- 1204
+newline$ -- 1492
+num.names$ -- 251
+pop$ -- 1218
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 4025
+skip$ -- 4068
 stack$ -- 0
-substring$ -- 17475
-swap$ -- 3101
-text.length$ -- 213
+substring$ -- 17633
+swap$ -- 3131
+text.length$ -- 215
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 2011
-warning$ -- 397
-while$ -- 1480
-width$ -- 248
-write$ -- 2187
+type$ -- 2037
+warning$ -- 400
+while$ -- 1496
+width$ -- 251
+write$ -- 2212
 (There were 7 error messages)
