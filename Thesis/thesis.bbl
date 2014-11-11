@@ -1455,6 +1455,12 @@ Is Twitter A Better Corpus for Measuring Sentiment Similarity?~[C].
 In EMNLP'13.
 2013:  897--902.
 
+\bibitem{Cialdini2004}
+Cialdini~R~B, Goldstein~N~J.
+Social influence: Compliance and conformity~[J].
+Annu. Rev. Psychol.
+2004, 55:  591--621.
+
 \bibitem{suh2010want}
 Suh~B, Hong~L, Pirolli~P, et~al.
 Want to be retweeted? large scale analytics on factors impacting retweet in
@@ -1494,19 +1500,6 @@ Pfitzner~R, Garas~A, Schweitzer~F.
 Emotional Divergence Influences Information Spreading in Twitter.~[C].
 In ICWSM.
 2012.
-
-\bibitem{Lek2013}
-Lek~H~H, Poo~D~C.
-Aspect-Based Twitter Sentiment Classification~[C].
-In Tools with Artificial Intelligence (ICTAI), 2013 IEEE 25th International
-  Conference.
-2013:  366--373.
-
-\bibitem{Cialdini2004}
-Cialdini~R~B, Goldstein~N~J.
-Social influence: Compliance and conformity~[J].
-Annu. Rev. Psychol.
-2004, 55:  591--621.
 
 \bibitem{Luo2013}
 Luo~Z, Osborne~M, Tang~J, et~al.
@@ -1652,5 +1645,27 @@ Combining recency and topic-dependent temporal variation for microblog
   search~[M]~//~Miyanishi~T, Seki~K, Uehara~K.
  Advances in Information Retrieval.
 Springer, 2013: 2013: 331--343.
+
+\bibitem{Das2014}
+Das~A, Gollapudi~S, Munagala~K.
+Modeling opinion dynamics in social networks~[C].
+In Proceedings of the 7th ACM international conference on Web search and data
+  mining.
+2014:  403--412.
+
+\bibitem{Guerra2014}
+Guerra~P~C, Meira~W, Jr, Cardie~C.
+Sentiment Analysis on Evolving Social Streams: How Self-report Imbalances Can
+  Help~[C/OL].
+In Proc. of the 7th WSDM.
+New York, NY, USA, 2014:  443--452.
+\url{http://doi.acm.org/10.1145/2556195.2556261}.
+
+\bibitem{Zhang2011}
+Zhang~X, Fuehres~H, Gloor~P~A.
+Predicting stock market indicators through twitter “I hope it is not as bad
+  as I fear”~[J].
+Procedia-Social and Behavioral Sciences.
+2011, 26:  55--62.
 
 \end{thebibliography}

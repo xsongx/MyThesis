@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.7)  11 NOV 2014 02:08
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  11 NOV 2014 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 12 languages loaded.
 (./nudtpaper.cls
 Document Class: nudtpaper 2011/07/17 v2.2 NUDT paper template
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -2049,16 +2049,16 @@ Missing character: There is no （ in font txr!
 Missing character: There is no ） in font txr!
  [10]
 File: figures/1-2.jpg Graphic file (type QTm)
- <use  "figures/1-2.jpg" > [11] [12] [13]
+ <use  "figures/1-2.jpg" > [11] [12]
 File: figures/1-3.eps Graphic file (type eps)
- <figures/1-3.eps> [14]
-[15] [16] [17]
-File: figures/1-4.jpg Graphic file (type QTm)
- <use  "figures/1-4.jpg" > [18]) (./data/chap02.tex [19]
-File: figures/2-1-1.eps Graphic file (type eps)
+ <figures/1-3.eps> [13] [14]
+[15] [16]
+File: figures/1-4.png Graphic file (type QTm)
+ <use  "figures/1-4.png" > [17] [18]) (./data/chap02.tex [19]
+File: figures/2-1-1.png Graphic file (type QTm)
 
-<figures/2-1-1.eps>
-Overfull \hbox (59.7033pt too wide) in paragraph at lines 21--22
+<use  "figures/2-1-1.png" >
+Overfull \hbox (65.55684pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
@@ -2110,7 +2110,11 @@ Overfull \hbox (13.49115pt too wide) in paragraph at lines 355--363
  [][] 
  []
 
-) (./data/chap03.tex [37] [38] [39
+) (./data/chap03.tex
+Underfull \vbox (badness 3118) has occurred while \output is active []
+
+ [37]
+[38] [39
 
 
 ] [40]
@@ -2157,8 +2161,8 @@ File: figures/3-6.png Graphic file (type QTm)
 
 <use  "figures/3-6.png" >
 File: figures/3-7.png Graphic file (type QTm)
- <use  "figures/3-7.png" >) (./data/chap04.tex
-[51] [52] [53
+ <use  "figures/3-7.png" > [51]) (./data/chap04.tex
+[52] [53
 
 
 ] [54] [55]
@@ -2192,16 +2196,16 @@ File: figures/5-1.png Graphic file (type QTm)
 
 ]
 File: figures/5-2.png Graphic file (type QTm)
- <use  "figures/5-2.png" >
-Underfull \vbox (badness 5787) has occurred while \output is active []
-
- [71]
-[72] [73]
+ <use  "figures/5-2.png" > [71] [72]
+[73]
 File: figures/5-0.eps Graphic file (type eps)
- <figures/5-0.eps> [74] [75] [76] [77] [78] [79]
-File: figures/5-4.png Graphic file (type QTm)
+ <figures/5-0.eps> [74] [75] [76] [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use  "figures/5-4.png" >
+ [78]
+[79]
+File: figures/5-4.png Graphic file (type QTm)
+ <use  "figures/5-4.png" >
 File: figures/5-3.png Graphic file (type QTm)
  <use  "figures/5-3.png" > [80] [81])
 (./data/chap06.tex [82] [83]
@@ -2217,39 +2221,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 3884) has occurred while \output is active []
 
  [87]
-[88] [89]
+[88] [89] [90] [91]
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
-LaTeX Warning: Reference `twtopic' on page 90 undefined on input line 137.
+ []
 
-[90] [91] [92]
+[92]
 File: figures/6-2.pdf Graphic file (type QTm)
  <use  "figures/6-2.pdf" >
-Overfull \hbox (34.57765pt too wide) in paragraph at lines 272--273
+Overfull \hbox (34.57765pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
 File: figures/6-3.pdf Graphic file (type QTm)
 <use  "figures/6-3.pdf" > [93] [94] [95]
-Underfull \hbox (badness 1515) in paragraph at lines 348--349
+Underfull \hbox (badness 1515) in paragraph at lines 349--350
 []|\EU1/TimesNewRoman(0)/m/n/10.53937 tweet \EU1/AdobeSongStd(0)/m/n/10.53937 与
  粉 丝 以 往 发 布
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5274) has occurred while \output is active []
 
  [96]
 [97]) (./data/chap07.tex [98] [99
 
 
+] [100]) (./data/ack.tex [101]) [102
+
 ]
-
-Package natbib Warning: Citation `Das2014，Guerra2014' on page 100 undefined on 
-input line 25.
-
-[100]) (./data/ack.tex [101]) [102
-
-] (./thesis.bbl
+(./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 88--92
 []\EU1/TimesNewRoman(0)/m/n/12.045 Hoffman T. Online reputation management is h
 ot
@@ -2366,31 +2367,20 @@ visation: Linguistic Perspec-
 \tf@thm=\write8
 \openout8 = `thesis.thm'.
 
-
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
-(./thesis.aux)
+ (./thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 32389 strings out of 493918
- 598136 string characters out of 6150564
- 661884 words of memory out of 5000000
- 35157 multiletter control sequences out of 15000+600000
- 84290 words of font info for 313 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 51i,20n,66p,10456b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32395 strings out of 495484
+ 598196 string characters out of 6183322
+ 657980 words of memory out of 5000000
+ 35055 multiletter control sequences out of 15000+600000
+ 84282 words of font info for 312 fonts, out of 8000000 for 9000
+ 102 hyphenation exceptions out of 8191
+ 51i,20n,66p,10456b,1507s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (139 pages).
