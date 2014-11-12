@@ -392,7 +392,7 @@
 {\item[\hspace*{2em} \theorem@headerfont ##1\ \theorem@separator]}%
 {\item[\hspace*{2em} \theorem@headerfont ##1\ (##3)\theorem@separator]}
 \theoremstyle{nonumberplain}
-\theorembodyfont{\kai\xiaosi[1.3]}
+\theorembodyfont{\song\xiaosi[1.3]}
 \theoremheaderfont{\hei\xiaosi[1.3]}
 \theoremsymbol{\ensuremath{\blacksquare}}
 \theoremseparator{:\,}

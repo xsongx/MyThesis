@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  12 NOV 2014 15:48
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.5.4)  12 NOV 2014 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2021,14 +2021,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][] []
  []
 
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'AdobeKaitiStd(0)' created for font 'Adobe Kaiti Std' with
-. options [Mapping=tex-text,Script={CJK}].
-. 
-. This font family consists of the following shapes:
-.................................................
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 51.
 [1
@@ -2059,9 +2051,9 @@ File: figures/1-2.jpg Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-File: figures/1-3.eps Graphic file (type eps)
+File: figures/1-3.png Graphic file (type QTm)
 
-<figures/1-3.eps> [14] [15] [16] [17]
+<use  "figures/1-3.png" > [14] [15] [16] [17]
 File: figures/1-4.png Graphic file (type QTm)
  <use  "figures/1-4.png" >
 Underfull \vbox (badness 3108) has occurred while \output is active []
@@ -2178,13 +2170,13 @@ File: figures/3-7.png Graphic file (type QTm)
 
 
 ] [56] [57]
-Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
 nput line 45.
 
-Overfull \hbox (8.51923pt too wide) in paragraph at lines 65--67
-[]\EU1/AdobeKaitiStd(0)/m/n/12.045 情 感 分 类 问 题 空 间 可 以 表 示 为 $\OT1/txr/m/n/12.0
-45 (\OML/txmi/m/it/12.045 X[]; X[]; Y\OT1/txr/m/n/12.045 )$\EU1/AdobeKaitiStd(0
-)/m/n/12.045 ，|
+Overfull \hbox (10.3862pt too wide) in paragraph at lines 65--67
+[]\EU1/AdobeSongStd(1)/m/n/12.045 情 感 分 类 问 题 空 间 可 以 表 示 为 $\OT1/txr/m/n/12.04
+5 (\OML/txmi/m/it/12.045 X[]; X[]; Y\OT1/txr/m/n/12.045 )$\EU1/AdobeSongStd(1)/
+m/n/12.045 ，|
  []
 
 [58] [59] [60] [61] [62]
@@ -2387,11 +2379,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 32376 strings out of 495484
- 597339 string characters out of 6183322
- 659989 words of memory out of 5000000
- 35036 multiletter control sequences out of 15000+600000
- 84282 words of font info for 312 fonts, out of 8000000 for 9000
+ 32353 strings out of 495484
+ 596383 string characters out of 6183322
+ 660013 words of memory out of 5000000
+ 35015 multiletter control sequences out of 15000+600000
+ 84266 words of font info for 310 fonts, out of 8000000 for 9000
  102 hyphenation exceptions out of 8191
  51i,20n,66p,10456b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
 
