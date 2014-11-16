@@ -4,7 +4,7 @@ The top-level auxiliary file: thesis.aux
 The style file: bstutf8.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 16295 items from 5000.
+Reallocated field_info (elt_size=4) to 16340 items from 5000.
 Database file #1: ref/refs.bib
 -- BUPTThesis.bst version 1.0 Beta 1 (2009/05/31) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
@@ -428,45 +428,45 @@ Warning--The editor in Guerra2014 is missing.
 Warning--empty editor in Guerra2014
 
 Done.
-You've used 251 entries,
+You've used 252 entries,
             4554 wiz_defined-function locations,
-            2483 strings with 56450 characters,
-and the built_in function-call counts, 152852 in all, are:
-= -- 17284
-> -- 2387
-< -- 192
-+ -- 1421
-- -- 735
-* -- 12573
-:= -- 17007
-add.period$ -- 1006
-call.type$ -- 251
+            2492 strings with 56609 characters,
+and the built_in function-call counts, 153231 in all, are:
+= -- 17331
+> -- 2391
+< -- 193
++ -- 1423
+- -- 736
+* -- 12599
+:= -- 17045
+add.period$ -- 1010
+call.type$ -- 252
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 654
-duplicate$ -- 10097
-empty$ -- 16246
-format.name$ -- 712
-if$ -- 37134
+cite$ -- 655
+duplicate$ -- 10121
+empty$ -- 16287
+format.name$ -- 713
+if$ -- 37233
 int.to.chr$ -- 0
-int.to.str$ -- 251
+int.to.str$ -- 252
 missing$ -- 8
-newline$ -- 1512
-num.names$ -- 254
-pop$ -- 1227
+newline$ -- 1518
+num.names$ -- 255
+pop$ -- 1231
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 4130
+skip$ -- 4145
 stack$ -- 0
-substring$ -- 17883
-swap$ -- 3175
-text.length$ -- 218
+substring$ -- 17907
+swap$ -- 3186
+text.length$ -- 219
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 2070
+type$ -- 2083
 warning$ -- 403
-while$ -- 1518
-width$ -- 254
-write$ -- 2242
+while$ -- 1521
+width$ -- 255
+write$ -- 2251
 (There were 7 error messages)
