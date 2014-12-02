@@ -36,7 +36,7 @@ you tweet”)，发帖内容(“What you tweet”)以及网络关系(“Who you 
 \begin{figure}[htb]
 \centering
 \includegraphics[height=130pt]{5-2.png}
-\caption{观点集成问题示例。}
+\caption{观点集成问题示例}
 \label{fig5-2}
 \end{figure}
 如图中所示，假设Twitter上的一个异构网络（heterogeneous network）是由用户集合$ V=\left\{ u_{i} \right\} $，用户之间的关系$ E=\left\{(u_{i},u_{j})| u_{i},u_{j} \in V\right\} $以及每个用户$ u_i $发表的微博集合$ M_{i}=\left\{ m_{i} \right\} $构成，其中用户所关注的话题$ T=\left\{ Topic_{j} \right\} $以及用户每条关于话题$ Topic_{j} $微博表达的观点$ o_{i,m,j} $可以从在网络中确定和抽取出来。于是观点集成问题可以定义为：
@@ -248,7 +248,7 @@ p=
 除了主观模型，实验也将主观模型与两个话题情感生成模型JST和TSM进行了对比试验。所有模型的Dirichlet先验参数设为$ \alpha=50/T $（$ T $为话题数目），$ \beta=0.01 $。JST的不对称情感先验参数$ \gamma $依照经验设为$ (0.01, 1.8) $。JST和TSM模型推导都经过了2,000次迭代Gibbs采样。
 
 \subsection{样例分析}
-为了定性展主观模型表达用户主管行的能力，在此给出了使用本章提出框架构建的一个用户的主观模型如图~\ref{fig5:a}和~\ref{fig5:b}所示。该用户发表了533条微博，所有微博可以用词云图\footnote{实验使用TagCrowd (\url{http://tagcrowd.com/})生成词云图。}~\ref{fig5:a}来展示。
+为了定性展主观模型表达用户主观性能力，在此给出了使用本章提出框架构建的一个用户的主观模型如图~\ref{fig5:a}和~\ref{fig5:b}所示。该用户发表了533条微博，所有微博可以用词云图\footnote{实验使用TagCrowd (\url{http://tagcrowd.com/})生成词云图。}~\ref{fig5:a}来展示。
 
 \begin{figure}[htb]
 \centering
@@ -267,7 +267,7 @@ p=
 图~\ref{fig5:b}\footnote{主观模型中,左侧图代表话题分部: $ (  w_{u}\left( 2 \right)=0.08,w_{u}\left( 32 \right)=0.48, w_{u}\left( 83 \right)=0.44)  $；右侧图代表观点的分部: $ O_{2}=( d_{u,2} \left( 4 \right)=0.5, d_{u,2} \left( 5 \right)=0.5)$, $O_{32}=(d_{u,32} \left( 4 \right)=1.0) $, $ O_{83}=( d_{u,83} \left( 4 \right)=0.5, d_{u,83} \left( 5 \right)=0.5 ) $。}是用户在$ [0,100] $话题空间和$ [0,8] $情感表示空间中可视化的主观模型。很明显，从词云图上可以看到该用户讨论了三个话题（话题2：``\#Obamacare''，话题32：``\#libya''以及话题83：``\#occupywallst''），图~\ref{fig5:b}左侧展示了用户在每个话题上的兴趣权重。图~\ref{fig5:b}右侧是用户对这三个话题所持观点分布，总体来看，对于话题``\#libya''情感分布100\%在强度4上，属于中性，对话题``\#Obamacare''和``\#occupywallst''情感分部都是50\%在强度4以及50\%在强度5上，属于中性偏积极极性。从这个样例可以看出，主观模型对用户的主观性进行了细致的建模，不但有用户的兴趣分布，也有细粒度的观点分布信息。
 
 \subsection{观点预测性能}
-为了定量评价主观模型的性能，主观模型在观点预测任务上与两个话题情感模型（TSM and JST）以及几个常用的情感分析方法进行了对比实验。由于缺少可用的标注数据，实验中主要跟几个无监督的情感分析方法进行了对比，这些方法主要有：
+为了定量评价主观模型的性能，主观模型在观点预测任务上与两个话题情感模型（TSM和JST）以及几个常用的情感分析方法进行了对比实验。由于缺少可用的标注数据，实验中主要跟几个无监督的情感分析方法进行了对比，这些方法主要有：
 \begin{itemize}
 \item \textbf{OF:OpinionFinder}是一个公开可用的情感分析软件包，主要是用于句子层面的主观性分析\upcite{Wilson2005}。
 \item \textbf{S140:Sentiment140}使用远距离监督（distant supervision）方式（使用表情符获取训练数据）进行微博的情感分类的在线工具。

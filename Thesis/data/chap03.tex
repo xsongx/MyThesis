@@ -78,7 +78,7 @@ SentiHowNet情感词典中的每个词都标注了情感极性值，因此语料
 Senti\_tag(w_t)=
 \begin{cases}
  positive \quad & \text{ if } PosScore(w_t)> NegScore(w_t); \\ 
- negative \quad &\text{ if } PosScore(w_t)> NegScore(w_t);  \\ 
+ negative \quad &\text{ if } PosScore(w_t)< NegScore(w_t);  \\ 
  neutral  \quad & others
 \end{cases}
 \end{equation}
@@ -120,7 +120,7 @@ NegScore(w_1)-=NegScore(w_2)
 \STATE 计算极性均值$
 \begin{cases}
 PosScore(w_1)=\dfrac{|PosScore(w_1)|}{N}\\
-NegScore(w_1)=\dfrac{|NegScore(w_2)|}{N}
+NegScore(w_1)=\dfrac{|NegScore(w_1)|}{N}
 \end{cases};$
 \STATE 根据情感值 $PosScore(w_1)$ 与$ NegScore(w_1) $判断极性；
 \STATE 将$ w_1 $加入到集合$ \{w_2\} $；

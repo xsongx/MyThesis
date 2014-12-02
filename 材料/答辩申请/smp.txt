@@ -1,0 +1,163 @@
+Dear Songxian,
+
+We are pleased to inform you that your paper 
+
+55 - Topic Related Opinion Integration for Users of Social Media
+
+has been accepted as poster paper for the SPM 2014 Conference. Congratulations!
+
+The competition was very strong - of the 49 English papers submitted, only 14 (28.6%) were accepted as 
+full papers and 9 (18.4%) were accepted as poster papers.
+
+At least two reviewers reviewed your paper, and then a meta-reviewer (Primary Area Chair for your paper) 
+made the recommendation based on the reviews.
+
+The reviews and the meta-review are included in the remainder of this message.  Please read them 
+carefully and revise your paper to the best of your ability.  
+
+We will soon provide you with link(s) to the preparation instructions for a publication ready version of your 
+paper.
+
+Looking forward to seeing you at Beijing Institute of Technology!
+
+SMP 2014 PC co-chairs:
+Jie Tang and Huaping Zhang
+
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 55
+TITLE: Topic Related Opinion Integration for Users of Social Media
+AUTHORS: Songxian Xie, Tang Jintao and Ting Wang
+
+OVERALL EVALUATION: 3 (strong accept)
+REVIEWER'S CONFIDENCE: 4 (high)
+Is this the best paper in you hand?: 1 (Yes)
+Will you recommend this paper for best paper award?: 2 (No)
+
+----------- REVIEW -----------
+This paper proposes a subjectivity model by combining topics and fine grained opinion towards each topic, and design an efficient algorithm to establish the model. This paper is well organized and it's writing is clear.The strategy is nice and the evaluation complete.
+
+There are two questions:
+1 SentiStrength assigns two values to each tweet,range from [1,5][-5,-1] is not clear. How to define is a question.
+2 In Section5.3
+  "select one random tweet for each user from his tweets collection to compose a 1,000 tweets test set",how to show the effect of integrating topic related opinions expressed by a user, which is main contribution of this paper? or the proposed method uses more information than the compared methods(JSM, JST)?
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 55
+TITLE: Topic Related Opinion Integration for Users of Social Media
+AUTHORS: Songxian Xie, Tang Jintao and Ting Wang
+
+OVERALL EVALUATION: 1 (weak accept)
+REVIEWER'S CONFIDENCE: 4 (high)
+Is this the best paper in you hand?: 2 (No)
+Will you recommend this paper for best paper award?: 2 (No)
+
+----------- REVIEW -----------
+The authors proposed a two phrases method to handle topic related opinions in social media. Experimental results on twitter data set demonstrated the effectiveness of the proposed method. The proposed task is interesting and important.  
+
+The main concerns are as follows:
+
+1) The task should be given more detail description. The importance and necessity of incorporating topics into the opinion mining should be given. Some more concreted examples may help readers to the main contribution of your work. 
+
+2) The proposed is too straightforward. Incorporating the opinion as a hidden variable might worth to have a try.
+
+3) State-of-the-art methods should be used as the baselines.
+
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 55
+TITLE: Topic Related Opinion Integration for Users of Social Media
+AUTHORS: Songxian Xie, Tang Jintao and Ting Wang
+
+OVERALL EVALUATION: 0 (borderline paper)
+REVIEWER'S CONFIDENCE: 4 (high)
+Is this the best paper in you hand?: 2 (No)
+Will you recommend this paper for best paper award?: 2 (No)
+
+----------- REVIEW -----------
+The author proposed a model to solve the opinion integration, and design an algorithm to establish the subjectivity model from the historical tweets.It's an interesting topic. But there are many typoes in the paper such as: in part 6 conclusion,line 2, "usrs" should be "users",there was  redundant mark 12 in references etc.The author should check the paper carefully.
+
+
+-------------------------  METAREVIEW  ------------------------
+
+There is no metareview for this paper
+
+
+
+
+
+
+First Author：Songxian Xie
+Paper Title：Dividing for Combination: A Bootstrapping Sentiment Classification Framework for Microblogs
+Paper ID：159
+
+We are pleased to inform you that we would like to accept your paper for presentation on ISCC2013, based on the recommendations of the reviewers and the Technical Program Committees. Please do take the comments and proposals of the reviewers into account to improve the quality of your paper.
+
+审稿意见：
+In this manuscript, the strategies related to Bootstrapping Sentiment Classification Framework for Microblogs is proposed and discussed, and different classification results are used to identify and verify the effectiveness of the proposed main results of this paper. However, some parts and sections of this paper should make some modifications, some of them are specified as follows:
+> 1. The English expression and description throughout this paper should be checked and refined carefully, it is essential to improve the quality of this paper, include the readable, flexible etc.
+> 2. Pages of this paper should be numbered consecutively.
+> 3. In this given sample, the feature of data is extract directly from the given micro-blog or based on the given sample which has been existed?
+> 4. The mentioned algorithm Support Vector Machine is a classical algorithm, however, in fact, it is a two stage issue, and does it represent that the intrinsic regulation of the given data only depend on the “positive” or “negative” ? Are the two stages enough?
+> 5. If the length of given samples are relatively large, about the SVM cross validation, which types are selected? Loo-CV?
+> 6. In the “Maximum Entropy Classifier”, the formula with respect to the sentimental category of document is essentially an exponential distribution, and it contains the linear combination, is the linear classifier suitable for the sample classification?
+> 7. Is the simulation results of the figure 2 constructed by micro-office excel? the quality of it should be improved.
+> 8. More detailed information related to the simulation classification results should be given.
+> 9. If possible, the generalization capability of the algorithm should be discussed.
+The author should modify the manuscript carefully and critically.
+ 
+会务组补充意见：
+1. 请您务必参照审稿意见认真修改，同时在文章第1页附上修改说明，以便审稿专家清楚您所做的修改，您也可以对审稿意见提出异议。如果修改稿无法通过复审，我们只能做出退稿处理。
+2. 请您参照会议官网http://paris.utdallas.edu/iscc13/上的ISCC 2013 Template严格规范格式,论文版面不能少于6页，同时不能超过7页，否则须缴纳额外的超页费用。
+3. 请将修改后的论文word文档以“Submit a new version”的形式上传至投稿系统。
+3. 请在收到修改意见后7天内返回修改稿，以便组委会做出最终录用决定，超期后将视为放弃修改，您的论文将被排除在ISCC2013大会论文集之外。
+
+附件（摘自《ISCC 2013论文写作指导手册》）： 
+3. 摘要(Abstract): 摘要是论文内容不加注释和评论的简短陈述，是可以帮助读者不阅读论文全文即能获得必要的信息。下面总结了一篇好的学术论文摘要的基本要求，具体可参见示例。需重视的是，IEEE要求摘要限制在200个单词以内，但是字数也不宜太少。 
+写好学术论文摘要的基本要求 
+A．杜绝背景信息，直奔目的、过程和方法、结果、结论。 
+1）目的——研究、研制、调查等的前提、目的和任务，所涉及的主题范围。 
+2）方法——所用的原理、理论、方法、条件、材料、工艺、结构、手段、装备、程序等。 
+3）结果——实验的、研究的结果、数据，被确定的关系，观察结果，得到的效果、性能等。 
+4）结论——结果的分析、研究、比较、评价、应用，提出的问题等。 
+B．具体，具体，再具体，具体到包容了全部要点（最重要的细节）。 
+C．朴实，朴实，再朴实，朴实到添一字多余，减一字不通。 
+D．正文里面已经写得明明白白，摘要中也就不必“保密”了。 
+E．文章水平再高，摘要空泛，EI数据库不收录，也不能激发读者阅读全文的兴趣。 务必请作者写好论文摘要，不能2‐3句话就结束了。 
+【摘要实例】标题：Variable precision rough set for multiple decision attribute analysis 
+英文版摘要: [Purpose] In order to solve the multi-attribute decision analysis (MADA) problem with multiple conflicting decision attributes and multiple condition attributes, a variable precision rough set (VPRS) model is used in this paper. [Method] By introducing confidence measure and β-reduct, the VPRS model can rationally solve the conflicting decision analysis problem with multiple decision attributes and multiple condition attributes. For illustration, a medical diagnosis example is utilized to show the feasibility of the VPRS model in solving MADA problem with multiple decision attributes and multiple condition attributes. [Results] Empirical results show that the decision rule with highest confidence measure will be used as the final decision rules in the MADA problem with multiple conflicting decision attributes and multiple condition attributes if there are some conflicts among decision rules resulting from multiple decision attributes. [Conclusions] The conf!
+ idence-measure-based VPRS model can effectively solve the conflicts of decision rules from multiple decision attributes and thus a class of MADA problem with multiple conflicting decision attributes and multiple condition attributes are solved. 
+对应的中文版：标题：基于变精度粗糙集的多决策属性分析 
+【中文版摘要】[目的] 为了处理多个决策属性之间的冲突，利用一个变精度粗糙集模型解决了具有多决策属性和多条件属性的决策分析问题。[过程和方法] 通过引入置信测度和β-约简规则，变精度粗糙集模型能够合理地处理多个决策属性之间的冲突问题。为解释这个模型的实施，一个医疗诊断的实例被采用。[结果] 实例的分析表明：在具有多决策属性和多条件属性的决策分析问题中，如果利用β-约简规则从多个决策属性之中提取的决策规则之间存在冲突，则置信测度水平较高的决策规则将作为最终的决策依据。[结论] 这个基于置信测度的变精度粗糙集模型能够有效地解决多个决策属性引致的决策规则之间的冲突，从而解决了一类具有多决策属性和多条件属性的决策分析问题。
+
+
+
+
+--
+ISCC2013 Program Committee
+E-mail: isccom@163.com
+website: http://paris.utdallas.edu/iscc13/
+Main Phone: 025-66032512; 18652987120
+
+
+
+
+
+Dear Dr. Songxian Xie:
+
+I am pleased to inform you that your manuscript, "Resonance Elicits Diffusion: Modeling Subjectivity for Retweeting Behavior Analysis" has been accepted for publication in Cognitive Computation.
+
+Please remember to always include your manuscript number, #COGN-D-14-00016R2, whenever inquiring about your manuscript.  Thank you.
+
+
+Sincerely,
+
+Aishwarya Gokuldas
+JEO Assistant
+Cognitive Computation
+
+
+For more information about the journal, please visit the following site:
+
+www.springer.com/12559
