@@ -65,14 +65,16 @@ SentiHowNet情感词典中的每个词都标注了情感极性值，因此语料
 \item 位于并列连词和递进连词两侧的形容词或副词具有相同极性；
 \item 位于转折连词两侧的形容词或副词具有相反极性。
 \end{enumerate}
-对未标注词的情感值计算，对极性相同的词语情感值累加，极性相反的词语极性值相减，然后取均值。具体情感极性值计算为：
+对未标注词的情感值计算，对极性相同的词语情感值累加，极性相反的词语极性值相减，然后取均值。具体来说，积极情感极性值计算为：
 \begin{equation}
-\begin{cases}
-& PosScore(w_t)=\dfrac{|\sum_{w \in W_1}PosScore(w)+\sum_{w \in W_2}PosScore(w)+\sum_{w \in W_3}PosScore(w)|}{N} \\
-& NegScore(w_t)=\dfrac{|\sum_{w \in W_1}NegScore(w)+\sum_{w \in W_2}NegScore(w)+\sum_{w \in W_3}NegScore(w)|}{N}
-\end{cases}
+PosScore(w_t)=\dfrac{|\sum_{w \in W_1}PosScore(w)+\sum_{w \in W_2}PosScore(w)-\sum_{w \in W_3}PosScore(w)|}{N}
 \end{equation}
-其中，$W_1+W_2+W_3=N$，$N$表示SentiHowNet与待标注词在同一个句子中情感词语，$W_1$，$W_2$和$W_3$分别表示与待标注词$w_t$在连接词同侧词语，在并列或递进连接词两侧词语以及在转折连接词两侧的词语。词语$w_t$极性根据积极与消极极性值大小判定为：
+消极情感极性值计算为：
+\begin{equation}
+NegScore(w_t)=\dfrac{|\sum_{w \in W_1}NegScore(w)+\sum_{w \in W_2}NegScore(w)-\sum_{w \in W_3}NegScore(w)|}{N}
+\end{equation}
+
+两个计算公式中，$W_1+W_2+W_3=N$，$N$表示SentiHowNet与待标注词在同一个句子中情感词语，$W_1$，$W_2$和$W_3$分别表示与待标注词$w_t$在连接词同侧词语，在并列或递进连接词两侧词语以及在转折连接词两侧的词语。词语$w_t$极性根据积极与消极极性值大小判定为：
 \begin{equation}
 \label{eq3-2}
 Senti\_tag(w_t)=
@@ -178,14 +180,18 @@ $$V(w)=<C_{-W},C_{-W+1},\cdots C_{-1},C_0,C_{W-1},C_W>$$
 \end{definition}
 
 \subsection{基于词性特征向量的极性值计算}
-基于上下文的情感词极性值计算的基本假设就是具有相同的上下文特征向量的词语具有相同的极性，根据这一假设，统计出SentiHowNet中与待标注词$ w_t$词性特征向量相同的情感词，然后计算$ w_t $的情感极性值。如果待标注词$ w_t$出现的上下文中有$ N $中词性特征向量，则$ w_t$的情感极性值计算公式为:
+基于上下文的情感词极性值计算的基本假设就是具有相同的上下文特征向量的词语具有相同的极性，根据这一假设，统计出SentiHowNet中与待标注词$ w_t$词性特征向量相同的情感词，然后计算$ w_t $的情感极性值。如果待标注词$ w_t$出现的上下文中有$ N $中词性特征向量，则$ w_t$的积极情感极性值计算公式为:
 \begin{equation}
 \label{eq3-2-1}
-\begin{cases}
-PosScore(w_t)=\dfrac{\sum_{V(w)=V(w_t)}\dfrac{|\sum_{w \in W_{positive}}PosScore(w)-\sum_{w \in W_{negative}}PosScore(w)|}{|M|}}{|N|} \\
-NegScore(w_t)=\dfrac{\sum_{V(w)=V(w_t)}\dfrac{|\sum_{w \in W_{positive}}NegScore(w)-\sum_{w \in W_{negative}}NegScore(w)|}{|M|}}{|N|} \\
-\end{cases}
+PosScore(w_t)=\dfrac{\sum_{V(w)=V(w_t)}\dfrac{|\sum_{w \in W_{positive}}PosScore(w)-\sum_{w \in W_{negative}}PosScore(w)|}{|M|}}{|N|}
 \end{equation}
+消极情感极性值计算公式为:
+\begin{equation}
+\label{eq3-2-1}
+NegScore(w_t)=\dfrac{\sum_{V(w)=V(w_t)}\dfrac{|\sum_{w \in W_{positive}}NegScore(w)-\sum_{w \in W_{negative}}NegScore(w)|}{|M|}}{|N|}
+\end{equation}
+
+
 其中$W_{positive}+W_{negative}=M$，表示与待标注词$w_t$具有同一特征向量$ V(w_t) $的SentiHowNet中的情感词集，$W_{positive}$和$W_{negative}$分别为极性为积极和消极的词语。$w_t$极性判断依据其积极与消极极性值的大小判断，同公式~\ref{eq3-2}。
 
 以书籍语料中形容词“亮丽”为例，设定$ W=2 $，在语料中抽取“亮丽”所有的$ N $种词性特征向量，其中的一个的特征向量为$ <daaun> $，从SentiHowNet中获取与“亮丽”的这一词性特征向量相同的所有情感词如表~\ref{tab3-3-1}所示，共有16个情感词与“亮丽”有相同的词性特征向量$ <daaun> $，其中积极极性词语10个，消极极性词语5个，于是可以使用公式~\ref{eq3-2-1}计算其情感极性值为积极极性值为0.4297，消极极性值0.0421。当然这是词性特征向量$ <daaun> $计算出的极性值，将所有$ N $种词性特征向量计算的极性值取平均就可以得到“亮丽”在书籍领域最终情感极性值。
